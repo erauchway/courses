@@ -17,5 +17,15 @@ You can find course content at
 
 https://ericrauchway.com/courses/
 
+::: {.content-visible when-format="revealjs"}
 <iframe width=1920px height=70% src="https://erauchway.github.io/present/187/syllabus_187.html">
 </iframe>
+:::
+
+## Whose foreign policy is it?
+
+*Remains of the Day* (dir. James Ivory, 1993)
+
+::: {.content-visible when-format="revealjs"}
+{{<video src="../media/remains_unable.mp4">}}
+:::

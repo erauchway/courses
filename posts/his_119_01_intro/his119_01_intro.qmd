@@ -4,8 +4,13 @@ subtitle: History of World War I
 author: 
   - Ian Campbell and Eric Rauchway
 date: 2024-09-25
+footer: "HIS 119"
 categories:
   - "HIS 119"
+format:
+  revealjs:
+    theme: blood
 ---
 
 ## Test
+Here is some test text.
