@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "courses"
+  title: "current courses"
   navbar:
     right:
       - about.qmd
@@ -12,6 +12,3 @@ format:
   html:
     theme: theme.scss
     css: styles.css
-
-
-

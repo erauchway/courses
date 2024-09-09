@@ -1,0 +1,21 @@
+---
+title: "Introduction"
+subtitle: "US foreign policy in the twentieth century"
+author: "Eric Rauchway"
+date: "September 25, 2024"
+footer: "https://ericrauchway.com/courses"
+categories: 
+  - "HIS 187"
+format:
+  revealjs: 
+    title-slide-attributes: 
+      data-background-image: ../../theme/pan_am_fidd.png
+---
+
+## Syllabus and other excitement
+You can find course content at 
+
+https://ericrauchway.com/courses/
+
+<iframe width=1920px height=70% src="https://erauchway.github.io/present/187/syllabus_187.html">
+</iframe>
