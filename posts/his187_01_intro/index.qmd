@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "H187 Introduction"
 subtitle: "US foreign policy in the twentieth century"
 author: "Eric Rauchway"
 date: "September 25, 2024"
@@ -13,7 +13,7 @@ format:
 ---
 
 ## Syllabus and other excitement
-You can find course content at 
+You can find course content at
 
 https://ericrauchway.com/courses/
 
