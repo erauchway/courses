@@ -1,0 +1,12 @@
+---
+title: H119 Syllabus
+draft: FALSE
+author: Eric Rauchway
+date: 2024-09-01
+categories:
+  - HIS 119
+---
+Subject to change, but for reference:
+
+<iframe width=640px height=70% src="https://erauchway.github.io/present/119/syllabus_119.html">
+</iframe>
