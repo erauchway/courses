@@ -1,5 +1,6 @@
 ---
 title: H119 Introduction
+draft: TRUE
 subtitle: History of World War I
 author: 
   - Ian Campbell and Eric Rauchway
