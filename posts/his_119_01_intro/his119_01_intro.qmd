@@ -1,6 +1,7 @@
 ---
-title: H119 Introduction
+title: H119 Introduction II
 draft: TRUE
+freeze: TRUE
 subtitle: History of World War I
 author: 
   - Ian Campbell and Eric Rauchway
@@ -12,6 +13,38 @@ format:
   revealjs:
     theme: dark
 ---
+
+```{r, message=FALSE, results=FALSE, warning=FALSE, echo=FALSE}
+library(tidyverse)
+library(rnaturalearth)
+library(sf)
+(sf_use_s2(FALSE))
+library(showtext)
+font_add(family = "Lydian", regular = "lydian__.ttf")
+font_add_google(name = "Public Sans", family = "Public Sans")
+library(ggtext)
+library(scales)
+library(cshapes)
+target_crs="ESRI:102013"
+read_sf("https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_1914.geojson") |>
+  st_transform(crs = target_crs) -> borders_14
+ne_download(scale = 50, category = "physical", type = "land") |>
+  st_transform(crs = target_crs) -> land
+cshp(date = as_date("1914-08-01"), useGW = TRUE, dependencies = TRUE) |>
+  st_transform(crs = target_crs) -> borders_14
+disp_win_wgs84 <- st_sfc(st_point(c(-8,34)), st_point(c(35, 58)), crs = 4326)
+disp_win_trans <- st_transform(disp_win_wgs84, crs = target_crs)
+disp_win_coord <- st_coordinates(disp_win_trans)
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans"),
+      plot.title = element_markdown(),
+      plot.caption = element_markdown(size = rel(0.5))
+    )
+)
+```
+
 
 ## About the professors
 
@@ -68,6 +101,32 @@ relation of nationalism to imperialism—not just or even primarily of the metro
 these themes are going to be important in our course, in linking together many fronts, as tools of the belligerent powers &c
 :::
 :::
+
+## Imperial locations
+
+:::{.v-center-container}
+
+```{r, fig.height=6, fig.width=7}
+ggplot() +
+  geom_sf(data = borders_14) +
+  labs(
+    title = "HIS119---EUROPE AT 1914",
+    caption = "Map made using R, ggplot, and sf by Eric Rauchway with data from André Ourednik's Historical Basemaps."
+  ) +
+  coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = FALSE)
+```
+
+:::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+
+:::
+
+:::
+
 
 # Periodization
 When in history is your event, and what does that mean?
