@@ -3,6 +3,7 @@ project:
   output-dir: docs
 execute: 
   freeze: true
+  echo: false
 
 website:
   title: "current courses"

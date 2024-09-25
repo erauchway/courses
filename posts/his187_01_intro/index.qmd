@@ -1,6 +1,6 @@
 ---
 title: "H187 Introduction"
-draft: TRUE
+draft: FALSE
 subtitle: "US foreign policy in the twentieth century"
 author: "Eric Rauchway"
 date: "September 25, 2024"
@@ -11,6 +11,9 @@ format:
   revealjs: 
     title-slide-attributes: 
       data-background-image: ../../theme/pan_am_fidd.png
+  html:
+    execute:
+      echo: false
 ---
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results=FALSE}
@@ -65,7 +68,7 @@ https://ericrauchway.com/courses/
 
 :::{.v-center-container}
 
-```{r, fig.height = 7, fig.width = 14}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height = 7, fig.width = 14}
 rland_a |>
   ggplot() +
   geom_sf(fill = "gray90", linewidth = 0.04) +
@@ -119,7 +122,7 @@ rland_a |>
 
 :::{.v-center-container}
 
-```{r, fig.height = 7, fig.width = 14}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height = 7, fig.width = 14}
 rland_a |>
   ggplot() +
   geom_sf(fill = "gray90", linewidth = 0.04) +
@@ -138,7 +141,7 @@ rland_a |>
 
 :::{.v-center-container}
 
-```{r, fig.height = 7, fig.width = 14}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height = 7, fig.width = 14}
 rland_a |>
   ggplot() +
   geom_sf(fill = "gray90", linewidth = 0.04) +
@@ -156,7 +159,7 @@ rland_a |>
 
 :::{.v-center-container}
 
-```{r, fig.height = 7, fig.width = 14}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height = 7, fig.width = 14}
 rland_a |>
   ggplot() +
   geom_sf(fill = "gray90", linewidth = 0.04) +
@@ -171,7 +174,7 @@ rland_a |>
 
 ## Compass points of the US
 
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height = 7, fig.width = 14}
 rland_a |>
   ggplot() +
   geom_sf(fill = "gray90", linewidth = 0.04) +
@@ -196,5 +199,29 @@ Okay
 *Remains of the Day* (dir. James Ivory, 1993)
 
 ::: {.content-visible when-format="revealjs"}
-{{<video src="../media/remains_unable.mp4">}}
+{{<video src="../media/remains_unable.mp4" width="1000">}}
+:::
+
+::: {.content-visible when-format="revealjs"}
+
+::::{.notes}
+British movie based on a novel by a Japanese-born British novelist, born in post-war Nagasaki—someone who was born in the shadow of American foreign policy, one might say; very much also a film about American foreign policy.
+
+And about democracy and morality in foreign policy.
+
+Which is what's going on in this scene [discuss]
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+## Structure of the course
+
+:::{.incremental}
+- hinge, 1930s early 1940s
+- role of democracy in foreign policy (and vice versa)
+- development of the institution of the presidency
+:::
+
 :::

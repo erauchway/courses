@@ -1,6 +1,6 @@
 ---
-title: H119 Introduction II
-draft: TRUE
+title: H119 Introduction
+draft: FALSE
 freeze: TRUE
 subtitle: History of World War I
 author: 
@@ -16,21 +16,19 @@ format:
 
 ```{r, message=FALSE, results=FALSE, warning=FALSE, echo=FALSE}
 library(tidyverse)
-library(rnaturalearth)
 library(sf)
 (sf_use_s2(FALSE))
 library(showtext)
 font_add(family = "Lydian", regular = "lydian__.ttf")
 font_add_google(name = "Public Sans", family = "Public Sans")
+font_add(family = "PostAmt", regular = "postamt.ttf")
 library(ggtext)
 library(scales)
 library(cshapes)
 target_crs="ESRI:102013"
-read_sf("https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_1914.geojson") |>
-  st_transform(crs = target_crs) -> borders_14
-ne_download(scale = 50, category = "physical", type = "land") |>
-  st_transform(crs = target_crs) -> land
 cshp(date = as_date("1914-08-01"), useGW = TRUE, dependencies = TRUE) |>
+  filter(gwcode > 199 & gwcode < 652) |>
+  add_row(country_name = "Andorra", gwcode = 232, owner = "232", geometry = st_geometry((read_sf("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/andorra.geojson")))) |>
   st_transform(crs = target_crs) -> borders_14
 disp_win_wgs84 <- st_sfc(st_point(c(-8,34)), st_point(c(35, 58)), crs = 4326)
 disp_win_trans <- st_transform(disp_win_wgs84, crs = target_crs)
@@ -38,11 +36,16 @@ disp_win_coord <- st_coordinates(disp_win_trans)
 theme_set(
   theme_void() +
     theme(
-      text = element_text(family = "Public Sans"),
-      plot.title = element_markdown(),
-      plot.caption = element_markdown(size = rel(0.5))
+      text = element_text(family = "Public Sans", color = "midnightblue"),
+      plot.title = element_markdown(family = "PostAmt", color = "khaki4"),
+      plot.caption = element_markdown(size = rel(0.5)),
+      panel.background = element_rect(fill = "aliceblue", color = "aliceblue"),
+      plot.background = element_rect(fill = "floralwhite", color = "floralwhite"),
+      plot.margin = margin(l=10,r=10)
     )
 )
+saraj <- st_transform(st_as_sf(tibble(tag = "Sarajevo", X = 18.2447, Y = 43.5123), coords = c("X", "Y"), crs = 4326), crs = target_crs)
+
 ```
 
 
@@ -106,14 +109,17 @@ these themes are going to be important in our course, in linking together many f
 
 :::{.v-center-container}
 
-```{r, fig.height=6, fig.width=7}
+```{r, echo=FALSE, fig.height=6, fig.width=7}
 ggplot() +
-  geom_sf(data = borders_14) +
+  geom_sf(data = borders_14, fill = "antiquewhite1", color = "burlywood3") +
+  geom_sf(data = st_buffer(borders_14, -6000), linewidth = 0.6, fill = NA, color = alpha("burlywood3", 0.4)) +
+  geom_sf(data = st_buffer(st_union(st_make_valid(borders_14)), 6000), linewidth = 0.4, fill = NA, color = alpha(c("lightblue"), 0.7)) +
   labs(
-    title = "HIS119---EUROPE AT 1914",
-    caption = "Map made using R, ggplot, and sf by Eric Rauchway with data from André Ourednik's Historical Basemaps."
+    title = "HIS 119---EUROPE AT 1914",
+    caption = "Map made using R, ggplot, and sf by Eric Rauchway with data from CShapes."
   ) +
-  coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = FALSE)
+  coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = TRUE) -> p
+p
 ```
 
 :::
@@ -128,302 +134,16 @@ ggplot() +
 :::
 
 
-# Periodization
-When in history is your event, and what does that mean?
+## Imperial locations
 
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-Historians often have a tough time with dates, for people who spend all their time on dates. 
-
-Sometimes historical events have pretty crisp definition, like the US Civil War, 1861-1865, from the firing on Ft. Sumter to the surrender at Appomattox—though even in that case, if you take a course on it, the professor might begin in 1854, with Bleeding Kansas, or maybe 1850, with the doomed compromise of that year, or 1820, with the Missouri Compromise, or even 1619, with the first Africans being brought to mainland North America and sold into slavery… and each of those would be perfectly good start dates. 
-
-Or when we look at the Second World War, for the US it’s 1941-1945, but for Europe it’s 1939-1945, and for Japan and China maybe it’s 1931-1945, but really you can’t make sense of any of it unless you start in 1919 with the Treaty of Versailles… 
-
-And as for vaguer concepts like the Industrial Revolution, I mean, when even is that. Sure, sometime around the turn of the nineteenth century, but let’s be honest, historians can even get cute about how long the nineteenth century lasts, saying that really there’s a “long nineteenth century” from 1789-1914—dates chosen because of the French Revolution and the First World War, which brings us to our subject for today, and this quarter.
-
-Notice that first the definition of the “long nineteenth century” ends in 1914, with the *beginning* of the Great War. So generally, the Great War is a break with that older era, the c19, and the beginning of a new one, the c20—a c20 that is defined as being a really bad time for lots of people, because there are a lot of really big wars, two of them World Wars, and a lot of people die for ideological reasons, often in horrible ways.
-
-So that’s what we’re looking at in this course, is the end of a nineteenth-century order, and the beginning of a twentieth-century order. And the way in which this great war—which until sometime in the 1930s was known that way, as The Great War—brought an end to one era and a beginning to another; we sometimes call it the “modern” era.
-
-The end of the age of empires, as they were; the beginning of a different era; much of the reading and the lectures will talk about this war as a dividing line in history for this reason.
-:::
-:::
-
-## Imperialism and nationalism
-
-::::{.content-visible when-format="revealjs"}
 :::{.v-center-container}
-![A closer look](../media/archduke_car2.png)
-:::
-::::
 
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-The open touring car used by Archduke Franz Ferdinand, heir to the throne of Austria-Hungary, in Sarajevo, Bosnia, on June 28, 1914.
+```{r, echo=FALSE, fig.height=6, fig.width=7}
+p + 
+  geom_sf_label(data = saraj, aes(label = tag), family = "Lydian", color = "chocolate4", size = 6, fill = "floralwhite") +
+  coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = TRUE)
+```
 
-When we talk about 1914, this is usually the day in 1914 we talk about, June 28, 1914. It’s the day that the Archduke Franz Ferdinand, heir to the throne of Austria-Hungary, visited Sarajevo, in Bosnia, and drove through the city in this open car. It’s the day he got shot, just a few minutes after this photograph was taken.
-
-Now, we can say a few things about this. First of all, you can’t really see the Archduke or his wife Sophie in this picture; they’re in this cluster of people sort of hidden by the car. And they’re in front of the town hall of Sarajevo. 
-
-Why are they in Sarajevo? Well, it’s part of the Austro-Hungarian Empire, officially so since 1908, and factually so since 1878—which is the reason Franz Ferdinand is about to get shot. Why is the town hall there? Because it was built by the Austro-Hungarians, which is why it has some neo-classical European architectural influence; the Austro-Hungarians think of themselves as European and their capital city, Vienna, can claim at this point to be one of the hot spots of modernity and indeed modernism. And you can see some guys in identifiably modern outfits—look at that guy in the upper middle left, there, with the loose-fitting suit—he wouldn’t look out of place in an American office today. And in fact, the very land the town hall is sitting on, here, is land that only exists because of the modern influence of A-H on Sarajevo—the engineers came in and dredged out and straightened out the river, the Miljacka, which runs through the center of Sarajevo, thus creating some of this land in the center of the city.
-
-But then, look at some of these other guys. Quite a few of them are wearing the fez. Why are they doing that? Well, if the town hall—and the land the town hall is sitting on—are there because the Austro-Hungarians are there; Sarajevo the city is there because the people with the fezzes—or their ancestors—are there. The fez was a symbol of Islamic modernity, a substitute for the turban in the Ottoman empire. And the Ottomans built modern Sarajevo, and its mosques, on arriving in the fifteenth century, making it their provincial capital because it was in an easily defensible valley. So this city, this provincial capital, became an important military and commercial destination, with Muslims in it, but also Orthodox Christians—I believe the man at the upper right center of the photo is wearing an Orthodox outfit—and then, later, the Catholics, which is what the Austro-Hungarians were, taking it over. So it’s a diverse place, a crossroads of empire.
-:::
-:::
-
-## Legacy empires, 1878
-
-::::{.content-visible when-format="revealjs"}
-
-:::{v.center-container}
-![A map of the Treaty of Berlin](../media/treaty_berlin.png)
-:::
-
-::::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-All right, here’s a map to orient us. Sarajevo is in the upper left of the shaded area, in Bosnia, just west of Serbia. This map is from 1878, and shows the Balkans after the Congress of Berlin, which was a great-power conference that concluded the Russo-Turkish War. (The eastern green part is re-ceded to Russia; the eastern purple part went to Roumania, the western green part goes to Serbia, and the western purple part to Montenegro. The pink thing is Bulgaria, which is established as a principality of the Ottoman empire as a result of the Treaty. But the most important part, for today, is that Bosnia, or as it was styled then, Bosnia-Herzegovina, comes under the rule of Austria-Hungary.
-
-Notice up top, under the legend, you have Austria-Hungary. The dual monarchy of Austria-Hungary was a creation of 1867; it was still run from Vienna, which was (and is) the capital city of Austria; the Austrian empire was ruled by the Habsburg family. (Austria itself comes from the German word Oesterreich, or eastern kingdom.) But the Austrian Empire had grown weaker partly as a result of Italian wars for unification, and to hold the thing together, the monarchy, under Franz Joseph I had to create Austria-Hungary, in 1867.
-
-Notice on the left, you have a tiny part of Italy. Next to that is the Adriatic and the Ionian Sea; up on the right it’s the Mer Noire, or Black Sea, just north of which is Russia. Down at the bottom of this map you see just the northern bit of Greece, which means of course below that is the Mediterranean Sea that separates Europe from Africa. On the right, you’ll see the notation Dardanelles, which means this is the Dardanelles Strait, which means that this land mass, where it says Treaty of Berlin, is the Anatolian Peninsula, which is modern Turkey.
-
-But you’ll note that in the shaded area at the bottom of the Balkan Peninsula, you’ll see it says “Turkey,” and that’s because at this point, Turkey is the Ottoman Empire. The Ottoman Empire is in decline, but it’s still a major power.
-
-Austria-Hungary and the Ottoman Empire are the heirs to the western and eastern pieces of the old Roman Empire. The Austrian emperors style themselves the Holy Roman Emperors; the Ottomans are ruled from Constantinople, which was Byzantium (and now is Istanbul). 
-
-So here in the Balkans we are looking at west meeting east—Catholics over there, Orthodox Christians (that is, adherents of the Byzantine Church) and Muslims over here. And the Balkans are a complex, patchwork border, which the European powers don’t really know how to resolve. As you can see if …
-:::
-:::
-
-## The Balkan problem
-
-::: {.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![The Treaties of San Stefano and of Berlin](../media/treaty_berlin2.png)
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-… if we zoom out a bit, and see that the Treaty of Berlin came only a few months after the Treaty of San Stefano, only three months before, had a completely different plan for Bulgaria. So in the space of only a few months, the borders were redrawn in the Balkans. And this would happen again on the eve of the First World War, that within a few months, matters that seemed settled would be un-settled. It is a region in flux, so far as national borders go – which means that the cities are perhaps the more, if not most, stable bits of what’s in here. So, back to Sarajevo we go. It’s up there, in Bosnia, which comes in 1878 under the control of Austria-Hungary.
-:::
-:::
-
-## Sarajevo, traditional crossroads
-
-::: {.content-visible when-format="revealjs"}
-
-::::{.v-center-container}
-{{< video ../media/sarajevo_market.mp4 width="640px">}}
-::::
 
 :::
 
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-PLAYS AUTOMATICALLY Here is a street scene of Sarajevo, around the time of the Archduke’s visit, which gives you an idea of what the city was like. You can get a sense of it as a city with lots of different kinds of people in it, a vibrant market town. In the background, you can see the minaret—the tower of one of the city’s mosques, from which the muezzin, the call to prayer, is issued at the appropriate times of day. 
-
-The Ottomans advanced into the Balkans in the 14th and 15th centuries, taking over Bosnia near the end of the 15th century, and establishing their provincial capital of Sarajevo, because, as I’ve mentioned, it was on a river, the Miljacka, in an easily defensible valley. The Ottomans built the city and its mosques then, and while the empire flourished, it attracted a lot of commerce. Again, remember, the Balkan peninsula is the land connection between West and East. There’s a lot of trade going through here. Which means there are a lot of cultures. Jews and Muslims, Catholics from the West, Orthodox Christians from the East.
-
-So when the Austro-Hungarians take it over in 1878, they don’t obliterate this stuff, they just layer their civilization on top of it. They build a new railroad going in there, and courthouses, theaters, colleges, as well as lots of military installations. And in 1895, they built an electric tram system, the first in Central Europe, and the one on which Vienna’s own would be modeled. 
-
-https://www.youtube.com/watch?v=A_MuU8Lq8cM
-:::
-:::
-
-## Sarajevo, modern project
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/miljacka.png)
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-They also, as I’ve mentioned, brought in engineers to straighten, or mostly straighten, the Miljacka River, as you can see in this color postcard from about 1910, dredging out and building up new quays on either side of the river. So again, you can see the mosques on either side of the river, each with a dome and minaret, and you can also see lots of more traditionally European buildings. 
-
-So. To Sarajevo, the Austro-Hungarian empire has brought the most modern things Europe has to offer: electric lighting and utilities, automobile traffic, military science and engineering. And why not? At the turn of the twentieth century, Austria-Hungary and especially its capital Vienna are in many ways the hub of modernism. Freud is practicing modern psychoanalysis. Arnold Schoenberg is composing modernist music. Gustav Klimt is painting modern art. These are international, even internationalist, projects. 
-
-At the same time, look at the hills around Sarajevo—these are areas largely untouched by the technologies of modernism, and by the influx of new peoples and cultures. In fact, you’re looking at those hills – those are foothills of the Dinaric Alps, and in those mountains are—to this day, let alone in 1910 or so—villages whose way of life isn’t much changed since the medieval period, the time of the Ottoman conquest. It’s to one of those villages we now turn; Obljaj, which to get to you have to go over a 4,000 ft high mountain pass (not quite as high as Donner, but still pretty high), where in 1894, a young fellow named Gavrilo Princip was born. 
-:::
-:::
-
-## Obljaj
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/obljaj.png)
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-Here’s another map of the Balkan region, with Bosnia shown in Brown. Sarajevo’s to the right of the middle. Out to the West, almost on the border of Dalmatia, is the village of Obljaj. This is a tiny, poor village, whose people are Orthodox Christians. In the late nineteenth, early twentieth century, it might be the case that the people in this village are no longer strictly peasants, but they live much as medieval peasants did. They have family houses, which have been added onto or allowed to decay as their families have grown and shrunk. They will be happy to have a cow and some chickens, so they can have milk and eggs. Perhaps they will have some sheep so they can have wool, which means they can have warm clothes and hats for the Bosnian winters. If they have politics, its because they have families all gather together and make decisions.
-
-As I say, this is where Princip is born. It’s not as though they’re untouched by the modern world: Princip’s father is not only a small-time farmer, he’s also the postman for the town. So there’s communication with the larger world. There are some books, and young Princip is a reader; maybe a bit more so because he’s sickly—some time in his youth he contracts tuberculosis, a bacterial disease that you can suffer from for decades without dying from it, though it’s generally ultimately fatal. 
-
-Anyway, his family decide to have Gavrilo, and his brothers, leave Obljaj for Sarajevo, where they can get an education. They have to walk to Sarajevo, because they can’t afford any better form of travel, over the mountains, and the 4,000 foot high pass, which means they’ll arrive sometime in summer well before school starts—don’t want to leave that mountain crossing until too late, you know.
-:::
-:::
-
-
-## Young Princip and Young Bosnia
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/princip1.png)
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-So here’s young Princip. He arrives in Sarajevo in 1907, having walked. He’s thirteen. He’s baffled by the riot of cultures, by the modernity—so many peoples, religions, foods; exotic tobacco, music. The muezzin. Ottomans wearing the fez. His family had considered enrolling him at the military school, but one of their friends talk them out of it, saying that joining the Austro-Hungarian military might mean having to fight fellow Bosnians, and you wouldn’t want that; more on that in a moment. So they enroll him in the Merchant’s School instead. There he’s instructed in Catholicism, in Orthodoxy, in Islam and Judaism—so that as a merchant he might have respect for and understand the different traditions of the people he deals with. He learns German, which is the language of Austria-Hungary, as well as getting instruction in Serbo-Croatian, the language of the region. 
-
-Even in 1907, there’s lots to do that isn’t school work, and when Princip isn’t in school, he’s in the coffee houses, which are if you like the social media of the early c20. It’s there that he meets some other ideas—some of them are the ideas of Russian radicalism, which will lead to the Bolshevik revolution. Others, though, are the ideas of c19 nationalism. 
-
-You might think of the different kinds of peoples of the Balkans as representing all different kinds of backgrounds—Muslim, Christian, etc—or you might think of them as all similarly oppressed by their occupiers; you might think of them as possessing therefore a common nationality defined by their being colonized. That’s how a group called Young Bosnia thinks of the situation, anyway—that there is a common identity to all the people in the region colonized by the Austro-Hungarian conquerors. And this group is inflamed in the next year, in 1908, because in that year the Austro-Hungarian monarch decides to put through a formal annexation of Bosnia. They’ve occupied the region for thirty years, but now they’re going to take it over. 
-
-The Young Bosnians appeal to the Russians on the basis of their fellow Slav identity, to try to prevent it. But the Germans are backing the Austro-Hungarians on their shared background. Britain is trying to maintain a balance of power in Europe. The Russians don’t want to go to war over it. So the Treaty of Berlin is amended to formalize Austro-Hungarian rule over Bosnia. There’s an increased Austro-Hungarian presence in the streets, then. More flags, more soldiers, more Catholics.
-:::
-:::
-
-## Nationalism and empire
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-
-:::{layout-ncol=2}
-
-![](../media/princip1.png)
-
-![](../media/miljacka.png)
-
-:::
-
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-The stark contrast between Austro-Hungarian Sarajevo, with its modernity and its Catholic rulers, and the impoverished villages around, impresses itself on Princip, as well as on other Young Bosnians. And in 1910, a member of Young Bosnia, Bogdan Žerajić, is standing on one of those bridges crossing central Sarajevo, waiting for the Austro-Hungarian colonial governor to drive by, and when he does, Žerajić fires five bullets from his revolver at the governor, missing each time. With his sixth, and last, bullet he shot himself dead. The body was collected by the Austro-Hungarian police, its head removed, and the skull was used by an Austro-Hungarian police official as an inkpot. 
-
-Princip regarded Žerajić as a hero. He drops out of school, and decides to go on another journey—
-:::
-:::
-
-## Princip's nationalist journey
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/obljaj.png)
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-This time to the neighboring state of Serbia, which has its independence. He’s inspired by Serbian nationalism. Here is a successful, independent Slavic nation in the Balkans. Princip goes to Belgrade, there on the Austro-Hungarian border. 
-Here he meets more members of Young Bosnia, and of other nationalist organizations. He decides he wants to join the Serbian Army, but he’s rejected—remember, he has chronic tuberculosis. So he misses out on the Balkan Wars—
-:::
-:::
-
-## Balkan wars
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/balkan_wars.png){width="480px"}
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-—during which Serbia, Bulgaria, and Montenegro, with some assistance from Russia, attack the Turks. There are actually two such wars, in 1912-1913, which the Slavic powers win—but then Bulgaria gets wind of the advantages the Serbs are accruing, and attacks its onetime allies. The Greeks and the Russians also intervene, pushing back Bulgaria. So you end up with a lot of fighting and a lot of ill will, and it broke up the pan-Slavic union of the three. The Bulgarians were so ticked by the whole thing, they were no longer having anything to do with Russia, which left Russia having only Serbia as its true ally on the peninsula afterward.
-
-Princip was little touched by this infighting; he said he was a “Yugoslav nationalist”—the nation of Yugoslavia did not then exist, but the word “Yugoslav” meant “south Slav,” so all the peoples of the Balkans north of the Greeks, here—"aiming for the unification of all Yugoslavs, and I do not care what form of state, but it must be free from Austria.” In his mind, the real enemy was not the Ottomans, but the Austrians. 
-
-So he and a couple other guys from Young Bosnia decide they’re gonna do something. At first, they want to do what Žerajić tried, and go after the governor of Bosnia. But then they learn that the Archduke Franz Ferdinand is going to visit Sarajevo, and they decide, that’s their target.
-:::
-:::
-
-## Franz Ferdinand and<br>Austria-Hungary
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/ferd_soph.png){width="640px"}
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-So Franz Ferdinand. He’s the nephew of the emperor. Because he’s the nephew, he’s not directly in line for the succession, so he’s trained for the military. He’s a big guy, a hunter; in one day alone he’s supposed to have killed more than 2000 game birds and animals. He was said to be able to shoot a coin tossed in the air. That’s his wife, Sophie, there. He married her for love, not for a royal allegiance, because remember, he’s not the heir.
-
-But. Then the emperor’s son dies. Franz Ferdinand becomes the heir to the throne. He comes under pressure to divorce Sophie and marry a higher-ranking woman for his wife. He won’t do it. As a compromise, in 1900, he swears out an oath saying Sophie will have no claim to the throne, nor will their children. Which means the pressure’s off him to marry someone else, but it also means that now he’s the heir and she’s not, which means at all official events in Vienna, then, they’re separated—by protocol, she ranks way below him, and below a bunch of other people in the line of succession to the throne, who by the rules should be near him. Which ticks him off. And that’s one reason he decides he’s going to Sarajevo. If Sophie and he are the only royal family there, they can do some royal visiting in style, and together.
-
-Now as it happens, they visit Sarajevo over a few days at the end of June, one of which is June 28, the day of the feast of St. Vitus, and the anniversary of the defeat of the Serbs by the Ottomans at Kosovo in 1389—for Serbian nationalists, it’s a dark day. Princip and his co-conspirators decide that’s the significant day, the day they want to kill Franz Ferdinand.
-
-Princip makes some connections in Belgrade, including with a guy who’s in an organization called the Black Hand, a nationalist Serb organization, who’s got some contacts in the Serbian intelligence services. They can get some guns—Browning 9mm semiautomatics—and some grenades. These are not the grenades you think of, where you pull a pin, but an older model, where you had to unscrew a cap, then bang it on something hard to start the slow fuse, which gave you a couple seconds before you should throw it, and then it exploded. 
-
-Princip and his two buddies get their grenades, and their pistols, and they have some forged papers, and some cash, and they go to sneak back into Bosnia. 
-:::
-:::
-
-## Princip's journey back to Sarajevo
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/obljaj.png)
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-They come to the Drina, the river on the border between Serbia and Bosnia, at a shallow place where there are some islands in the middle. They wade over to one of these islands where there’s a speakeasy. There they stop and meet a couple of guides, who lead them to the other shore safely. They work their way toward Sarajevo on country roads, washing in streams, until they get close. Then they buy some new clothes. They give the weapons to a local to smuggle into Sarajevo. Then they take a train into the city. 
-:::
-:::
-
-
-## A failed attempt 
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/ferd_soph2.png)
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-June 28 is a Sunday. On Saturday night, Franz Ferdinand and Sophie stay in the Hotel Bosnia, some miles west. He’s been watching military maneuvers for a couple days, which is his idea of a good time. There’s a fancy dinner on Saturday night, with an orchestra playing the Blue Danube waltz. Sunday’s visit to Sarajevo is going to be the only public part of the visit. Huge crowds are expected. The streets have been cleaned. Imperial Austro-Hungarian flags are hanging from the windows and balconies along the route, which is public, so people can turn out and applaud the Habsburgs.
-
-Princip says to himself, we got a lot of grenades. Maybe we could have some more assassins. He recruits three more—two Bosnian Serbs, and one Bosnian Muslim. They also all have cyanide, with the idea that like Žerajić, they won’t be taken alive. Princip makes a pilgrimage to Žerajić’s grave. Normally he doesn’t drink, but he has a glass of wine. Then they all go join the crowds, clustering on the Appel Quay, the part of the town that the Austro-Hungarian engineers had made by dredging up and straightening the river. It’s near the center of the route, and it’s going t be the most crowded. There are lots of flags, people shouting “Long Live the Archduke,” and cannons firing ceremonial salutes. 
-
-The first assassin doesn’t do anything, thinks there’s a policeman too close. But the second one throws a grenade. It’s well aimed, so it hits the car, but just behind the Archduke, and it’s poorly timed, so it bounces off the car before it explodes, rolling under the next car in the grenade and exploding there, wounding the people in that car. The assassin runs away, chased by police, takes his cyanide—but it’s not a strong enough dose, and it doesn’t kill him, just makes him have to throw up. So the police catch him. Then Franz Ferdinand’s car drives on, to the Town Hall.
-:::
-:::
-
-## Imperial spectacle and<br>nationalist attentat
-
-:::{.content-visible when-format="revealjs"}
-::::{.v-center-container}
-![](../media/ferd_car2.png)
-::::
-:::
-
-:::{.content-visible when-format="revealjs"}
-:::{.notes}
-Which is where we came in. The Archduke gets to the town hall, the mayor’s there, and scheduled to give a speech. They’ve heard the explosion, but they don’t know what’s going on. The Mayor starts to give his speech. Franz Ferdinand yells at him, says what are you doing, someone’s just thrown a bomb at me. Sophie chills him out. The mayor actually gives his speech. Franz Ferdinand gives his speech. Sophie goes and looks at some cultural exhibition, of local dancers. Then they leave. They decide that instead of driving the parade route, they’re going to visit the people at the hospital who were wounded in the explosion. But they neglect to tell the driver. Then off they go. 
-
-Now, the advertised route will take them just past the Moritz Schiller café. So Princip decides to wait just across the street from it. 
-
-The car gets to the café, and the Archduke says wait, remember, we decided to go to the hospital instead. So they actually slow down right in front of the café—and Princip—to put the car into reverse. So Princip has a golden opportunity. He steps up and shoots, hitting Franz Ferdinand right away. Bystanders tackle him. His second shot therefore gets pulled wide, and hits Sophie. Then Princip is down, and trying to get to his cyanide.
-
-The Archduke has been hit in the jugular vein. But he's got this high collar, so it's not visible. Sophie's hit in the abdomen. She says, "For God's sake! What has happened to you?" She died. The Archduke says "don't die, live for my children." Another member of the party props him up. Franz Ferdinand, who can’t see any blood, says, "It is nothing." Then he dies.
-
-Princip apologizes for killing Sophie, says he never meant to get her.  The other assassins are not as principled as he is and the police get from the the names of a couple dozen other Young Bosnia members who helped them. There are a bunch of Croats, and the Muslim guy, involved, but the officials want to play down the non-Serbian parts of it, figuring it'll be politically easier to blame the Serbs.They figured out that because he was only 19 they couldn't hang Princip, and conspiracy to murder wouldn't get anything worse than a life sentence. They wanted some hangings though so they changed the prosecution to treason.
-
-Princip was sentenced to 20 years, with the special penalty that he go without food one day a month, and that each year on the anniversary of the assassination he be kept in a cell without light.The four other guys who were supposed to be assassins were also too young and sentenced to prison. Five conspirators were sentenced to hang for treason, and two had them commuted. The three were hanged in February 1915. Princip held in Theresienstadt, where he got sicker from TB. Died in 1918. Buried in an unmarked grave.
-
-But by that time, Europe has come to suffer the consequences of his actions, which is where we’ll pick up next time.
-:::
-:::
