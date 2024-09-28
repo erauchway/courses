@@ -5,6 +5,8 @@ footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: September 27, 2024
 draft: FALSE
+categories:
+  - HIS 187
 ---
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results=FALSE}
 library(rnaturalearth)
