@@ -1,0 +1,361 @@
+---
+title: Open Door / Monroe Doctrine
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: September 27, 2024
+draft: FALSE
+---
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results=FALSE}
+library(rnaturalearth)
+library(tidyverse)
+library(sf)
+(sf_use_s2(FALSE))
+library(ggtext)
+library(scales)
+library(showtext)
+font_add_google("Public Sans", family = "Public Sans")
+target_crs = ("+proj=eqearth +lon_0=270 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs")
+
+ne_download(scale = 50, category = "physical", type = "land") -> rland
+
+rland |>
+  st_break_antimeridian(lon_0 = 270) |>
+  st_transform(crs = target_crs) -> rland_a
+
+st_sf(place = "Barrow<br>Alaska", geometry = st_sfc(st_point(c(-156.2845, 71.2320)))) |>
+  add_row(place = "St. Croix<br>USVI", geometry = st_sfc(st_point(c(-64.3354, 17.4519)))) |>
+  add_row(place = "Rose Atoll<br>American Samoa", geometry = st_sfc(st_point(c(-168.0910, -14.3411)))) |>
+  add_row(place = "Santa Rita<br>Guam", geometry = st_sfc(st_point(c(144.37055, 13.2651)))) |>
+  st_set_crs(4326) |>
+  st_transform(crs = target_crs) -> compass
+
+comp_lab <- st_as_sf((cbind(compass, st_coordinates(compass))))
+
+st_transform(st_as_sf(read_csv("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/us_places.csv"), coords = c("lon", "lat"), crs = 4326), crs = target_crs) -> us_places
+
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans"),
+      plot.title = element_markdown(color = "khaki4"),
+      plot.caption = element_markdown(size = rel(0.5))
+    )
+)
+my_cap = "Map made using R, ggplot, and sf by Eric Rauchway with data from Natural Earth"
+```
+
+## Previously
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height = 7, fig.width = 14}
+rland_a |>
+  ggplot() +
+  geom_sf(fill = "gray90", linewidth = 0.04) +
+  geom_richtext(data = comp_lab, family = "Public Sans", aes(label = place, x = X, y = Y), size = 3, fill = NA, color = NA, text.color = "black") +
+  labs(
+    title = "HIS 187---WORLD MAP",
+    subtitle = "With US extreme points",
+    caption = my_cap
+  ) 
+```
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+So, when we spoke last, I'd shown you this map of the US as it is today, indicating the extreme compass points, and said, this map reflects a late nineteenth-century/early twentieth-century US foreign policy.
+
+Alaska was acquired in 1867, together with Midway, which you can only barely see on the map, WNW of Hawaii. Alaska came by purchase; Midway simply by landing, as there was nobody living there except birds: it was and remains a small coral atoll. 
+
+The US acquired Hawaii in 1898, in the same year it acquired Guam. 
+:::
+:::
+
+# Naval power
+
+## The Navy and the Pacific Strategy
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![The Battle of Manila Bay, 1898](../media/manila_bay.png){width="70%"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+That was the year, 1898, of the Spanish-American War, which culminated at the battle of Manila Bay, shown here. This was a souvenir lithograph of the battle, showing US battleships in action.
+
+So first, what's a battleship. How many battleships does the US Navy have on active service today? 
+
+In 1886, Congress first authorized the construction of US warships to be called "battleships," mechanized shups with big guns. These would be the *Maine* and the *Texas,* thus establishing the convention that US battleships would be named for states. They weren't all that big nor did they have long range. But in 1890, Congress agreed to fund three more: *Indiana, Massachusetts,* and *Oregon.* All five were floated by 1896, and Congress authorized the sixth, *Iowa,* in 1897. So in 1898, the US Navy had six, brand-new battleships, which formed the basis of the c20 US Navy.
+
+What is a battleship for? Projecting power, as we euphemistically say. You drive it up alongside something you want to threaten, and it's very threatening, and people are more likely to do what you want them to do than they otherwise would be. Or, if necessary, you actually fire the guns---either at a target on land, like a fortified position, an enemy army; or at another navy's battleship.
+
+The *Maine,* one of these brand-new battleships, was sunk while on duty in Havana harbor in 1898. Havana is in Cuba; Cuba was then a Spanish possession; US officials blamed Spain for the sinking of the *Maine.* And so the US went to war with Spain.
+
+During this war, Assistant Secretary of the Navy Theodore Roosevelt ordered the Pacific Squadron---a group of much smaller, but equally modern, ships led by the cruiser *Olympia,* to Manila Bay in the Philippines. The Philippine Islands were also then a Spanish possession. The US Pacific squadron met the nominally superior, but much less modern, Spanish fleet in Manila Bay, and defeated it.
+
+https://www.loc.gov/item/98504764/
+:::
+:::
+
+## Pacific Strategy
+
+
+::::{.v-center-container}
+
+```{r}
+rland_a |>
+  ggplot() +
+  theme(
+    panel.background = element_rect(fill = "aliceblue", color = NA)
+  ) +
+  geom_sf(fill = "antiquewhite1", color = "burlywood3") +
+  geom_sf(data = st_buffer(rland_a, -6000), linewidth = 0.6, fill = NA, color = alpha("burlywood3", 0.4)) +
+  geom_sf(data = st_buffer(rland_a, 6000), linewidth = 0.4, fill = NA, color = alpha(c("lightblue"), 0.7)) +
+  geom_sf_text(data = us_places, aes(label = name), color = "chocolate4", size = 3) +
+  labs(
+    title = "HIS 187---SELECTED US TERRITORIES, 1900",
+    caption = my_cap
+  ) -> p
+p
+```
+
+
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+So the victory over Spain allowed the US to claim Spanish territory---Puerto Rico, Cuba, Guam, the Philippines. In the same year, the US also annexed Hawaii. Midway and Alaska, the US had acquired in 1867.
+
+These all become "territories" of the US. The US has had territories previously and in fact at the turn of the c20 still had territories---Arizona, Oklahoma, and New Mexico were not yet states. But these territories were treated, and viewed, differently. There wasn't any immediate notion they would be integrated into the union as states. Midway wasn't inhabited, but the rest of them were---and by, mainly, nonwhite people. 
+
+So what was the reason for their acquisition? Let's look first at the Pacific territories; what does it look like? Then consider Alaska and the Great Circle route. 
+
+So first of all, you can see why the Navy is important.
+
+And finally, Cuba and Puerto Rico. 
+:::
+
+:::
+
+
+## Pacific / Caribbean Strategy
+
+
+::::{.v-center-container}
+![Alfred Thayer Mahan, *The Interest of America in Sea Power* (1897).](../media/mahanmap.png){width="60%"}
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+What you see here is an indication of why US officials might have an interest in Cuban and Puerto Rico. This is a map from a book, as it says on the slide, about the interest of the US in sea power, written by a US Navy admiral, Alfred Thayer Mahan. 
+
+Mahan was a lecturer at the US Naval War College from the time of its creation in 1884. The purpose of the war college was to provide a useful education to staff officers of the United States Navy and to engage in war gaming and war planning. A couple years after joining the college, Mahan became its president. In that role he met Theodore Roosevelt, who was visiting as a guest lecturer---among his many other activities, Roosevelt was a historian. And what Roosevelt and Mahan agreed upon---and what Mahan was himself a scholar of---was the importance of a navy to a modern nation.
+
+Mahan's book on this subject, of 1893, was titled *The Influence of Sea Power on History,* and it held essentially that ability to access the seas of the globe affected a nation's ability to achieve material prosperity and control its destiny. Like many people who read books, Theodore Roosevelt liked this book because it said what he already believed. Mahan and Roosevelt joined a group of Americans who were promoting investment in naval power---it was their ideas that led to the funding of battleships and other modern naval vessels, to which I've already referred.
+
+So that's why people like them are thinking about using the Spanish-American War, and the instability in Hawaii created by US planters, to take islands in the Pacific. This is the age of coal-fired, steam-powered ships. (That's probably what blew up the *Maine.*) They need to pick up coal as they go; navies need islands to dump coal on. In the Pacific, there are not lots of islands, so each one is potentially valuable and worth taking. 
+
+And what this map shows you is that if you're the United States, and you want to control trade across the Pacific, you're also going to need control of the Caribbean, or at least part of it. This map has been up on the slide long enough, I think, for you to get a sense of what's going on there; what do you see? [You should see that there are shipping routes, laid out, from various points---Europe to the Isthmus of Panama, the Mississippi to the Isthmus of Panama; New York to the Isthmus of Panama.]
+
+Now, if you look at this map, you can see also the strategic importance of Cuba and Puerto Rico. The route from the Mississippi to Panama goes around the west side of Cuba; the route from New York to Panama goes around the east side of Cuba (indeed, shipping from the Mississippi River to New York must run along the north coast of Cuba). The route from Europe to Panama runs just east of Puerto Rico.
+
+It is worth pointing out two things in terms of timing. First, as I've noted, this map is from 1897---the year before the Spanish-American War. Second, as I've noted, this map is from 1897---when there is not only no canal through the Panamanian isthmus, there is no republic of Panama there, either.
+
+The strategy precedes the action.
+:::
+
+:::
+
+## Scope of the strategy
+
+
+
+::::{.v-center-container}
+```{r}
+p
+```
+
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+And we should remember that the strategy, or at least the idea of the strategy, precedes the 1890s; remember, that's the reasoning for Alaska and Hawaii as well. There's an abiding vision that's shared among a group of people who have an idea about how to use US might to acquire more power and more prosperity for the United States. It  is in abeyance for much of the period between 1867 and 1897, and then suddenly it erupts again. We're going to leave aside the question of *why* it does that; let's consider, how does it do that?
+:::
+
+:::
+
+
+
+## Practically sovereign
+
+
+
+::: {.callout-tip appearance=minimal .v-center-container}
+
+To-day the United States is practically sovereign on this continent, and its fiat is law upon the subjects to which it confines its interposition.
+
+:::{.flushright}
+Richard Olney, US Secretary of State, 1895
+:::
+
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+::: {.notes}
+
+This is from a message to Lord Salisbury, then the British foreign minister. “Why? It is not because of the pure friendship or good will felt for it. It is not simply by reason of its high character as a civilized state, nor because wisdom and justice and equity are the invariable characteristics of the dealings of the United States. It is because, in addition to all other grounds, its infinite resources combined with its isolated position render it master of the situation and practically invulnerable as against any or all other powers.” Issuing this message on behalf of the administration of President Grover Cleveland, Olney was interpreting, as he remarked, the farewell address of President James Monroe of 1823, saying that Europe being largely monarchical, and the Americas newly republican, Monroe had “courageously declared not merely that Europe ought not to interfere in American affairs, but that any European power doing so would be regarded as antagonizing the interest and inviting the opposition of the United States.” This idea was known as the Monroe Doctrine. Olney’s interpretation of Monroe’s message didn’t have very much to do with Monroe’s message, but a lot to do with where the United States stood in the world of 1895.
+
+:::
+
+:::
+
+## The US at the time of the o.g. Monroe Doctrine
+
+![US territory at about 1823](../media/us_terr_1823.jpg){width=65% fig-align="center"}
+
+:::{.content-visible when-format="revealjs"}
+::: {.notes}
+
+At the time of issuing the Monroe Doctrine, the United States had only about 9.6m people living in it—less than half the population of the UK—and was in the process of negotiating its own boundaries. It had only won its full independence from Britain with the War of 1812, and had incurred a substantial debt to a British bank—Baring Brothers—in order to finance its expansion into the Mississippi River Valley; half its national debt was held overseas and the largest part of that in Britain. It was surrounded by Britain in the north and by Spain in the south. 
+
+Moreover, in 1823, Russia lay claim to the Pacific Northwest (you’re aware, I imagine, of both Sebastopol and the Russian River, as well as Fort Ross, among other Russian names in northern California). France intervened in Spain to put down a republican revolution.
+
+George Canning, the British foreign minister as then was, did not want the monarchical powers of the continent, mainly France and Russia, to establish a firm foothold in the Americas and take over the American markets. He approached the US minister in Britain, Richard Rush, and said, how about you join with us in a declaration that the French and their friends should not meddle in North America.
+
+So at this point, this is a _British_ foreign policy. The British don’t want their imperial rivals getting out of hand and depriving them of useful markets in the Americas. At the same time, they want some color of legitimacy on what they’re doing, so they invited the US to join them. That way they can say that the policy is something the locals want, and not something imposed on them by the faraway and mighty British with their massive and fearsome navy. 
+
+Monroe’s cabinet debate over this. Some think it’s a swell idea. But the Secretary of State, JQA, says no. If we do something with Britain, it’ll be like Britain doing it alone. 
+:::
+:::
+
+## Candid and dignified
+
+::: {.callout-tip appearance=minimal .v-center-container}
+
+It would be more candid, as well as more dignified, to avow our principles explicitly . . . than to come in as a cock-boat in the wake of the British man-of-war.
+
+:::{.flushright}
+John Quincy Adams, US Secretary of state, 1823
+:::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+::: {.notes}
+
+And just to give you a sense of what that imagery means . . .
+
+:::
+:::
+
+## A man-of-war . . .  
+
+:::{.content-visible when-format="revealjs"}
+![. . . with a cock-boat](../media/cock-boat.png){width=65% fig-align="center"}
+:::
+
+:::{.content-visible when-format="revealjs"}
+::: {.notes}
+
+here is a painting from about that time of a British man of war, with a cock-boat—the small ship’s boat, generally understood to be the smallest and slightest of floating craft as the OED says—next to it. CLICK
+
+What JQA is acknowledging here is that Britain is by far the more powerful nation. But since the British have shown the Americans their cards, and said in effect this is something we want, the Americans can take advantage of it and say it on their own—knowing the British will back their play. This is for JQA as much as anything else a political move, knowing that the small American nation, beleaguered and experiencing growing pains, could do with a bit of nationalism.
+
+It's wrapped up in the notion that the US and the Latin American states are all "republics," they're "free and independent," and they're not to be "subjects for colonization." But it's fundamentally a way of justifying the American project which, in its youth, needs a good deal of justifying.
+
+https://fineartamerica.com/featured/british-man-o-war-off-the-coast-george-webster.html
+
+:::
+:::
+
+## Practically sovereign
+
+
+
+::: {.callout-tip appearance=minimal .v-center-container}
+
+To-day the United States is practically sovereign on this continent, and its fiat is law upon the subjects to which it confines its interposition.
+
+:::{.flushright}
+Richard Olney, US Secretary of State, 1895
+:::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+::: {.notes}
+
+So to come back to Olney, now, we can see that the policy of noncolonization and nonintervention, which had begun as a rhetorical counter to American weakness, had become a way to assert American strength.
+
+It was still about domestic politics; the Democrats under Cleveland were weak (nonconsecutive, etc.) and getting weaker owing to challenges from within (Bryan). So they were showing their foreign strength as a way of asserting their general strength. 
+
+They were also legitimately concerned that a British fracas with Venezuela might bring in other powers and other claims, including Germany, and create a genuine problem in the vicinity of the United States. 
+
+Now, as a matter of fact, it didn’t quite work out. The British denied the validity of the Monroe Doctrine. “The Americans are not people to run away from,” Joseph Chamberlain said. So the Cleveland administration had to issue a further message, in December. The British accepted arbitration for the border, and incidentally, the US version of the MD, mainly because they had other things to worry about (Asia, Africa). 
+:::
+
+:::
+
+## Scope of the strategy, 1900
+
+
+
+::::{.v-center-container}
+```{r}
+p
+```
+
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+So when we look at this expansion of US territory at the end of the c19, we should see first of all a British policy: a British policy of letting the United States assert its influence in the Americas, and indeed in the Pacific, because it's less trouble to the British, whose interests lie to the East of their home islands, than anything else.
+
+But of course there are ambitious Americans who seek to take advantage of this British policy to build up American power; power in terms of the navy, power in terms of territory---and ultimately, power to alter the sea routes. 
+
+The Sp-Am War gave impetus to the push for a Panama canal; the *Oregon,* stationed in SF, took two months to get to action in the Caribbean---too long. Panama was then part of Colombia. Rather than pay Colombia for the right to build there, the US administration worked with Panamanian revolutionaries to support their bid for independence, sending a US warship to support them as they took over the Isthmus. Two weeks after this revolution, the US worked out a deal for the canal with the new government. 
+:::
+
+:::
+
+
+## Corollaries
+
+:::{.callout-tip appearance=minimal .v-center-container}
+. . . in the Western Hemisphere the . . . Monroe Doctrine may force the United States, however reluctantly, in flagrant cases of such wrongdoing or impotence, to the exercise of an international police power.
+
+:::{.flushright}
+Theodore Roosevelt, US President, 1904
+:::
+
+The inevitable effect of our building the [Panama] Canal must be to require us to police the surrounding premises.
+
+:::{.flushright}
+Elihu Root, US Secretary of State, 1905
+:::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+:::{.notes}
+Back in 1823, the US had sought to preserve republican governments in the Americas from counterrevolution. By 1904, the situation is essentially reversed, and the US is in the role of keeping “this hemisphere in check,” as one Naval officer said; these outbreaks in the c20 were “so-called revolutions,” not the real thing (IE, 28). This was essentially a unilateral US policy, where the interests of order were set and debated in Washington DC.
+:::
+:::
+

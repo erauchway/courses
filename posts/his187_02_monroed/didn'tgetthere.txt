@@ -1,0 +1,154 @@
+## South America
+
+::::{.v-center-container}
+![With boundaries of about 1892](../media/sa_1892.jpg){width="40%"}
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Here’s a map of SA in 1892 or thereabouts. If we zoom in (CLICK) on the north coast, we’ll see the region of Guiana, and particularly the westernmost portion, British Guiana.
+
+http://legacy.lib.utexas.edu/maps/historical/south_america_1892.jpg
+:::
+
+:::
+
+## British Guiana
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/sa_zoom.jpg)
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+This is a colony of Britain, settled in the c17 and formally established in 1814.
+:::
+
+:::
+
+## Boundary dispute
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![Showing territory disputed between Britain and Venezuela](../media/dispute.jpg){width="40%"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+As you can see here, the British claimed much more for Guiana than their neighbors to the West, the Venezuelans, would have liked. Venezuela was an independent republic, and had won its independence from Spain in 1811 and had had to go to war again to do is for sure in 1823. This boundary dispute continued for quite some time. Finally, in 1895, the US administration of Grover Cleveland sought to intervene.
+:::
+
+:::
+
+## Turn of the century
+
+:::{.v-center-container}
+
+:::{.incremental}
+- US policy developed under the UK umbrella
+
+- US policy aims at "annexation of trade"
+
+- Annexation of territory is in service to trade
+
+- Trade and territory require military build-up
+:::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+:::{.notes}
+There's a bunch of things we could say about this, but this is the basic outline. And, as with the film clip I showed you, this is developed largely without the involvement of the American public; rather, these are the strategies and ambitions of a relatively small number of Americans. People like Roosevelt and Mahan, like Olney and Root---they are members of the power elite, or the ruling class; it depends on which sociological analysis you prefer. They share a certain world-view. It isn't a question of conspiracy, exactly, or even of class interest in the Marxist sense---we're not talking about what the owners of capital necessarily want. And in fact when there are public debates, as there are over annexing the Philippines, some big businessmen object, quite strenuously; notably the steel magnate Andrew Carnegie. This is more of an elite-group formed by common schooling and attitudes toward power than the *per se* ownership of capital. 
+:::
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+# Quiz
+
+## 1. Alfred Thayer Mahan wrote about the importance of ____ power
+
+:::{.incremental}
+A) sea
+
+B) air
+
+C) desert
+
+D) camel
+
+E) absolutely the wrong answer
+:::
+
+## 2. The Pacific strategy necessitated a ______ strategy
+
+:::{.incremental}
+A) Mediterranean
+
+B) Indian
+
+C) China
+
+D) Caribbean
+
+E) absolutely the wrong answer
+
+:::
+
+## 3. US global strategy emerged as a result of _____ global strategy
+
+:::{.incremental}
+A) French
+
+B) British
+
+C) Chinese
+
+D) Dutch
+
+E) absolutely the wrong answer
+
+:::
+
+## 4. Professor Rauchway described his understanding of elite opinion as 
+
+:::{.incremental}
+A) Millsian
+
+B) Marxist
+
+C) Not Marxist
+
+D) Domhoffesque
+
+E) absolutely the wrong answer
+
+:::
+
+## 5. Insular acquisitions of the Spanish-American war included all of these **EXCEPT**
+
+:::{.incremental}
+A) Puerto Rico
+
+B) Cuba
+
+C) Midway
+
+D) The Philippines
+
+E) absolutely the wrong answer
+
+:::
+
+:::

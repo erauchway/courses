@@ -1,6 +1,6 @@
 ---
 title: H119 Tinder
-draft: TRUE
+draft: FALSE
 freeze: TRUE
 subtitle: History of World War I
 author: 
@@ -64,7 +64,7 @@ theme_set(
 :::{.content-visible when-format="revealjs"}
 
 :::{.notes}
-This is Kaiser Wilhelm I, as he had just become at Versailles. Previously he had been King of Prussia; now, he was emperor of a united Germany. German states—Saxony, Wurttemberg, Bavaria, Prussia, and others—27 in all—retained some local powers of government, in a federal structure like the United States, with a national legislature in two parts, a lower house—the Reichstag—and an upper house—the Bundesrat. But all were under the Prussian throne, now the German throne. Prussia had enough votes in the Bundesrat (17 of 58) to block any legislation, and the kaiser had control of foreign policy and commanded the army.
+This is Kaiser Wilhelm I, as he had just become at Versailles. Previously he had been King of Prussia; now, he was emperor of a united Germany. German states—Saxony, Wurttemberg, Bavaria, Prussia, and others—27 in all—retained some local powers of government, in a federal structure like the United States, with a national legislature in two parts, a lower house—the Reichstag—and an upper house—the Bundesrat. But all were under the Prussian throne, which was now the German throne. Prussia had enough votes in the Bundesrat (17 of 58) to block any legislation, and the kaiser had control of foreign policy and commanded the army.
 :::
 
 :::
@@ -82,7 +82,7 @@ This is Kaiser Wilhelm I, as he had just become at Versailles. Previously he had
 :::{.content-visible when-format="revealjs"}
 
 :::{.notes}
-So here’s the German Empire, or Reich, from its creation in 1871 through the Great War. Germany became very rapidly after its creation one of the major industrial powers of the Earth; between its creation and 1913 it catches up with the major industrial powers of France and Britain in terms of industrial output—in 1871, German industrial output was about half that of France and Britain and at 1193, they were all about equal.
+So here’s the German Empire, or Reich, from its creation in 1871 through the Great War. Germany became very rapidly after its creation one of the major industrial powers of the Earth; between its creation and 1913 it catches up with the major industrial powers of France and Britain in terms of industrial output—in 1871, German industrial output was about half that of France and Britain and at 1913, they were all about equal.
 :::
 
 :::
@@ -239,7 +239,7 @@ Blank check, ultimatum; mobilization
 
 
 ::::{.v-center-container}
-```{r, fig.height=7, fig.width=6.5}
+```{r, fig.height=6, fig.width=5.5}
 p
 ```
 ::::
@@ -266,7 +266,7 @@ At this point, the Germans are hoping Russia will sit back, for fear of a revolu
 
 Nobody in the Entente saw Vienna as independent. And indeed it wasn’t; it needed Germany’s go ahead to act. So the Entente powers see that Germany is raring to go to war. 
 
-On July 28, Russia partly mobilizes, In districts neighboring A-H. 
+On July 28, Russia partly mobilizes, in districts neighboring A-H. 
 
 The Germans actually don’t want to go to war in all Europe. But the clock is ticking. The British would like to localize the conflict, but everyone sees this can’t be done anymore. The Germans decide therefore on mobilization to beat the clock.
 
