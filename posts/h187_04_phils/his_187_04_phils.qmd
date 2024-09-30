@@ -1,0 +1,418 @@
+---
+title: Philippines, 1900--1910
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 2, 2024 
+draft: TRUE
+categories:
+  - HIS 187
+---
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results=FALSE}
+library(rnaturalearth)
+library(tidyverse)
+library(sf)
+(sf_use_s2(FALSE))
+library(ggtext)
+library(scales)
+library(showtext)
+font_add_google("Public Sans", family = "Public Sans")
+target_crs = ("+proj=eqearth +lon_0=270 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs")
+
+ne_download(scale = 50, category = "physical", type = "land") -> rland
+
+rland |>
+  st_break_antimeridian(lon_0 = 270) |>
+  st_transform(crs = target_crs) -> rland_a
+
+st_sf(place = "Barrow<br>Alaska", geometry = st_sfc(st_point(c(-156.2845, 71.2320)))) |>
+  add_row(place = "St. Croix<br>USVI", geometry = st_sfc(st_point(c(-64.3354, 17.4519)))) |>
+  add_row(place = "Rose Atoll<br>American Samoa", geometry = st_sfc(st_point(c(-168.0910, -14.3411)))) |>
+  add_row(place = "Santa Rita<br>Guam", geometry = st_sfc(st_point(c(144.37055, 13.2651)))) |>
+  st_set_crs(4326) |>
+  st_transform(crs = target_crs) -> compass
+
+comp_lab <- st_as_sf((cbind(compass, st_coordinates(compass))))
+
+st_transform(st_as_sf(read_csv("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/us_places.csv"), coords = c("lon", "lat"), crs = 4326), crs = target_crs) -> us_places
+
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans"),
+      plot.title = element_markdown(color = "khaki4"),
+      plot.caption = element_markdown(size = rel(0.5))
+    )
+)
+my_cap = "Map made using R, ggplot, and sf by Eric Rauchway with data from Natural Earth"
+```
+
+## Previously
+
+:::{.incremental .v-center-container}
+- Monroe Doctrine
+- Open Door
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Down to this point we've been looking at the state of US foreign relations in the early 20th century. We've seen two apparently distinct foundations for how foreign relations should work, but as we've seen they work together. The policy of establishing US control over the Western hemisphere goes hand-in-hand with the strategy of gaining access to overseas markets in the open-door areas, particularly China.
+
+Or at least, they work together in theory. In fact, as we've seen, they largely don't work. The US isn't up to the task of executing a policy this ambitious with the tools available in 1910. The same will be true of another policy the United States takes up at this time, one that is also entailed in the Pacific strategy, though which is less acknowledged: colonialism, particularly---as the lecture title indicates---in the Philippines.
+:::
+:::
+
+## Indian Wars
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/indian_wars.png){width="65%" fig-align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+For many historians there is some obvious precedent for US colonialism overseas, and that's US colonialism on the North American continent. Between the end of the Civil War and the turn of the century, the US army was very small but very active. It had shrunk from its massive size of 1m or so soldiers in 1865 to a few tens of thousands, but those tens of thousands were now career soldiers, hardened in repeated battles against the plains Indians. The US army used the railroads of the west to move rapidly from one fort to another, killing off buffalo and starving out the plains peoples. They rounded native peoples up, and sequestered them on reservations. They eliminated their livelihoods outside the reservations. Indians who left the reservations and attempted to return to a more traditional way of life found it difficult, the army having altered the environment, and being willing to hunt them down. The US army experienced some setbacks, notably the battle of the Little Bighorn in 1876, when 2000 or so Sioux and Cheyenne warriors trapped and defeated Custer and about 260 soldiers. 
+
+But in the end, the United States had the force of numbers, technology, and the ability and willingness to alter the environment to their advantage. In the 1860s, there were about 360,000 native peoples on the plains and about 1.4m whites. By 1900, it was more like 260,000 and 8.5m.
+
+By the 1890s, the US Army under Nelson Miles had fought repeated conflicts against Indians, mostly irregular battles. They numbered only about 25,000 soldiers and 2,000 officers. But one observer, the commander in chief of the British army, called them man for man the best army in the world.
+
+This army, and General Miles, were going to be deployed to the Philippines in the aftermath of the Spanish American War.
+:::
+:::
+
+## Pacific Power
+
+:::{.v-center-container}
+```{r}
+rland_a |>
+  ggplot() +
+  theme(
+    panel.background = element_rect(fill = "aliceblue", color = NA)
+  ) +
+  geom_sf(fill = "antiquewhite1", color = "burlywood3") +
+  geom_sf(data = st_buffer(rland_a, -6000), linewidth = 0.6, fill = NA, color = alpha("burlywood3", 0.4)) +
+  geom_sf(data = st_buffer(rland_a, 6000), linewidth = 0.4, fill = NA, color = alpha(c("lightblue"), 0.7)) +
+  geom_sf_text(data = us_places, aes(label = name), color = "chocolate4", size = 3) +
+  labs(
+    title = "HIS 187---SELECTED US TERRITORIES, 1900",
+    caption = my_cap
+  ) -> p
+p
+```
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Here's yet another map reminding you that the ambition of American policymakers at the turn of the century was to develop the US as a Pacific power, to establish for Americans a foothold in Asia. The Philippines thus made a tempting target, an island chain just off the coast of China, not far from Hong Kong, the British island. Maybe the Philippines could become an American Hong Kong---a fortified colonial redoubt, a military and financial safe-harbor.
+
+And as we've seen the Boxer Rebellion appeared to vindicate this view, as the US was able to deploy troops from the Philippines to take part in the military effort to put down the Boxers.
+:::
+:::
+
+## World Power
+
+:::{.columns .v-center-container}
+
+:::{.column-left}
+
+![](../media/new_hat.png){width="70%" fig-align="left"}
+
+:::
+
+:::{.column-right}
+
+![](../media/new_hat2.png){width="70%" fig-align="right"}
+:::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+The ambition here was fairly well understood. The US, by becoming a naval power, was also becoming a world power. You can see here Columbia, the personification of the United States as a woman, trying on her new bonnet, which is a battleship labeled “world power,” belching smoke that says “expansion.” On her belt are a bayonet and a cannon, among other symbols of the military. And of course she’s wearing a military coat, with the epaulettes. Here’s another one from the same magazine with much the same theme, only it’s Theodore Roosevelt in his Rough Rider gear standing in front of George Washington’s hat, Abraham Lincoln's and US Grant’s top hats---all modest civilian hats---but looking at the “imported hat, all the style in Europe,” a crown labeled “imperialism.” The clear implication here is that with militarism and colonialism, the US is abandoning its traditions for a more European model of overseas influence. 
+:::
+:::
+
+
+## Manila Bay
+
+:::{.v-center-container}
+
+![](../media/manila_bay2.png){width="35%" fig-align="center"}
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+:::{.notes}
+You may remember that the high profile battle of the Spanish American War in the Philippines was the victory of Admiral George Dewey’s fleet in Manila Bay over the Spanish fleet. Because again, this is the symbolism of the time: power for a nation consists principally in naval power, and the ability to float a modern fleet. In fact, Dewey’s fleet, though modern, was much less powerful than the US could have fielded—he had seven ships, but not a single battleship among them; all were small warships. On the way to the Philippines, they docked in Hong Kong to take on supplies and paint the ships gray; one British official was unimpressed with the size of the fleet and when it sailed, said, they are very fine fellows; too bad we will never see them again. The Spanish had not mined the bay, and although they also had seven ships, these ships were much older than the American vessels. The Spanish admiral, expecting defeat, had stationed his ships in shallow water, with the expectation that his men would have to bail, so he wanted them to have the maximum chance of survival. The Spanish guns hadn’t the range of the American guns, so often their shots fell short of the US ships or, when they did hit, simply bounced off the armor, their momentum largely spent. The Americans lost no ships and sank the whole Spanish fleet. 
+:::
+:::
+
+## Geography of empire
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/archipelago.png){width="35%" fig-align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+As you can see here, the Philippines are an archipelago, just south of (what was then) Formosa, modern Taiwan, which was, from the Sino-Japanese war's settlement in 1895, a possession of Japan. Most of the Philippine islands are pretty close together, except Palawan. In the South they’re near Borneo, which the British and the Dutch took. To the West is the South China Sea, and beyond that French Indochina, British Hong Kong, and the Chinese mainland. Spain had held the Philippine islands since the 16th century. They wanted them only really as a trading and naval hub for the Pacific. They shipped silver from Mexico here to pay for Chinese silk and other Asian goods. There were bankers and merchants. And of course the Spanish brought the Catholic church with them as well. 
+
+The islands are full of natural harbors and mostly thick with jungle, although in the c19, with an increased demand for raw materials, as much of the interior was put under the plow as possible, to grow crops like tobacco and to provide grazing land for cattle. But basically, it's a natural set of ports and harbors, and smugglers' havens; it's easy to hide, given the coastline and the jungle.
+
+It was a relatively poor country by the 1890s, when the Spanish empire in decline looked like a good target for overthrow. The indios—the non-Spanish, native-born Filipinos, were at the bottom of Spanish society, and treated with the racism their name implies. Some Filipinos got education, and traveled; some of them, seeing a Wild West Show, were inspired by the idea of Indian resistance to whites. They formed an association of “indios bravos,” or braves, for a group of ethnic pride. 
+:::
+
+:::
+
+## Emilio Aguinaldo
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/aguinaldo.png){width="50%" fig-align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Eventually the Filipino revolt against Spain came to be led by this man, Emilio Aguinaldo, shown here with his son. The independence movement wasn’t especially radical. They took advantage as they could of the geography of the islands to establish bases, and fought a guerrilla campaign against the Spanish. Aguinaldo demanded a parliament, freedom of the press, and religious freedom---but was willing to concede Spanish sovereignty. Ultimately Aguinaldo and the Spanish governor did a deal, late in 1897, conceding Spanish sovereignty in exchange for a few reforms. Aguinaldo would accept exile in Hong Kong---and indeed would get a big payout. The Spanish would permit some Filipino autonomy in government—but this was very vague and limited. Aguinaldo began using his payout to buy munitions. The Spanish accepted the Filipinos would control much of the interior: but as long as they controlled the coast, they were fine with that. 
+:::
+
+:::
+
+## Colonies
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/mckinley_sweeps.png){width="50%" fig-align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+In the summer of 1898, McKinley sent several groups of soldiers to the Philippines, departing San Francisco via Hawaii. Ultimately there were about 11,000 sent, placed under the command of Wesley Merritt, an experienced officer of the Indian wars. They were not particularly ready to fight in the tropics, and they were somewhat outnumbered by Aguinaldo’s forces.
+
+Aguinaldo declared, “I have studied attentively the Constitution of the United States and in it I find no authority for colonies.” But privately, he and his colleagues began very much to worry. 
+
+The US under Merritt decided they wanted to be the ones to take Manila from the Spanish, and they did so; as they did so, though, Aguinaldo’s troops began to move into the city as well. US soldiers blocked them and kept them to the suburbs. But the two forces had already come into confrontation.
+
+For a time it was unclear what McKinley would do about the islands. He might have held the opinion that Aguinaldo did---that the US Constitution had no warrant for colonies. But 1898 was an election year. The US had won stunning naval and army victories against Spain. As you can see in this cartoon, McKinley is depicted as a feeble old woman, seeking to sweep back the sea of public and Congressional opinion. Whether this is quite how it went, shortly before the election McKinley did say that he had decided the US had no choice; it was the United States' duty to keep the Philippines.
+:::
+
+:::
+
+## Insurgency
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/insurgency.png){width="40%" fig-align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+This put the US in the position of fighting Aguinaldo, here shown as a mosquito biting McKinley on the hand. The Filipino forces were angry they had been kept out of Manila. By February 1899, with news of the treaty reaching the Philippines, the US and the Filipino insurgents were openly fighting. 
+
+The US soldiers were better armed, and had more ammunition. On the other hand, the Filipinos knew the landscape and were habituated to the tropics. Not for nothing are they shown as mosquitoes, here. The Americans began sending more and more troops, including African American units—one man of which declared, on arrival, they were there to take up the White Man’s Burden. The US troops ultimately numbered some 20,000, nearly the whole size of the army that fought the Indians over the decades after the Civil War.
+
+The navy blockaded the Philippines, putting pressure on Filipino civilians, in the hope of persuading those who were not quite committed to the fight that they should stop supporting the rebels.
+
+The US forces were able to defeat Aguinaldo’s army fairly readily. But as they did so, the Filipinos began turning to guerrilla tactics. 
+
+:::
+
+:::
+
+## Guerrillas
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/guerrillas.jpg){width="50%" fig-align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+As you know, if you’re outnumbered by a better-armed force, it’s possible nevertheless to create havoc by ceasing to fight as a conventional army, and moving by stealth to assassinate and sabotage the occupier. This is what the Filipinos begin to do, moving in small groups to ambush supply trains, or small outposts; cutting telegraph wires to isolate a garrison, killing civilians (as you see here) who cooperated with the US forces. With an enemy indistinguishable from the civilian population, appearing only briefly and then vanishing, soldiers frequently become aggravated. During the monsoon season, with the heavy rains, these attacks would abate—but then, of course, Americans would be subject to the conditions of tropical life to which they were unused. As the wet abated in turn, the attacks would resume. 
+
+:::
+
+:::
+
+## General Orders 100
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+Not public enemies, and therefore, if captured, are not entitled to the privileges of prisoners of war, but shall be treated summarily as highway robbers or pirates
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+These were the US Army’s standard orders for how to deal with saboteurs. Now, to this point---as of late in 1900---the US army had declined to work along these lines. But over time, they became more and more convinced they ought to. In December, General Arthur MacArthur ordered the strict enforcement of GO 100. He also declared, with Root’s assent from Washington, that he would deport rebel leaders to Guam. 
+
+:::
+
+:::
+
+## Water cure
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.columns .v-center-container}
+
+:::{.column-left}
+![](../media/watercure.jpg){fig-align="center"}
+:::
+
+:::{.column-right}
+
+::::{.callout-tip appearance=minimal}
+. . . consisted of laying a prisoner on his back and pouring water down his throat until he looked like a pregnant woman . . . the spectacle was so horrible that I walked away
+
+:::{.flushright}
+Private Evan Wyatt, US 8th infantry
+:::
+
+::::
+:::
+
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Swiftly, US soldiers began using harsher measures. How harsh? Torture. If the torture didn’t work, they would step on the stomach to push out the water and start again. They would shoot blindly into villages at night. They beat people. 
+
+An insurgent ambush at Balangiga killed more than forty US soldiers, about 2/3 the garrison. In response, the US commander, Jacob Smith, ordered his soldiers to turn the region into a “howling wilderness” and to execute all male inhabitants over the age of ten. Civilians were pushed into concentration camps, their villages burned, their livestock killed, their crops destroyed. Eventually the US government relieved Smith of command, but the damage had been done. Building poorly planned concentration camps created the conditions for disease. Cholera spread. People starved. 
+
+News of this behavior by American soldiers sparked hearings in Congress. Smnith was court-martialed; Roosevelt, by now president, ordered Smith’s retirement from the army. Public opinion was mostly slaked.
+
+As it happened, Balangiga was the last big blow of the insurgents. By the summer of 1902, the insurrection had largely expired. Aguinaldo was captured. 
+:::
+
+:::
+
+## Peace
+
+:::{.callout-tip appearance=minimal .v-center-container}
+We have established civil government, so called, but everybody carries arms on all occasions. . . . The civil government is a farce to placate sentiment in the states and could not last a minute without military force.
+
+:::{.flushright}
+Major General John Dickman, 1899
+:::
+:::
+
+:::{.content-visible when-format="revealjs"}
+::::{.notes}
+But the fighting never really stopped, and broke out again and again on one or another island. On Mindanao, the US continued fighting the Moros until 1935. The US colonial government under William Howard Taft tried to work with Filipinos to establish a collaborative regime, but the Filipinos kept demanding independence. Meanwhile, there were still more guerrilla fighters in the countryside. US sugar companies made a fortune on the islands. Aguinaldo remained quiet, working his own farms, until World War II---at which point, the Japanese invaded the Philippines to drive out the US forces under Douglas MacArthur---who was Arthur MacArthur’s son. Aguinaldo helped the Japanese do it.
+::::
+:::
+
+## Jones Act, 1916
+
+:::{.callout-tip appearance=minimal .v-center-container}
+it is, as it always has been, the purpose of the people of the United States to withdraw their sovereignty over the Philippine Islands and to recognize their independence as soon as a stable government can be established therein
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.notes}
+Essentially provided a constitution for the islands, with branches of government. There was still a US governor-general who retained power to veto laws. It wasn't until 1934 that the Tydings-McDuffie Act provided an actual timetable for independence and not until 1946 that it would be granted
+::::
+
+
+:::
+
+## US foreign policies, 1910s
+
+:::{.incremental .v-center-container}
+- Monroe Doctrine
+- Open Door
+- Colonialism
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.notes}
+So by 1910 or so, we have these three US foreign policies. One is a regional sphere of influence idea; one is global openness for exports; one is the European model for colonial possessions. None of them has been particularly successful. Also, none of them prepares the United States for the conflict on the horizon: the Great War. 
+::::
+:::
+
+## 1. The "black ships" were deployed in 1853 to ________________
+
+:::{.incremental .v-center-container}
+a) intimidate Germany 
+b) blockade China
+c) open Japan
+d) defeat Venezuela
+e) sail the Thames
+:::
+
+## 2. The "white fleet" was deployed in 1907 to ________________
+
+:::{.incremental .v-center-container}
+a) show strength to Japan
+b) carry coals to Newcastle
+c) blockade the Rhine
+d) encircle the Isle of Wight
+e) hunt submarines
+:::
+
+## 3. In the early 1900s Japan _______ its civilian institutions
+
+:::{.incremental .v-center-container}
+a) decimated
+b) dismantled 
+c) professionalized
+d) militarized
+e) doubled
+:::
+
+## 4. After the Russo-Japanese War of 1905, Japan controlled
+
+:::{.incremental .v-center-container}
+a) Languedoc
+b) Saigon
+c) Guam
+d) Borneo
+e) Korea
+:::
+
+## 5. War Plan Orange anticipated war with 
+
+:::{.incremental .v-center-container}
+a) Korea
+b) Vietnam
+c) Germany
+d) Japan
+e) Russia
+:::
