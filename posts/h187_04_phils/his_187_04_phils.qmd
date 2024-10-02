@@ -4,7 +4,7 @@ subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: October 2, 2024 
-draft: TRUE
+draft: FALSE
 categories:
   - HIS 187
 ---
@@ -314,7 +314,7 @@ Swiftly, US soldiers began using harsher measures. How harsh? Torture. If the to
 
 An insurgent ambush at Balangiga killed more than forty US soldiers, about 2/3 the garrison. In response, the US commander, Jacob Smith, ordered his soldiers to turn the region into a “howling wilderness” and to execute all male inhabitants over the age of ten. Civilians were pushed into concentration camps, their villages burned, their livestock killed, their crops destroyed. Eventually the US government relieved Smith of command, but the damage had been done. Building poorly planned concentration camps created the conditions for disease. Cholera spread. People starved. 
 
-News of this behavior by American soldiers sparked hearings in Congress. Smnith was court-martialed; Roosevelt, by now president, ordered Smith’s retirement from the army. Public opinion was mostly slaked.
+News of this behavior by American soldiers sparked hearings in Congress. Smith was court-martialed; Roosevelt, by now president, ordered Smith’s retirement from the army. Public opinion was mostly slaked.
 
 As it happened, Balangiga was the last big blow of the insurgents. By the summer of 1902, the insurrection had largely expired. Aguinaldo was captured. 
 :::
@@ -367,6 +367,8 @@ So by 1910 or so, we have these three US foreign policies. One is a regional sph
 ::::
 :::
 
+:::{.content-visible when-format="revealjs"}
+
 ## 1. The "black ships" were deployed in 1853 to ________________
 
 :::{.incremental .v-center-container}
@@ -416,3 +418,6 @@ c) Germany
 d) Japan
 e) Russia
 :::
+
+:::
+
