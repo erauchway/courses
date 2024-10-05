@@ -1,0 +1,466 @@
+---
+title: Punitive, 1916
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 7, 2024 
+draft: TRUE
+categories:
+  - HIS 187
+---
+
+## Previously
+
+::: {.v-center-container}
+
+- Neutrality
+- Zimmermann telegram
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Let's go back in time a little, to 1916. Germany and the United States had concluded about a year of negotiations over how to resolve the sinking of the *Lusitania* and the death of many US citizens. In the end, the United States issued an ultimatum to Imperial Germany, saying that unless they resumed a more lawful blockade, the United States would have to begin diplomatic maneuvers in the direction of declaring war, and Germany acquiesced, saying it would undertake to abide by the laws of visit and search, respecting the rights of the United States as a neutral nation.
+
+Now, you might remember I mentioned that the United States had been doing its own thing, as it were, focusing on the Western hemisphere and expansion West across the Pacific, when the Great War broke out, and for today, we're going to focus on how that continued to be the case, even with the Great War underway and the United States being on the brink of war with Germany, by looking at US-Latin American relations in 1916. And the most important thing I want to focus on is the extent to which it's true that while ultimately, the amped-up Monroe Doctrine continued and extended, there was an alternative on offer.
+
+:::
+:::
+
+## Pancho Villa
+
+::::{.v-center-container}
+
+```{=revealjs}
+<video muted width="1000" loop>
+<source src="../media/pvillacropped.mp4">
+</video>
+```
+
+::::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+This is Francisco "Pancho" Villa, as filmed in about 1915 by a Hollywood film crew. At this time, Mexico was embroiled in a 3-way civil war between the federal forces, the rebel army of the South led by Emiliano Zapata, and the Division del Norte, or army of the North, led by Villa. The three principals, Villa, Zapata, and the Federal General Victoriano Huerta, were often depicted in the US press, either as heroes or villains, depending on what would sell papers that day. 
+
+Villa signed a contract with a Hollywood studio early in 1914, thinking he should control of the filming of his revolution. The studio, Mutual, gave him a uniform [NEXT SLIDE]
+:::
+:::
+
+## Hollywood Villa
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/pvilla_uniform.png){width="300" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+to wear that was supposed to look more respectable; Mutual retained ownership of the uniform.  And Villa was willing to work with the director, Raoul Walsh, to re-stage certain events, at least up to battles, so that they would work better for the camera. Walsh complained that Villa rode too quickly, and would have to stop the rebel commander, and say "despacio, señor, despacio," and start over. Mutual had exclusive rights to film him and his troops, and he had 20% rights to the profits. 
+
+In the end, the footage wasn't really worth the trouble, and the studio decided to just shoot some regular footage. But it suggests the extent to which even the Mexican revolution was being turned into something for Americans to consume. And the extent to which Latin American history was driven in large measure by links to the US economy.
+
+https://www.smithsonianmag.com/history/uncovering-the-truth-behind-the-myth-of-pancho-villa-movie-star-110349996/
+
+:::
+
+:::
+
+## Mexico circa World War I
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/mexico_1910s.png){width="650" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+So, as we’ve said, Villa’s division del norte is, just as it sounds, based in the north, in the state of Chihuahua. Villa himself was originally from the state of Durango, South of Chihuahua and east of Sinaloa. His parents were poor sharecroppers; in his youth he decided to become a bandit. When the Mexican Revolution started in 1910, he sided with Francisco Madero, who was leading the rebellion against Porfirio Diaz. Diaz had been leading a government which sought to attract foreign, including US, investment by keeping order. Diaz initially said he would not seek reelection; then he had the constitution amended to allow himself to run again, and again; he is generally understood to have rigged these elections, because he won by nearly unanimous support. Diaz agreed, after many years in office, to have a proper election.
+:::
+
+:::
+
+## Taft--Diaz meeting, 1909
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/taft_diaz.png){width="400" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Before he ran for reelection, Diaz invited Taft to meet him, first in El Paso, TX, and then in Juarez, just across the border. It meant it was the first time a US president would cross the border to Mexico. At this point, US banks controlled Mexico’s national railroad, much of its oil industry, and its mining industry. Taft’s goal was to show that the US was happy for Diaz to continue in power. Diaz's goal was to demonstrate the legitimacy of his presidency.
+:::
+
+:::
+
+## Francisco Madero
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/madero.png){width="450" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Francisco Madero ran against Diaz. He was himself quite wealthy and had been educated in the US, including at the University of California, Berkeley. When Madero started to seem popular,  Diaz had him imprisoned. Madero escaped. Diaz was reported to have won another nearly unanimous victory. It was another obvious fraud, and Madero called for---and inspired---a revolt. Diaz fled in 1911, dying in exile in Paris. Madero took office as president, with Villa’s support. Villa retired from both banditing and politicking, and became a butcher. But then Madero’s regime was eventually besieged by various militias. Villa returned to fight for Madero.
+
+Meanwhile, the US government agreed to Madero’s overthrow by Victoriano Huerta, holding a conference in the US embassy in Mexico City. Huerta arranged to have Madero arrested and then “shot while trying to escape,” dissolving the Congress in 1913---all with the understanding of the US diplomatic corps.
+:::
+
+:::
+
+## A financial version of the Monroe Doctrine
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+The concessionaries and foreign interests must go. . . . Who commonly seeks the intervention of the united states in Latin American troubles? . . . Always the foreign interests, bondholders, or concessionaries.
+
+:::{.flushright}
+Woodrow Wilson, 1913
+:::
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Wilson didn’t know about this; it was all under Taft, with the idea of safeguarding US investment in Mexico. And Wilson came in with the intention, apparently, of overthrowing Taft’s and the other Republicans’ policies. 
+
+Almost immediately upon taking office, Wilson gave what sounded like a fairly sweeping condemnation of foreign financial involvement in Latin America and a financial version of the Monroe Doctrine. The argument was simple on its face: it was such involvement that led to outcries for US to send troops. 
+
+Now, if you were listening to this in 1913 you might, I suppose, have taken it to mean that Wilson was calling for an end to *all* foreign involvement in Latin America, but as you might expect, when he said “foreign,” he meant “not from the Americas.” 
+:::
+
+:::
+
+## Exclusion of European finances
+
+::::{.callout-tip appearance=minimal .v-center-container}
+Certain sorts of concessions granted by governments in America to European financiers . . . might . . . imperil the political independence or, at least, the complete political autonomy of the American states involved.
+
+:::{.flushright}
+Woodrow Wilson, 1914
+:::
+
+
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Wilson clarified this point a year or so later. Haiti was prepared to permit German investment there. Wilson sent a message to Berlin warning them off. So he made it clear, here, that in his view, the exclusion of European governments from the Western hemisphere should include the exclusion of such governments from financial involvement, from investment as well as military intervention.
+
+I think it’s fair to say that Wilson hadn’t really worked out his stance with respect to the Monroe Doctrine; he liked the idea of having a morally defensible position, but he kept reconsidering it in light of what he became persuaded were pressing interests.
+:::
+
+:::
+
+## The Bryan alternative
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.callout-tip appearance=minimal .v-center-container}
+Our country [could have] such an increased influence . . . that we could prevent revolutions, promote education, and advance stable and just government.
+
+:::{.flushright}
+William Jennings Bryan
+:::
+
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Bryan, as with WWI, represented a different view within the Wilson administration, and an alternative of how things could be. And because Wilson wasn’t especially committed on these issues, the outcome wasn’t necessarily foreordained. When Wilson came into office, US Marines were already in Nicaragua, having been there on and off since the early years of Theodore Roosevelt’s presidency, in an attempt to keep order. Bryan had an idea for a different way of keeping the government there in power: why shouldn’t the US government lend money to the Nicaraguan government---that is, you understand, the US government itself would do the lending, not an American bank. That way, the US government could offer a fair, and even quite low, interest rate to Nicaragua and, in the event of trouble, Bryan said, the people of Nicaragua wouldn’t have to hand resources over to private bankers.  As you see on the slide, this wasn’t solely self-interested, but it was a model for better relations in the hemisphere. Bryan also believed that the loan would lead to an “increase of trade . . . [which] would come from development and from the friendship”---but Wilson rejected the view that public capital could replace private capital as “novel and radical.” Bryan said ok, so he worked out a deal whereby a private banking syndicate lent more money to Nicaragua in exchange for half the nation’s railroads.
+:::
+
+:::
+
+## Bryan--Chamorro, 1914
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/bryan_chamorro.png){width="800"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+In 1914, the Nicaraguan government, still failing, sent Emiliano Chamorro, the foreign minister, to do a deal with the United States. The US, Nicaragua undertook to say, could have sole rights to build a canal in Nicaragua. This was attractive, in principle, because with _two_ Central American canals, the US government wouldn’t have to worry about one failing, falling prey to revolution, or any natural disaster. Washington would, in addition, extend a protectorate over Nicaragua. Bryan argued it was simply “that which we might be called upon to do anyhow,” what with the US Marines always in the country. The Senate wouldn’t have it, at first; in 1916 they then adopted it---without the protectorate clause.
+:::
+
+:::
+
+## An unsent message
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+It shall not lie with the American people to dictate to another people what their government shall be or what use they shall have.
+
+:::{.flushright}
+Woodrow Wilson, 1916
+:::
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Wilson prepared a message for Congress in June 1916 to try to articulate his philosophy of non-intervention and self-determination, as he thought of it; it included this portion. Robert Lansing, now his Secretary of State, looked at it and struck it out, writing in the margin, “Haiti, S. Domingo, Nicaragua, Panama” by way of indicating to the president the historical problem with making this guarantee. I suppose you could say that at least at that point Wilson didn’t want to make a statement flatly contradicted by facts.
+
+
+:::
+
+:::
+
+## Mexico circa World War I, redux
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/mexico_1910s.png)
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Now, with Huerta in charge and Wilson upset at his behavior, Wilson refuses to recognize Huerta’s government and institutes an arms embargo against it. There’s a small incident that escalates, in 1914; Mexico accidentally arrested some US sailors. The US Navy demanded a 21-gun salute in apology once the arrest was cleared up. The Mexicans said fine, as long as you return it. But Washington said they would not, because that might be misinterpreted as a recognition of the government. Wilson used the occasion to take over the Customs House at Veracruz, and land marines there.
+:::
+
+:::
+
+## Veracruz, 1914
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/veracruz.png){width="800" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+So from 1914, you have US Marines occupying Veracruz. Meanwhile, Huerta’s defeated on the battlefield by the united forces of Pancho Villa and Venustiano Carranza. He resigns and retires, to live in Queens, in NYC. 
+
+But then the revolutionaries start fighting each other. So now you have Villa fighting Carranza. And Wilson decides to support Villa. But with US Marines in Veracruz, ironically that becomes a safe haven for Carranza to hide from Villa, who won’t attack it with the USMC there. Carranza’s ultimately able to defeat Villa on the battlefield, hold Mexico City, sponsor the drafting of a new Constitution in 1916, and become president in 1917.
+
+:::
+
+:::
+
+## Villista raids
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/mexico_1910s.png){width="650" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+At the start of 1915, Villa looked very successful, commanding several tens of thousands of soldiers in a well organized army. But he was repeatedly defeated by the Federales---Hollywood notwithstanding---and by the start of 1916 he had only some hundreds of irregular guerrillas. Villa’s band resumed banditry and began raiding and robbing the people who had money—including Americans, whom he was not afraid to kill, and early in 1916 he killed a number of US mining engineers when he robbed a train in Mexico. Then in the spring of 1916 he raided Columbus, New Mexico---across the border, inside the United States.
+:::
+
+:::
+
+## Raid on Columbus
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/columbus_nm.png){width="800" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Villa’s men rode across the border and at dawn robbed people in Columbus at gunpoint, including the hotel, shooting some guests; they set fire to the grocery and burned it to the ground, along with the hotel---as you see here in this photograph. They rode through town, firing indiscriminately, wounding and killing some more residents. A detachment of US soldiers mobilized and gave chase to Villa and his men, following them well into Mexico; catching up with them they killed 70-100 men, and captured 30 more, who were brought back to NM and tried---some of them hanged. It’s not clear why Villa did this, or allowed his men to do it, but it would have serious repercussions. 
+
+With the news of the Columbus raid, the president announced that the army would be “sent at once in pursuit of Villa with the single object of capturing him and putting a stop to his forays.” The army chief of staff asked for clarification; they were not policemen, he said; “do you want the United States to make war on one man? Suppose he should get into a train and go to Guatemala . . . are you going to go after him?”
+
+“Well, no, I am not.” 
+
+“That is not what you want, then. You want his _band_ captured or destroyed.”
+
+“Yes, that is what I really want.” So the expedition was sent with those orders. But the press, following the president, and the general level of publicity, still thought of it---as WR Hearst’s papers said---“GET VILLA ALIVE OR DEAD.” The deployment became known as the “punitive expedition.”
+:::
+
+:::
+
+## Pershing and the punitive expedition
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/pershing_pancho.jpg){width="600" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+The leader of the Punitive Expedition, as it came to be known, was General Jack Pershing, known as “Black Jack,” shown here (on the right) in 1913 or 1914 with, yes, Pancho Villa, whom Pershing had met in Texas then, at the time when the US was pro-Villa. 
+
+Pershing had about 4800 men, whom he led on horseback into Mexico; eventually he had more like 10,000. They began to comb Chihuahua, for which they were poorly prepared. Although the days were warm, the nights were freezing, and they had no warm clothes. 
+:::
+
+:::
+
+## The "well-named" Punitive Expedition
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/punish.png){width="450" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+As you can see, the general view was that the Americans might be the ones getting punished. They marched for three weeks, found the Villistas at Guerrero, attacked and killed some dozens of them. But Villa himself escaped. He later claimed he had watched them ride into Guerrero from a distance, listening to them sing as they went.
+
+The soldiers could only take what they could carry. They had plenty of cash, and bought supplies as they could, but they couldn’t always find what they needed. 
+
+Meanwhile, there were further Mexican raids into US territory---at Glenn Springs, and Boquillas, Texas. Nobody was ever quite sure who did them---whether they were related to Villa or independent.
+
+Eventually, the actual Mexican government, now led by Venustiano Carranza, got tired of the US being in Mexico, they sent word they had to leave. Pershing wouldn’t. Carranza sent troops, and in June the Mexicans attacked. The US army were routed by Mexican cavalry; the US sustained heavy casualties, then broke and ran. 
+
+The expedition was withdrawn in February 1917.
+:::
+
+:::
+
+## An education, maybe
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/trucks.png)
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Now it is possible the US army learned some things from its Mexican mission. It got used to moving large numbers of troops by trucks; it got used to using airplanes; thousands of troops were moved and maneuvered in open fields. But there is no question that it was humiliated.
+
+Meanwhile, Villa continued his raiding, and recruiting. He had been down to some hundred; by the fall he was up to some thousands again. By the next year the US army would be busy in France. 
+
+:::
+
+:::
+
+## Industrial equipment
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/copper.jpg)
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+In the end, though, the US could not invade Mexico, nor could Mexico pry itself away altogether from the US. 
+
+In 1914 the US army had drawn up plans for a Mexican invasion, which they estimated would take about 350k men. At that time, the active duty personnel of the US army---over the entire world---was about 98,500. So it was simply too tall an order for the US army to invade Mexico---let alone occupy it. 
+
+At the same time, neither the Villistas nor the Federales had the ability to take the important industries away from their American operators. They could take them from their owners---they could ride into a mining town and scare off or kill the engineers, and seize the premises; perhaps, as in this picture, they belonged to Asarco, a massive, AZ-based copper-mining company. But they lacked the skill or knowledge to run the machines, particularly the smelters. They tried, and couldn’t do it. The US wouldn’t allow the importation of unsmelted ore. So a combination of technology, trade policy, and the customs service kept the smelters, and thus the copper mines, valuable only to their US owners. Same with oil:
+
+:::
+
+:::
+
+## A market for US equipment
+
+```{r echo=FALSE}
+library(tidyverse)
+library(ggtext)
+library(scales)
+library(showtext)
+font_add(family = "Lydian", regular = "lydian__.ttf")
+font_add_google(name = "Public Sans", family = "Public Sans")
+font_add(family = "PostAmt", regular = "postamt.ttf")
+tibble(year=seq(as.Date("1900-12-31"), as.Date("1929-12-31"), "years"), thou_dol_29 = c(73,79,123,167,219,396,654,725,263,243,322,320,268,285,221,107,77,297,715,1369,3762,2973,641,372,545,588,481,350,421,490)) -> us_mex
+
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", color = "midnightblue"),
+      plot.title = element_markdown(family = "PostAmt", color = "khaki4", margin = margin(5,5,5,5)),
+      plot.title.position = "plot",
+      plot.caption = element_markdown(size = rel(0.5)),
+      panel.background = element_rect(fill = "antiquewhite1", color = "antiquewhite1"),
+      plot.background = element_rect(fill = "floralwhite", color = "floralwhite"),
+      plot.margin = margin(t = 10, r = 10, b = 10, l = 10),
+      legend.text = element_text(family = "Lydian", color = "chocolate4"),
+      axis.text = element_text(margin = margin(2,2,2,2)),
+    axis.title.y = element_text(angle = 90, margin = margin(2,2,2,2)),
+    axis.line = element_line(color = "chocolate4"),
+    axis.ticks = element_line(color = "chocolate3"),
+    axis.ticks.length = unit(1, "mm"),
+    legend.position = "inside",
+    legend.justification.inside = c(0.05, 0.98)
+    )
+)
+us_mex |>
+  ggplot() +
+  geom_line(aes(x = year,
+                y = thou_dol_29),
+            color = "darkorchid4",
+            linewidth = 1) +
+  scale_y_continuous(labels = label_comma()) +
+  labs(
+    y = "Thousands of 1929 USD",
+    caption = "Chart made using R and ggplot by Eric Rauchway with data from Haber, Maurer, and Razo, \"When the Law Does Not Matter,\" _Journal of Economic History_ (2003), 28.",
+    title = "Petroleum pumps and pumping equipment exported from the US to Mexico"
+  )
+  
+```
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Mexico didn't have any pumping equipment of its own; it had to import it all and the bulk of it came from the United States. As you can see here, the revolution was bad for business; it interrupted the rail lines and generally made it difficult to gain access to the petroleum fields. But with the revolutionary situation resolved, US investment resumed (note, it's not the Great War that's interrupting investment; it shoots up even during the war).
+:::
+:::

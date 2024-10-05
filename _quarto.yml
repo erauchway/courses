@@ -2,15 +2,12 @@ project:
   type: website
   output-dir: docs
 execute: 
-  freeze: true
-  echo: false
-
+  freeze: auto
 website:
   title: "current courses"
   navbar:
     right:
       - about.qmd
-      
 format:
   html:
     theme: theme.scss

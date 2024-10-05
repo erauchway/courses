@@ -1,0 +1,631 @@
+---
+title: Great War, 1914--1918
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 4, 2024 
+draft: FALSE
+categories:
+  - HIS 187
+---
+
+```{r, echo=FALSE}
+library(rnaturalearth)
+library(cshapes)
+library(tidyverse)
+library(haven)
+library(sf)
+(sf_use_s2(FALSE))
+library(ggtext)
+library(ggspatial)
+library(scales)
+library(grafify)
+library(showtext)
+font_add(family = "Lydian", regular = "lydian__.ttf")
+font_add_google(name = "Public Sans", family = "Public Sans")
+font_add(family = "PostAmt", regular = "postamt.ttf")
+target_crs = ("+proj=eqearth +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs")
+ne_download(scale = 50, category = "physical", type = "land") |>
+  st_transform(crs = target_crs) -> rland
+ne_download(scale = 50, category = "physical", type = "lakes") |>
+  filter(scalerank == 0) |>
+  st_transform(crs = target_crs) -> rlakes
+cshp(date = as_date("1914-09-01"), useGW = TRUE, dependencies = TRUE) |>
+  add_row(country_name = "Andorra", gwcode = 232, owner = "232", geometry = st_geometry((read_sf("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/andorra.geojson"))))  |>
+  mutate(owner = as.numeric(owner)) |>
+  mutate(empire = case_when(
+    owner == 2 ~ "USA",
+    owner == 200 ~ "UK",
+    owner == 220 ~ "France",
+    owner == 210 ~ "Netherlands",
+    owner == 255 ~ "Germany",
+    owner == 325 ~ "Italy",
+    owner == 211 ~ "Belgium",
+    owner == 230 ~ "Spain",
+    owner == 640 ~ "Ottoman", 
+    owner == 365 ~ "Russia",
+    owner == 235 ~ "Portugal",
+    owner == 390 ~ "Denmark",
+    owner == 740 ~ "Japan",
+    TRUE ~ NA
+      )
+    ) |>
+  mutate(empire = case_when(
+    country_name == "Canada" |
+      country_name == "Australia" |
+      country_name == "New Zealand" |
+      country_name == "South Africa" ~ "UK",
+    TRUE ~ empire
+  )) |>
+  mutate(empire_ord = factor(empire, levels = c(
+    "Belgium", "Denmark", "France", "Germany", "Italy", "Japan", "Netherlands", "Ottoman", "Portugal", "Russia", "Spain", "UK", "USA", ordered = TRUE
+  ))) |>
+  st_transform(crs = target_crs) -> borders_14
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", color = "midnightblue"),
+      plot.title = element_markdown(family = "PostAmt", color = "khaki4", margin = margin(5,5,5,5)),
+      plot.caption = element_markdown(size = rel(0.5)),
+      panel.background = element_rect(fill = "aliceblue", color = "aliceblue"),
+      plot.background = element_rect(fill = "floralwhite", color = "floralwhite"),
+      plot.margin = margin(t = 10, r = 10, b = 10, l = 10),
+      legend.text = element_text(family = "Lydian", color = "chocolate4")
+    )
+)
+my_cap = "Map made using R, ggplot, and sf by Eric Rauchway with data from Natural Earth and CShapes; color palette slightly modified from grafify."
+my_kel = c("#F3C300", "#875692", "#F38400", "#A1CAF1", "#BE0032", "#8DB600", "#C2B280", "#848482", "#008856", "#e68fac", "#0067a5", "#f99379", "#882d17")
+
+
+```
+
+```{r, echo=FALSE}
+ggplot() +
+  geom_sf(data = rland, fill = "antiquewhite", color = "burlywood3") +
+  geom_sf(data = st_buffer(borders_14, -6000), linewidth = 0.6, fill = NA, color = alpha("burlywood3", 0.4)) +
+  geom_sf(data = st_buffer(st_union(st_make_valid(rland)), 6000), linewidth = 0.4, fill = NA, color = alpha(c("lightblue"), 0.7)) +
+  geom_sf(data = borders_14, aes(fill = empire_ord), alpha = 0.7, color = NA) +
+  scale_fill_manual(values = my_kel, na.value = "antiquewhite") +
+  geom_sf(data = rlakes, fill = "aliceblue", color = NA) +
+  geom_sf(data = st_buffer(rlakes, -6000), linewidth = 0.1, fill = NA, color = alpha(c("lightblue"), 0.7)) +
+  labs(
+    fill = "", 
+    color = "",
+    title = "The world at 1914, showing colonial powers and possessions",
+    caption = my_cap
+  ) +
+  theme(
+    legend.justification.inside = c(0.05, 0.1)
+  ) +
+  guides(fill = guide_legend(ncol = 3, position = "inside")) -> p
+
+
+ggsave("~/Desktop/world_14.png", bg = "floralwhite", height = 7, width = 13.5, dpi = "retina")  
+```
+
+
+## Previously
+
+:::{.v-center-container}
+- North American expansion
+- Monroe Doctrine
+- Open Door
+- Insular colonialism
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.notes}
+As you will I hope remember, we've looked at US foreign policy coming out of the nineteenth century as it might have related to the expansion across the North American continent, and also as it related to the continued expansion of European colonial powers over the globe. We've taken a look at the Monroe Doctrine, at the Open Door, and at the US's own colonial policy in the Philippines. You should know how these policies fit together, and how they were distinct from each other. You should be able to talk about how they used various parts of the US military.
+
+And you should know, because I said it at the close of the previous lecture, that none of them particularly anticipates the effect of the Great War, or the US role in it.
+::::
+:::
+
+## {data-menu-title="The world at 1914"}
+
+
+:::{.v-center-container}
+```{r, echo=FALSE, fig.height=7, fig.width=13}
+p
+```
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.notes}
+So this is the world before the Great War. A world divided, largely, into empires. Britain was the biggest and oldest, the French a bit behind. The Americans focused on trading to the West, across the Pacific Ocean to Asia. Japan is a regional power, though how big that region will be remains to be seen. The Russians also want influence in Asia and specifically, warm water ports there, and also in Europe; they have designs on Constantinople.
+
+The United States has been frustrated in its aims; it is not the only country---so, despite its rapid expansion into Africa, has Germany. 
+
+The United States was, at this time, about 92m people---at this size it's about the same population as France and its empire; somewhat larger than Germany and its empire, at around 70m, and much smaller than Britain and its empire, at around 400m. Russia would have been somewhere in the vicinity of 160m people.
+
+The nature of these empires is, as we've discussed, mostly to produce more---the United States is a bit of an exception there, as we've said.
+::::
+:::
+
+## Industrial development
+
+:::{.v-center-container
+
+```{r, echo=FALSE, fig.height = 6, fig.width=12}
+read_dta(file="https://dataverse.nl/api/access/datafile/421303") |>
+  filter(countrycode == "USA" |
+           countrycode == "GBR" |
+           countrycode == "DEU" |
+           countrycode == "FRA" |
+           countrycode == "RUS" |
+           countrycode == "JPN") |>
+    filter(year > 1870 & year < 1914) |>
+  select(c(countrycode, country, year, gdppc)) |>
+  drop_na() -> mad_gpc
+
+mad_gpc |>
+  ggplot() +
+  theme(
+    axis.text = element_text(margin = margin(2,2,2,2)),
+    axis.title.y = element_text(angle = 90, margin = margin(2,2,2,2)),
+    axis.line = element_line(color = "chocolate4"),
+    axis.ticks = element_line(color = "chocolate3"),
+    axis.ticks.length = unit(1, "mm"),
+    legend.position = "inside",
+    legend.justification.inside = c(0.05, 0.98),
+    panel.background = element_rect(fill = "antiquewhite1", color = "NA")
+  ) +
+  geom_line(aes(x = year, y = gdppc, color = countrycode),
+            linewidth = 1) +
+  scale_y_continuous(labels = comma) +
+  scale_color_grafify(palette = "r4") +
+  labs(
+    color = "",
+    title = "GDP per capita, 1871--1914, selected countries",
+    caption = "Chart made with R and ggplot by Eric Rauchway with data from Maddison Project Database, version 2023 by Jutta Bolt and Jan Luiten van Zanden.",
+    y = "GDP per capita (2011 USD)"
+  )
+```
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.notes}
+Although the United States might not be particularly successful in acquiring or managing an empire for itself, as you can see here there's a lot of potential; US productivity outstrips that of most other modernizing nations. This is the result of bringing the riches of the West into the US economy, turning that hinterland into the raw material-producing area for the industrial economy of the US northeast. As you already know, that project results in large measure from the effective use of the professional US army. It also results in large measure from European investment in the United States---the banks of Britain and Germany, in particular, plowing money into the enclosure and extraction of the US West. And that is the nature of US economic success in the early c20---not becoming an empire, either to seek raw materials or consumers, but making a landed empire within what become the borders of the United States.
+::::
+
+:::
+
+## A small military establishment
+
+:::{.v-center-container}
+
+```{r, echo=FALSE}
+read_csv("https://correlatesofwar.org/wp-content/uploads/NMC_v4_0.csv") |>
+  filter(ccode==2 & year>1863 & year <1914) -> usmilper
+
+usmilper |>
+  ggplot() +
+  theme(
+    axis.text = element_text(margin = margin(2,2,2,2)),
+    axis.title.y = element_text(angle = 90, margin = margin(2,2,2,2)),
+    axis.line = element_line(color = "chocolate4"),
+    axis.ticks = element_line(color = "chocolate3"),
+    axis.ticks.length = unit(1, "mm"),
+    legend.position = "inside",
+    legend.justification.inside = c(0.05, 0.98),
+    panel.background = element_rect(fill = "antiquewhite1", color = "NA")
+  ) +
+  geom_line(aes(x = year, y = milper), color = "khaki4",
+            linewidth = 1) +
+  scale_y_continuous(labels = comma, breaks=breaks_pretty(n = 8)) +
+  labs(
+    color = "",
+    title = "US military personnel, 1864--1913",
+    caption = "Chart made with R and ggplot by Eric Rauchway with data from Correlates of War.",
+    y = "Military personnel (000s)"
+  )
+```
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+At the same time, the United States isn't much, militarily speaking. You can clearly see here the peak I described last time, in terms of men in uniform, at the end of the Civil War, then the fairly abrupt reduction to the post-war levels and the professional military of the late c19. Then you can see a spike for the Spanish American War, and then a drop---but not quite to pre-war levels because of course the United States was fighting the Philippine wars and also getting more accustomed to an ongoing military mobilization, although still at quite-low levels.
+:::
+
+:::
+
+## {data-menu-title="League table"}
+
+| Nation | 1910 army |
+| :--- | ---: |
+| Russia	| 1,400,000 |
+| China	| 1,000,000 |
+| Germany	| 670,000 |
+| France	| 650,000 |
+| Britain | 370,000 |
+| Austria	| 320,000 |
+| Turkey	| 320,000 |
+| Japan	| 280,000 |
+| Italy	| 250,000 |
+| Ethiopia	| 150,000 |
+| USA	| 140,000 |
+| Spain	| 140,000 |
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.notes}
+You can see here the relative power, or otherwise, of the US army on the eve of the Great War.
+::::
+:::
+
+
+## William Jennings Bryan
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/bryan.png){width="50%" fig-align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Loser, pacifist. It's at this point that the official position of the Wilson administration is that the United States is above combat—"too proud to fight," the president will say.
+
+In August of 1914, the Morgan Bank tried to make a loan to the Allies, and Bryan’s State Department issued a statement saying, 
+“loans by American bankers to any foreign nation which is at war is [sic] inconsistent with the true spirit of neutrality”
+
+Not long after that, he wrote in his own monthly paper, The Commoner, “money is the worst of contrabands—it commands all other things.”
+
+But as time went on, more and more Americans traded with the Allies, in particular. Exports far outstripped imports. By March of 1915, Morgan wanted to extend $50m in commercial credits to France, and was allowed to do so.
+:::
+
+:::
+
+## Defining neutrality
+
+:::{.callout-tip appearance=minimal .v-center-container}
+loans by American bankers to any foreign nation which is at war is [sic] inconsistent with the true spirit of neutrality
+
+:::{.flushright}
+US State Department, 1914
+:::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+In August of 1914, the Morgan Bank tried to make a loan to the Allies, and Bryan’s State Department issued a statement saying, 
+“loans by American bankers to any foreign nation which is at war is [sic] inconsistent with the true spirit of neutrality”
+
+Not long after that, he wrote in his own monthly paper, The Commoner, “money is the worst of contrabands—it commands all other things.”
+
+But as time went on, more and more Americans traded with the Allies, in particular. Exports far outstripped imports. By March of 1915, Morgan wanted to extend $50m in commercial credits to France, and was allowed to do so.
+:::
+:::
+
+
+## Geostrategy
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, fig.height = 7, fig.width = 7}
+disp_win_wgs84 <- st_sfc(st_point(c(-8,34)), st_point(c(35, 64)), crs = 4326)
+disp_win_trans <- st_transform(disp_win_wgs84, crs = target_crs)
+disp_win_coord <- st_coordinates(disp_win_trans)
+
+
+p +
+  coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = TRUE) +
+  theme(legend.position = "none") +
+  labs(
+    title = "Europe at 1914"
+  ) -> q
+
+q
+```
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Okay, now let’s remember the role of the navies in the geography of a war between Britain and Germany. The Germans have a geographical problem, which is that their ports are all on the Baltic or the North Sea. There’s a canal going through the middle of the Jutland peninsula, the Kiel Canal. In the years before the war, the Germans widened this canal so it can accommodate Dreadnought-class battleships. Which means their fleet can pretty quickly sail from the Baltic to the North Sea and back—but the North Sea, as you can see, has only two exits to the Atlantic Ocean. One is through the English Channel, and since the English Channel is bordered by France and Britain, and is somewhere between 20 and 112 miles wide, it’s a passage the Allies can pretty easily deny to the German Navy. Which leaves the Northerly route. You can see up here that sailing out to the Atlantic might be possible there, if you go past Norway—but even still, Britain is in your way. At the very northerly tip of Scotland, we have the Orkney and the Shetland islands. And in the Orkney Islands is the harbor of Scapa Flow, where the British have stationed their Grand Fleet, with the intention of keeping up a blockade against Germany. 
+
+In September 1914, the British declare all of the North Sea a war zone, which means that they’re blockading Germany here. 
+
+:::
+:::
+
+## The Declaration of Paris (1856) and the rules of blockade
+
+:::{.v-center-container}
+
+- really effective force
+- stop and search
+- ships carrying contraband may be captured or
+- sunk after permitting passengers to disembark
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+The end of the Crimean war. So this means a warship encountering a neutral vessel is meant to hail them, stop them, send a small party aboard to search. “Contraband” is pretty well defined in law, and though there are some complexities, broadly it means materiel that is specifically, directly for use in fighting a war. Weapons, ammunition, tanks, airplanes, all that sort of thing. Many other items that are not officially contraband are nevertheless of great aid to a belligerent nation—food, hides to make leather, and so forth. But that’s not supposed to get stopped. Now, a blockade crew may well find that the neutral ship’s captain isn’t all that accommodating, in which case they’re supposed to take the ship to a nearby port so a naval “prize court” versed in the laws of war can determine the disposition of the crew.
+
+*IF* none of that is possible, you can sink it, but only if you let everyone get off the ship. So here’s the thing. If you do all this, you’re kind of obviating the use of a submarine. The whole point of a submarine is to be sneaky, for its position not to be known. And it’s very small. So if it surfaces, people know where it is, and a merchantman can radio out to a destroyer or cruiser to come and blow up the sub. Also, if it’s to stop a contraband-carrying ship, it can’t really let the passengers off, because it’s got nowhere to put them. 
+
+With the declaration of the British blockade in September 1914, and the passage of a few months without the war ending, the Germans face the question of what they are going to do. If the British are going to try to starve the Germans, the reasoning goes, why shouldn’t the Germans try to return the favor.
+:::
+
+:::
+
+## Asymmetric blockades
+
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+
+```{=revealjs}
+<video muted width="1000" loop>
+<source src="../media/u-boat.mov">
+</video>
+```
+
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+The British have the big navy and are playing by the rules; the Germans don't and aren't, and rely instead on the U-boats. With the German declaration of February, the U-Boats are unleashed on all British-flagged ships. That means that the fate of British ships is down to whether a U-Boat captain spots them, and competently fires a torpedo at them. The Germans have officially decided that there will be no legal protection for the citizens or the property of neutral nations. 
+
+Woodrow Wilson declared in February that the US would hold any belligerents to “strict accountability” for any loss of American life. He also tried to steer a middle course between Germany and Britain, as the US wished to continue trade with both nations; as we’ve seen, the US was culturally and commercially connected to both and there was no official desire to side firmly with one against the other, nor any widespread public consensus. 
+
+Privately, American firms were profiting substantially by sending armaments to Britain and France in defiance of the blockade. German intelligence were able to tell: there was identifiably American ammunition in use on the western front, and captured French artillery officers referred to their stores of US-made ammunition. The effort to conceal contraband in American cargo had reached considerable proportions by early 1915, for cargo bound for both Britain and Germany; British blockade crews even recorded an instance of discovering contraband bound for Germany concealed inside rubber onions, which they found only when one of the onions fell and bounced on the deck.
+:::
+
+:::
+
+## Sailing of the *Lusitania,* 1915
+
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+```{=revealjs}
+<video muted width="1000" loop>
+<source src="../media/lusitania_sails.mov">
+</video>
+```
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+The ocean liner *Lusitania,* a passenger ship owned by the Cunard line, sailing from New York. 
+	This was an enormous vessel—785 feet long, with four funnels. At the time she was built, in 1907, she was half again as large as any vessel built to date. Her hull was made of high-tensile steel, and she had electric controls for steering, for closing the watertight compartments, and for fire detection. She made an average speed of about 23 knots, which is nautical mph, which is a lot for a vessel that big. And it was a luxury ship, with multiple-room apartments for the first-class passengers. The *Lusitania’s* capacity was 540 first-class passengers, 460 second-class, and 1200 third-class, with a crew of 850. If you walked around the Promenade Deck, you had gone more than a quarter-mile for exercise. The dining room was done in white with gilt edges, in a Louis XVI style; the smoking room was done in dark walnut paneling and had a stained-class dome. Even the third-class passengers had public areas in which to relax; Cunard recognized that this was actually a major profit center, with many millions of immigrants admitted to the US in the years leading up to the First World War. 
+	Moreover, on the eve of the war, Cunard had surpassed one of its principal rivals, White Star: Cunard had, in about half a century of operation, never lost a passenger. In 1912, White Star’s great ship *Titanic* had sunk on its maiden voyage. 
+	Not only was *Lusitania* extremely conspicuous in every way, but reports had reached German intelligence that she was carrying ammunition concealed in barrels of flour in her hold. 
+:::
+
+:::
+
+## Sinking of the *Lusitania,* 1915
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/lusitania_nyt){fig-align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+*Lusitania* neared the British Isles in a thick fog, making slow progress. U-20 followed it on the surface, taking advantage of the fog and keeping its batteries charged. Schwieger took a shot at it at around 2pm on May 7. Some passengers on deck actually saw the torpedo coming, and said, “My God, we are lost.” The initial explosion of the torpedo was followed by a much larger explosion. On board, and for a time afterward, people said it was a second torpedo, but we now know it was the ammunition in the hold going up. The ship sank in slightly less than twenty minutes. Only one of the lifeboats on the portside got away without being capsized or swamped; at least one was dropped as you see in the film here. A great many people drowned or were crushed as the ship went down—more than 1200. On the U-Boat, Captain Schwieger and his crew were able to see the lettering, Lusitania, so they knew the ship they had got. They did not fire again: “it would have been impossible for me to fire a second torpedo into this crushing crowd of humanity trying to save their lives,” Schwieger wrote. The radio operator wrote that it was “not pretty.” 
+
+The sinking created a shock in the US and Britain, particularly. But the nature of the final reaction was not yet clear. Under pressure from an indignant press, President Wilson composed a message condemning Germany. But this feeling was not universally shared within his cabinet. His Secretary of State, William Jennings Bryan, urged him simultaneously to condemn Britain’s blockade. Wilson said no. Bryan accused the cabinet, saying, “You people are not neutral, you are taking sides.” Bryan decided he had to resign.
+:::
+
+:::
+
+
+## The *Lusitania* demarches, 1915--1916
+
+:::{.content-visible when-format="revealjs"}
+
+
+:::{.callout-tip appearance=minimal .v-center-container}
+
+Unless the Imperial Government should now immediately declare and effect an abandonment of its present methods of submarine warfare . . . the United States can have no choice but to sever diplomatic relations with the German Empire. . . . 
+
+:::{.flushright}
+US ultimatum; April 18, 1916
+:::
+
+[act in ] accordance with the general principles of visit and search
+
+:::{.flushright}
+German response; May 4, 1916
+:::
+
+:::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Wilson's administration continued to try to steer a neutral course, condemning the British blockade as well. Germany offered to respect US-flagged vessels, but this was inadequate. In August, Germany sank another liner, White Star's *Arabic,*_* killing two more Americans, making the diplomacy more difficult. 
+:::
+
+:::
+
+
+## Geostrategy reconsidered
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+
+```{r, fig.height=7, fig.width=7}
+q
+```
+
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+The trouble was, the basic picture was unchanged. Between the summer of 1916 and early 1917, the stalemate continued on the Western Front and Germany was unable to break it. Woodrow Wilson won re-election to the presidency in 1916, largely for the diplomatic successes---he had threaded the needle of keeping American pride up and also keeping the nation out of war. He had also spent the year lobbying for an increased army and navy, in the name of "preparedness."
+:::
+
+:::
+
+## {data-menu-title="League table 2"}
+
+| Nation | 1910 army |
+| :--- | ---: |
+| Russia	| 1,400,000 |
+| China	| 1,000,000 |
+| Germany	| 670,000 |
+| France	| 650,000 |
+| Britain | 370,000 |
+| Austria	| 320,000 |
+| Turkey	| 320,000 |
+| Japan	| 280,000 |
+| Italy	| 250,000 |
+| Ethiopia	| 150,000 |
+| USA	| 140,000 |
+| Spain	| 140,000 |
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+The Germans were meanwhile thinking about this picture; as one German naval official put it, the Americans from a military point of view mean nothing.
+
+It was with that thought in mind that they decided to roll the dice on resuming the blockade against Britain.
+:::
+
+:::
+
+## German strategy, early 1917
+
+
+::::{.v-center-container}
+- January: resumption of unrestricted submarine warfare
+- February: Zimmermann telegram
+- March: U-boats sink three US ships without warning; *Vigilancia,* *City of Memphis,* and *Illinois.* Then three more.
+- April: US declaration of war
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+
+Wilson's cabinet doesn't meet to decide on war until the overt acts of *Vigilancia, City of Memphis,* and *Illinois.* Then three more get sunk before Congress votes—another actually was sunk, but not reported until after the vote.
+
+And then, of course, there is a long wait while the United States ramps ups its armaments to enter the war. During that time, the German strategy is nearly successful. 
+:::
+
+:::
+
+## The threshold of [German] victory
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, fig.height=7, fig.width=7}
+read_sf("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/b-l.line.geojson") |>
+  st_transform(crs = target_crs) -> bl
+
+q +
+  geom_sf(data = bl, color = "indianred") +
+  coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = TRUE)
+```
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+German military dictatorship; new party---the German Fatherland Party, or Deutsche Vaterlandspartei. It supported a peace with territorial gain, and national strengthening. They were going to have peace, all right, but only with victory and taking parts of Poland, France, Belgium, Luxembourg, and Lithuania. This right-wing movement was heavily funded by businessmen, especially the industrialists of the Rhineland, but it was also popular---had 1.25m members.
+
+So this was now a war not only against the Allies, but also against the internal enemy—the lazy striking workers, the communists, the socialists, the liberals. It meant they needed a victory to show the strength that would hold the country together.
+
+As with so many episodes in the First World War, this one is obviously prelude to events of the Second.
+
+So too is the situation in the East, treaty line of Brest-Litovsk. 44 divisions to the West, bringing Germans up to nearly 200, as against British 58 and French 100. Series of attacks. Within sight of Paris.
+
+US troops on the southeast of the line, St. Mihiel; then join broader assault in September. Austrian armistice, 11/3; abdication of the Kaiser, 11/9; German armistice, 11/11.
+
+:::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+# Quiz
+
+## 1. On the eve of World War I, the US had a modern navy and a(n) ____ army.
+
+:::{.v-center-container}
+a) million-man
+b) large and combat-ready
+c) entirely conscript
+d) small and professional
+e) almost wholly immigrant
+:::
+
+## 2. Before World War I, US per capita GDP had ____________ other nations'.       
+:::{.v-center-container}
+  a) exceeded
+  b) enveloped
+  c) fallen below
+  d) regressed to the mean of
+  e) encircled
+:::
+
+## 3. William Jennings Bryan's preferred foreign policy going into World War I was one of strict
+
+:::{.v-center-container}
+  a) neutrality
+  b) interventionism
+  c) multilateralism
+  d) tariffs
+  e) adherence to the gold standard
+:::
+
+
+## 4. Germany secured Russian territory with the treaty of  
+
+:::{.v-center-container}
+  a) Versailles
+  b) Aix-la-Chapelle
+  c) Saint-Germain
+  d) Brest-Litovsk
+  e) Portsmouth
+:::
+
+## 5. The proximate cause for US entry into World War I was  
+
+:::{.v-center-container}
+  a) Germany's declaration of submarine warfare
+  b) the interception of the Zimmermann note
+  c) the publication of the Zimmermann note
+  d) the sinking of US ships
+  e) the attack on Pearl Harbor
+:::
+
+:::
