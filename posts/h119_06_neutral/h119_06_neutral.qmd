@@ -1,0 +1,300 @@
+---
+title: Neutral Zones
+draft: TRUE
+subtitle: History of World War I
+author: 
+  - Ian Campbell and Eric Rauchway
+date: 2024-10-09
+footer: "HIS 119"
+categories:
+  - "HIS 119"
+format:
+  revealjs:
+    theme: dark
+title-slide-attributes: 
+  data-notes: "In our previous lecture, Ian spoke about the development of population politics in this war, and the way that the violence at the front, the involvement of civilian populations, led to the racialization of the enemy in many cases. To some extent this is intrinsic in the character of a total war. As I mentioned in the earlier part of the course, if you want to mobilize a population, you have to find some way to appeal to some larger sense of duty or affiliation, and this is what nationalism is for. Today we're going to look a little more at nationalism as a motivator, and at two theaters in the war where, as we will see, it isn't absolute—or rather, it isn't absolute yet. At the Western Front, at the end of 1914, and in the United States of America at around the same time."
+---
+
+## British mobilization, 1914
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/kitchener.png){width="400"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Here's an example of that. In the week before the war, in Britain, there were immense rallies against war. And yet, two days later, British public opinion seemed entirely to support war, to have turned on a dime, because of the German announcement that they would invade Belgium and violate its neutrality. It doesn’t really seem terribly rational. Indeed, Britain didn’t even implement conscription right away, so great was the enthusiasm for war. One million British men entered the army between August and December of 1914, and the recruitment offices were overwhelmed. By 1914, something like 2.4m Britons had volunteered, which is 30 percent of British men in the eligible age group. This depends on the creation of an image of the war, and an image of Britain in the war, as protecting the rights of a victimized nation against the brutality of the enemy.
+
+There’s a tremendous emotional investment in the war. Much the same is true in France, in Austria-Hungary, in Germany—again, as Ian suggested before, the Germans also have a sense of themselves as victimized—by the unfair actions of the sinister and savage Belgian francs-tireur.
+:::
+
+:::
+
+## Propaganda
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/propaganda.png){width="850" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Part of this enthusiasm is driven by propaganda, about which we’ll have much more to say as we go. But have a look here at a couple of bits of artwork from the time. On the left, you have a German illustration that is pro-German. On the right you have a British illustration that is anti-German. Both of these are extreme, in their way; all good or all horrible. Now, at one level this stuff influences some people as it’s meant to: they think it’s true, that the Germans are wonderful. Though the Germans know they are not wonderful. Or they think it’s true, that the Germans are all horrible. But just as the British know they are not all wonderful, they may suspect the Germans cannot all be horrible.Part of this enthusiasm is driven by propaganda, about which we’ll have much more to say as we go. But have a look here at a couple of bits of artwork from the time. On the left, you have a German illustration that is pro-German. On the right you have a British illustration that is anti-German. Both of these are extreme, in their way; all good or all horrible. Now, at one level this stuff influences some people as it’s meant to: they think it’s true, that the Germans are wonderful. Though the Germans know they are not wonderful. Or they think it’s true, that the Germans are all horrible. But just as the British know they are not all wonderful, they may suspect the Germans cannot all be horrible. It is not that they aren't skeptical, it is that they have lost the ability to be skeptical. And so they are willing to join up to kill the enemy. But at the same time …
+:::
+
+:::
+
+## Princess Mary Box, UK, 1914
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/princess.png){width="1000" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+This was a Princess Mary Box, which the royal family started in 1914, named for the granddaughter of the Prince of Wales, who backed a public fund to send gift boxes to British soldiers at the front for Christmas. They began planning them in October and were able to ship more than 2.6 million of them. The original idea was, as Mary’s appeal letter said, “a Christmas present from the whole of the nation to every sailor afloat and every soldier at the front.” The original idea was to send an ounce of pipe tobacco, a pipe, twenty cigarettes, a lighter, a Christmas card, and a photograph. Early on someone suggested that not every serviceman was a smoker, and so they decided on a packet of writing paper for non-smokers. Sikhs would get sugar candy, and spices. Nurses got chocolate. 
+:::
+
+:::
+
+## Tannenbaum
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/tannenbaum.png){width="450" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+On the other side, the German government permitted sending of small Christmas trees, like the one you see here in the center, to the front for use in the trenches. (You can see the guy on the right has an accordion, and the guy on the left is using a stick to conduct the soldiers in singing Christmas songs.) German newspaper reporting reflected the Christmas spirit, using the clichéd language of war reporting: “Yesterday about four-o’clock in the afternoon there was a fierce and terrible onslaught of Christmas packages onto our trenches. No man was spared.… One man had the great misfortune of having a full bottle of cognac fly into his mouth.”
+
+On Christmas eve, the sound of singing, particularly “Stille Nacht,” drifted across no man’s land. British soldiers reported seeing the small trees and lights. A number of soldiers hung out signs saying “Merry Christmas.” 
+
+At this point, nobody knows quite what to do. This is not an officially licensed procedure in the laws of war, or in the understanding of the commanding officers. Eventually, at various points along the line, someone would take it on himself to wave his arms and request to talk; someone from the other side might come out to meet him in between, and they would talk about not shooting each other on Christmas Day. In many places they agreed to use the day to bury the dead who lay in no man’s land. 
+:::
+
+:::
+
+## Football in no-man's land
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/football.png){width="450" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+The highlight of such informal truces were football, or as we would call them, soccer games—there are at least three known instances of these occurring, if not official regulated matches then kicking the ball around.
+:::
+
+:::
+
+## Photographed together
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/football_news.png){width="1000" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+And this was reported in the press at the time. It cut against the pre-war propaganda, the reports of atrocities, the demonization of the enemy, the idea of nationalism and of total war. 
+
+"Still looking and dreaming, my eyes caught a flare in the darkness. A light in the enemy’s trenches was so rare at that hour that I passed a message down the line. I had hardly spoken when light after light sprang up along the German Front. Then quite near our dug-outs, so near as to make me start and clutch my rifle, I heard a voice. There was no mistaking that voice with its guttural ring. With ears strained, I listened, and then, all down our line of trenches there came to our ears a greeting unique in war: ‘English soldier, English soldier, a merry Christmas, a merry Christmas!’”
+
+That’s a British Private, Frederick Heath. 
+
+Now, it wasn’t necessarily unique, but it reflected an odd part of warfare. Quite often, in these mass mobilizations that then produce stalemate, there is less an attitude of continuous attrition on the part of the soldiers than an idea of “live and let live.” There was at least one instance of a set of trenches that were so close to each other that the soldiers on opposite sides would let each other repair barbed wire in between, without attempting to kill each other. This practice of course ran entirely opposite to the principles and aims of the war, and frequently had to be countered by orders from higher up. In the case of the Christmas truce, generals in the British and French armies as well as the Kaiser himself ordered that there should be no recurrence—and, of course, there was not, then, on New Years’.
+
+The truce spirit was not universal. Some soldiers declined the truce. Others actually fired. Even in cases where there was a truce, the soldiers were supposed to stay far away from each others’ trenches, and some went too close, and were taken prisoner. 
+
+Even so, there were numerous reported instances of a truce that Christmas, of soldiers on opposing sides joining to bury the dead, and so forth. To some extent, the truce indicates the thinness of the desire for war. That’s true in the trenches; it’s even truer back in the United States.
+:::
+
+:::
+
+## Another neutral zone
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+```{r, echo=FALSE}
+library(tidyverse)
+library(tinytable)
+tibble("Country of origin" = c("Germany",
+                               "Austria-Hungary",
+                               "Russia",
+                               "Ireland",
+                               "England",
+                               "France"),
+       "Number of Foreign-born" = c(2501333,
+                                    1670582,
+                                    1602782,
+                                    1352251,
+                                    877719,
+                                    117418)) -> forbor
+
+forbor |>
+  tt(width = 0.9) |>
+  format_tt(
+    digits = 3,
+    num_mark_big = ",",
+    num_mark_dec = "."
+  ) |>
+  style_tt(
+    j = 1:2,
+    align = "lr"
+  )
+```
+
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+If the trenches are as much a meeting place of the warring peoples, so is the United States of America.
+
+So you can see here the Central Powers count for the largest presence of European born in the US. And it’s even more stark than it appears, in terms of likely support for the Allies among immigrants; the large number of Russian immigrants is mainly Jews who are fleeing from the Tsar’s regime. So they’re not likely to support the policies of the Tsar’s government. Likewise, although Ireland is at this point part of the United Kingdom, they’re not especially keen on that fact, and so the Irish are not especially likely to support the policies of the British government. 
+:::
+
+:::
+
+## Distribution of foreign born in US
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/immig.png){width="1000" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Wilson lost California in 1912, will want it and Ohio for 1916. So there’s a profound political incentive. There’s also a cultural incentive, here. Many of these areas, particularly in those Great Lakes States, have German-speaking communities, newspapers, etc. 
+
+https://illuminations.nctm.org/Activity.aspx?id=3580; numbers from Statistical Abstracts of 1914, with Census 1910 numbers.
+:::
+
+:::
+
+## Belligerent trade
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/shipping.png){width="900" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Keynes, kind of Utopia; note this is from the postwar perspective, so if you hear a foreboding in it that’s why: What an extraordinary episode in the economic progress of man that age was which came to an end in August, 1914! The greater part of the population, it is true, worked hard and lived at a low standard of comfort, yet were, to all appearances, reasonably contented with this lot. But escape was possible, for any man of capacity or character at all exceeding the average, into the middle and upper classes, for whom life offered, at a low cost and with the least trouble, conveniences, comforts, and amenities beyond the compass of the richest and most powerful monarchs of other ages. The inhabitant of London could order by telephone, sipping his morning tea in bed, the various products of the whole earth, in such quantity as he might see fit, and reasonably expect their early delivery upon his doorstep; he could at the same moment and by the same means adventure his wealth in the natural resources and new enterprises of any quarter of the world, and share, without exertion or even trouble, in their prospective fruits and advantages; or he could decide to couple the security of his fortunes with the good faith of the townspeople of any substantial municipality in any continent that fancy or information might recommend. He could secure forthwith, if he wished it, cheap and comfortable means of transit to any country or climate without passport or other formality, could despatch his servant to the neighboring office of a bank for such supply of the precious metals as might seem convenient, and could then proceed abroad to foreign quarters, without knowledge of their religion, language, or customs, bearing coined wealth upon his person, and would consider himself greatly aggrieved and much surprised at the least interference. But, most important of all, he regarded this state of affairs as normal, certain, and permanent, except in the direction of further improvement, and any deviation from it as aberrant, scandalous, and avoidable. The projects and politics of militarism and imperialism, of racial and cultural rivalries, of monopolies, restrictions, and exclusion, which were to play the serpent to this paradise, were little more than the amusements of his daily newspaper, and appeared to exercise almost no influence at all on the ordinary course of social and economic life, the internationalization of which was nearly complete in practice.
+:::
+
+:::
+
+## Belligerent products
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/drugs.png){width="1000" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+As I mentioned before, the German chemical and pharmaceutical industry was probably the foremost in the world, and its products, as those of the Bayer company, were to be found all over the world, including in the US. These included not only aspirin, with which you’re probably familiar, but other kinds of drugs, including the excellent “sedative for coughs,” heroin. 
+:::
+
+:::
+
+## Effects of war on US exports
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/drugs_ex.png){width="950" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+As you can see, US chemical exports are pretty flat in the years leading up to the war. But then with the war, the Germans need to devote what capacity they have to the war and moreover, they’re blockaded by the British navy. So the US chemical business takes up the slack, massively increasing its productive capacity. The same happens in other industries, particularly shipping. 
+:::
+
+:::
+
+## The British banker in the US imagination
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/octopus.png){width="700" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Before the war, the US was the world’s major international debtor, borrowing money principally, though not exclusively, from Britain. This is a cartoon from the US populist movement of the 1890s showing a prevalent attitude toward international bankers, and banking; as you can see in the picture, it’s a malevolent creature, it’s foreign, it’s Jewish, it’s got its tentacles in all corners of the earth, and that influence is manifest in various kind of debt including notably railroad debt. There are some empirical problems with this, especially the antiSemitic part, but broadly, it is true that Britain was the world’s major creditor in 1914. That changes with the war. Here’s one small way of looking at it.
+:::
+
+:::
+
+## The US banker in international reality
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/gold_ex){width="500" fig.align="center"}
+::::
+
+:::
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+Down to this point the US had been a net debtor, in something like $3.2 billion, mostly to Britain. But as the Allies began to have to buy goods for the waging of war from Americans, this position began to shift. At first, they bought goods with gold. (Explain gold as international currency.) But then they began to have to borrow. The US became an international center of finance, and US banks became able, willing, and interested to finance overseas development.
+:::
+
+:::
+
+

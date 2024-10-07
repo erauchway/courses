@@ -1,0 +1,262 @@
+---
+title: Reluctant hegemon
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 9, 2024 
+draft: TRUE
+categories:
+  - HIS 187
+---
+
+## Previously
+
+:::{.v-center-container}
+- Economic powerhouse
+- Militarily modest
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+So as we've seen, the US has great material potential as of the time of the Great War, but it's not, generally, translated into actual capacity. The punitive expedition indicates that; so does the relatively long period between US declaration of war and actual ability to wage war. But by the end of the Great War, the US is the world's largest creditor---not least because other major financial powers have bankrupted themselves with the war---and has demonstrated an ability to mobilize, albeit over the course of a year or more, for modern military purposes. At the same time, it hasn't been so very long since the punitive expedition demonstrated its relative weakness, even in an area where the Monroe Doctrine claimed practical US sovereignty.
+
+Moreover, as we've also discussed, the rush to put US troops into the field in a war that had been under way for four years ended by putting those troops into a well-established conflict without much experience or training for themselves, which ended in disproportionate US casualties. 
+
+For today, we want to talk a bit about the stated possibilities for peace, and how they played out.
+:::
+:::
+
+## Wilson's peace formulas
+
+:::{.v-center-container}
+- "peace without victory"
+- "self-determination"
+- "safe for democracy"
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+"Peace without victory" was a phrase Wilson put forth in January 1917---just a few months before the US declared war. Still hoped for an end to the war shy of a battlefield victory. 
+
+"Self-determination" was a fine phrase, but it wasn't clear who qualified as a community entitled to "self-determination," nor when there might be exceptions made. It's worth noting that Wilson relatively early on felt this idea could well get out of his own control. We'll have more to say about the Russian revolution in another lecture, but for the moment, let's note that in early 1917---so, before the Bolshevik Revolution, but after the tsarist empire began to fall apart---there was in the city formerly known as St. Petersburg, now as Petrograd in Russia, a workers' assembly known as the Petrograd Soviet, which acted as a counterpoint to the provisional government of Alexander Kerensky. It was not a revolutionary government, I suppose it's worth mentioning, but like a lot of new Russian institutions it took the view that the war was a terrible waste of lives and money, and that it should be ended. And the Petrograd Soviet also seized on Wilson's formula of "self-determination" and said that clearly, it meant there should be no annexations---which Wilson wasn't able to support, lest he lose the cooperation of the Italians or the French, particularly.
+
+"Safe for democracy" seemed like a less potentially radical phrase.
+:::
+:::
+
+## Fourteen points
+
+
+::::{.v-center-container}
+- open covenants
+- freedom of navigation and trade
+- colonial adjustment
+- general association of nations
+::::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Wilson speaks to Congress again, to propose his fourteen points. These are some of the big ones; note that "self-determination" isn't actually in there. Instead, what he proposes is "adjustment" of colonial claims, in which "the interests of the populations concerned must have equal weight with the equitable claims of the government whose title is to be determined." Also with the Balkans, he referred to "historically established lines of allegiance and nationality." And an independent Poland, of "territories inhabited by indisputably Polish populations."
+:::
+
+:::
+
+## Paris Peace Conference, 1918--1919
+
+
+```{=revealjs}
+<video muted width="1000" loop>
+<source src="../media/versailles.mp4">
+</video>
+```
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The leaders of the Allied nations, plus Wilson, then travel to Paris at the end of 1918 and the beginning of 1919 to start negotiating the terms of the peace. And note, of course, that it’s the leaders of the Allied nations, not the Central Powers: they will be asked, later, to sign on to the terms of the peace that will be negotiated for them. 
+
+Note here too the leaders touring the war-damaged front. Wilson refused to do this, on the ground that he didn’t want his emotions engaged.
+
+And you see here too the treaty-writers literally re-drawing the map of Europe in keeping with what they decide it should be.
+:::
+
+:::
+
+## Three treaties
+
+:::{.content-hidden when-format="pdf"}
+
+::::{.columns .v-center-container}
+
+:::{.column-left .flushleft text-align="left" width="400"}
+- Versailles (Germany)
+- St. Germain (Austria)
+- Trianon (Hungary)
+:::
+
+:::{.column-right .flushright}
+![](../media/bordersmap.gif){width="500" fig.align="right"}
+:::
+:::
+
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So far from stretching into Russia, Germany is reduced, losing parts of its former territory in the West to France, and in the East to Poland. It is divided, so there’s a strip of Poland here dividing the bulk of Germany from East Prussia. They give the Alsace back to France; Schleswig to Denmark, Memel to Lithuania. Poland has independence for the first time since the c18. 
+
+You can see Finland and the Baltics get independence from Russia, as does some of Roumania. 
+
+The A-H empire is split into Austria and Hungary, and you get Czechoslovakia and Yugoslavia.
+
+The most discontented power out of these latter two treaties is Italy, which fought with the Allies (if not well) and expected to obtain much more territory. Specifically Italy badly wanted Dalmatia. But the Treaty of St. Germain, negotiated in 1919 with Austria-Hungary (as the Treaty of Versailles was with Germany) created new borders for the nations of Hungary, Czechoslovakia, Poland, Slovenia, and the newly invented Yugoslavia, to which it gave Dalmatia at Woodrow Wilson’s insistence. Wilson overstepped in this, as in some other areas; he tried to declare that he was appealing to the people of Italy over the head of their PM, Vittorio Orlando; Orlando went back to Italy and got a resounding vote of confidence, returned to the conference, leaving Wilson with no recourse but to insist---but insist he did.
+:::
+
+:::
+
+## {data-menu-title="Nguyễn Ái Quốc"}
+:::{.column-screen-inset}
+![Nguyễn Ái Quốc](../media/hochiminh.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In other ways the treaties notably failed on their own terms. This is Nguyen Ai Quoc, a young Vietnamese who went to Paris and was a student there. At this time, of course, Vietnam was part of French Indochina. Nguyen tried to get an audience with the French, with Wilson, in line with the Fourteen Points. Declared that conditions in his home country, if unrelieved, would require that the ”The Socialist Party must lead an efficient action in favor of these terribly oppressed.” He would later change his name to Ho Chi Minh, and do it.
+
+Middle East. Russia. And Ukraine.
+:::
+:::
+
+## Racial equality proposal
+
+:::{.callout-tip appearance=minimal .v-center-container}
+The equality of nations being a basic principle of the League of Nations, the High Contracting Parties agree to accord as soon as possible to all alien nationals of states, members of the League, equal and just treatment in every respect making no distinction, either in law or in fact, on account of their race or nationality.
+
+:::{.flushright}
+Racial Equality Proposal, 1919
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.notes}
+Japan proposed a clause be added to the treaties specifying the above. The Australians opposed it mightily, as did Woodrow Wilson. 
+
+William Monroe Trotter, whom Wilson kicked out of his office for being firm in protesting against segregation, was denied a passport to Versailles. He took a job as a cook on French ship. Lobbied for this clause. If there were no "abolition of autocracy of race," he warned, "there will not be the dawning of a new day of democracy, nor of a new era of permanent peace”.
+::::
+:::
+
+## economic consequences
+
+:::{.columns .v-center-container}
+
+:::{.column-left}
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+![](../media/keynes_young.jpg)
+:::
+:::
+
+:::{.column-right}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+depression of the standard of life. . . . Men . . . in their distress may . . . submerge civilization itself
+
+:::{.flushright}
+John Maynard Keynes, 1919
+:::
+:::
+:::
+:::
+
+:::{.content-visble when-format="revealjs"}
+
+::::{.notes}
+Then there was John Maynard Keynes, the British Treasury representative. At the end of October, 1918, Keynes began thinking about how the effort to extract reparations from Germany might work, and what effect it would have. There was, of course, Germany's movable wealth - its gold, for a start - but once that was taken from it, what capacity to pay remained? In "Notes on an Indemnity," Keynes made two sets of calculations for reparations payments - one, "without crushing Germany," and a higher one, "with crushing Germany." His concern about "crushing Germany" derived not from his sympathy for the Germans; it appeared he had none worth noting. But Keynes was worried that crushing Germany would create two kinds of problems. 
+
+First, it would poorly serve the Allies by preventing the Germans from paying the penalty. Left without sufficient capital to meet their own needs, the Germans would have to get that capital elsewhere. A too-large reparations tab would thus "defeat its object by leading to a condition in which the allies would have to give [Germany] a loan to save her from starvation and general anarchy." The revised version of Keynes's memorandum put the concept more vividly: "If Germany is to be 'milked', she must not first of all be ruined.”
+
+Debate over whether Germany ruined, or allowed itself to be ruined rather than pay
+
+Maybe even more concerning to him was what was absent from the peace. “The Treaty includes no provisions for the economic rehabilitation of Europe ... or to adjust the systems of the Old World and the New.”
+
+There will be “depression of the standard of life.... Men ... in their distress may overturn the remnants of organisation, and submerge civilization itself....”
+
+http://www.freeinfosociety.com/media.php?id=1192
+::::
+:::
+
+## League of Nations, Geneva
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.v-center-container}
+![](../media/league_of_nations.png){width="750"}
+:::
+
+:::{.notes}
+The treaties did give rise to the League of Nations; this is its meeting-room in Geneva, Switzerland. 44 nations signed originally, and Woodrow Wilson won the 1919 Nobel Peace prize for promoting it.
+
+Embodied collective security, arbitration, disarmament. 
+
+But it was collective security on which the US failed to join (Article X) because of Senate refusal to ratify, which would of course become an issue in the postwar years. 
+
+On the other hand it did exist. Germany did get rid of the Kaiser and establish a representative republic. You get similar establishment of new countries in the former A-H empire. 
+:::
+:::
+
+## Annexationists, 1921
+
+::::{.v-center-container}
+![](../media/italy_1921.jpg){width="750"}
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+And yet it's almost immediately undermined. Shortly after the war, a group of Italian fascists occupy Fiume, across the Adriatic, on the coast of Dalmatia. You can see here on this map of Italy from 1921, Fiume on the border with Croatia. A gang of Italian fascists occupies it after the war for about a year.  Eventually the Italian government, which is at this time committed to Europe and liberal democracy, agrees with the Yugoslavs to make this a free city, and by the end of 1920 they enforce that by bombarding the city until D’Annunzio leaves.  
+
+This infuriates the far right, energizing Mussolini, who seizes power in Italy in 1922. He occupies Corfu, down there on the lower right, in 1923. And the League of Nations doesn't take it up---largely at the insistence of France, which is itself behaving aggressively at the same time, occupying the Ruhr River valley and operating the mines there to extract reparations in kind of coal from Germany.
+
+https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~258484~5522028:Italie?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=w4s:/where%2FItaly%2Fwhen%2F1921;q:italy;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=1&trs=2#
+:::
+:::
+
+## Hyperinflation, 1923
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.v-center-container}
+![](../media/german_notes.jpg)
+:::
+
+:::{.notes}
+The German government orders a general strike in the Ruhr; need to pay strikers; print lots of money. Hyperinflation. There will be an international solution to this crisis, but one not sponsored by the League
+:::
+
+:::
+
+## Dawes Plan, 1924
+
+
+:::{.v-center-container}
+- Restructure German debt
+- short-term loan to Germany
+- French withdrawal from Ruhr
+:::
+
+
+::::{.content-hidden when-format="html" unless-format="revealjs"}
+:::{.notes}
+This is good for Morgan, who leads the syndicate making the loan---less good for anyone else. Germany has to impose fiscal discipline---taxes, lower spending---to service the loan. Morgan has priority over everyone else, including France. And ties Germany closely into the world economy---specifically the United States---which might have bad consequences as we get into the 1920s. 
+Negotiated outside the US government. 
+:::
+::::

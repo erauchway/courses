@@ -9,7 +9,7 @@ categories:
   - HIS 187
 ---
 
-```{r, echo=FALSE}
+```{r, include=FALSE}
 library(rnaturalearth)
 library(cshapes)
 library(tidyverse)
