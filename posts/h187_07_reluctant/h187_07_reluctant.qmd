@@ -4,7 +4,12 @@ subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: October 9, 2024 
-draft: TRUE
+title-slide-attributes: 
+  data-notes: "Reminder; our first exam is Friday. You will need your laptops or tablets---some large device, so you can see the screen. You won't be able to take the exam effectively on your phones. It's my intention to do the exam through iClicker if I can overcome some of the technical difficulties. Even if I can't, **you will need to log in through iClicker to take the exam. If you do not, we cannot count your exam.** So be prepared for that. 
+  On the subject of today's lecture: standard narrative emphasizes US failure to ratify Paris treaties; focuses on Wilson's failures to secure GOP support. Arrogance, stroke. Etc. For our purposes I want to focus on two other things. 1) there was other international cooperation outside the League, about which more when we get to the 1920s next week. 2) there were limits to the peace treaties that might not have been insurmountable even with US participation in the League, hence the title of the lecture.
+  In 1919 we see Wilson getting treated the way US presidents are treated now. I also want you to think about this as 1) a novelty at the time and 2) not something that qualifies as the beginning of this tradition. Because Wilson wasn't up to it but more importantly neither was the country. Again, hence the title of the lecture.
+  For the three points:  1) possibilities for peace 2) Paris 3) shortcomings"
+draft: FALSE
 categories:
   - HIS 187
 ---
@@ -50,11 +55,27 @@ For today, we want to talk a bit about the stated possibilities for peace, and h
 ## Fourteen points
 
 
-::::{.v-center-container}
+::::{.columns .v-center-container}
+
+:::{.column width="50%"}
 - open covenants
 - freedom of navigation and trade
 - colonial adjustment
 - general association of nations
+:::
+
+:::{.column width="50%"}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+the interests of the populations concerned must have equal weight with the equitable claims of the government whose title is to be determined
+
+:::{.flushright}
+Woodrow Wilson, 1918
+:::
+
+:::
+:::
+
 ::::
 
 
@@ -66,15 +87,19 @@ Wilson speaks to Congress again, to propose his fourteen points. These are some 
 
 :::
 
-## Paris Peace Conference, 1918--1919
+## Paris Peace Conference
+1918--1919
 
+::::{.content-hidden when-format="html" unless-format="revealjs"}
 
+:::{.v-center-container}
 ```{=revealjs}
-<video muted width="1000" loop>
+<video muted width="700" loop>
 <source src="../media/versailles.mp4">
 </video>
 ```
-
+:::
+::::
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
 
@@ -121,10 +146,15 @@ The most discontented power out of these latter two treaties is Italy, which fou
 
 :::
 
-## {data-menu-title="Nguyễn Ái Quốc"}
-:::{.column-screen-inset}
-![Nguyễn Ái Quốc](../media/hochiminh.png)
+## Self-determination for some {data-menu-title="Nguyễn Ái Quốc"}
+
+::::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.column-margin}
+![Nguyễn Ái Quốc](../media/hochiminh.png){width="650" fig.align="center"}
 :::
+
+::::
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
 
@@ -154,7 +184,7 @@ William Monroe Trotter, whom Wilson kicked out of his office for being firm in p
 ::::
 :::
 
-## economic consequences
+## Economic consequences
 
 :::{.columns .v-center-container}
 
