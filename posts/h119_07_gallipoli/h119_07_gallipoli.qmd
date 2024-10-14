@@ -187,32 +187,75 @@ https://www.iwm.org.uk/history/churchills-first-world-war
 
 :::
 
+## Test
+
+
+
+
+
 ## Europe and Asia Minor
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
 
 ::::{.v-center-container}
 
-```{r, fig.height=6.8, fig.width=8, echo=FALSE}
-disp_win_wgs84 <- st_sfc(st_point(c(-8,34)), st_point(c(48, 59)), crs = 4326)
+```{r, message=FALSE, results=FALSE, warning=FALSE, echo=FALSE}
+library(tidyverse)
+library(rnaturalearth)
+library(sf)
+(sf_use_s2(FALSE))
+library(showtext)
+font_add_google(name = "Holtwood One SC", family = "Holtwood One SC")
+font_add_google(name = "Fondamento", family = "Fondamento")
+font_add_google(name = "Public Sans", family = "Public Sans")
+showtext_auto()
+library(ggtext)
+library(scales)
+library(cshapes)
+target_crs="ESRI:102013"
+cshp(date = as_date("1914-08-01"), useGW = TRUE, dependencies = TRUE) |>
+  filter(gwcode > 199 & gwcode < 652) |>
+  filter(gwcode < 400 | gwcode > 599) |>
+  add_row(country_name = "Andorra", gwcode = 232, owner = "232", geometry = st_geometry((read_sf("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/andorra.geojson")))) |>
+  left_join(read_csv("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/tinder_noms.csv")) |>
+  st_transform(crs = target_crs) -> borders_g
+borders_14 <- cbind(borders_g, st_coordinates(st_centroid(borders_g)))
+
+ne_download(scale = 50, category = "physical", type = "land") |>
+  st_transform(crs = target_crs) -> rland
+
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", color = "midnightblue"),
+      plot.title = element_markdown(family = "Holtwood One SC", color = "khaki4"),
+      plot.caption = element_markdown(size = rel(0.5)),
+      panel.background = element_rect(fill = "aliceblue", color = "aliceblue"),
+      plot.background = element_rect(fill = "floralwhite", color = "floralwhite"),
+      plot.margin = margin(l=10,r=10)
+    )
+)
+```
+```{r, fig.height=6.8, fig.width=7.8, echo=FALSE}
+disp_win_wgs84 <- st_sfc(st_point(c(-8,32)), st_point(c(56, 59)), crs = 4326)
 disp_win_trans <- st_transform(disp_win_wgs84, crs = target_crs)
 disp_win_coord <- st_coordinates(disp_win_trans)
 
-borders_14 |> mutate(siz = siz - 1.5) -> borders_14a
 
 ggplot() +
-  geom_sf(data = borders_14a, fill = "antiquewhite1", color = "burlywood3") +
-  geom_sf(data = st_buffer(borders_14a, -5500), linewidth = 1.4, fill = NA, color = alpha("burlywood3", 0.4)) +
-  geom_sf(data = st_buffer(st_union(st_make_valid(borders_14a)), 4000), linewidth = 1, fill = NA, color = alpha(c("lightblue"), 0.7)) +
-  geom_richtext(data = borders_14a,
+  geom_sf(data = rland, fill = "antiquewhite1", color = NA) +
+  geom_sf(data = borders_14, fill = "antiquewhite1", color = "burlywood3") +
+  geom_sf(data = st_buffer(borders_14, -5500), linewidth = 1.4, fill = NA, color = alpha("burlywood3", 0.4)) +
+  geom_sf(data = st_buffer(st_union(st_make_valid(rland)), 4000), linewidth = 1, fill = NA, color = alpha(c("lightblue"), 0.7)) +
+  geom_richtext(data = borders_14,
                 mapping = aes(X, Y, label = toupper(mylab)),
-                size = borders_14a$siz,
+                size = borders_14$siz,
                 family = "Fondamento",
                 fill = NA, 
                 color = "chocolate4",
                 label.color = NA, 
-                nudge_x = borders_14a$nx, 
-                nudge_y = borders_14a$ny, 
+                nudge_x = borders_14$nx, 
+                nudge_y = borders_14$ny, 
                 na.rm = TRUE) +
   labs(
     title = "Europe and Asia Minor at 1914",
@@ -221,7 +264,6 @@ ggplot() +
   coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = TRUE) -> q
 q
 ```
-
 
 ::::
 

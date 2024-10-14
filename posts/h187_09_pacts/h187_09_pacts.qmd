@@ -1,0 +1,421 @@
+---
+title: Peace and Pacts
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 16, 2024 
+draft: TRUE
+title-slide-attributes: 
+  data-notes: "As we saw last time, by the middle 1920s, there was some apparent movement toward guarded normalization of the Soviet Union, after the initial freakout over a revolutionary socialist state. We'll look a bit more at efforts to normalize international relations in the 1920s today."
+categories:
+  - HIS 187
+---
+
+---
+
+### Washington Naval Conference, 1921
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width=850>
+  <source src=../media/wash_nc2.mp4>
+  </video>
+  ```
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Some of the opponents of the League of Nations in the US Congress---not all, but some---were politicians who opposed it because they worried it would get the nation into war. Some of them tried to prove their principles after the defeat of the Treaty, and lobbied for an international conference to discuss a reduction of arms in the world, with the idea this would help to reduce the likelihood of war. Under the presidency of Warren Harding, Secretary of State Charles Evans Hughes (whom we’ve previously encountered as the losing Republican candidate in 1916), negotiated with diplomats from Britain and Japan to hold a peace conference. It was attractive to the UK and Japan mainly so they could (they hoped) avoid a costly arms race. So they, among other nations, attended the Washington Disarmament Conference, also known as the Washington Naval Conference, which met at the end of 1921 and continued into the start of 1922, and included principal diplomats from the US, UK, Japan, France, and Italy, as well as some other representatives of other powers interested in some of the issues that would be raised. 
+
+This conference would, of course, probably be unnecessary if the US had joined the League of Nations; the business before it would have properly been the business of the League. But because the US did not join the League, it had to carry on such discussions outside it. 
+:::
+
+:::
+
+## Disarmament
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/wash_nc_still.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/wash_nc_still.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The man in the center of the picture is Charles Evans Hughes, who’s talking to Aristide Briand, of France; to the left of them, as we’re looking at the picture, are the Earl of Balfour, one of the British representatives, and Prince Tokugawa, one of the Japanese representatives. 
+
+One of the key goals for the US at the conference was breaking up the Anglo-Japanese alliance, which (as we’ve already discussed) had been signed in 1902. Hughes, and the Harding administration, wanted it ended---arguing in part on the basis of the lessons of World War I and the idea that collective security was preferable to such bilateral arrangements. Of course, again, that would have been a much stronger argument had the US joined the League of Nations itself. Perhaps of greater concern to the US was that the US Congress was reluctant to spend a great deal more money on fortifying the Pacific, which naval officials reckoned would be necessary if the alliance was renewed. The US would have to match, at least in theory, the force of the combined British and Japanese navies. 
+
+The British and the Japanese, for their part, were happy enough to find a reason to forego another arms race such as the one between Britain and Germany that had led to the Great War. So in the end they agreed to the proposal that they should end the alliance. Moreover, they agreed to limitations on their navies. 
+:::
+
+:::
+
+## Capital ships---5:5:3
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/battleship.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/battleship.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The three major powers at the conference agreed to what became known as the 5:5:3 ratio for capital ships.
+
+Capital ships were defined as those displacing more than 10,000 tons of water and carrying 8-inch guns (that’s eight inches in diameter). 
+
+The powers agreed that the US would limit itself to 525,000 tons of capital ships. Which meant the US would have to scuttle 30 of its 48 battleships, going down to 18. Britain would go from 45 to 20 warships, its ships being slightly lighter, to reach the 525,000 mark. 
+
+Japan, though, would be limited to 315,000 tons, which meant it would have to destroy 17 of its 27 battleships.
+
+So the negotiated ratio would limit Japan to 3/5 the navy, or 60 percent, of the US and Japan.
+
+:::
+
+:::
+
+---
+
+### Ratios and nonfortification
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width=850>
+  <source src=../media/wash_nc_sink.mp4>
+  </video>
+  ```
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The Japanese leaders were persuaded to accept the smaller navy because of the guarantee that the US, UK, and Japan itself would undertake no further fortification of their possessions in the Pacific (Pearl Harbor and Singapore excepted). This so-called nonfortification provision was vitally important to Japan.
+
+But of course more spectacular to the world was the actual sinking of battleships that ensued, as in this newsreel footage.
+
+France and Italy accepted, for their part, an even smaller tonnage---175,000 tons each. They didn’t like it, but they resigned themselves to it because, again, they did not want to have to invest in a costly arms race when they had post-WWI reconstruction to pursue.
+
+Now, you could read this episode, and the other peace conferences that followed it, as proving that the US remained devoted to Wilsonianism---that it was still interested in collective security and international cooperation to ensure peace---just, that it wasn’t interested in the League of Nations as an institution through which to pursue it.
+:::
+
+:::
+
+## Project B & *Alabama*
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width=850>
+  <img src=../media/alabama.mov>
+  </video>
+  ```
+::::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Of course, one can overstate the extent to which this agreement meant the end of an arms race. To some military strategists, it was clear already that the battleship had become obsolete. It was too expensive to build, to unwieldy to maneuver, and vulnerable to smaller ships---especially submarines. It was also, some strategists already understood, vulnerable to airpower. William (better known as “Billy”) Mitchell, a general in the US Army who was in charge of the army air service, later to become the Army Air Corps, was permitted to use aircraft to bomb one of the aged battleships, _Alabama,_ as part of an experiment known as “Project B.” The Navy was opposed to the idea behind project B; they had already carried out a test that supposedly proved aerial bombing could *not* sink a battleship; some intrepid soul discovered the navy had faked the test, bombing the ship with dummy bombs full of sand. Project B was a meticulously documented success. Mitchell, aided by a refugee White Russian pilot named Alexandre de Seversky, tried a series of bombs on the _Alabama_ and later, some other battleships. 
+
+And, here’s the thing: Project B had been carried out in July 1921---months before the Washington Conference met. So US leaders were, at least some of them, quite clear on what they were giving up---little of value---in exchange for limiting the Japanese and British in their Pacific fortifications.
+:::
+
+:::
+
+## Related to the Ruhr
+
+::::{.v-center-container}
+- Rapallo Treaty
+- Ruhr occupation
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Immediately after the war, the treatment of Germany and Russia/USSR as pariah nations had results.
+
+In 1922, the Germans signed the Rapallo treaty with the Soviets, agreeing to mutual recognition, and paving the way for them to cooperate on arms development.
+
+Shortly after this came the Ruhr crisis, in which you'll remember the French occupied the Ruhr Valley, to seize German coal miners. The Weimar government backed a strike in the mines, paying the strikers with an inflated currency. 
+
+The crisis gave strength to right-wing nationalists, who attempted a coup in Munich. The authorities put it down and jailed its leader, Adolf Hitler, but it was an important symptom of unrest.
+
+Remember, because the French didn't want the League watching what they were up to, they dragged their feet on addressing the Italian crisis in Fiume---
+
+:::
+
+:::
+
+## {background-image="../media/italy_1921.jpg" data-menu-title="Italy 1921"}
+
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/italy1921.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Shortly after the war, a group of Italian fascists occupy Fiume, across the Adriatic, on the coast of Dalmatia. You can see here on this map of Italy from 1921, Fiume on the border with Croatia. A gang of Italian fascists occupies it after the war for about a year.  Eventually the Italian government, which is at this time committed to Europe and liberal democracy, agrees with the Yugoslavs to make this a free city, and by the end of 1920 they enforce that by bombarding the city until D’Annunzio leaves.  
+
+This infuriates the far right, energizing Mussolini, who seizes power in Italy in 1922. He occupies Corfu, down there on the lower right, in 1923. And the League of Nations doesn't take it up---largely at the insistence of France, which is itself occupying the Ruhr River valley to extract reparations in kind of coal from Germany.
+
+https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~258484~5522028:Italie?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=w4s:/where%2FItaly%2Fwhen%2F1921;q:italy;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=1&trs=2#
+:::
+
+:::
+
+## German normalization
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.columns .v-center-container}
+
+::::{.column}
+- 1924 Dawes plan
+- 1925 Locarno agreement
+- 1926 Germany joins the League
+::::
+
+::::{.column}
+```{=revealjs}
+<video muted loop>
+<source src="../media/germany_league.mp4">
+</video>
+```
+::::
+::::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s Germany being seated in the League of Nations, in 1926. The League of course continued to operate without the US. It had 41 members in its general assembly. It also had a council, of which Britain, France, Italy, and Japan were permanent members, and there were three rotating seats in addition; the council had to agree to any policy established by the general assembly (if you’re at all familiar with the current structure of the United Nations, you know how this works).
+
+How did things get to this point? At the end of 1923, the German government resolved to get control of its currency, stabilizing and revaluing the mark. 
+
+The Americans also stepped in. Hughes, at state, decided to put pressure on France to stop the occupation by demanding prompt payment of the debts owed by the French to the US and which the French could not well pay, even with the extraction of resources from the Ruhr.
+
+The French yielded to this pressure, agreeing to a private negotiation, led by an American, but not an agent of the US government---a banker, Charles Dawes. Dawes convened the powers and got them to agree to an extension of the German schedule of payments, so they would have to pay less each year, in exchange for a big, short-term loan. Meantime, the French soldiers would depart the Ruhr. The US government wasn’t party to the agreement, so the Senate didn’t have to approve it. And the money came from private (almost all US) banks. 
+
+In the following year, the Germans, under the leadership of their foreign minister Gustav Stresemann, put their allies at ease. Working with Aristide Briand of France, Stresemann and the Weimar government agreed in negotiations at Locarno, Switzerland, to honor the borders established by the Versailles Treaty. Stresemann wanted in exchange for the Germans to join the League of Nations, so long as they could also have a permanent seat on the council---which they were granted.
+:::
+
+:::
+
+## Other internationalism
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+
+- World Health Organization (WHO)
+- International Labor Organization (ILO)
+- Permanent Court of International Justice
+  - defining aggressive warfare
+  - Geneva protocol
+
+::::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The WHO and ILO were established alongside the League, and the United States did join these organizations, which promoted global cooperation on these issues.
+
+In 1924, the nations of the world put forward a protocol for the Permanent Court of International Justice, which was established by the Versailles Treaty (and which is not to be confused with the international tribunal at the Hague). It was more generally known as the World Court and like the ill-starred Central American court we’ve discussed, it was meant to resolve international disputes short of war. Also like the Central American Court, it had an uneasy relationship to the United States, or vice versa. 
+
+An American named James Shotwell, a professor of history at Columbia University in New York, had an idea about how to give the League some useful power to stop war. People had already talked about the idea of making aggressive warfare a crime. It was part of the League’s founding. But nobody had given “aggressive” an effective definition. Shotwell had an idea of how to define aggressive war in such a way as it would work in international law: if nations signed an agreement that they would seek arbitration for disputes before going to war, then anyone who refused would clearly be an aggressor. Shotwell drew up an international treaty with some colleagues, including the lawyer Salmon Levinson, and suggested it directly to the League of Nations. Hughes warned him it was a crime for a private citizen to negotiate with a foreign government; that would include the League of Nations. Shotwell said the US hadn’t recognized the League, so it couldn’t be a crime for him to negotiate with a foreign power that didn’t exist. Hughes, according to Shotwell, laughed and said “You have me there.” 
+
+The Geneva Protocol didn’t provide for a collective military response; Shotwell knew the US Senate wouldn’t have that. But it provided for boycotts and other sanctions. In 1924, 47 member states of the League agreed to the Protocol—but the UK wouldn’t have it, nor would the US. So it failed.
+
+Shotwell didn’t give up, though: he suggested to Aristide Briand, who we saw back in the Washington picture, that he and his country could take leadership in coming up with an international treaty to do much the same, outlawing war as an instrument of policy. And in April 1927, on the tenth anniversary of US entry to the Great War, Briand proposed just that. His speech appeared in the papers with an endorsement from Shotwell’s ultimate boss, Nicholas Murray Butler, the president of Columbia.
+
+By now the US Secretary of State was a man called Frank Kellogg, who had installed on his desk a series of buttons to summon various assistants from various departments. When very excited or annoyed he would simply smash them all, bringing everyone running. This was such an occasion. He was deeply annoyed at these Columbia professors and French diplomats, these “blank blank fools, if there’s anything in the world I hate it’s these blank blank pacifists.” Ultimately, when he’d cooled off, he told Briand officially that he should propose something, officially. So he did: 
+:::
+
+:::
+
+## Briand proposal
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+
+the French people and the people of the United States of America . . . condemn recourse to war and . . . they renounce it respectively as an instrument of their national policy toward each other
+
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So in June, Briand sends this along. Kellogg sits on it. Shotwell and some other activists keep pestering him, and finally he says, well, *you* make a proposal. So they do; it looks much like the Briand proposal, very simple. They go on a publicity offensive, writing for newspapers and magazines. Finally, Kellogg gives in and says to Briand okay, but we won’t negotiate just with France, we’ll have a conference of everyone. In part, he thinks that means it won’t happen. And indeed, Briand almost drops the matter on getting this proposal. But Briand has just won the Nobel Peace Prize for his role in the Locarno treaties. How’s he gonna turn this down?
+:::
+
+:::
+
+## Pact of Paris
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.columns .v-center-container}
+
+:::{.column width="25%"}
+  ```{=revealjs}
+  <img src=../media/kb_postcard.png>
+  ```
+:::
+
+:::{.column}
+
+:::{.callout-tip appearance=minimal}
+condemn recourse to war . . . and renounce it. . . . settlement . . . of all disputes . . . shall be by pacific means
+:::
+
+:::
+
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/kb_postcard.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+There are only these two provisions, ultimately, in the pact. It’s so brief, it can fit on a postcard—which is what you see here—and be distributed. It’s immensely popular, here in 1928, on the tenth anniversary now of the end of the Great War. 
+
+:::
+
+:::
+
+
+## War is outlawed
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width="800">
+  <source src=../media/kb_movie.mp4>
+  </video>
+  ```
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+There’s an international conference in Paris and fifteen nations sign in the treaty. In January 1929, the treaty will pass the Senate 85 to 1. Coolidge will sign it, and Kellogg---as you can see in the clip---will do that too. And in fact, Kellogg will begin to lobby for the Nobel Peace Prize for himself, which he will win, for this achievement. 
+
+(Although, as we've seen, this is an excellent example of how private citizens can hustle such actions along by being creative, proposing solutions, and working the publicity.)
+:::
+
+:::
+
+## Manchukuo
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width="800">
+  <source src=../media/manchukuo.mp4>
+  </video>
+  ```
+::::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Does this mean K-B is a failure? Well, yes and no. The traditional and obvious answer is yes, but less noticed, though equally important, is that the law remains on the books. 
+:::
+
+:::
+
+
+:::{.content-hidden unless-format="revealjs"}
+# Quiz{visibility="uncounted"}
+
+## 1. The Russian revolution began as a{visibility="uncounted"}
+
+a) legislative reform
+b) protest against the effects of war
+c) Bolshevik revolt
+d) US plot
+e) fit of absence of mind
+
+## 2. In the 1920s the US provided Russia with{visibility="uncounted"}
+
+a) food aid
+b) weapons
+c) constitutional inspiration
+d) a romantic playlist
+e) commercial aircraft
+
+## 3. Stalin pursued a policy called{visibility="uncounted"}
+
+a) socialism in one country
+b) socialism for me but not for thee
+c) humane capitalism
+d) kulaks over all
+e) bring back Lenin
+
+## 4. In the early 1920s France{visibility="uncounted"}
+
+a) returned the Alsace
+b) occupied the Ruhr
+c) paid off its debts
+d) bought part of the Arctic USSR
+e) rebuilt the Eiffel Tower
+
+## 5. The 1928 pact of Paris began as an effort to{visibility="uncounted"}
+
+a) clear the Ruhr Valley
+b) curb hyperinflation
+c) define aggressive war
+d) protect the right to unionize
+e) extend healthcare
+
+
+:::

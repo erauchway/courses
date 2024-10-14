@@ -4,7 +4,7 @@ subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: October 14, 2024 
-draft: TRUE
+draft: false
 title-slide-attributes: 
   data-notes: "All right, we've looked at Latin America and Europe; today we want to look at US--Russia relations, which by 1922 have become US--USSR relations."
 categories:
@@ -132,7 +132,7 @@ Thus the tsar was increasingly threatened, and his response was increasingly to 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
 
 ::::{.v-center-container}
-![](../media/womens_day){width="1000" fig.align="center"}
+![](../media/womens_day.png){width="1000" fig.align="center"}
 ::::
 
 :::
@@ -179,7 +179,7 @@ Keep in mind though, this is still Russia, not the Soviet Union. The soviets, li
 
 :::{.v-center-container}
 
-```{r, fig.height=6, fig.width=5.5}
+```{r, fig.height=6, fig.width=5.5, echo=FALSE, message=FALSE, warning=FALSE}
 ggplot() +
   geom_sf(data = borders_14, fill = "antiquewhite1", color = "burlywood3") +
   geom_sf(data = st_buffer(borders_14, -6000), linewidth = 0.6, fill = NA, color = alpha("burlywood3", 0.4)) +
@@ -230,6 +230,8 @@ Now, we’re in April 1917. Just a few weeks ago, remember, the news broke that 
 :::
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
 So they’re socialists, that is, they believe in ending private ownership of the means of industrial production and putting the workers in charge. They just believe in hurrying to get there, unlike many other socialists of the time, and by hurrying they mean killing people.
 
 They are also violently opposed to Russia taking part in WWI because it’s an imperialist war, and the people dying it are the workers dying for the rich capitalists. So they want an immediate end to the war, and then to move straight on to revolution.
@@ -237,12 +239,14 @@ They are also violently opposed to Russia taking part in WWI because it’s an i
 These are the essential elements of Bolshevism, and they’re the reason Lenin’s in Switzerland. He has been exiled to Siberia himself; he’s seen his brother hang. So he left Russia, first for Austria-Hungary. When the war breaks out he gets arrested. Then, when the Austrians figure out that he’s potentially trouble for the Russians, they send him to neutral territory for the time being.
 :::
 
+:::
+
 ## In or out of war
 
 
 ::::{.v-center-container}
 
-```{r, fig.height=6, fig.width=5.5}
+```{r, fig.height=6, fig.width=5.5, echo=FALSE, message=FALSE, warning=FALSE}
 p
 ```
 
@@ -305,13 +309,16 @@ So in April he publishes his idea in Pravda, the provisional government’s news
 
 ## Bolsheviks in the streets
 
-:::{.content-hidden when-format="html" unless-format="revealjs"}
 
-::::{.v-center-container}
-![](../media/streets.png){width="1000" fig.align="center"}
+::::{.callout-tip appearance=minimal .v-center-container}
+You are miserable bankrupts. . . . Go where you ought to be---into the dustbin of history.
+
+:::{.flushright}
+Leon Trotsky
+:::
 ::::
 
-:::
+
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
 
@@ -421,15 +428,45 @@ In 1919, the Bolsheviks established the Communist International, or Comintern, t
 
 ## Relief and stabilization
 
-:::{.v-center-container}
+:::{.content-hidden when-format="html" unless-format="revealjs"}
 
+:::{.columns .v-center-container}
+
+:::{.column width="70%"}
 ```{=revealjs}
 <video width="600" muted loop>
 <source src="../media/relief.mp4">
 </video>
 ```
+:::
+
+:::{.column width="30%"}
+:::{.callout-tip appearance=minimal}
+socialism in one country
+
+:::{.flushright}
+Stalin
+:::
+:::
 
 :::
+
+:::
+
+:::
+
+:::{.content-visible when-format="html" unless-format="revealjs"}
+
+:::{.callout-tip appearance=minimal}
+socialism in one country
+
+:::{.flushright}
+Stalin
+:::
+:::
+
+:::
+
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
 
@@ -444,3 +481,59 @@ At this time the Soviet Union began to pursue a more superficially normal relati
 :::
 
 :::
+
+
+:::{.content-visible when-format="revealjs"}
+
+# Quiz{visibility="uncounted"}
+
+
+## 1. The US Pacific strategy aimed mainly at the annexation of{visibility="uncounted"}
+
+a) Hawaii
+b) trade
+c) the Philippines
+d) China
+e) Japan
+
+
+## 2. The Theodore Roosevelt administration transformed the Monroe Doctrine into an assertion of ______ power over the Americas.{visibility="uncounted"}     
+
+  a) police
+  b) mercantile
+  c) diplomatic
+  d) protectorate
+  e) colonial
+
+
+## 3. The US politician who advocated a program of public investment in the Americas was{visibility="uncounted"}
+
+  a) Woodrow Wilson
+  b) Robert Lansing
+  c) John Pershing
+  d) William J. Bryan
+  e) Venustiano Carranza
+
+
+## 4. The proximate cause for US entry into World War I was{visibility="uncounted"}
+
+  a) Germany's declaration of submarine warfare
+  b) the interception of the Zimmermann note
+  c) the publication of the Zimmermann note
+  d) the sinking of US ships
+  e) the attack on Pearl Harbor
+
+
+
+## 5. Germany secured Russian territory with the treaty of{visibility="uncounted"}
+
+  a) Versailles
+  b) Aix-la-Chapelle
+  c) Saint-Germain
+  d) Brest-Litovsk
+  e) Portsmouth
+
+
+
+:::
+

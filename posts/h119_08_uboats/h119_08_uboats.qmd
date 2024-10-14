@@ -1,0 +1,553 @@
+---
+title: U-boats
+draft: TRUE
+subtitle: History of World War I
+author: 
+  - Ian Campbell and Eric Rauchway
+date: 2024-10-14
+footer: "HIS 119"
+categories:
+  - "HIS 119"
+format:
+  revealjs:
+    theme: dark
+  pdf:
+    default
+title-slide-attributes: 
+  data-notes: "Last time I made some mention of the naval strategy of the two powers; we're going to look a bit more in depth at that today, and this will also rope in some of the material we've already covered about the neutral United States, and its role in the conflict."
+---
+
+## The undersea weapon
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/channel_u.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/channel_u.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This is a U-Boat designed by the German Navy for channel warfare in the Great War. Unlike modern submarines, which have nuclear reactors powering their motors and which can stay submerged indefinitely, these submarines could only stay under a short time—the very largest (and this wasn’t one of the very largest) could stay under for perhaps 72 hours. For the most part they ran on diesel engines, which had to vent exhaust just as a diesel truck or bus would. When they submerged, they switched over to electric motors which ran off a battery. So while they were on the surface, they could run fairly fast and charge their batteries, but when submerged, the clock began ticking.
+
+Even when running on the surface, they weren’t terrifically well ventilated. Submariners spent a lot of time breathing oil exhaust, and often woke up with their noses, ears, and throats clogged with mucus. Condensation formed on interior panels and pipes, dripping on everyone all the time, even while they were trying to sleep. The ships were vulnerable to accidents, owing to the many dangerous chemicals in confined quarters. The batteries that ran the electric motors were a particular problem, as they could release chlorine gas if they were contaminated by seawater—which, as you can imagine, was not at all hard to do in this environment. On the other hand, they also vented hydrogen, which was extremely explosive. The submarine service was dangerous; as many as 1/3 of German submariners didn’t come back. Between 1901 and 1914, there were 68 serious submarine accidents, including 7 battery explosions and 12 fuel explosions.
+
+There was precious little water for washing. Submariners rarely bathed, or shaved. They did have toilets, but they weren’t allowed to use them if they were worried about being trailed or spotted, as they left tell-tale traces on the sea. U-Boat officers were advised to take a little opium, not to get high, but so they would be constipated. 
+:::
+
+:::
+
+## Early countermeasures
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width="800">
+  <source src=../media/dazzle.mov>
+  </video>
+  ```
+::::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+PLAYS AUTOMATICALLY 
+Here you see one of the best hopes the British had for thwarting submarines—dazzle camouflage. The submarine relied on its ability to see the enemy ship on the horizon, either from the conning tower, the bit of the ship that sticks up, or from the periscope, if submerged. So if you could paint the ships with the right kind of camouflage, you could break up the silhouette of the ship, and it would be be possible to thwart the submarine’s main purpose. Also, you could ram the submarine, torpedo them yourself, or—later—use depth charges to explode them underwater. But at the start of the war, the main later technique for detecting the presence of a submarine—listening for them underwater—had not yet been developed. Scientists understood the general idea of the hydrophone, and what later came to be known as sonar, but at this point the technology had not yet been deployed. One British scientist trying to work out how it could be done asked that the British warship to which he was assigned stop its engines, and then for himself to be lowered headfirst into the water, so he could try to get a sense of the sound of a submarine’s propeller in the water.
+:::
+
+:::
+
+## The submarine threat
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/torpedo.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/torpedo.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The principal weapon of the submarine was the torpedo, a self-propelled underwater bomb. Early 20th-century torpedoes had alcohol-fueled motors; munitions makers were working on electric motors. In any case, the torpedo had to move swiftly and on a relatively reliable course underwater. The bulk of the torpedo was made of explosives—early on this was guncotton, or nitrocellulose; soon it became tri-nitro-toluene, or TNT.
+ 
+So you have the motor and the explosive payload; the important final bit you want is the detonator, or what in those days was called the “war nose.” At the most primitive, these were simply mechanically operated explosive devices activated on impact—that is to say, the nose of the torpedo would hit something, that would trigger an explosion in the nose of the torpedo, which would in turn explode the larger payload. 
+
+Early on, the munitions makers developed a fuse that required a series of turns to arm it, so that in the nose of the torpedo there was a little propeller wheel. As the torpedo sped through the water, the water flowed over this wheel and turned it; after it turned a number of times, the fuse was armed. This meant that the torpedo would be clear of the submarine that launched it before it was armed and explosive. As you can also see, it’s a pretty big device. These small submarines might carry only a couple and a spare if they were lucky.
+
+:::
+
+:::
+
+
+## Geography of naval strategy
+
+
+::::{.v-center-container}
+
+```{r, message=FALSE, results=FALSE, warning=FALSE, echo=FALSE}
+library(tidyverse)
+library(rnaturalearth)
+library(sf)
+(sf_use_s2(FALSE))
+library(showtext)
+font_add_google(name = "Holtwood One SC", family = "Holtwood One SC")
+font_add_google(name = "Fondamento", family = "Fondamento")
+font_add_google(name = "Public Sans", family = "Public Sans")
+showtext_auto()
+library(ggtext)
+library(scales)
+library(cshapes)
+target_crs="ESRI:102013"
+cshp(date = as_date("1914-08-01"), useGW = TRUE, dependencies = TRUE) |>
+  filter(gwcode > 199 & gwcode < 652) |>
+  filter(gwcode < 400 | gwcode > 599) |>
+  add_row(country_name = "Andorra", gwcode = 232, owner = "232", geometry = st_geometry((read_sf("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/andorra.geojson")))) |>
+  left_join(read_csv("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/tinder_noms.csv")) |>
+  st_transform(crs = target_crs) -> borders_g
+borders_14 <- cbind(borders_g, st_coordinates(st_centroid(borders_g)))
+
+ne_download(scale = 50, category = "physical", type = "land") |>
+  st_transform(crs = target_crs) -> rland
+
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", color = "midnightblue"),
+      plot.title = element_markdown(family = "Holtwood One SC", color = "khaki4"),
+      plot.caption = element_markdown(size = rel(0.5)),
+      panel.background = element_rect(fill = "aliceblue", color = "aliceblue"),
+      plot.background = element_rect(fill = "floralwhite", color = "floralwhite"),
+      plot.margin = margin(l=10,r=10)
+    )
+)
+```
+```{r, fig.height=6.8, fig.width=7.8, echo=FALSE}
+disp_win_wgs84 <- st_sfc(st_point(c(-8,32)), st_point(c(56, 59)), crs = 4326)
+disp_win_trans <- st_transform(disp_win_wgs84, crs = target_crs)
+disp_win_coord <- st_coordinates(disp_win_trans)
+
+
+ggplot() +
+  geom_sf(data = rland, fill = "antiquewhite1", color = NA) +
+  geom_sf(data = borders_14, fill = "antiquewhite1", color = "burlywood3") +
+  geom_sf(data = st_buffer(borders_14, -5500), linewidth = 1.4, fill = NA, color = alpha("burlywood3", 0.4)) +
+  geom_sf(data = st_buffer(st_union(st_make_valid(rland)), 4000), linewidth = 1, fill = NA, color = alpha(c("lightblue"), 0.7)) +
+  geom_richtext(data = borders_14,
+                mapping = aes(X, Y, label = toupper(mylab)),
+                size = borders_14$siz,
+                family = "Fondamento",
+                fill = NA, 
+                color = "chocolate4",
+                label.color = NA, 
+                nudge_x = borders_14$nx, 
+                nudge_y = borders_14$ny, 
+                na.rm = TRUE) +
+  labs(
+    title = "Europe and Asia Minor at 1914",
+    caption = "Map made using R, ggplot, and sf by Eric Rauchway with data from CShapes."
+  ) +
+  coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = TRUE) -> q
+q
+```
+
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Okay, now let’s remember the role of the navies in the geography of a war between Britain and Germany. The Germans have a geographical problem, which is that their ports are all on the Baltic or the North Sea. There’s a canal going through the middle of the Jutland peninsula, the Kiel Canal. In the years before the war, the Germans widened this canal so it can accommodate Dreadnought-class battleships. Which means their fleet can pretty quickly sail from the Baltic to the North Sea and back—but the North Sea, as you can see, has only two exits to the Atlantic Ocean. One is through the English Channel, and since the English Channel is bordered by France and Britain, and is somewhere between 20 and 112 miles wide, it’s a passage the Allies can pretty easily deny to the German Navy. Which leaves the Northerly route. You can see up here that sailing out to the Atlantic might be possible there, if you go past Norway—but even still, Britain is in your way. At the very northerly tip of Scotland, we have the Orkney and the Shetland islands. And in the Orkney Islands is the harbor of Scapa Flow, where the British have stationed their Grand Fleet, with the intention of keeping up a blockade against Germany. 
+
+In September 1914, the British declare all of the North Sea a war zone, which means that they’re blockading Germany here. 
+:::
+
+:::
+
+
+## The fleet as an instrument of blockade
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width="800">
+  <source src=../media/scapa.mov>
+  </video>
+  ```
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+PLAYS AUTOMATICALLY 
+Now, here’s the British Grand Fleet at Scapa Flow, in the Orkneys, off the North of Scotland. It’s a formidable sight, to be sure. But even so, it’s not big enough actually to cover the North Sea, which is some 300,000 square miles. From Scapa Flow to the Norwegian coast—the bottleneck the Royal Navy would like to seal—is some 200 or more nautical miles. Which means that the blockade is trying to cover a distance that’s greater than even the British Navy can really actually blockade. 
+
+Which means the British actually have a problem: their fleet isn’t big enough to make the blockade effective.
+
+:::
+
+:::
+
+## Declaration of Paris
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/dec_paris.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/dec_paris.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+That’s a practical problem for obvious reasons but it’s also a legal problem. 
+
+This is a depiction of the negotiations at Paris in 1856, at the conclusion of the Crimean War, whose belligerents included Britain, Russia, the Ottoman Empire, and France. The Declaration of Paris, signed in 1856 and agreed not only by the belligerents but by a series of other nations, sought to regulate naval warfare. It declared that neutral shipping, unless it was contraband, should be protected from capture, and that blockades, to be lawful, had to be effective—that is, “maintained by a force sufficient really to prevent access to the coast of the enemy.” 
+
+The US didn’t sign this treaty, and when it declared a blockade against the Confederate States, it was widely understood that this blockade would have been precluded by this treaty—the US Navy in 1861 had nothing like the ships sufficient to blockade the entire Southern portion of the US, and therefore European powers felt largely licensed to ignore the blockade. 
+
+And the British blockade of the North Sea was similar—as big as the Grand Fleet was, it couldn’t really prevent passage. What was more, in the first month of the war, a German U-Boat sank three British warships in the English Channel, thus encouraging the British to keep the Grand Fleet in harbor, in safety, at Scapa Flow, and have only a small squadron patrolling the North Sea.
+
+:::
+
+:::
+
+## Naval strategy revisited
+
+:::{.content-hidden unless-format="html"}
+
+::::{.v-center-container}
+```{r, fig.height=6.8, fig.width=7.8, echo=FALSE}
+q
+```
+::::
+
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Not only was the blockade not really effective, and therefore not lawful, there is a legitimate question as to how successful it could have been. True, the British fleet might harass German ships and neutral traffic, but the Netherlands, a neutral nation, could trade with Germany overland, and Austria-Hungary would have had some crops as well. Combine those facts with the practically insufficient blockade and the recent invention of artificial fertilizer to improve the yield of German arable acreage, and the blockade might have been ineffective in any case. 
+
+But perhaps the key point here is that at the start, the Germans anticipated the war lasting no more than a few months, and that it would be won on the continent by their armies, so they did not worry too much about the command of the seas, or the prospect of being starved out. So neither side had really worked out a fully practical, legal, or coherent strategy of naval blockade.
+
+The blockade is effective enough, though, that the Germans want to stop it, or to impose the same kind of hindrance on the British.
+:::
+
+:::
+
+## Rules of blockade
+
+
+::::{.v-center-container}
+
+- neutral ships can be stopped and searched for contraband
+- ships with contraband escorted to nearest port, contraband adjudicated by prize court
+- neutral ships w/contraband may be sunk, but only after permitting passengers and crew to disembark
+
+::::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So this means a warship encountering a neutral vessel is meant to hail them, stop them, send a small party aboard to search. “Contraband” is pretty well defined in law, and though there are some complexities, broadly it means materiel that is specifically, directly for use in fighting a war. Weapons, ammunition, tanks, airplanes, all that sort of thing. Many other items that are not officially contraband are nevertheless of great aid to a belligerent nation—food, hides to make leather, and so forth. But that’s not supposed to get stopped. Now, a blockade crew may well find that the neutral ship’s captain isn’t all that accommodating, in which case they’re supposed to take the ship to a nearby port so a naval “prize court” versed in the laws of war can determine the disposition of the crew.
+
+*IF* none of that is possible, you can sink it, but only if you let everyone get off the ship. So here’s the thing. If you do all this, you’re kind of obviating the use of a submarine. The whole point of a submarine is to be sneaky, for its position not to be known. And it’s very small. So if it surfaces, people know where it is, and a merchantman can radio out to a destroyer or cruiser to come and blow up the sub. Also, if it’s to stop a contraband-carrying ship, it can’t really let the passengers off, because it’s got nowhere to put them. 
+
+With the declaration of the British blockade in September 1914, and the passage of a few months without the war ending, the Germans face the question of what they are going to do. If the British are going to try to starve the Germans, the reasoning goes, why shouldn’t the Germans try to return the favor.
+
+:::
+
+:::
+
+## Escalation of blockades
+
+
+::::{.v-center-container}
+
+- September 1914: British declare North Sea a war zone, blockade Germany
+- February 1915: Germany declares all approaches to British Isles a war zone, blockage Britain; declare intention to destroy all hostile merchant ships, “without being able to guarantee the safety of the persons and goods they are carrying”
+- May 1915: British expand blockade to include all goods suspected bound for Germany, irrespective of ownership or contraband status
+
+::::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So as you can see, each country is attempting to declare the other entirely cut off from Atlantic shipping by the time you get into the beginning of 1915. The British began equipping small merchantman vessels with weapons, and crewing them with small Royal Navy detachments, with the idea of luring submarines in for what looked like an easy kill, then throwing off their camouflage and firing their guns at the U-Boats. These so-called Q-ships were also often fitted with air-filled casks, so even if torpedoed they might remain afloat, forcing a submarine to the surface to try to sink them, and affording the Q-ship another chance to sink the sub. 
+
+:::
+
+:::
+
+---
+
+### Consequences of German war zone
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width="800">
+  <source src=../media/u-boat.mov>
+  </video>
+  ```
+::::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+With the German declaration of February, the U-Boats are unleashed on all British-flagged ships. That means that the fate of British ships is down to whether a U-Boat captain spots them, and competently fires a torpedo at them. The Germans have officially decided that there will be no legal protection for the citizens or the property of neutral nations. 
+
+Woodrow Wilson declared in February that the US would hold any belligerents to “strict accountability” for any loss of American life. He also tried to steer a middle course between Germany and Britain, as the US wished to continue trade with both nations; as we’ve seen, the US was culturally and commercially connected to both and there was no official desire to side firmly with one against the other, nor any widespread public consensus. 
+
+Privately, American firms were profiting substantially by sending armaments to Britain and France in defiance of the blockade. German intelligence were able to tell: there was identifiably American ammunition in use on the western front, and captured French artillery officers referred to their stores of US-made ammunition. The effort to conceal contraband in American cargo had reached considerable proportions by early 1915, for cargo bound for both Britain and Germany; British blockade crews even recorded an instance of discovering contraband bound for Germany concealed inside rubber onions, which they found only when one of the onions fell and bounced on the deck.
+:::
+
+:::
+
+## The Lusitania, 1915
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width="800">
+  <source src=../media/lusitania_sails.mov>
+  </video>
+  ```
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So that’s where we are in May 1915, at the time of this film—in which you can see the ocean liner Lusitania, a passenger ship owned by the Cunard line, sailing from New York. 
+	This was an enormous vessel—785 feet long, with four funnels. At the time she was built, in 1907, she was half again as large as any vessel built to date. Her hull was made of high-tensile steel, and she had electric controls for steering, for closing the watertight compartments, and for fire detection. She made an average speed of about 23 knots, which is nautical mph, which is a lot for a vessel that big. And it was a luxury ship, with multiple-room apartments for the first-class passengers. The Lusitania’s capacity was 540 first-class passengers, 460 second-class, and 1200 third-class, with a crew of 850. If you walked around the Promenade Deck, you had gone more than a quarter-mile for exercise. The dining room was done in white with gilt edges, in a Louis XVI style; the smoking room was done in dark walnut paneling and had a stained-class dome. Even the third-class passengers had public areas in which to relax; Cunard recognized that this was actually a major profit center, with many millions of immigrants admitted to the US in the years leading up to the First World War. 
+	Moreover, on the eve of the war, Cunard had surpassed one of its principal rivals, White Star: Cunard had, in about half a century of operation, never lost a passenger. In 1912, White Star’s great ship Titanic had sunk on its maiden voyage. 
+	Not only was Lusitania extremely conspicuous in every way, but reports had reached German intelligence that she was carrying ammunition concealed in barrels of flour in her hold. 
+:::
+
+:::
+
+## Warning
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/lusitania_notice.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/lusitania_notice.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Before Lusitania sailed, this warning appeared in a variety of American newspapers. Nothing like this had ever been done before. The British embassy in London was given advance notice that the warning would appear, though it hardly knew what to make of it. The Cunard spokesman tried to reassure Lusitania’s passengers, telling them “The Germans have been trying to spoil our trade for some time, but never until to-day have they manifested such an actively unfriendly desire to put us out of business.… The fact is that the Lusitania  … is too fast for any submarine. No German vessel of war could get near her.” Now, the Lusitania actually wasn’t as fast as she used to be—as a way of saving fuel and money in wartime, Cunard had taken one of her four boilers out of commission. But that still put her at a top speed of 21 knots, and no vessel had yet been torpedoed if it was going more than 14 knots. And you can see the warning doesn’t specifically target Lusitania. On the day she sailed, there were five liners sailing from New York. Cunard said nobody had cancelled, which wasn’t quite true, but only a very few had done so.  And in fact, Lusitania would carry the largest number of passengers since the war began—1257, of which about 200 were Americans. 
+:::
+
+:::
+
+## Sailing through peril
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/lusitania_decks.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/lusitania_decks.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Because of the warning, the passengers were more alert than usual to the workings of the ship. One recorded his doubts about the ship’s lifeboat drills. The boats were never lowered entirely to the water. The skill of getting a lifeboat down onto the peak of a wave was essential in getting it launched without it foundering. 
+	Another rumor held that the Lusitania was carrying weapons, or that she was armed. A passenger walked the entire ship, deck to deck, looking for concealed guns, and found nothing. But he could not look in the hold, nor apparently was he able to see her manifest; if he could, he would have found that half the Lusitania’s cargo, in terms of its value, was weaponry: 4200 cases of Remington rifle cartridges, 1250 cases of shells and 18 cases of fuses. In addition, lots of aluminum, bronze, beef, lard, bacon, cheese leather, car parts, and wool, among other items that would have been valuable to the British war effort.
+	As one US Treasury official said, “Practically all of her cargo was contraband of some kind,” and would have been seized or destroyed by a German naval vessel.
+:::
+
+:::
+
+## U-boat, unrestricted
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/u20.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/u20.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This is the German submarine U-20, which was on patrol looking for ships to sink. She was in many respects a typical diesel U-Boat, as we’ve described. Her Captain, Walther Schweiger, was maybe a little atypical. He kept dachshunds on board. He was also pretty aggressive. He’d sunk three British merchantmen without warning even before the declaration of unrestricted warfare, and had taken a shot at a hospital vessel, which was painted white and had red crosses on her (he said he thought she was an enemy merchantman). 
+	U-20 put to sea on April 30, with two torpedoes in the tubes and some extras on board, lashed in one of the seamen’s bunks—they said at first he was nervous about so much TNT next to him in bed, but that he got used to it.
+	U-20 sank two vessels while on station, and her activities caught the attention of the Royal Navy, which warned inbound ships to be wary.
+
+:::
+
+:::
+
+## Sinking the Lusitania
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop width="800">
+  <source src=../media/lusitania_mccay.mov>
+  </video>
+  ```
+::::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+There’s no footage of the Lusitania sinking, but this is an animated newsreel done by the great animator Winsor McCay; obviously, for this to exist, there had to be intense interest…
+
+Anyway, Lusitania neared the British Isles in a thick fog, making slow progress. U-20 followed it on the surface, taking advantage of the fog and keeping its batteries charged. Schwieger took a shot at it at around 2pm on May 7. Some passengers on deck actually saw the torpedo coming, and said, “My God, we are lost.” The initial explosion of the torpedo was followed by a much larger explosion. On board, and for a time afterward, people said it was a second torpedo, but we now know it was the ammunition in the hold going up. The ship sank in slightly less than twenty minutes. Only one of the lifeboats on the portside got away without being capsized or swamped; at least one was dropped as you see in the film here. A great many people drowned or were crushed as the ship went down—more than 1200. On the U-Boat, Captain Schwieger and his crew were able to see the lettering, Lusitania, so they knew the ship they had got. They did not fire again: “it would have been impossible for me to fire a second torpedo into this crushing crowd of humanity trying to save their lives,” Schwieger wrote. The radio operator wrote that it was “not pretty.” 
+:::
+
+:::
+
+## A threat to neutrality
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/lusitania_nyt.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/lusitania_nyt.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The sinking created a shock in the US and Britain, particularly. But the nature of the final reaction was not yet clear. Under pressure from an indignant press, President Wilson composed a message condemning Germany. But this feeling was not universally shared within his cabinet. His Secretary of State, William Jennings Bryan, urged him simultaneously to condemn Britain’s blockade. Wilson said no. Bryan accused the cabinet, saying, “You people are not neutral, you are taking sides.” Bryan decided he had to resign.
+
+:::
+
+:::
+
+## How neutral can you be
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/kaiser_wjb.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/kaiser_wjb.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Cartoon showing Bryan resigning; the Kaiser applauding. In truth, though, Germany was worried. Over weeks of negotiations with the US government, they tried to preserve US neutrality. In a note of July, they affirmed “principles of humanity,” but complained of Britain’s illegal blockade, and said Germany had resorted to submarines to try to survive. The Germans offered to give safe conduct to US vessels flying the US flag and carrying no contraband. But this wasn’t enough for the US press or government. Wilson reasserted neutral rights and the laws of war. Germany demurred. In August, a German U-Boat sank another liner, White Star’s Arabic. 2 Americans died. This put the Germans at a disadvantage.
+
+:::
+
+:::
+
+## Ultimatum 
+
+::::{.v-center-container}
+
+
+:::{.callout-caution appearance=minimal}
+Unless the Imperial Government should now immediately declare and effect an abandonment of its present methods of submarine warfare … the United States can have no choice but to sever diplomatic relations with the German Empire.…
+
+:::{.flushright}
+US note, April 18, 1916
+:::
+
+
+[Imperial Navy will now act] in accordance with the general principles of visit and search and the destruction of merchant vessels recognized by international law.
+
+:::{.flushright}
+German note, May 4, 1916
+:::
+
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, first of all, as you can see, this took a long time to extract this from the Germans. To get Wilson to issue the ultimatum took a long time, and it took the ultimatum to get Germany to withdraw the license for unrestricted submarine warfare. 
+
+But for now, U-Boats were required to act by the rules, surfacing and seeking to get merchantmen to declare themselves, inspecting them, and otherwise showing restraint. The change in policy almost certainly had consequences for Germany’s wartime fortunes.
+
+
+
+:::
+
+:::
