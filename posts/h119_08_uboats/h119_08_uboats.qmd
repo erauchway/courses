@@ -187,7 +187,7 @@ In September 1914, the British declare all of the North Sea a war zone, which me
 
 ::::{.v-center-container}
   ```{=revealjs}
-  <video muted loop width="800">
+  <video muted loop width="700">
   <source src=../media/scapa.mov>
   </video>
   ```
@@ -295,7 +295,7 @@ With the declaration of the British blockade in September 1914, and the passage 
 ::::{.v-center-container}
 
 - September 1914: British declare North Sea a war zone, blockade Germany
-- February 1915: Germany declares all approaches to British Isles a war zone, blockage Britain; declare intention to destroy all hostile merchant ships, “without being able to guarantee the safety of the persons and goods they are carrying”
+- February 1915: Germany declares all approaches to British Isles a war zone, blockade Britain; declare intention to destroy all hostile merchant ships, “without being able to guarantee the safety of the persons and goods they are carrying”
 - May 1915: British expand blockade to include all goods suspected bound for Germany, irrespective of ownership or contraband status
 
 ::::

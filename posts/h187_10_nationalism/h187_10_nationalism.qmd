@@ -1,0 +1,391 @@
+---
+title: Nationalist decade
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 18, 2024 
+draft: TRUE
+title-slide-attributes: 
+  data-notes: "Last time I talked about the persistence of some forms of internationalism in the 1920s; today I want to talk about the much stronger tendency toward nationalism. It's legitimate to ask where it comes from---bottom up, top down; reactionary or rooted in tradition, etc."
+categories:
+  - HIS 187
+---
+
+## The gold standard
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/double_eagle.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/double_eagle.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Designed 1907 Augustus St. Gaudens, liberty on the obverse, eagle on the reverse. The gold measures about an ounce, because at this point in law the dollar is defined as $20.67 to a pure ounce of gold; the coin can’t be pure gold but it’s close---that’s why it’s a bit dinged up, as you can see. Gold coins are quite heavy and quite soft, they get banged up pretty good in your pocket, and so generally, people don’t carry them. People carry paper instead. But they can, by law, exchange that paper for gold at the statutory rate. 
+
+Gold was, in the c19, an international currency. You could change a dollar into gold, then use gold to buy francs, or pounds; then of course you could use the francs to buy goods in France and pounds to buy goods in Britain. If the US buys a bunch of stuff from Britain and Britain buys about the same amount of stuff from the US, then the dollar and the pound remain in a steady ratio to each other.  
+
+The idea behind the gold standard is that it forces a government to treat its currency carefully. It can’t print too much, because then it couldn’t maintain convertibility. So the gold standard keeps inflation in check. It’s a measure of a government’s reliability.
+
+It’s also a bit of a problem in the long term. Population generally increases, productivity goes up with it. But the amount of gold around remains relatively fixed. Can’t make it. Can only dig it up. (all the gold mined since Columbus fit into a cube about 37 ft square; n.b. the width of 1002 Giedt at the front of the room is 41 feet) 
+
+After 1849 gold rushes here and in AU, a lull in gold discoveries. Meanwhile, an increase of stuff (industrial revolution, advances in agricultural production). Less money relative to stuff means it takes less money to buy more stuff or, put another way, prices go down. Which is great if you have money: you can buy more stuff. It’s less great if you are in the business of making stuff and selling it for money: you have to make more stuff to get the same amount of money. This is called deflation. 
+
+Now, you can think about deflation the way we just did, in terms of there being an increase in the amount of stuff relative to the amount of gold. Or you can think of it as resulting from a reduction of gold. How would gold be reduced? Well, could be through its use as decoration or dental fillings or jewelry—but mainly that's a steady process and doesn't massively affect the quantity of monetary gold. Or it could be through trade.
+
+Remember, gold is an international currency. You want to trade, you change dollars into gold, then use gold to buy pounds; then you use pounds to buy goods in Britain. If the US buys a bunch of stuff from Britain and Britain buys about the same amount of stuff from the US, then the dollar and the pound remain in a steady ratio to each other. (Say it's 1 dollar to five pounds; so that ratio remains fixed.) The gold goes one way, then it goes back. But if the US buys a bunch of stuff from Britain and Britain buys less stuff from the US, then the British end up with a bunch of gold from the US. The US hasn't got as much gold. Which means prices go down in the US.
+:::
+
+:::
+
+## Prices under the gold standard
+
+
+::::{.v-center-container}
+```{r}
+library(tidyverse)
+library(ggtext)
+library(showtext)
+library(scales)
+library(grafify)
+font_add_google(name = "Public Sans", family = "Public Sans")
+font_add_google(name = "Holtwood One SC", family = "Holtwood One SC")
+showtext_auto()
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", 
+                          color = "midnightblue"),
+      plot.title = element_markdown(family = "Holtwood One SC", 
+                                    color = "khaki4"),
+      plot.title.position = "plot",
+      plot.caption = element_markdown(size = rel(0.5)),
+      plot.background = element_rect(fill = "floralwhite",
+                                     color = "floralwhite"),
+      plot.margin = margin(l=10,r=10),
+      axis.text = element_text(margin = margin(2,2,2,4)),
+      axis.title.y = element_markdown(angle = 90, margin =
+                                    margin(2,2,4,2)),
+      axis.line = element_line(color = "chocolate4"),
+      axis.ticks = element_line(color = "chocolate3"),
+      axis.ticks.length = unit(1, "mm"),
+      legend.position = "inside",
+      legend.justification.inside = c(0.98, 0.05),
+      panel.background = element_rect(fill = "antiquewhite1",
+                                      color = "NA")
+    )
+)
+here::i_am("lectures/h187_10_nationalism/h187_10_nationalism.qmd")
+library(here)
+```
+
+```{r}
+read_csv(here("lectures", "h187_10_nationalism", "data", "Cc1-2.csv")) |>
+  select(c("year" = "Year", "CPI" = `BLS-based_Cc1_Index1982–1984100`)) |>
+  filter(year > 1870 & year < 1915) |>
+  ggplot() +
+  geom_line(linewidth = 2, color = "#44AA99", aes(x = year, y = CPI)) +
+  labs(x = "", y = "Consumer price index, 1982--1984 = 100", title = "US consumer prices, 1871--1914", caption = "Chart made using R and ggplot by Eric Rauchway using data from HSUS series Cc1.") 
+```
+::::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In the late c19, there’s deflation and it’s hard on farmers and other people who make stuff in the hope of exchanging it for money, which contributes to the unrest we’ve discussed in the 1890s. Then it mostly goes away after 1897, with gold strikes (Yukon, SA) and cyanide process.
+
+This leads to a long slow period of inflation throughout the gold-standard world, which is to say, prices going up. Now, a long slow period of prices gradually going up is probably fine, even good. When prices go up a little bit over a long time, you begin to expect that prices will go up a little bit over a long time. And you build that into your plans. You invest your money in places that will (you hope) yield a higher return than inflation---in stocks. That means you're giving your money to capitalists to (you hope) invest in increased productivity and return part of the profits to you. So that's good, in terms of encouraging economic activity. Also, if prices are going up over a long time, you're more likely to spend your money than save it. Because the money you have is getting to be worth a little less, all the time, because of inflation. If you want to buy something, and you know that the price of that something is going to go up, and you have the money, it's better to buy that thing now, when it's cheaper, rather than later, when it's more expensive. So a little inflation over the long term, is okay, even good for the economy as a whole. People who *have* money don't like it, because it's eroding the value of the money they have. But people who make money, and spend it as they go, are just fine with it.
+:::
+
+:::
+
+
+## Inflation during the Great War
+
+
+::::{.v-center-container}
+
+```{r}
+read_csv(here("lectures", "h187_10_nationalism", "data", "Cc1-2.csv")) |>
+  select(c("year" = "Year", "CPI" = `BLS-based_Cc1_Index1982–1984100`)) |>
+  filter(year > 1914 & year < 1920) |>
+  ggplot() +
+  geom_line(linewidth = 2, color = "#44AA99", aes(x = year, y = CPI)) +
+  labs(x = "", y = "Consumer price index, 1982--1984 = 100", title = "US consumer prices, 1915--1919", caption = "Chart made using R and ggplot by Eric Rauchway using data from HSUS series Cc1.")
+```
+
+
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+And then prices go up even more during the Great War, as we've seen---partly because of scarcity, partly because of profiteering, and also partly because, during the war, governments throughout the world suspend the gold standard. There's no longer a gold anchor keeping the dollar down. Prices go up in the US as much as 25% per year. 
+
+Now as I say, under ordinary circumstances, even under the gold standard, people would rather hold paper money. And this is true even under long-term, low-level inflation. But in short-term, sharp inflation, people get to worrying. As they see the value of the dollar go down, they begin to mistrust it. They don't see that there's any safety investing in stocks. So instead of having paper money, and investment in stocks, they take their paper money to the Federal Reserve Bank, and ask for it to be changed into gold, then they take their gold away, and put it in their houses. It doesn't earn interest. But they figure that if the paper dollar is coming to be worth less and less, they'd rather hold the gold, at least for the time being; they think it will retain its value. 
+:::
+
+:::
+
+## Gold panic under inflation
+
+
+::::{.v-center-container}
+```{r}
+read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=960&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=M1476BUSM027NNBR&scale=left&cosd=1914-01-01&coed=1946-12-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=1946-12-01&line_index=1&transformation=lin&vintage_date=2024-10-15&revision_date=2024-10-15&nd=1914-01-01") |>
+  select(c("month" = "DATE", "gold_stock" = "M1476BUSM027NNBR")) |>
+  mutate(month = as.Date(month)) |>
+  filter(month >= as.Date("1914-01-01") & month <= as.Date("1920-12-01")) |>
+  ggplot() +
+  geom_line(aes(x = month, y = gold_stock), 
+            linewidth = 2, color = "gold") +
+  labs(x = "", y = "Monetary gold stock ($b)", title = "US monetary gold stock, 1914--1920", caption = "Chart made using R and ggplot by Eric Rauchway with data from FRED series M1476BUSM027NNBR")
+```
+
+::::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So many Americans do this so often that by the end of 1919, the Federal Reserve Bank of New York is running low on gold---too law, in fact; the law then required the FR to keep in its vaults forty cents' worth of gold for every paper dollar in circulation, and the New York bank was about to go below that. 
+
+So to counteract this emergency, the Fed raises rates suddenly and significantly, 1.25 percentage points, to 6 percent. When the Federal Reserve raises interest rates, it is making it more expensive to borrow money. If money is more expensive to borrow, then people are less likely to borrow it. Economic activity slows down, as borrowing slows down. Less borrowing means less investing and less buying. Less investing and less buying means less employment. Less employment means less purchasing. Less purchasing means prices go down, as vendors try to entice buyers. Lower prices and higher interest rates lure money out of hoarding, and into circulation and bank vaults again. 
+:::
+
+:::
+
+## A recession to cover gold
+
+
+::::{.v-center-container}
+
+:::{.column}
+
+```{r}
+read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=960&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=M13009USM156NNBR&scale=left&cosd=1914-11-01&coed=1969-07-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=1969-07-01&line_index=1&transformation=lin&vintage_date=2024-10-15&revision_date=2024-10-15&nd=1914-11-01") |>
+  select(c("month" = "DATE", "frbny_rate" = "M13009USM156NNBR")) |>
+  mutate(month, as.Date(month)) |>
+  filter(month > as.Date("1919-12-01") & month < as.Date("1922-01-01")) |>
+  ggplot() +
+  geom_line(linewidth = 2, color = "indianred", 
+            aes(x = month, y = frbny_rate)) +
+  scale_x_date(labels = label_date_short(), expand = c(0,0)) +
+  labs(x = "", y = "FRBNY discount rate", title = "FRBNY discount rates, 1920--1921", caption = "Chart made using R and ggplot by Eric Rauchway with data from FRED series M13009USM156NNBR")
+```
+
+:::
+
+:::{.column}
+```{r}
+read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=960&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=M1476BUSM027NNBR&scale=left&cosd=1914-01-01&coed=1946-12-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=1946-12-01&line_index=1&transformation=lin&vintage_date=2024-10-15&revision_date=2024-10-15&nd=1914-01-01") |>
+  select(c("month" = "DATE", "gold_stock" = "M1476BUSM027NNBR")) |>
+  mutate(month = as.Date(month)) |>
+  filter(month > as.Date("1919-12-01") & month < as.Date("1922-01-01")) |>
+  ggplot() +
+  geom_line(aes(x = month, y = gold_stock),
+            linewidth = 2, color = "gold") +
+  scale_x_date(labels = label_date_short(), expand = c(0,0)) +
+  labs(x = "", y = "Monetary gold stock ($b)", title = "US monetary gold stock, 1920--1921", caption = "Chart made using R and ggplot by Eric Rauchway with data from FRED series M1476BUSM027NNBR.")
+```
+
+:::
+::::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So that means the Fed achieves its goal, by jolting that gold out from under people's mattresses and back into banks, and thus the money back into circulation. By June of 1921, prices had dropped to 56% of their level. 
+:::
+
+:::
+
+## The cost of staying on gold
+
+
+::::{.v-center-container}
+```{r}
+read_csv(here("lectures", "h187_10_nationalism", "data", "Ba470-477.csv")) |>
+  select(c("year" = "Year", "unemp" = "Unemployed_AsPercentageOf_CivilianLaborForce_Ba475_Percent")) |>
+  filter(year > 1913 & year < 1924) |>
+  ggplot() +
+  geom_line(aes(x = year, y = unemp),
+            linewidth = 2, color = "pink4") +
+  labs(x = "", y = "Unemployment rate (percent)",
+       title = "US unemployment, 1914--1923",
+       caption = "Chart made using R and ggplot by Eric Rauchway with data from HSUS series Ba475.")
+```
+
+::::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But the unemployment the Fed thus created became a serious crisis; unemployment leapt from 2.34 percent in 1919 to 5.16 percent in 1920 to 11.33 percent in 1921. 
+
+The Fed began to lower interest rates in May of 1921, and the crisis began to ease. In fact, it might have acted sooner, but for the fact that President Harding demanded it do so, and the Federal Reserve's officers did not want to appear as if they were taking orders from the President; they were (and are) supposed to be independent. In the meantime, Harding and the Republican Congress decided they were going to counteract the recession. They authorized the still-existing War Finance Corporation to offer a billion dollars in emergency loans to American farmers. They spent $75 million on new highways. (This was at a time when total federal expenditure was about $5bn.) 
+
+(Now, one of the reasons I want to take you through all this is that we will see it again, on a much larger scale, at the end of the 1920s---and that time, the Fed will not be in charge. But a similar pattern of events will hold.)
+:::
+
+:::
+
+## Nationalist response to recession
+
+
+::::{.v-center-container}
+- tariffs
+  - Emergency Tariff Act, 1921
+  - Fordney--McCumber Tariff, 1922
+- immigration restriction
+  - Emergency Immigration Restriction (Quotas) Act, 1921
+  - Johnson--Reed (National Origins) Act, 1924
+
+::::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The other reason I want to take you through this crisis is to look at the reaction to it---which, I think it’s fair to say, a lot of scholars will say leads to that later, greater crisis.
+
+In response to the economic crisis, the United States adopted an Emergency Tariff Act and an Emergency Immigration Restriction Act in 1921. This started a trend that continued through the 1920s, of higher tariffs and more restrictive immigration laws.  Other nations follow suit, raising tariffs and barriers to migration. The volume of world trade and global migration falls. Workers are less able to find employment overseas, because they can't migrate; countries that need workers are less able to find them, because they can't get immigrants. 
+:::
+
+:::
+
+## A world of debt
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/world_payments_1920s.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/world_payments_1920s.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+All of this might have been fine if the US was still on the periphery of the world economy. But it wasn't; it emerged from WWI as the world's biggest creditor. (Explain map.) Debtor nations needed Americans to buy fs1oreign-made goods so that they could get dollars to repay their US creditors. But protective tariffs lessened this necessary circulation. Americans aren't buying foreign goods; foreigners don't have dollars. Foreigners don't have dollars, they can't pay Americans. 
+
+:::
+
+:::
+
+## Against the hyphen
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.columns .v-center-container}
+
+:::{.column width="30%"}
+![](../media/harding_am_first.png)
+:::
+
+:::{.column}
+
+:::{.callout-tip appearance=minimal}
+To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to live for and revere America first
+
+:::{.flushright}
+Warren Harding, 1920
+:::
+:::
+:::
+
+::::
+:::
+
+:::{.content-visible when-format="html" unless-format="revealjs"}
+
+:::{.callout-tip appearance=minimal}
+To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to live for and revere America first
+
+:::{.flushright}
+Warren Harding, 1920
+:::
+:::
+
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/harding_am_first.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+US policies of the 1920s reflected the new prominence of the posture, “America First,” a slogan that Wilson had tried briefly to claim for his internationalist agenda, putting the United States first among equals, but which swiftly found a home among Wilson’s antagonists. “America First” appealed particularly to the opponents of US involvement in the League of Nations. Like Senator Henry Cabot Lodge, these new nationalists would put America first by keeping the United States out of international organizations, and they also wanted to keep international peoples out of the United States. “America First” became a popular motto for the newspaper publisher William Randolph Hearst, the Ku Klux Klan, and the Republican Party. The motto denoted support for racial and economic nationalism. Warren Harding, with his characteristically anodyne phrases, announced that he meant “To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to exalt America first, to live for and revere America first,” but also added that “America First” was naturally the opposite of “Hyphen First,” explaining that America Firsters were unalterably opposed to the divided loyalties of hyphenated ethnic peoples---German-Americans, Italian-Americans, and so forth. In this nationalist atmosphere, the pleas even of dozens of highly regarded economists that the United States involve itself in international financial arrangements were bound to have little effect. The new respectability of the Klan and of scientific racism more generally led not only to the US adoption of anti-immigrant policies, ensuring that no foreigners would come into the United States, but also to the adoption of eugenic policies to ensure a purer, better race of Americans.
+:::
+
+:::
+
+## America first
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+currently one state in which one can observe at least weak beginnings of a better conception. This is of course not our exemplary German Republic, but the American Union, in which an effort is being made to consider the dictates of reason to at least some extent. The American Union categorically refuses the immigration of physically unhealthy elements, and simply excludes the immigration of certain races
+
+:::{.flushright .fragment .fade-up}
+Adolf Hitler
+:::
+::::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Right-wing politicians in other nations took note, so that through the 1920s the United States became a net exporter of nationalism as codified in anti-immigrant policies, protective trade policies, and laws for racial purification and also as practiced in the streets. The Ku Klux Klan, re-born in 1915, had its counterparts in the Italian squadristi and the German freikorps, among other violent enforcers of nationalist sentiment around the world, and observers frequently credited the “American fascisti” of the Klan with being the first such militia. Adolf Hitler admiringly noted that the United States had become in the 1920s the world “leader in developing explicitly racist policies of nationality and immigration.” 
+	Ever-present pressure from these right-wing movements made it difficult for politicians in the US, as in Europe, to support international cooperation even on policies of obviously mutual benefit, lest they alienate their constituents. To challenge the prevailing nationalism of the period would have required the people in power to articulate and implement a vision that would serve as an effective alternative. None dared. 
+	This is another reason that, during the 1920s, the US carried out much of its more generous foreign policy, especially economic foreign policy, without using the government. There was such an intense feeling of nationalism in many parts of the country that to have devoted oneself to internationalism would have been perilously unpopular.
+:::
+
+:::
+
+## Klan north and south
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/kkk_queens_1927.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/kkk_queens_1927.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In some obvious places there were clashes between nationalists and those more sympathetic to internationalist sentiments, as for example New York City. In 1927, there was a Memorial Day demonstration by the Klan, whose members got into fights with some onlookers. The police commissioner declared afterward that the Klan shouldn’t have been parading; “Neither the Klan nor the Fascisti have a proper place in a parade dedicated to the soldier dead of the United States.” The city subsequently outlawed public demonstrations by the Klan in robes or by “the black-shirted Fascisti.” The Klan blamed the police for being largely Irish Catholic.
+
+One of the men arrested with the Klansmen was a guy called Fred Trump; the charge was “refusing to disperse.”
+
+:::
+
+:::

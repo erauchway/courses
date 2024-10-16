@@ -4,7 +4,7 @@ subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: October 16, 2024 
-draft: TRUE
+draft: FALSE
 title-slide-attributes: 
   data-notes: "As we saw last time, by the middle 1920s, there was some apparent movement toward guarded normalization of the Soviet Union, after the initial freakout over a revolutionary socialist state. We'll look a bit more at efforts to normalize international relations in the 1920s today."
 categories:
@@ -15,7 +15,7 @@ categories:
 
 ### Washington Naval Conference, 1921
 
-:::{.content-hidden when-format="html" unless-format="revealjs"}
+:::{.content-hidden unless-format="revealjs"}
 
 ::::{.v-center-container}
   ```{=revealjs}
@@ -135,7 +135,7 @@ Now, you could read this episode, and the other peace conferences that followed 
 ::::{.v-center-container}
   ```{=revealjs}
   <video muted loop width=850>
-  <img src=../media/alabama.mov>
+  <source src=../media/alabama.mp4>
   </video>
   ```
 ::::
@@ -157,7 +157,7 @@ And, here’s the thing: Project B had been carried out in July 1921---months be
 - Rapallo Treaty
 - Ruhr occupation
 ::::
-:::
+
 
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
@@ -181,7 +181,7 @@ Remember, because the French didn't want the League watching what they were up t
 
 
 :::{.content-visible when-format="pdf" .column-margin}
-  ![](../media/italy1921.png)
+  ![](../media/italy_1921.jpg)
 :::
 
 
@@ -291,7 +291,7 @@ So in June, Briand sends this along. Kellogg sits on it. Shotwell and some other
 
 ## Pact of Paris
 
-:::{.content-hidden when-format="html" unless-format="revealjs"}
+:::{.content-hidden unless-format="revealjs"}
 
 ::::{.columns .v-center-container}
 
@@ -311,8 +311,18 @@ condemn recourse to war . . . and renounce it. . . . settlement . . . of all dis
 
 :::
 
+:::
+
 :::{.content-visible when-format="pdf" .column-margin}
   ![](../media/kb_postcard.png)
+:::
+
+:::{.content-hidden when-format="revealjs"}
+
+:::{.callout-tip appearance=minimal}
+condemn recourse to war . . . and renounce it. . . . settlement . . . of all disputes . . . shall be by pacific means
+:::
+
 :::
 
 
