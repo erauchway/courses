@@ -1,0 +1,450 @@
+---
+title: Internationalist turn, 1933
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 21, 2024 
+draft: TRUE
+title-slide-attributes: 
+  data-notes: ""
+categories:
+  - HIS 187
+---
+
+## America First
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.columns .v-center-container}
+
+:::{.column width="30%"}
+![](../media/harding_am_first.png)
+:::
+
+:::{.column}
+
+:::{.callout-tip appearance=minimal}
+To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to live for and revere America first
+
+:::{.flushright}
+Warren Harding, 1920
+:::
+:::
+:::
+
+::::
+:::
+
+:::{.content-visible when-format="html" unless-format="revealjs"}
+
+:::{.callout-tip appearance=minimal}
+To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to live for and revere America first
+
+:::{.flushright}
+Warren Harding, 1920
+:::
+:::
+
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/harding_am_first.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+US policies of the 1920s reflected the new prominence of the posture, “America First,” a slogan that Wilson had tried briefly to claim for his internationalist agenda, putting the United States first among equals, but which swiftly found a home among Wilson’s antagonists. “America First” appealed particularly to the opponents of US involvement in the League of Nations. Like Senator Henry Cabot Lodge, these new nationalists would put America first by keeping the United States out of international organizations, and they also wanted to keep international peoples out of the United States. “America First” became a popular motto for the newspaper publisher William Randolph Hearst, the Ku Klux Klan, and the Republican Party. The motto denoted support for racial and economic nationalism. Warren Harding, with his characteristically anodyne phrases, announced that he meant “To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to exalt America first, to live for and revere America first,” but also added that “America First” was naturally the opposite of “Hyphen First,” explaining that America Firsters were unalterably opposed to the divided loyalties of hyphenated ethnic peoples---German-Americans, Italian-Americans, and so forth. In this nationalist atmosphere, the pleas even of dozens of highly regarded economists that the United States involve itself in international financial arrangements were bound to have little effect. The new respectability of the Klan and of scientific racism more generally led not only to the US adoption of anti-immigrant policies, ensuring that no foreigners would come into the United States, but also to the adoption of eugenic policies to ensure a purer, better race of Americans.
+:::
+
+:::
+
+
+## Business cycles
+
+
+:::{.v-center-container}
+```{r, warning=FALSE, echo=FALSE, message=FALSE}
+library(tidyverse)
+library(ggtext)
+library(showtext)
+library(scales)
+library(grafify)
+font_add_google(name = "Public Sans", family = "Public Sans")
+font_add_google(name = "Holtwood One SC", family = "Holtwood One SC")
+showtext_auto()
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", 
+                          color = "midnightblue"),
+      plot.title = element_markdown(family = "Holtwood One SC", 
+                                    color = "khaki4"),
+      plot.title.position = "plot",
+      plot.caption = element_markdown(size = rel(0.5)),
+      plot.background = element_rect(fill = "floralwhite",
+                                     color = "floralwhite"),
+      plot.margin = margin(l=10,r=10),
+      axis.text = element_text(margin = margin(2,2,2,4)),
+      axis.title.y = element_markdown(angle = 90, margin =
+                                    margin(2,2,4,2)),
+      axis.line = element_line(color = "chocolate4"),
+      axis.ticks = element_line(color = "chocolate3"),
+      axis.ticks.length = unit(1, "mm"),
+      legend.position = "inside",
+      legend.justification.inside = c(0.98, 0.05),
+      panel.background = element_rect(fill = "antiquewhite1",
+                                      color = "NA")
+    )
+)
+
+read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=1140&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=INDPRO&scale=left&cosd=1919-01-01&coed=2024-08-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&transformation=lin&vintage_date=2024-10-16&revision_date=2024-10-16&nd=1919-01-01") |>
+  filter(DATE < as_date("1941-01-01")) -> indpro
+
+read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=off&txtcolor=%23444444&ts=12&tts=12&width=1140&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=USREC&scale=left&cosd=1854-12-01&coed=2024-09-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&transformation=lin&vintage_date=2024-10-16&revision_date=2024-10-16&nd=1854-12-01") |>
+  filter(DATE > as_date("1919-12-31") & DATE < as_date("1945-01-01")) |>
+  mutate(turn = case_when(USREC < lead(USREC) ~ 1,
+                          USREC > lead(USREC) ~ 0)) |>
+  drop_na() |>
+  mutate(turns = case_when(turn == 1 ~ "peak_d",
+                           turn == 0 ~ "trough_d")) |>
+  select(date = DATE, turns) -> bc_dates
+
+tibble(trough = case_when(bc_dates$turns == "trough_d" ~ bc_dates$date)) |> drop_na() -> troughs
+
+tibble(peak = case_when(bc_dates$turns == "peak_d" ~ bc_dates$date)) |> drop_na() -> peaks
+
+bizcyc <- tibble(peaks, troughs)
+
+ggplot() +
+  geom_rect(data = bizcyc,
+            aes(xmin = peak, xmax = trough,
+                ymin = -Inf, ymax = Inf), fill = "burlywood1", alpha = 0.5) +
+    geom_line(data = indpro,
+            aes(x = DATE, y = INDPRO),
+            color = "#44aa99", linewidth =1) +
+  labs(
+    title = "US industrial production and business cycles, 1919--1940",
+    x = "", y = "Index of industrial production, 2017 = 100",
+    caption = "Chart made using R and ggplot by Eric Rauchway with data from FRED series INDPRO and USREC."
+  ) +
+  coord_cartesian(expand = TRUE) -> p
+p
+```
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+You can get a sense here of the business cycles in the period between the wars. There are a few recessions of a year and a bit duration. But in general, as you can see, there's an increase of industrial productivity. Heavy industry, Hollywood, music; consumer credit.
+
+:::
+:::
+
+## Boom and crash
+
+:::{.v-center-container}
+```{r, warning=FALSE, echo=FALSE, message=FALSE}
+read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=1320&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=M1109BUSM293NNBR&scale=left&cosd=1914-12-01&coed=1968-12-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=1968-12-01&line_index=1&transformation=lin&vintage_date=2024-10-19&revision_date=2024-10-19&nd=1914-12-01") |>
+  filter(DATE > as_date("1918-12-31") & DATE < as_date("1933-01-01")) |>
+  ggplot() +
+  geom_line(aes(x = DATE, y = M1109BUSM293NNBR), color = "#661100", linewidth = 1) +
+  scale_x_date(labels = label_date_short()) +
+  labs(
+    title = "Dow-Jones Industrial Stock Price Index, 1919--1932",
+    y = "USD per share",
+    caption = "Chart made using R and ggplot by Eric Rauchway with data from FRED series M1109BUSM293NNBR."
+  )
+```
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+:::{.notes}
+In the first months of 1928, the Federal Reserve System began raising interest rates with the aim of curbing speculation in the stock market. Central bankers in the United States worried about the increasingly common use of loans to fund stock purchases. After a pause of several months, in the early part of 1929 the central bank issued a new statement objecting to the “use of the resources of the Federal reserve banks for the creation or extension of speculative credit.” In August the Federal Reserve augmented these stern words and moral suasion with higher interest rates. The rise of interest rates in the United States encouraged investment within the nation’s borders, rather than abroad. In the hope of attracting lenders, other nations raised their interest rates too. Thus by the latter half of 1929, the United States had led the world into an era of higher tariffs, higher barriers to immigration, and higher interest rates. So that’s another form of nationalism, this time financial, the US exports in the decade of the 1920s.
+
+These efforts also notably failed to prevent, and indeed plainly worsened, the economic slump that became known as the Great Depression. US overseas investment substantially fell: capital heading abroad averaged around $800 million each year through the middle 1920s, and dropped to about $360 million from 1929--1932. Soon after the Federal Reserve Board resumed trying to restrict policy and curb speculation in August 1929, the US stock market collapsed, losing ground gradually through September and then more suddenly in late October, shedding a third of its value by November. 
+
+High interest rates slowed the US economy. So long as Americans felt able to look forward with confidence to a next paycheck they could suffer payments on an installment plan. But if any uncertainty were introduced into the economic forecast, their willingness to sign for another extension of credit might waver--as it did after the 1929 crash.
+
+:::
+:::
+
+## [Forms of nationalism the United States exported in the 1920s]{.r-fit-text}
+
+:::{.v-center-container}
+- tariffs
+- immigration restriction
+- cultural nationalism/racism
+- financial restriction
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+There may seem to be a paradox here, that there’s an international trend toward nationalism. But this is a genuine thing, as we’ve seen; often nationalism in one nation is a reaction to nationalism in another, as with tariffs or immigration restriction. It’s also the case that right-wing movements, like the Nazis and the blackshirts and the Klan, learn from each other. 
+:::
+:::
+
+## Tariff protection for farmers?
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/sh1.png){width="650" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/sh1.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Rural Americans, spurred at the end the 1910s to greater productivity by international factors, found their expectations faltering even earlier than others. The war, which reduced agricultural productivity in Europe, brought increased demand for American farm products. Aided by new tractor technology, American agriculture put more acres under tillage, borrowing to buy more farmland and more farm machinery to exploit the earth more effectively. But as European fields reverted from carnage to cultivation, world commodity production increased and prices fell. American farmers believed their livelihoods had reached a peak in 1926, and by the time of the 1929 crash they had long labored under a disparity between what they would spend and what they could earn. They lobbied for a legislative solution, hoping the federal government could provide them with protection for their prices analogous to the tariff on manufactured goods. 
+
+Lawmakers began debating a new tariff law to help US agriculture. Although many farmers grew cotton or wheat chiefly for export, and so would not be helped by a tariff, and many agricultural imports were of commodities not grown within the United States anyway, in their desperation proponents of a farm tariff hoped that American producers might shift production out of export crops to otherwise imported goods, moving perhaps from sorghum to soy beans—or that American consumers, facing a newly higher price for their Central American bananas, might choose instead a home-grown apple. If it seemed a forlorn hope, it was buoyed beyond reason by anxiety begot of plummeting farm incomes. But once Congress had begun debating tariff increases, other interests than agriculture began asking for assistance. By the time the new tariff bill, bearing the names of its sponsors Senator Reed Smoot of Utah and Congressman Willis Hawley of Oregon, came to a vote, it little resembled a program of aid to farmers and instead offered considerable tariff increases to manufacturing interests. 
+:::
+
+:::
+
+## Retaliation
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+The Hawley-Smoot tariff in the United States was the signal for an outburst of tariff-making activity in other countries.
+
+:::{.flushright}
+League of Nations, *World Economic Survey, 1932--1933*
+:::
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+On its passage in 1930, other nations retaliated. As a League of Nations report said, “The Hawley-Smoot tariff in the United States was the signal for an outburst of tariff-making activity in other countries.” The global volume of trade fell, as did US exports. You don’t want to overdo the idea of the “blame,” but you do want to note that it made things worse.
+
+:::
+
+:::
+
+## [Nationalist policy worsened the depression]{.r-fit-text}{.smaller}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+:::{.column}
+![](../media/payments_map.png){width="850" fig-align="center"}
+:::
+
+:::{.column}
+- higher interest rates -> difficulty borrowing
+
+- difficulty borrowing -> reliance on income
+- tariffs -> difficulty getting $ income
+
+- difficulty getting $ income -> reliance on gold
+
+- depletion of gold -> deflation
+
+- deflation -> unemployment
+- immigration restriction -> can't export unemployment
+:::
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/payments_map.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So now, when we think about these ideas from last lecture, they help us understand why the policy response to the onset of the Depression was so poor. Nations are constrained by all these policies. (Run through them, conclude with spiral, deflation as capitalism-killer)
+:::
+
+:::
+
+## [Economic modernization & democratic deficits]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+```{=revealjs}
+<video muted loop>
+<source src=../media/mexico_revolution_new.mp4>
+</video
+```
+
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This has different consequences in different places. 	The drop in international trade during the Great Depression did not prove equally painful everywhere in the world. It may well have hit advanced economies hardest. Developing countries that depended on the export of a single crop for their welfare suffered an initial sharp shock with the drop in demand from their trading partners, but sometimes recovered quite quickly. There is some evidence that in Latin America, for example, that disconnection from global markets encouraged a process of economic modernization. To compensate for the loss of manufactured imports, these nations underwent a process of industrialization and began to make, for themselves, goods they had hitherto bought from abroad. Still, even if the short-term pain of the Depression produced some long-term economic gain in the developing countries of the Western hemisphere, it also led to democratic deficits. The economic disruption of depression led to a series of coups throughout Central and South America, in which democratic regimes were replaced by military strongmen or oligarchies. These right-wing revolutions reversed the broad tendency of the late nineteenth and early twentieth centuries toward more representative governments in the southern part of the Americas, leading to a new class of dictators in the Western hemisphere. In Mexico, for example, Plutarco Elías Calles was barred by law from running for president, so he chose his successor, and governed from behind the office of the president, referring to himself as Jefe Máximo, or Biggest boss.
+
+:::
+
+:::
+
+## "Things are Bad in Germany"
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+```{=revealjs}
+<video muted loop>
+<source src=../media/bad_in_germany.mp4>
+</video>
+```
+
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But it’s especially bad, for reasons to do with that big red arrow, in Germany. The US president who signed the Smoot-Hawley tariff into law was Herbert Hoover, who had been in the White House for only about seven months when the Wall Street crash came. Hoover considered himself an internationalist who wished to preserve the global economy as he knew it. Like Keynes, Hoover had been in Paris in 1919 and had, like Keynes, been disillusioned by the treaty’s failure to provide for international economic cooperation. He warned at the time that without more generous financing, “Europe could never be rebuilt” and if it were not, there was substantial risk especially that in a crisis, Germany’s government would turn “Reactionary or Communistic.” 
+
+Now, you’ll remember that Germany depended on increased lending from America. With the raise in interest rates in the US, it became more difficult to borrow from America. Germany was deprived of the fuel it needed to keep running. It couldn’t pay its debts and keep the cycle going.
+
+So in June 1931, Hoover proposed a one-year moratorium on intergovernmental debt payments, which Congress supported by a resolution in December. Hoover congratulated “the American people” who he said had “contributed to maintain courage and hope in the German nation, to give opportunity for the other European countries to work out their problems.”  
+
+While the moratorium was surely well intentioned and there could be no doubt that the need to make these payments imposed a burden on governments, stopping them had no evident effect on Europe’s, and particularly Germany’s, continued slide into financial collapse. German banks closed, one after another, as depositors withdrew their funds. The German government, in desperation, froze foreign assets and imposed controls on the export of currency. Although the Reichsbank maintained a notional commitment to remaining on the gold standard and converting their paper money into precious metal, they allowed their gold on deposit to shrink well below the statutory minimum. German depositors could not withdraw more than a small amount from their accounts, nor could they easily take money out of the country. In the months that followed, financial and currency panics like these repeated in other countries, producing similar reactions: covert or outright abandonment of the gold standard and the adoption of limits on the mobility of money. Notably, Britain left the gold standard in September of 1931.
+
+:::
+
+:::
+
+## [This is not a coin (nor a picture of a coin)]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/double_eagle.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/double_eagle.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+All right now. Remember how the international gold standard works to regulate prices. You trade, gold moves (or “moves”), prices move. 
+
+What happens if your trading partners go off gold? Their currency isn’t worth as much. It becomes easier for you, with the strong currency, to buy their goods and harder for them, with the weak currency, to buy your goods. Trade shifts in their direction; if it’s advantageous enough, it shifts despite tariffs. 
+
+It’s also true that as they go off gold, their economies begin moving again. Expectation of inflation. 
+
+It’s considered, as I mentioned earlier, a sign of probity to be on the gold standard and a bit shameful to go off it. France doesn’t go off and they correspondingly suffer in the Depression. Britain goes off but intends to go back on. The US, at least under Hoover, stays on, thus exacerbating deflation. Can’t loosen monetary policy; expectation of deflation = unemployment. 
+
+Which is why the 1933 Double Eagle is interesting. (Explain FDR going off gold in 1933).
+:::
+
+:::
+
+## Turnaround
+
+
+::::{.v-center-container}
+
+```{r}
+p
+```
+
+::::
+
+## [Back toward internationalism]{.r-fit-text}{.smaller}
+
+
+::::{.v-center-container}
+- World Economic Conference (London), 1933
+ 
+ - Keynes-Roosevelt proposal
+
+- Exchange Stabilization Fund
+
+  - loans to Mexico, China, France
+
+- Reciprocal Tariff Act, 1934
+
+- Three-Party Agreement, 1936
+
+  - US, UK, France
+::::
+
+
+## Also in 1933
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+```{=revealjs}
+<video muted loop>
+<source src=../media/hitler.mp4>
+</video>
+```
+
+::::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As we saw, Japan exits the League, while in Germany . . . 
+:::
+
+:::
+
+## [1. Gold money tended to be all of these things *except*]{.r-fit-text}{visibility="uncounted"}
+
+  a) heavy
+  b) soft
+  c) rare
+  d) deflationary
+  e) inflationary
+
+## [2. Prices during the Great War generally]{.r-fit-text}{visibility="uncounted"}
+
+  a) rose
+  b) fell
+  c) stayed the same
+  d) swayed from side to side
+  e) correlated with battlefield fortunes
+  
+## [3. To restore the gold standard in 1920, the Fed]{.r-fit-text}{visibility="uncounted"}
+
+  a) lowered interest rates
+  b) sold gold certificates
+  c) raised interest rates
+  d) borrowed silver from Mexico
+  e) encouraged trade with the USSR
+
+## [4. The Harding administration responded to the recession with]{.r-fit-text}{visibility="uncounted"}
+
+  a) a New Deal
+  b) a lower tariff
+  c) increased trade with the USSR
+  d) a higher tariff
+  e) going off the gold standard
+  
+## [5. In the 1920s Adolf Hitler admired US]{.r-fit-text}{visibility="uncounted"}
+
+  a) multiculturalism
+  b) immigration restriction
+  c) popular music
+  d) democracy
+  e) art

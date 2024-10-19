@@ -1,0 +1,76 @@
+## Against the hyphen
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.columns .v-center-container}
+
+:::{.column width="30%"}
+![](../media/harding_am_first.png)
+:::
+
+:::{.column}
+
+:::{.callout-tip appearance=minimal}
+To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to live for and revere America first
+
+:::{.flushright}
+Warren Harding, 1920
+:::
+:::
+:::
+
+::::
+:::
+
+:::{.content-visible when-format="html" unless-format="revealjs"}
+
+:::{.callout-tip appearance=minimal}
+To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to live for and revere America first
+
+:::{.flushright}
+Warren Harding, 1920
+:::
+:::
+
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/harding_am_first.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+US policies of the 1920s reflected the new prominence of the posture, “America First,” a slogan that Wilson had tried briefly to claim for his internationalist agenda, putting the United States first among equals, but which swiftly found a home among Wilson’s antagonists. “America First” appealed particularly to the opponents of US involvement in the League of Nations. Like Senator Henry Cabot Lodge, these new nationalists would put America first by keeping the United States out of international organizations, and they also wanted to keep international peoples out of the United States. “America First” became a popular motto for the newspaper publisher William Randolph Hearst, the Ku Klux Klan, and the Republican Party. The motto denoted support for racial and economic nationalism. Warren Harding, with his characteristically anodyne phrases, announced that he meant “To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to exalt America first, to live for and revere America first,” but also added that “America First” was naturally the opposite of “Hyphen First,” explaining that America Firsters were unalterably opposed to the divided loyalties of hyphenated ethnic peoples---German-Americans, Italian-Americans, and so forth. In this nationalist atmosphere, the pleas even of dozens of highly regarded economists that the United States involve itself in international financial arrangements were bound to have little effect. The new respectability of the Klan and of scientific racism more generally led not only to the US adoption of anti-immigrant policies, ensuring that no foreigners would come into the United States, but also to the adoption of eugenic policies to ensure a purer, better race of Americans.
+:::
+
+:::
+
+
+## Klan north and south
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/kkk_queens_1927.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/kkk_queens_1927.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In some obvious places there were clashes between nationalists and those more sympathetic to internationalist sentiments, as for example New York City. In 1927, there was a Memorial Day demonstration by the Klan, whose members got into fights with some onlookers. The police commissioner declared afterward that the Klan shouldn’t have been parading; “Neither the Klan nor the Fascisti have a proper place in a parade dedicated to the soldier dead of the United States.” The city subsequently outlawed public demonstrations by the Klan in robes or by “the black-shirted Fascisti.” The Klan blamed the police for being largely Irish Catholic.
+
+One of the men arrested with the Klansmen was a guy called Fred Trump; the charge was “refusing to disperse.”
+
+:::
+
+:::

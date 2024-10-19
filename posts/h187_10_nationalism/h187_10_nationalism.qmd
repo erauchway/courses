@@ -4,7 +4,7 @@ subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: October 18, 2024 
-draft: TRUE
+draft: FALSE
 title-slide-attributes: 
   data-notes: "Last time I talked about the persistence of some forms of internationalism in the 1920s; today I want to talk about the much stronger tendency toward nationalism. It's legitimate to ask where it comes from---bottom up, top down; reactionary or rooted in tradition, etc."
 categories:
@@ -51,7 +51,7 @@ Remember, gold is an international currency. You want to trade, you change dolla
 
 
 ::::{.v-center-container}
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(ggtext)
 library(showtext)
@@ -84,12 +84,11 @@ theme_set(
                                       color = "NA")
     )
 )
-here::i_am("lectures/h187_10_nationalism/h187_10_nationalism.qmd")
-library(here)
+
 ```
 
-```{r}
-read_csv(here("lectures", "h187_10_nationalism", "data", "Cc1-2.csv")) |>
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+read_csv(file = "data/Cc1-2.csv") |>
   select(c("year" = "Year", "CPI" = `BLS-based_Cc1_Index1982–1984100`)) |>
   filter(year > 1870 & year < 1915) |>
   ggplot() +
@@ -116,8 +115,8 @@ This leads to a long slow period of inflation throughout the gold-standard world
 
 ::::{.v-center-container}
 
-```{r}
-read_csv(here("lectures", "h187_10_nationalism", "data", "Cc1-2.csv")) |>
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+read_csv("data/Cc1-2.csv") |>
   select(c("year" = "Year", "CPI" = `BLS-based_Cc1_Index1982–1984100`)) |>
   filter(year > 1914 & year < 1920) |>
   ggplot() +
@@ -142,7 +141,7 @@ Now as I say, under ordinary circumstances, even under the gold standard, people
 
 
 ::::{.v-center-container}
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=960&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=M1476BUSM027NNBR&scale=left&cosd=1914-01-01&coed=1946-12-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=1946-12-01&line_index=1&transformation=lin&vintage_date=2024-10-15&revision_date=2024-10-15&nd=1914-01-01") |>
   select(c("month" = "DATE", "gold_stock" = "M1476BUSM027NNBR")) |>
   mutate(month = as.Date(month)) |>
@@ -173,7 +172,7 @@ So to counteract this emergency, the Fed raises rates suddenly and significantly
 
 :::{.column}
 
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=960&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=M13009USM156NNBR&scale=left&cosd=1914-11-01&coed=1969-07-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=1969-07-01&line_index=1&transformation=lin&vintage_date=2024-10-15&revision_date=2024-10-15&nd=1914-11-01") |>
   select(c("month" = "DATE", "frbny_rate" = "M13009USM156NNBR")) |>
   mutate(month, as.Date(month)) |>
@@ -188,7 +187,7 @@ read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&char
 :::
 
 :::{.column}
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=960&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=M1476BUSM027NNBR&scale=left&cosd=1914-01-01&coed=1946-12-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=1946-12-01&line_index=1&transformation=lin&vintage_date=2024-10-15&revision_date=2024-10-15&nd=1914-01-01") |>
   select(c("month" = "DATE", "gold_stock" = "M1476BUSM027NNBR")) |>
   mutate(month = as.Date(month)) |>
@@ -216,8 +215,8 @@ So that means the Fed achieves its goal, by jolting that gold out from under peo
 
 
 ::::{.v-center-container}
-```{r}
-read_csv(here("lectures", "h187_10_nationalism", "data", "Ba470-477.csv")) |>
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+read_csv("data/Ba470-477.csv") |>
   select(c("year" = "Year", "unemp" = "Unemployed_AsPercentageOf_CivilianLaborForce_Ba475_Percent")) |>
   filter(year > 1913 & year < 1924) |>
   ggplot() +
@@ -292,55 +291,6 @@ All of this might have been fine if the US was still on the periphery of the wor
 
 :::
 
-## Against the hyphen
-
-:::{.content-hidden unless-format="revealjs"}
-
-::::{.columns .v-center-container}
-
-:::{.column width="30%"}
-![](../media/harding_am_first.png)
-:::
-
-:::{.column}
-
-:::{.callout-tip appearance=minimal}
-To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to live for and revere America first
-
-:::{.flushright}
-Warren Harding, 1920
-:::
-:::
-:::
-
-::::
-:::
-
-:::{.content-visible when-format="html" unless-format="revealjs"}
-
-:::{.callout-tip appearance=minimal}
-To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to live for and revere America first
-
-:::{.flushright}
-Warren Harding, 1920
-:::
-:::
-
-:::
-
-:::{.content-visible when-format="pdf" .column-margin}
-  ![](../media/harding_am_first.png)
-:::
-
-
-:::{.content-hidden when-format="html" unless-format="revealjs"}
-
-:::{.notes}
-US policies of the 1920s reflected the new prominence of the posture, “America First,” a slogan that Wilson had tried briefly to claim for his internationalist agenda, putting the United States first among equals, but which swiftly found a home among Wilson’s antagonists. “America First” appealed particularly to the opponents of US involvement in the League of Nations. Like Senator Henry Cabot Lodge, these new nationalists would put America first by keeping the United States out of international organizations, and they also wanted to keep international peoples out of the United States. “America First” became a popular motto for the newspaper publisher William Randolph Hearst, the Ku Klux Klan, and the Republican Party. The motto denoted support for racial and economic nationalism. Warren Harding, with his characteristically anodyne phrases, announced that he meant “To safeguard America first, to stabilize America first, to prosper America first, to think of America first, to exalt America first, to live for and revere America first,” but also added that “America First” was naturally the opposite of “Hyphen First,” explaining that America Firsters were unalterably opposed to the divided loyalties of hyphenated ethnic peoples---German-Americans, Italian-Americans, and so forth. In this nationalist atmosphere, the pleas even of dozens of highly regarded economists that the United States involve itself in international financial arrangements were bound to have little effect. The new respectability of the Klan and of scientific racism more generally led not only to the US adoption of anti-immigrant policies, ensuring that no foreigners would come into the United States, but also to the adoption of eugenic policies to ensure a purer, better race of Americans.
-:::
-
-:::
-
 ## America first
 
 
@@ -363,29 +313,44 @@ Right-wing politicians in other nations took note, so that through the 1920s the
 
 :::
 
-## Klan north and south
 
-:::{.content-hidden when-format="html" unless-format="revealjs"}
+:::{.content-hidden unless-format="revealjs"}
 
-::::{.v-center-container}
-  ```{=revealjs}
-  <img src=../media/kkk_queens_1927.png>
-  ```
-::::
-:::
+# Quiz{visibility="uncounted"}
 
-:::{.content-visible when-format="pdf" .column-margin}
-  ![](../media/kkk_queens_1927.png)
-:::
+## 1. The Washington Naval Conference limited{visibility="uncounted"}
+a) aircraft carriers
+b) long-range bombers
+c) battleships 
+d) tanks
+e) poison gas
 
+## 2. Japan got the US and UK to agree to{visibility="uncounted"} 
+a) division of Korea
+b) Pacific nonfortification
+c) occupation of Niihau
+d) the Canton condominium
+e) share submarine technology
 
-:::{.content-hidden when-format="html" unless-format="revealjs"}
+## 3. Project "B" demonstrated the viability of
+a) air power
+b) hydrophones
+c) nuclear weapons
+d) missile countermeasures
+e) mechanized cryptography
 
-:::{.notes}
-In some obvious places there were clashes between nationalists and those more sympathetic to internationalist sentiments, as for example New York City. In 1927, there was a Memorial Day demonstration by the Klan, whose members got into fights with some onlookers. The police commissioner declared afterward that the Klan shouldn’t have been parading; “Neither the Klan nor the Fascisti have a proper place in a parade dedicated to the soldier dead of the United States.” The city subsequently outlawed public demonstrations by the Klan in robes or by “the black-shirted Fascisti.” The Klan blamed the police for being largely Irish Catholic.
+## 4. The Rappallo Treaty paved the way for 
+a) Italian annexation of Corfu
+b) French withdrawal from the Ruhr
+c) German debt relief
+d) Japanese occupation of Manchuria
+e) Soviet military aid to Germany
 
-One of the men arrested with the Klansmen was a guy called Fred Trump; the charge was “refusing to disperse.”
-
-:::
+## 5. The Kellogg-Briand pact defined
+a) the borders of Alsace
+b) the law of aggressive war
+c) the law of visit and search
+d) the League of Nations
+e) the World Health organization
 
 :::
