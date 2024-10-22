@@ -1,0 +1,595 @@
+---
+title: U-boats
+draft: TRUE
+subtitle: History of World War I
+author: 
+  - Ian Campbell and Eric Rauchway
+date: 2024-10-25
+footer: "HIS 119"
+categories:
+  - "HIS 119"
+format:
+  revealjs:
+    theme: dark
+  pdf:
+    default
+title-slide-attributes: 
+  data-notes: "This is another in our series of “how can we break the stalemate.” We’ve seen a number of attempts already, including the use of U-boats to blockade the enemy and the flanking maneuver and amphibious landing at Gallipoli as well as the adoption of poison gas and the attack on the salient at Verdun; today’s effort is going to be, “let’s throw a whole bunch of men and weapons at the front and see what happens.”"
+---
+
+## The Western Front
+feat. the Department of the Somme
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/somme.png){width="600" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/somme.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So here are the battle lines on the Western Front at various stages of the war. Most of this, the pale yellow part, is France; you can see Britain off there in the upper left corner; the pale orange part is Belgium. Germany is the whitish bit along the right; there’s Luxembourg in purple and the Netherlands in green.
+
+Inside France, the dark line, the furthest west line, is the line of German advance up to the fall of 1914, and the First Battle of the Marne, about which Professor Campbell has already told you. The red, solid line is the point to which the Allies had pushed the Germans back by about six months later. On that red line you can see the Verdun salient, which the Germans assaulted, as we’ve heard, early in 1916. 
+
+Follow that line up and to the left, and you enter the department of the Somme, in which we can see the town of Albert; much of the fighting for the latter part of 1916 between the British, together with some French, and the Germans will be up there. This was an area that had been uncontested since the first part of the war, and a a result, the two sides had plenty of time and leisure to dig in there.
+
+[CLICKING WILL START THE FILM ON THE NEXT SLIDE]
+:::
+
+:::
+
+
+## Regarding Marshal Haig
+*Blackadder Goes Fourth*
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+```{=revealjs}
+<video width="600">
+<source src=../media/blackadder_haig.mov
+</video>
+```
+
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Important nevertheless to remember that the stalemate was probably, in fact, unbreakable given the technology of the time. Machine gun emplacements can be attacked with artillery; artillery can make a hole big enough for infantry to go through—if, as Ian says, you make it wide enough to avoid enfilade fire. Your infantry then go through and capture the trench—which again, as Ian says, happens over and over again at Verdun, small victories that keep the press going and the generals going. But then you have the problem of defense-in-depth, and the relative speed and ease with which the defending forces can replenish their new front lines, and conversely, the relative difficulty for the attackers. Especially because artillery have rendered the land difficult to pass, and the new front line difficult to supply, while rail and trucks and telegraph for the defending forces remain largely undisturbed, and undisturbable, until you can get your own artillery forward—which you can't, not in time. Not only difficult to move, difficult to communicate.
+
+And staying on the defense is also impossible, if only for morale and political reasons. Which are real reasons!
+:::
+
+:::
+
+## Field Marshall Haig
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/haig.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/haig.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Field Marshal Sir Douglas Haig, shown here reviewing some troops on the Western Front. His predecessor had been John French, who was completely unable to deal with the carnage of the Western Front. Haig didn’t have that problem. He was apparently immune to reports of casualties, however high. He was a great believer in the supernatural, and in himself; he hired a medium so he could talk to the ghost of Napoleon; he had a chaplain preach to him about his own direct connection to God and Haig’s role in the divine plan. And his soldiers were going to play a role in Haig’s role.
+:::
+
+:::
+
+
+## "battalions of pals"
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/battalions_pals.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/battalions_pals.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Speaking of the soldiers at the front of the Somme, many of them were about to see battle for the first time. You’ll remember that initially, the British had no need to solicit volunteers, but gradually, it became important to recruit. The posters with General Kitchener on them, saying “Your Country Needs You”, went up. And a variety of Britons signed up in their hundreds of thousands. The War Office was overwhelmed. They had no plan to deal with the volume of volunteers, and they relied on local MPs or councillors to organize recruitment. After a while they realized they could actually depend on the local networks of friends and family to help organize and motivate men to sign up. If all your friends were signing up, why, then so would you, and you would bring along with you all the organizing power of your community to get you to the front. Officials referred to these enlistments en bloc as “battalions of pals,” or of “chums”
+:::
+
+:::
+
+
+## The planned offensive
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/somme.png){width="600" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/somme.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The plan for the Somme offensive was a simple one. You’ll remember, I hope, that much of 1915 had been given over to the British avoiding the Western Front. Between February and December of 1915 they had given steadily increasing resources to the landings at Gallipoli, with the idea of knocking the Ottoman Empire out of the war, and creating a beachhead in Southeastern Europe from which to mount a massive flanking maneuver against the Central Powers of Austria-Hungary and Germany. This did not succeed, as we have seen, and led to the reorganization of the Asquith government, so the proponents of the Eastern strategy, like Churchill, lost favor. 
+
+So: the Gallipoli landings, as an attempt to break the stalemate, failed. Now what were they going to do?
+
+For 1916, then, Haig planned to return attention to the West—to strike hard at the German lines with the fullest strength available. This was possible to imagine because of the new, Kitchener-recruited divisions and also because of the improved mobilization for munitions.
+:::
+
+:::
+
+
+## Industrial mobilization
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/shells.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/shells.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This is the National Shell Filling Factory, in Chilwell, Nottinghamshire—the photo gives you some sense of the scale of the work, and also of who was doing it. You’ll remember, I hope, that when Asquith reorganized the government, David Lloyd George became Minister of Munitions, charged with mobilizing the home front more fully for the demands of a modern war, and the shells that it would require. 
+
+You can see, I hope, that in the picture are a great number of women workers. They were often recruited from nearby textile factories, and usually with the strategy of getting women to do their bit, as their brothers and husbands and fathers were doing. So now you had a lot of men arriving at the front, and a lot of shells coming behind them. 
+:::
+
+:::
+
+
+## Creating a breakthrough
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/somme.png){width="600" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/somme.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, men and big guns, deployed at the quiet point on the lines, with the idea of creating a breakthrough. There would be a massive bombardment, to last a week and to use a million shells. And then, on July 1, nineteen British divisions, together with three French divisions, would move across no-man’s land to take advantage—the shelling would have smashed the barbed wire, killed or stunned the enemy, and created an opportunity to take the enemy trenches, where the Allies could establish a foothold, and then move into the country left open and exposed behind the lines. Because they were relying on so many inexperienced troops, and because they expected the bombardment to be so very devastating, they figured they would not bother to ask the soldiers to do as they normally did—that is, for a group to lie down and provide covering fire for those advancing—but to simply ask the troops to move forward and in straight line. 
+
+To be clear, Haig expected a breakthrough: that the artillery would make a hole, and the infantry would walk—literally—through it. To ensure this could happen, the guns were to lay down a so-called “creeping barrage” in front of the advancing men.
+:::
+
+:::
+
+
+## Road to the Somme
+No element of surprise
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/road_somme.png){width="400" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/road_somme.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+There was no way to do this secretly. This battle plan required a genuinely massive deployment of men and materiel to the front, traveling over roads that—as you can see here—were not really wide enough, or paved, to let them move quickly to their destination. Anticipating a breakthrough, they had to move large quantities of food, water, rifles, ammunition, shells, grenades, and other necessities of war to storage dumps all along the front, so that the advancing soldiers would be well supplied. For months before the planned advance, trains rumbled into the stations closest to the front, then trucks, cars, and soldiers trekked over the roads.
+:::
+
+:::
+
+
+## Reconnaissance
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/recon.png){width="400" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/recon.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+You might remember I mentioned that at Gallipoli, the British had poor intelligence as to the layout of the enemy positions. That would not be the case at the Somme. Here, the Allies made use of early aircraft to fly over and map enemy positions. This is a Royal Aircraft Factory F.E.2b, a two-seater plane, with a pilot and a mapper, in flight. They worked enough to map the entire sector, spotting trenches, headquarters, gun batteries, and helping to figure ranges for the British artillery.
+
+For weeks before the scheduled attack, the British airplanes soared (and roared) over the German trenches—too high to be shot down, but not so high that they couldn’t be heard and seen. So you have all this motion—the trains, the trucks, the troops, the planes—concentrated on this one sector. The Germans knew something was coming. 
+
+There was one activity the British did try to do in secret, and that was tunneling under no-man’s land to place mines under the German fortifications. But most of what they were doing was painfully obvious. One British soldier spotted a sign in front of the German trenches on June 23: “We know you are going to attack. Kitchener is done. Asquith is done. You are done. We are done. In fact we are all done.” As the British soldier wrote, “Of course they know the attack is taking place.” 
+:::
+
+:::
+
+
+## Preliminary barrage
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/preliminary.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/preliminary.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s a Royal Garrison Artillery unit with a Mark V howitzer, one of the merely middle-sized guns lined up to pound the German lines. There were over a thousand artillery guns brought up into position. On June 24, they began shelling the German positions. It was an ungodly undertaking. One officer wrote, “we could see the bursts of the shells all over… we could see the dirt from the sandbags dancing up and down… all along the skyline you would see flashes: big flashes, little flashes, hundreds of them all along the skyline. Over the top there was a roar like a score of trains going all at once over the top of your head, you could hear them whizzing over. I thought, 'This will certainly shift Jerry, he’ll never stand up against a thing like this.'” 
+:::
+
+:::
+
+
+## "Unlimited reserves"
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/unlimited.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/unlimited.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here you can see the empties—the uncountable shells cast off by the big guns, day after day, for a week. As one British officer wrote, so far as he could see, “they have unlimited reserves of ammunition” and while the Germans occasionally fired back, they could do so only in bursts, while the British bombardment carried on continuously, day after day. The British were reaping the benefits of their months of preparation and all the fresh men and supplies they had transferred to the front.
+:::
+
+:::
+
+
+## Kicking up the dirt
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/preliminary2.png){width="400" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/preliminary2.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s what you might have seen, if you watched the bombardment in the daytime from the British lines—explosion after explosion on the horizon, showers of dirt and rocks and stuff kicked up by the unholy shelling. 
+
+But also, what you’re looking at might have filled you with a little doubt and disquiet, even if you were one of the relatively inexperienced soldiers fresh from home to the front lines. Because what you see is … not much. It’s grand to blow stuff up, of course, but you’re not looking at much in the way of targets, there, on the horizon. So it might *seem* like nothing could survive. But it was impossible to see that anything much was happening.
+
+One problem was that the first line of defense in the trenches was the barbed wire, which the shells were meant to explode, and make a hole for the men. And indeed, later in the war the Allies would develop a “graze” fuse that would be triggered by the slightest touch—even that of a single strand of wire. But in the summer of 1916 they had no such sensitive explosive, and the shells would only explode when they hit the earth. So as a result, the shell would plow into the relatively flexible barbed wire positions, pushing them aside, hit the dirt, explode, throw the wire up and about—but not cut it. So much of it remained completely in place. 
+:::
+
+:::
+
+
+## Deep entrenchment
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/deep_entrench.png){width="300" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/deep_entrench.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The other issue was, as you’ll remember, was that the positions around the Somme had been largely untouched since the earliest days of the war, which gave the Germans plenty of time to fortify their positions, to dig in deep, and to create shelters that could survive even the week of continuous bombardment that preceded the Somme. 
+:::
+
+:::
+
+
+## Cult of the defensive
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/cult_defense.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/cult_defense.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So the plan was that the bombardment would destroy the wire and kill the enemy, leaving a hole for the relatively untrained British troops to walk into. Instead, much of the wire still stood, and the men and the machine guns who were supposed to have been cleared out, simply held their position under the hellish fire, waiting for the shelling to lessen, which meant that the British troops were about to go over the top and walk, upright, toward their positions.
+
+A German sentry would keep an eye out, and then shout "they are coming," and then the machine gun crews would pull their weapons up and begin to fire at the line of men advancing against the positions. 
+:::
+
+:::
+
+
+## Walk very slowly
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/walk_slowly.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/walk_slowly.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here you can see some British soldiers advancing, as instructed, in good order and standing, across no-man’s land on the first day of the Battle of the Somme. You’ll remember, the plan was for the extensive artillery to continue to play an important role, by laying down a creeping barrage in front of the men, to keep their path clear—so German reinforcements would not flood back into the trenches. 
+
+I suppose you can imagine how this is supposed to go, but in practice, it requires a great deal of precision. You want that line of bombardment to be just in front of your advancing troops—but not too close, or else you’re shelling them. So maybe fifty yards ahead of them. And then you want it to march forward at about the same speed they are. But the gunners were afraid of hitting their own men, and the men were afraid of getting hit by their own gunners. So in practice, British officers often called for a lift of the artillery barrages too long before the infantry assault—thus allowing the Germans to raise their heads and guns and get back into position while the British were still on the wrong side of the uncut barbed wire. As one soldier said, he knew his unit was doomed when he heard the officer call for the artillery to stop firing ten minutes before the troops were to go over the top. 
+
+What were they supposed to do? Years later, there would be field radio, so an advancing unit could call in fire directly. But no such thing existed now. The truth is, so long as there were men in cloth uniforms advancing against fortified positions held by men with machine guns and protected by barbed wire, there was nothing to do; it would take changes in technology to change warfare. 
+
+Meanwhile, the battle plan for the Somme held that the troops would swiftly take their positions. Many of the soldiers weren't even armed, were instead weighed down with equipment they would need to stock up their new positions. Then as they walked forward in the sudden silence after the barrage, German fire met them. 
+
+On this first day, most of the men were killed inside British lines, on land the British already held. Of 100,00 men who went forward, 20,000 did not come back; 40,000 who did were wounded, for a casualty rate of 60 percent. Because of the "pals" methods of recruitment, the entire young population of some villages were wiped out in a single day.
+:::
+
+:::
+
+
+## Reports
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+```{=revealjs}
+<video muted loop>
+<source src=../media/over_top.mov>
+</video>
+```
+::::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The thing was, with the battle representing a big push, the British were ready to film and publicize it. They put together a film quickly for display back in Britain, to emphasize the gallantry of the men at the front; maybe six weeks after the battle began, it was unspooling on dozens of British screens.
+
+20 million Britons went to see it within a few months—nearly half the population at the time, and plausibly it was eventually seen by half the population. It is the most-seen film in Britain even down to today, bigger than, say, Star Wars. The King, George V, declared, “The public should see these pictures so that they may have some idea of what the army is doing and what it means.” The papers, too, thought of it as real. “A great battle as it really is,” the Express said; the Guardian, “The real thing at last.” 
+
+It wasn’t. The climactic moment—this one—appears by now to have been staged. But people did not appreciate that at the time, and thought they were seeing the real moment of death of British infantrymen. And the film was shown in the US, and in Russia, in order to galvanize support for Britain. 
+
+Film wasn’t the only art form. 
+:::
+
+:::
+
+
+## William Orpen
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/orpen1.png){width="300" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/orpen1.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+William Orpen, a painter who had made his living doing society portraits of rich people before the war, went to the front and was irrevocably changed. After all, not all the shells missed their target and the devastation they wrought was awful. When the British did arrive in the trenches, they were often greeted by scenes like this, of utter devastation. They had been gallant, they had been brave, they had won the ground they had been set to win, and …
+:::
+
+:::
+
+## Ground gained
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/ground_gained.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/ground_gained.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+It looked like this—this is the remains of a French forest, Delville Wood.
+:::
+
+:::
+
+
+## Ruins
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/ground_gained2.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/ground_gained2.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Or this, the village of Mametz. By the end of the month—by the time the Somme movie was being shown in Britain—there had been little movement. The Allies lost 200,000 men, the Germans an estimated 160,000. And what the attackers had won was rubble and splinters and bones.
+:::
+
+:::
+
+
+## Stalemate: broken!
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/tanks.png){width="500" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/tanks.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+And then, in September, came the tanks. A British officer had sketched something like this as early as December 1914, recognizing that this would be the way to break the stalemate on the Western Front. A vehicle with armor, so as to deflect bullets and shrapnel—with caging on the top to deflect grenades, and with guns, either machine-guns or small artillery—to do damage of its own. And with treads, like the ones that had been developed for tractors, so it could roll over barbed wire and even over trenches. 
+
+By September the Brits had about four dozen of them in France. They were deployed in the Somme soon after their arrival. 
+:::
+
+:::
+
+
+## The tank terror
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/orpen_tanks.png){width="500" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/orpen_tanks.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+And as this painting, also by William Orpen, suggests, they were terrifying. You can imagine: the roar of the engine, the clank of the treads, and this thing coming toward you with its guns chattering or firing, immune to the bullets you’re firing at it, crunching over bodies and barbed wire, and then it reaches an earthen barrier or sandbag wall and CLIMBS RIGHT OVER IT … no wonder the British infantry made two miles of progress against the Germans on the tanks’ first introduction. The immediate success didn’t last long. 
+:::
+
+:::
+
+
+## Stalemate: restored
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/tanks_ditch.png){width="500" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/tanks_ditch.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+A series of ditichings—tanks could crawl over trenches, but they had to hit them right, and the trenches couldn’t be too wide—and mechanical problems meant that eventually nearly all the tanks brought to bear were disabled. And the stalemate was restored. 
+
+By the end of August, as Prof C has already told us, the German General, Erich von Falkenhayn, was dismissed. The offensive at Verdun was called off. Paul von Hindenburg and Erich von Ludendorff were brought in. The Germans sought to end any further advances at the Somme.
+:::
+
+:::
+
+
+## The territory won
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/ground_map.png){width="300" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/ground_map.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here you can see the Allied ground gained, from July 1 to September 18, 1916. Ultimately the battle lasted some 142 days. The British had been able to gain a strip about 6 miles long, on a front of maybe 20 miles. The British had lost some 420k, the French nearly 200k; so over 600,000 casualties for the Allies and probably about the same for the Germans. 
+
+As with Verdun, Haig claimed afterward he had meant to undertake a battle of attrition, and therefore that he had succeeded. As we have seen, this was not really true. 
+:::
+
+:::
+
+
+## "A new conductor"
+David Lloyd George
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/dlg.png){width="300" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/dlg.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+You may remember Asquith lost his conservative government after Gallipoli; after the Somme, he lost his ability to hold a coalition. David Lloyd George, who as we saw became Minister of Munitions then, and in the middle of 1916 became Secretary of State for War, succeeding Kitchener after his ship was sunk by a U-Boat, now became Prime Minister; here he is in a cartoon called “a new conductor for the 1917 overture.”
+:::
+
+:::

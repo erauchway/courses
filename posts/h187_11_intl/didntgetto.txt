@@ -1,0 +1,64 @@
+## Also in 1933
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+```{=revealjs}
+<video muted loop>
+<source src=../media/hitler.mp4>
+</video>
+```
+
+::::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As we saw, Japan exits the League, while in Germany . . . 
+:::
+
+:::
+
+# Quiz{visibility="uncounted"}
+
+## [1. Gold money tended to be all of these things *except*]{.r-fit-text}{visibility="uncounted"}
+
+  a) heavy
+  b) soft
+  c) rare
+  d) deflationary
+  e) inflationary
+
+## [2. Prices during the Great War generally]{.r-fit-text}{visibility="uncounted"}
+
+  a) rose
+  b) fell
+  c) stayed the same
+  d) swayed from side to side
+  e) correlated with battlefield fortunes
+  
+## [3. To restore the gold standard in 1920, the Fed]{.r-fit-text}{visibility="uncounted"}
+
+  a) lowered interest rates
+  b) sold gold certificates
+  c) raised interest rates
+  d) borrowed silver from Mexico
+  e) encouraged trade with the USSR
+
+## [4. The Harding administration responded to the recession with]{.r-fit-text}{visibility="uncounted"}
+
+  a) a New Deal
+  b) a lower tariff
+  c) increased trade with the USSR
+  d) a higher tariff
+  e) going off the gold standard
+  
+## [5. In the 1920s Adolf Hitler admired US]{.r-fit-text}{visibility="uncounted"}
+
+  a) multiculturalism
+  b) immigration restriction
+  c) popular music
+  d) democracy
+  e) art

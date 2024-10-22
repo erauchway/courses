@@ -4,7 +4,7 @@ subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: October 21, 2024 
-draft: TRUE
+draft: FALSE
 title-slide-attributes: 
   data-notes: ""
 categories:
@@ -355,6 +355,38 @@ Which is why the 1933 Double Eagle is interesting. (Explain FDR going off gold i
 
 :::
 
+## Comparisons
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(haven)
+read_dta(file = "https://dataverse.nl/api/access/datafile/421303") -> mad
+mad |>
+  filter(year > 1919 & year < 1940) |> ## limit data to interwar years
+  filter(country == "Germany" | ## select some industrial countries
+           country == "France" |
+           country == "United Kingdom" |
+           country == "United States") -> data ## store data
+## now let's plot the data
+data |>
+  ggplot() +
+  geom_line(aes(x = year, 
+                y = gdppc, 
+                group = country, 
+                color = country),
+            linewidth = 1) +
+  scale_y_continuous(label = label_number(scale_cut = cut_short_scale())) +
+  labs (
+    x = "", y = "GDP per capita in 2011 USD",
+    color = "", 
+    caption = "Chart made using R and ggplot by Eric Rauchway with data from Maddison Project Database, version 2023 by Jutta Bolt and Jan Luiten van Zanden.",
+    title = "Real GDP in the Great Depression, selected countries"
+  ) -> z ## store this graph in an object called "z"---we'll want it again in a second
+## now, display the object called "z"
+z
+
+```
+
+
 ## Turnaround
 
 
@@ -366,7 +398,7 @@ p
 
 ::::
 
-## [Back toward internationalism]{.r-fit-text}{.smaller}
+## [Back toward internationalism]{.r-fit-text}
 
 
 ::::{.v-center-container}
@@ -383,68 +415,7 @@ p
 - Three-Party Agreement, 1936
 
   - US, UK, France
-::::
-
-
-## Also in 1933
-
-:::{.content-hidden unless-format="revealjs"}
-
-::::{.v-center-container}
-
-```{=revealjs}
-<video muted loop>
-<source src=../media/hitler.mp4>
-</video>
-```
 
 ::::
-:::
 
-:::{.content-hidden when-format="html" unless-format="revealjs"}
 
-:::{.notes}
-As we saw, Japan exits the League, while in Germany . . . 
-:::
-
-:::
-
-## [1. Gold money tended to be all of these things *except*]{.r-fit-text}{visibility="uncounted"}
-
-  a) heavy
-  b) soft
-  c) rare
-  d) deflationary
-  e) inflationary
-
-## [2. Prices during the Great War generally]{.r-fit-text}{visibility="uncounted"}
-
-  a) rose
-  b) fell
-  c) stayed the same
-  d) swayed from side to side
-  e) correlated with battlefield fortunes
-  
-## [3. To restore the gold standard in 1920, the Fed]{.r-fit-text}{visibility="uncounted"}
-
-  a) lowered interest rates
-  b) sold gold certificates
-  c) raised interest rates
-  d) borrowed silver from Mexico
-  e) encouraged trade with the USSR
-
-## [4. The Harding administration responded to the recession with]{.r-fit-text}{visibility="uncounted"}
-
-  a) a New Deal
-  b) a lower tariff
-  c) increased trade with the USSR
-  d) a higher tariff
-  e) going off the gold standard
-  
-## [5. In the 1920s Adolf Hitler admired US]{.r-fit-text}{visibility="uncounted"}
-
-  a) multiculturalism
-  b) immigration restriction
-  c) popular music
-  d) democracy
-  e) art
