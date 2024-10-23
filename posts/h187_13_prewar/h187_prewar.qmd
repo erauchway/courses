@@ -1,0 +1,415 @@
+---
+title: Prewar diplomacy
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 25, 2024 
+draft: TRUE
+title-slide-attributes: 
+  data-notes: ""
+categories:
+  - HIS 187
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggtext)
+library(showtext)
+library(scales)
+library(sf)
+library(sfheaders)
+library(rnaturalearth)
+library(cshapes)
+library(grafify)
+target_crs="+proj=eqearth +lon_0=-60 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
+font_add_google(name = "Public Sans", family = "Public Sans")
+font_add_google(name = "Old Standard TT", family = "Old Standard TT")
+font_add_google(name = "Holtwood One SC", family = "Holtwood One SC")
+font_add_google(name = "Fondamento", family = "Fondamento")
+showtext_auto()
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", 
+                          color = "midnightblue"),
+      plot.title = element_markdown(family = "Holtwood One SC", 
+                                    color = "khaki4",
+                                    margin = margin(5,5,5,5)),
+      plot.title.position = "plot",
+      plot.subtitle = element_text(family = "Holtwood One SC", 
+                                 color = "burlywood4",
+                                 size = rel(0.8),
+                                 margin = margin(0,5,5,5)),
+      plot.caption = element_markdown(size = rel(0.5)),
+      plot.background = element_rect(fill = "floralwhite",
+                                     color = "floralwhite"),
+      plot.margin = margin(l=10,r=10),
+      axis.text = element_text(margin = margin(2,2,2,4)),
+      axis.title.y = element_markdown(angle = 90, margin =
+                                    margin(2,2,4,2)),
+      axis.line = element_line(color = "chocolate4"),
+      axis.ticks = element_line(color = "chocolate3"),
+      axis.ticks.length = unit(1, "mm"),
+      panel.background = element_rect(fill = "antiquewhite1",
+                                      color = "NA")
+    )
+)
+```
+
+
+## Rebuilding the Navy
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+read_csv("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/navy.csv") |>
+  rename("Carriers"="Aircraft carriers") |>
+  pivot_longer(cols = 2:6, names_to = "shiptype", values_to = "n") |>
+  mutate(ship_ord = factor(shiptype, levels = c("Destroyers", "Submarines", "Carriers", "Battleships", "Cruisers", ordered = TRUE))) |>
+  ggplot() +
+  geom_col(aes(x = Year, y = n,fill = ship_ord, group = ship_ord), color = NA, position = position_dodge(width = 0.7)) +
+  scale_x_continuous(breaks = seq(1931,1944)) +
+  scale_y_continuous(breaks = seq(0,350,50), expand = expansion(mult = c(0, 0.1))) +
+  scale_fill_grafify(palette = "safe") +
+  labs(title = "US Navy active ship force levels",
+       x = "",y = "",
+       caption = "Chart made using R and ggplot by Eric Rauchway with data from http:&#47;&#47;history.navy.mil/research/histories/ship-histories/us-ship-force-levels.html.", 
+       fill="") +
+  theme(legend.position="inside",
+        legend.justification.inside = c(0.1, 0.9))
+```
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As we discussed, with the beginning of World War II in Europe in September 1939, the Roosevelt administration ordered a speedup in the re-commissioning of destroyers. You can see that here in this chart; there's a big jump in the number of destroyers in active service, while other numbers stayed relatively steady.
+
+That's owing to the conception the United States military leaders had of their role in the war that had now broken out. Submarines were set aside, because they were understood to be offensive weapons, for destroying enemy ships and mercantile shipping bound for the enemy---that's why the German navy focused on them. Aircraft carriers were the heart of a major fleet, and again, they were already understood to be the necessary heart of a modern navy waging a full-on war.
+
+But destroyers were vital ships for the purposes of hunting submarines and generally for protecting mercantile shipping. So that's what they wanted, was lots of destroyers---and because they wanted them fast, they were breaking existing ships out of mothballs, not merely waiting for new construction. So these are mostly destroyers left over from the buildup of WW1, before the disarmament treaties of 1922 and 1930 went into effect.
+
+:::
+
+:::
+
+## Neutrality acts, revisited
+
+:::{.v-center-container}
+- 1935
+  
+  arms embargo, travel restrictions
+  
+- 1936
+
+  extension of embargo, of restrictions, and expansion to cover lending
+  
+- 1937 
+
+  extension again, covering more items; expansion to cover civil wars---but also, includes "cash-and-carry" provision for non-weapons
+  
+- 1939
+  
+  permits cash-and-carry for munitions
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As we've seen, with the neutrality act of 1939, US firms can not only provide goods to belligerent parties, but can even provide munitions, so long as they don't undertake any kind of credit arrangement or ship the goods in any US ships.
+:::
+:::
+
+## A deterrent declaration
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/panama_d.png){width="500" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/panama_d.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Which is why the neutrality zone is important.I mentioned to you that at its declaration, the US Navy couldn't enforce it (see under the battle that ended the *Graf Spee*---but soon enough, it became possible for the Navy to more realistically guard these waters, which in turn made it too risky for Hitler to send submarines over to the Western Atlantic.
+:::
+
+:::
+
+## German strategy
+
+:::{.v-center-container}
+
+- War on the United States
+
+- War on the Soviet Union
+
+- War on the UK and France
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+It's worth thinking for a minute of the other side of this coin. Hitler always thought of the United States as his eventual enemy, and he planned eventually to wage war on it. Early in the war the German Navy issued contracts for four "super-battleships," which were intended to be capital ships designed for a future naval war with the United States; the Germans also undertook to design a long-range bomber with the idea that it could reach American shores.
+
+Neither of these ideas ever came to fruition---the engines of the super-battleships were begun, but not completed; the Germans never managed to work out the problems of their long-range bomber. But these were in fact their ambitions. They just didn't want to undertake them yet.
+
+It's just that in the near term, they wanted to focus on what Hitler had always said was their primary goal: to conquer lands in the east of Germany, to subjugate them and clear them of their current inhabitants, and then settle them with Germans. This would become the basis for a German empire whose extent would rival that of the United States, and which could thus fuel an economy to rival that of the United States. But to do this, Hitler would have to wage war on the Soviet Union---much of the territory he planned to conquer was in the Soviet Union.
+
+But he couldn't wage war on the Soviet Union until he had secured his western flank; he didn't want to wage a two-front war. So he had to knock France and the UK out of the war first.
+
+Roughly speaking, this sketch helps to account for Hitler's strategy. And also for the Nazi-Soviet pact, which lasted from the end of August 1939 to the German invasion of the Soviet Union in June 1941. Hitler ensured he would have peace in the East by doing a deal with the Soviets to divide Eastern Europe, particularly Poland, between them; and also toe ensure that the Soviets would supply vital matériel for the German war effort.
+
+The USSR was rich in natural resources, and for the duration of the Nazi-Soviet pact, the Soviets were supplying some 3/4 of the phosphates (vital for explosives), 2/3 of the asbestos, and 1/3 of the oil the Germans were importing, among other materials for the German war effort. 
+
+From the Soviet point of view, this was an excellent arrangement; it would ensure peace with Germany---which the Soviets believed in, because they viewed Germany as essentially another capitalist country, which wouldn't go against its interests, whatever its leader might say---and would also allow the Soviets to seize territory they wanted, which the Russian empire had ceded in the wake of the Great War.
+
+:::
+
+:::
+
+## [The military situation 1940--1941]{.r-fit-text}{.smaller}
+
+:::{.columns .v-center-container}
+
+:::{.column}
+
+-   Nazi-Soviet Pact, August 1939
+
+-   Invasion of Poland, September 1939
+
+-   Declaration of war by UK and France, October 1939
+
+-   Invasion of Norway, April 1940
+
+-   Invasion of the Low Countries, May 1940
+
+-   Invasion of France, May 1940
+
+-   Fall of France, June 1940
+
+-   Italian Declaration of war, June 1940
+
+-   Italian invasion of Greece, October 1940
+
+-   German bombing of UK, 1940--1941
+
+:::
+
+:::{.column}
+![](../media/eurmap4041.png)
+:::
+
+:::
+
+:::{.content-hidden when-format="html" unless-format-"revealjs"}
+
+:::{.notes}
+So. The Germans and the Soviets sign a pact in August 1939. And then you see what follows. But you have to think of this in light of what we know are Hitler's ambitions: this is only the first act of the war, so far as he is concerned. The bombing of Britain is by way of attempting to secure a British surrender, so he can focus entirely on the invasion of the USSR, which he has already got planned and is preparing for.
+:::
+
+:::
+
+## The state of opposition
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/willkie.jpeg){width="400" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/willkie.jpeg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+There were two quite conservative Republicans, Thomas Dewey and Robert Taft, who wanted the nomination. But both of them were quite young. Taft was also quite isolationist. So with the inexperience and the isolationism, they didn't look good.
+
+Willkie was a former Democrat, a power executive, and an opponent of the TVA. He was, himself, in favor of taking a stand against Hitler. And though the Republican Party wasn't, they nominated him because he was seen as a moderate with skills and experience.
+:::
+
+:::
+
+
+## The third term
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/gallup_polls_on_FDR_3rd_term.jpg){width="500" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/gallup_polls_on_FDR_3rd_term.jpg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As you can see here, the more it looks like there will be a serious war in Europe, the more people support the idea of re-electing Roosevelt for a third term. Particularly with the fall of France, the idea of having the president continue in office becomes attractive to quite a large majority of Americans polled.
+
+For a while it looked like Roosevelt would step down after two terms. FDRL, SEP. New Dealers, led by Robert Jackson, Thomas Corcoran, Harold Ickes and others pushed him to run for a third term. Others, including James Farley and John Garner, opposed it.
+
+Late in February 1940, Roosevelt gave his quiet approval to Harold Ickes to go out to California and begin working on a nomination in the state primary for Roosevelt. Which Roosevelt won by 7:1 over his vice president, Garner. Roosevelt's forces did a deal with the Garner voters in Garner's home state of Texas as well---they'd vote for Garner once, at the national convention, and then could do what they want, but would not participate in a national stop-Roosevelt coalition.
+
+Roosevelt didn't declare himself an official candidate; he did, though, encourage maneuvering on his behalf.
+
+At the convention, Roosevelt won 946 votes and others---Garner, Farley, Tydings---split 148.
+:::
+
+:::
+
+## Rolling cash and carry
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/plane_roll.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/plane_roll.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The administration was meanwhile doing everything it could for cash and carry. Under the Neutrality Act, they could make deals with Britain on a cash basis, as long as they didn't carry them. They also couldn't deliver airplanes by flying them. So they flew a bunch of them up to the Canadian border, where they could be towed or rolled across. Some were towed across by horses. In short the Roosevelt administration was working as creatively as it could.
+:::
+
+:::
+
+
+
+## Destroyers-for-bases
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/atlmap40.png){width="500" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/atlmap40.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Britain was desperate for destroyers. Churchill pressing for them. Started within a week of becoming PM, in May 1940, suggesting a loan of forty or fifty, until the British could build more themselves. The French asked too, in the person of PM Reynaud.
+
+Roosevelt said no. The US needed them---remember, his own policy was to get as many of them afloat as possible. Churchill raised the specter of British defeat: the "sole remaining bargaining counter with Germany would be the Fleet," which a British government might have to bargain away to preserve the nation.
+
+Churchill continued to ask for them through July. But there was nothing doing.
+
+With the fall of France, FDR appointed Stimson and Knox to his cabinet. And in August, they took up the question of destroyers again. Knox may have been the one to mention bases.[@jacksonThatManInsider2003 87] Though remember, the US had already identified the need of bases and had done a deal for some in Trinidad and Bermuda.
+
+In August, the British representative, Lord Lothian, made the offer of the bases. Jackson says so long as they were talking gift, loan, or sale, they thought they'd need Congress. But with a trade, maybe not.
+
+They approached Willkie about it, and thought they had from him a general approval.
+
+Roosevelt didn't want to acquire the lands, hence leases---"they do not want to live under the American flag, and . . . the civilian populations would be a drain on the national treasury, would create all kinds of tariff involvements in the Senate and the House, and give future generations of Americans a headache."[@jacksonThatManInsider2003 100] Jackson advised could send superannuated destroyers, but not newer ships.
+
+Willkie said it was "the most arbitrary and dictatorial action ever taken by any President in the history of the United States."
+
+:::
+
+:::
+
+## Nonpartisan opposition
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/America_first_committee_c_tribune_9_25_40.jpg){width="300" fig-align="center"}
+![](../media/america_first_committee__dm_tribune__10_15_40.jpg)
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/America_first_committee_c_tribune_9_25_40.jpg)
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+
+:::
+
+
+## Denunciation
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+Those ... who have studied the public addresses of the president, from his Chicago "quarantine speech" ... will understand his motivation and his objective. It is war.
+
+:::{.flushright}
+John L. Lewis, CIO
+:::
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Through the years of struggle you have been content that I should be in the forefront of your battles I am still the same man. Sustain me now, or repudiate me.... You who may be about to die in a foreign war, created at the whim of an international meddler, should you salute your Caesar?... [Mothers,] may I hope that on election day... with the sacred ballot, [you] lead the revolt against the candidate who plays at the game that may make cannon fodder of your sons.
+
+Lewis courted by Nazis, who wanted to fund him.
+
+:::
+
+:::
+
+
+## Deciding factor
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/poll1.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/poll1.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+
+:::
+
+## Outcome
+
+:::{layout-ncol=2 .v-center-container}
+
+![](../media/elec40_cos.png)
+
+![](../media/elec40_states.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+
+:::
