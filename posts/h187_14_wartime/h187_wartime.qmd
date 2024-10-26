@@ -1,0 +1,270 @@
+---
+title: Wartime diplomacy
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: October 25, 2024 
+draft: TRUE
+title-slide-attributes: 
+  data-notes: "Either I am or am not going to do q&a. Anyway: video on next slide will start when slide starts"
+categories:
+  - HIS 187
+---
+
+## Four Freedoms
+January 1941
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video>
+  <source src=../media/four_freedoms.mp4
+  </video>
+  ```
+::::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So here you have Roosevelt's articulation of war aims. Note purposes: Lend-Lease, outflanking left.
+:::
+
+:::
+
+## Lend-Lease Act
+March 1941
+
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+
+any defense article for the government of any country whose defense the president deems vital to the defense of the United States
+
+::::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+Take note here, the "lend" in "lend-lease" is assigning in-kind aid to another country, and permitting the president to determine the priorities of which country that might be. 
+:::
+
+## Scope of lend-lease
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/lend_lease_map.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/../media/lend_lease_map.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+You can get here a sense of the scope and scale of Lend-Lease operations during the critical early phases of the war. 
+:::
+
+:::
+
+## Atlantic conference
+August 1941
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+![](../media/atl_conf.png){width="700" fig-align="center"}
+
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/atl_conf.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The Atlantic conference, August 1941, of Newfoundland & Argentia. The power-relationship here favors Roosevelt, of course. And the agreement that comes out of the conference reflects that.
+
+no territorial gain, territorial adjustment according to the will of the people living there, self-determination, free trade, global economic cooperation, freedom from want and fear. 
+
+Lend-lease agreements will afterward include this, together with a pledge to participate in conferences to negotiate postwar arrangements to this end.
+:::
+
+:::
+
+## Declaration by United Nations
+January 1942
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+![](../media/un_poster.png){width=300 fig-align="center"}
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/un_poster.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+
+The ambitious, not to say fictive quality of this image; the Roosevelt preference for the name "United Nations." 
+:::
+
+:::
+
+## [Incorporating the Atlantic charter]{.r-fit-text}
+
+::::{.callout-tip appearance=minimal .v-center-container}
+Having subscribed to a common program of purposes and principles embodied in the Joint Declaration of the President of the United States of America and the Prime Minister of the United Kingdom of Great Britain and Northern Ireland dated August 14, 1941, known as the Atlantic Charter. . . .
+
+:::{.flushright}
+Declaration by United Nations, January 1942
+:::
+
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The legal idea of incorporation, here. Vital to the process of binding the other governments to a mutually agreed-upon project.
+:::
+
+:::
+
+## The use of lend-lease
+
+:::{.callout-tip appearance=minimal .v-center-container}
+mutually advantageous economic relations … and the betterment of worldwide economic relations
+
+:::{.flushright}
+Lend-lease agreement with USSR, June 1942 (model agreement)
+:::
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Also, this will become the model agreement for all the other countries we saw on that map.
+:::
+
+:::
+
+
+## Bretton Woods
+UNMFC, summer 1944
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+![](../media/bw2.png){width=500 fig-align="center"}
+
+
+::::
+
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/bw2.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This was the first major one of the various postwar conferences. Note Keynes, attempt to get right what they had got wrong in 1919, twenty-five years previously. Precursor to Dumbarton Oaks, in the late summer and fall of the same year, and the San Francisco conference of spring of 1945.
+:::
+
+:::
+
+## Moscow conference
+October 1944
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+  ![](../media/naughty_doc.png){width="300" fig-align=center}
+  
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/naughty_doc.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Just a couple days after Dumbarton Oaks, though, you have the Moscow conference between Churchill and Stalin. Not something to which the Americans were signatory—nor indeed was anyone—but it suggests the limits to the spirit of the UN-related diplomacy: the old Great Powers were still very much in the Great Power-ing business.
+:::
+
+:::
+
+## Yalta
+February 1945
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+![](../media/yalta.png){width="400" fig-align="center"}
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/yalta.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Churchill and FDR went to Stalin; perhaps that tells you all you need to know. This was the Soviet Crimea; Yalta was a resort town on the Black Sea but it had been occupied by the Nazis from 1941-1944, and was now a fairly cold and nasty place short on heat and rich in lice. Soviet hospitality couldn’t do very much to improve it. 
+
+The thing was, there was no dealing with Stalin without giving him pretty much what he wanted. Stalin’s armies were in Poland. They were in Germany. The Red Army was by the end of the war much the largest in the world.
+
+Essentially Poland was going to be whatever Stalin wanted it to be. And he wanted control over it. Yalta included a provision for Polish elections, but there was nothing, really, in it; as Admiral Leahy said, it was “so elastic the Russians can stretch it all the way from Yalta to Washington without ever technically breaking it.” Rather than provide for elections, it “looked toward” elections, and rather than demand international supervision, it looked toward consultation among the Allies. 
+
+In addition, Roosevelt gave Stalin assurances about what he could get out of entering the Japanese war - Sakhalin and the Kuriles. They’d split Sakhalin since 1905, but in August 1945, after the a-bombs, USSR took the southern half of the Island, as well, and wanted US support in keeping it. 
+
+Roosevelt then tried to manage the expectations and beliefs of the American people. He referred three times to the arrangement on Poland as “a compromise” and said he “did not agree with all of it, by any means” - “agree” being a curious choice of words. But he made it out to be much better than it had been. Was this out of his own hope or belief? Whatever it was, it wasn’t shared with Truman. And he claimed the conference concerned itself only with the European War, not the Pacific War.
+:::
+
+:::
+
+## UN Charter
+June 1945
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/sf_signing.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/sf_signing.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here is the US delegation signing the UN charter, at the Veterans’ War Memorial Building in San Francisco. That’s Stettinius signing, with HST standing to left. Note the design (modern); note also the stagecraft involved, with the theater’s actual wall visible behind the flags to the left. Truman was “flabbergasted” to learn that FDR had promised Stalin to back his claim for extra seats in the General Assembly, but that was part of the deal.
+
+
+
+:::
+
+:::

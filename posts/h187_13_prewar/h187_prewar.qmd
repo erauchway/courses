@@ -4,7 +4,7 @@ subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: October 25, 2024 
-draft: TRUE
+draft: FALSE
 title-slide-attributes: 
   data-notes: ""
 categories:
@@ -56,6 +56,215 @@ theme_set(
 )
 ```
 
+## Second prelim
+
+:::{.v-center-container}
+- October 30
+- in-class, hand-written
+- covers since beginning of course
+- combination of multiple-choice and one essay
+- bring writing implements
+- I will supply exam booklets
+:::
+
+
+## Refugees, 1938
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggtext)
+library(showtext)
+library(scales)
+library(grafify)
+font_add_google(name = "Public Sans", family = "Public Sans")
+font_add_google(name = "Holtwood One SC", family = "Holtwood One SC")
+showtext_auto()
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", 
+                          color = "midnightblue"),
+      plot.title = element_markdown(family = "Holtwood One SC", 
+                                    color = "khaki4",
+                                    margin = margin(5,5,5,5)),
+      plot.title.position = "plot",
+      plot.subtitle = element_text(family = "Holtwood One SC", 
+                                 color = "burlywood4",
+                                 size = rel(0.8),
+                                 margin = margin(0,5,5,5)),
+      plot.caption = element_markdown(size = rel(0.5)),
+      plot.background = element_rect(fill = "floralwhite",
+                                     color = "floralwhite"),
+      plot.margin = margin(l=10,r=10),
+      axis.text = element_text(margin = margin(2,2,2,4)),
+      axis.title.y = element_markdown(angle = 90, margin =
+                                    margin(2,2,4,2)),
+      axis.line = element_line(color = "chocolate4"),
+      axis.ticks = element_line(color = "chocolate3"),
+      axis.ticks.length = unit(1, "mm"),
+      panel.background = element_rect(fill = "antiquewhite1",
+                                      color = "NA")
+    )
+)
+
+
+read_csv("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/rosenstock_redux.csv") |>
+  mutate(year = as.character(year)) |>
+  mutate(year = case_when(year == "1938" ~ "1938*",
+                          TRUE ~ year)) |>
+  mutate(dest_ord = factor(dest, levels = c("Europe",
+                                            "Palestine",
+                                            "USA",
+                                            "Other overseas",
+                                            ordered = TRUE))) |>
+  ggplot() +
+  geom_col(aes(x = year, y = n, fill = dest_ord), color = NA,
+           linewidth = 0.5, alpha = 0.8, width = 0.5, 
+           position = position_dodge(width = 0.6)) +
+  scale_y_continuous(breaks = c(5000, 10000, 15000, 20000),
+                     labels = label_number(scale_cut = cut_short_scale()), expand = expansion(mult = c(0, 0.1))) +
+  scale_fill_grafify(palette = "safe") +
+  scale_x_discrete() +
+  theme(
+    legend.position = "inside",
+    legend.justification.inside = c(0.9, 0.9),
+  ) +
+  labs(
+    title = "German Jewish refugees by destination, 1933 to June 1938",
+    fill = "", y ="",
+    caption = "*Data for 1938 only to June. Chart made using R and ggplot by Eric Rauchway using data---some of which are estimates---from Werner Rosenstock, \"Exodus 1933--1939.\""
+  )
+```
+
+:::
+
+## Public opinion, 1938
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+read_csv(file = "https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/polls_38b.csv") |>
+  mutate(ans_ord = factor(posit, levels = c("No opinion",
+                                            "No",
+                                            "Yes",
+                                            "Entirely",
+                                            "Partly",
+                                            "Not at all",
+                                            ordered = TRUE))) |>
+  ggplot() +
+  geom_col(aes(x = pct, y = ans_ord, fill = poll), color = NA) +
+  scale_fill_grafify(palette = "fishy") +
+  facet_wrap(~ poll, scale = "free_y", ncol = 1) +
+  theme(strip.text = element_markdown(hjust = 0,
+                                      size = rel(1),
+                                      margin = margin(5,5,5,5)),
+        axis.ticks = element_blank(),
+        axis.line = element_blank(),
+        axis.text = element_text(hjust = 1,
+                                 size = rel(0.8))) +
+  guides(fill = "none") +
+  labs(
+    x = "", y = "",
+    title = "Gallup polls on attitudes toward Jews of April and November 1938",
+    caption = "Chart made using R and ggplot by Eric Rauchway with data from Roper iPoll, Gallup polls April 27--May 4 and November 24--29, 1938."
+  )
+```
+:::
+
+
+## Places of refuge
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(forcats)
+
+read_csv(file = "https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/rosenstock2.csv") |>
+  mutate(place_ord = factor(dest, levels = c("Palestine",
+                                             "USA",
+                                             "Argentina",
+                                             "South Africa",
+                                             "Brazil",
+                                             "Uruguay",
+                                             "Colombia",
+                                             "Chile",
+                                             "Australia",
+                                             "Peru",
+                                             "All other countries",
+                                             ordered = TRUE))) |>
+  ggplot() +
+  geom_col(aes(x = number, y = fct_rev(place_ord)),
+           fill = "#fd8f24", color = NA) +
+  scale_x_continuous(breaks = c(10000, 20000, 30000, 40000), label = label_number(scale_cut = cut_short_scale())) +
+  theme(
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    axis.text.y = element_text(hjust = 1)
+  ) +
+  labs(
+    y = "",
+    title = "German Jewish refugees by place of residence, 1938",
+    caption = "Chart made using R and ggplot by Eric Rauchway with data from Werner Rosenstock, \"Exodus 1933--1939.\""
+  )
+```
+
+:::
+
+## Refugees and quotas
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+read_csv(file = "https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/germanyvquotas.csv") |>
+  mutate(year = as_date(paste0(year, "01-01"))) |>
+  select(c("year", "quota")) -> quotas
+read_csv(file = "https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/germanyvquotas.csv") |>
+  mutate(year = as_date(paste0(year, "01-01"))) |>
+  select(c("year", "admitted")) -> admitted
+
+ggplot() +
+  geom_col(data = quotas, aes(x = year, y = quota),
+           fill = "black", alpha = 0.3, color = NA) +
+  geom_col(data = admitted, aes(x = year,y = admitted), fill = "#c3c377", color = "khaki") +
+  scale_y_continuous(breaks = c(5000, 10000, 15000, 20000, 25000), expand = expansion(mult = c(0, 0.1)),
+                     labels = label_number(scale_cut = cut_short_scale())) +
+  scale_x_date(limits = c(as_date("1930-6-30"), as_date("1939-02-30")), date_breaks = "1 year", date_labels = "%Y") +
+  labs(
+    title = "Immigration from Germany to the US, 1931--1938",
+    subtitle = "Gray indicates quota set by law, green shows actual immigration that year",
+    x = "", y = "",
+    caption = "Chart made using R and ggplot by Eric Rauchway using data from *Statistical Abstracts of the United States.*"
+  )
+
+```
+
+
+:::
+
+## Action on refugees and quotas
+
+:::{.v-center-container}
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+quotas |> add_case(year = as_date("1939-01-01"), quota = 27370) -> quotas_r
+
+admitted |> add_case(year = as_date("1939-01-01"), admitted = 27370) -> admitted_r
+
+ggplot() +
+  geom_col(data = quotas_r, aes(x = year,y = quota), fill = alpha(c("black"), alpha = 0.3), color = NA) +
+  geom_col(data = admitted_r, aes(x = year,y = admitted), fill = "#c3c377", color = "khaki") +
+  scale_y_continuous(breaks = c(5000,10000,15000,20000,25000), expand = expansion(mult = c(0,0.1)), labels = label_number(scale_cut = cut_short_scale())) +
+  scale_x_date(limits = c(as_date("1930-6-30"), as_date("1940-02-30")), date_breaks = "1 year", date_labels = "%Y") +
+  labs(title = "Immigration from Germany to the US, 1931--1939",
+        subtitle = "Gray indicates quota set by law, green shows actual immigration that year",
+       x = "", y = "",
+        caption = "Chart made using R and ggplot by Eric Rauchway using data from *Statistical Abstracts of the United States.*")
+
+```
+
+:::
+
 
 ## Rebuilding the Navy
 
@@ -68,10 +277,10 @@ read_csv("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/na
   pivot_longer(cols = 2:6, names_to = "shiptype", values_to = "n") |>
   mutate(ship_ord = factor(shiptype, levels = c("Destroyers", "Submarines", "Carriers", "Battleships", "Cruisers", ordered = TRUE))) |>
   ggplot() +
-  geom_col(aes(x = Year, y = n,fill = ship_ord, group = ship_ord), color = NA, position = position_dodge(width = 0.7)) +
+  geom_col(aes(x = Year, y = n,fill = ship_ord, group = ship_ord), color = "khaki", position = position_dodge(width = 0.7)) +
   scale_x_continuous(breaks = seq(1931,1944)) +
   scale_y_continuous(breaks = seq(0,350,50), expand = expansion(mult = c(0, 0.1))) +
-  scale_fill_grafify(palette = "safe") +
+  scale_fill_grafify(palette = "fishy") +
   labs(title = "US Navy active ship force levels",
        x = "",y = "",
        caption = "Chart made using R and ggplot by Eric Rauchway with data from http:&#47;&#47;history.navy.mil/research/histories/ship-histories/us-ship-force-levels.html.", 
@@ -209,7 +418,7 @@ From the Soviet point of view, this was an excellent arrangement; it would ensur
 
 :::
 
-:::{.content-hidden when-format="html" unless-format-"revealjs"}
+:::{.content-hidden when-format="html" unless-format="revealjs"}
 
 :::{.notes}
 So. The Germans and the Soviets sign a pact in August 1939. And then you see what follows. But you have to think of this in light of what we know are Hitler's ambitions: this is only the first act of the war, so far as he is concerned. The bombing of Britain is by way of attempting to secure a British surrender, so he can focus entirely on the invasion of the USSR, which he has already got planned and is preparing for.
@@ -329,51 +538,6 @@ Willkie said it was "the most arbitrary and dictatorial action ever taken by any
 
 :::
 
-## Nonpartisan opposition
-
-:::{.content-hidden unless-format="revealjs"}
-
-::::{.v-center-container}
-![](../media/America_first_committee_c_tribune_9_25_40.jpg){width="300" fig-align="center"}
-![](../media/america_first_committee__dm_tribune__10_15_40.jpg)
-::::
-:::
-
-:::{.content-hidden unless-format="pdf" .column-margin}
-![](../media/America_first_committee_c_tribune_9_25_40.jpg)
-
-:::
-
-:::{.content-hidden when-format="html" unless-format="revealjs"}
-
-:::{.notes}
-
-:::
-
-:::
-
-
-## Denunciation
-
-
-::::{.callout-tip appearance=minimal .v-center-container}
-Those ... who have studied the public addresses of the president, from his Chicago "quarantine speech" ... will understand his motivation and his objective. It is war.
-
-:::{.flushright}
-John L. Lewis, CIO
-:::
-::::
-
-:::{.content-hidden when-format="html" unless-format="revealjs"}
-
-:::{.notes}
-Through the years of struggle you have been content that I should be in the forefront of your battles I am still the same man. Sustain me now, or repudiate me.... You who may be about to die in a foreign war, created at the whim of an international meddler, should you salute your Caesar?... [Mothers,] may I hope that on election day... with the sacred ballot, [you] lead the revolt against the candidate who plays at the game that may make cannon fodder of your sons.
-
-Lewis courted by Nazis, who wanted to fund him.
-
-:::
-
-:::
 
 
 ## Deciding factor

@@ -1,0 +1,45 @@
+## Nonpartisan opposition
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/America_first_committee_c_tribune_9_25_40.jpg){width="300" fig-align="center"}
+![](../media/america_first_committee__dm_tribune__10_15_40.jpg)
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/America_first_committee_c_tribune_9_25_40.jpg)
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+
+:::
+
+
+## Denunciation
+
+
+::::{.callout-tip appearance=minimal .v-center-container}
+Those ... who have studied the public addresses of the president, from his Chicago "quarantine speech" ... will understand his motivation and his objective. It is war.
+
+:::{.flushright}
+John L. Lewis, CIO
+:::
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Through the years of struggle you have been content that I should be in the forefront of your battles I am still the same man. Sustain me now, or repudiate me.... You who may be about to die in a foreign war, created at the whim of an international meddler, should you salute your Caesar?... [Mothers,] may I hope that on election day... with the sacred ballot, [you] lead the revolt against the candidate who plays at the game that may make cannon fodder of your sons.
+
+Lewis courted by Nazis, who wanted to fund him.
+
+:::
+
+:::

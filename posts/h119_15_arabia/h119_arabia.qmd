@@ -1,0 +1,623 @@
+---
+title: Arabia
+draft: TRUE
+subtitle: History of World War I
+author: 
+  - Ian Campbell and Eric Rauchway
+date: 2024-10-25
+footer: "HIS 119"
+categories:
+  - "HIS 119"
+format:
+  revealjs:
+    theme: dark
+  pdf:
+    default
+title-slide-attributes: 
+  data-notes: ""
+---
+
+## {data-menu-title="Ottoman empire" data-background-image=../media/ottoman2.png}
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+You may remember I showed you a late c19 map of the Ottoman empire when we talked about its stretching into the Balkans; today, let's look to the southern portion of it—Syria, Lebanon, and what was then called Palestine. These regions on the eastern shore of the Mediterranean were part of the Ottoman empire from the sixteenth century (roughly 1517) onward. All were governed from Constantinople at the outbreak of war, which is the significant geopolitical fact so far as the area is concerned: the Ottomans enter the war in October 1914 on the side of the Central Powers. 
+
+As we’ve seen earlier, down to the outbreak of the war the British had considered propping up the Ottomans to be a reasonable strategy. If the empire remained intact and on reasonably friendly terms with the British, then the British fleet and British merchantman had unimpeded access to the Dardanelles, the Eastern Mediterranean, and on down to the Suez Canal and the Red Sea. 
+
+But with Ottoman entry into the war on the side of Germany, the British interest changes, and they begin to involve themselves in a variety of plans to disrupt the Ottoman hold on the region. The campaign at Gallipoli, as we’ve seen, was one. And in your reading you’re encountering T. E. Lawrence’s role in Arabia, which is another. For today, we’ll talk a bit about the bigger picture around the Arab Revolt, and how those events affect the longer history of this region.
+:::
+
+:::
+
+## The Levant
+Baedeker guide, 1912
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/levant.png width="600">
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/levant.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s a map that gives us a bit more of the geography, rather than the political divisions. This is from the popular 1912 Baedeker guide to Palestine and Syria, with routes through Mesopotamia and Babylonia and the island of Cyprus. As you can see, it gives a nice sense of the density of travel routes through the Anatolian peninsula, through Armenia and Syria, and then as we get to the South, there’s this little stretch along the Mediterranean, which takes us on the way to the Sinai Peninsula and into Egypt, but note that here through the northern part of the Arabian Peninsula is what is called the Syrian Desert on the map, there are no routes.  So in the lower West corner we have Cairo, the Suez, and the Sinai peninsula (on the Eastern corner of which is the port of Aqaba), then up through Gaza and Jerusalem to Jaffa, Haifa, and Beirut; inland you can see the red line representing a railway to Aleppo, which continues up and over, and down, to Baghdad and then to Basra on the Persian Gulf. You can see why this would be a vital trade route through this region, covering ports and major cities. What you don’t see is that a bit further south, this railway line will eventually get to…
+
+:::
+
+:::
+
+## Arabia
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/arabiaaswas.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/arabiaaswas.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+… the Muslim holy cities of Medina, and then Mecca, in this brownish region along the Arabian coast that more or less corresponds to what is known as the Hejaz. What you should know, of course, if you don’t already, is that Mecca, Medina, and up there Jerusalem, are the holiest sites of Islam, and of pilgrimage for Muslims. So even though the routes on these slides are vital trade routes, this route is also important for regions of religious pilgrimage and the like. Still, the Hejaz also has obvious strategic significance, because it covers the Red Sea, and thus the route that traffic must take if it comes from Western Europe, through the Mediterranean and Suez, on its way to the Gulf of Aden, the Arabian Sea, and the Indian Ocean.
+:::
+
+:::
+
+## Levant
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.v-center-container}
+
+::::{layout-ncol=2}
+  
+  ![](../media/baedek_close.png)
+  
+:::{.fragment .fade-left}
+  
+  ![](../media/bedou.png)
+:::  
+::::
+
+:::
+
+:::
+
+:::{.fragment .fade-up}
+
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/baedek_close.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Returning, then, to our Baedeker map, if we look more closely at Palestine, we see that it is where the Arabian Desert meets the Mediterranean, and where the desert’s heat and aridity are slightly relieved by the breezes from the sea. The land in the East is populated largely by the bedouin, known then sometimes as the “true Arabs,” CLICK a people distinguished for their adaptation to the desert, to moving about, and for their horsemanship. CLICK
+
+But Palestine is distinct from the desert to the East. Geographically, there is a limestone shelf here coming down to the sea that permits the land to soak up the water from the little rain that falls there.   
+:::
+
+:::
+
+## Levantine agriculture
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/oranges.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/oranges.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Oranges can grow there (as you see in the picture) and wheat, watermelons and dates, figs and olives and grapes. So it is historically a site of considerable agriculture. The people here were referred to in Arabic as the fellahin, essentially peasant laborers and small-scale farmers not dissimilar to the ones we’ve already talked about when we talked about the Balkans and its people. So, historically, there’s an important relationship between the desert and the sea, and this thin strip of agricultural productivity on the sea.
+
+:::
+
+:::
+
+## Religious sites
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/baedek_close.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/baedek_close.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+But of course, what distinguishes this tiny strip of land is not only or even mainly its fortunate climate and geography. Even here on this not-very detailed map we can see what on the map is called Lake Tiberias, which if you know your Gospels you will know is the Sea of Galilee, the scene of part of Jesus’s ministry; the Dead Sea, called in the Bible the Salt Sea, and of course Jerusalem, locale of the crucifixion; so you can see why this is an area holy to Christians.
+
+And of course before that it was a place holy to the Jews; Jerusalem is the site of the ancient temple of Solomon, denied to David by God. Destroyed by the Babylonians and replaced by the Second Temple in the fifth century BC, itself destroyed by the Romans in the first century BC, it remains the holiest site in Judaism. And of course on the site of the Temple Mount stands the Al-Aqsa mosque, where the prophet Muhammad led prayers and is thus one of the holiests site in Islam.
+:::
+
+:::
+
+## Crossroads of religions
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/jerusalem.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/jerusalem.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Jerusalem was then as it is today, a city populated by Jews, Muslims, and Christians, as well indeed as Druze and others, was a site of immense religious importance and, of course, tourism. 
+:::
+
+:::
+
+## Religious tourism
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/jaffa.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/jaffa.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here you can see the Jaffa Gate, one of the eight gates in the old walls of the city of Jerusalem, as it appeared around the turn of the century; you can see that conspicuously, there is a sign pointing to the Cooks tourism office, that is, the offices of the British tourist firm of Thomas Cook. Pilgrims to Jerusalem would traditionally arrive along the Jaffa road from the port city of Jaffa at this gate. 
+:::
+
+:::
+
+## Railway
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/jjrr.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/jjrr.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The Jaffa-Jerusalem railway was completed in 1892 to link the old city and the sea by modern transportation, and of course probably would not have been built had it not been for the religious significance of the inland city. 
+
+:::
+
+:::
+
+## Ancient and modern
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/ancient_mod.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/ancient_mod.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So when you looked at Jerusalem in the late 19th or early twentieth century, you saw people of all kinds of religions and nations; you saw the old and the new. On the right, you can see one of the old walls; on the left, some newer construction. On the earlier slide, of the Jaffa Gate, we saw a British tourist office; on this one, we see a German bank. The city had, and has, a life and importance all out of proportion of course to its geopolitical significance. And that historical and religious importance helps to explain a change in the region that began to occur a few decades before. 
+
+:::
+
+:::
+
+## Jews of Palestine
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/jews_pal.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/jews_pal.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+There remained in Palestine a population of Jews from ancient times, alongside the many others who lived there. But beginning in 1882, the Jewish population in Palestine began substantially to increase from immigration. Why 1882? Because the assassination of tsar Alexander II in 1881 led to a brutal suppression of liberties in Russia, including many anti-Semitic pogroms, as Professor Campbell has previously mentioned. Some of the Jews thus attacked went to the US, as I mentioned; some to Britain; others to other places; and some went to Palestine with the intent of farming the land there. The ones who chose Palestine tended to have a bit of education and a bit of money, and came with the intent of buying land and establishing a link to their ancestors. Some of them knew modern farming techniques.
+:::
+
+:::
+
+## Palestine under the Ottomans
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/pal_ott.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/pal_ott.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So this is Palestine under the Ottomans—a fairly teeming, cosmopolitan place with some unrealized agricultural potential, immense global religious significance, and in the latter two decades of the nineteenth century, increasing Jewish immigration. To the extent that the Jewish immigration contributed to unrest in Palestine, the Ottomans were troubled by it; it threatened to divide the empire, and Arabia within the empire, at a time when (as we’ve seen) the Ottomans didn’t need yet another source of administrative difficulties. At the same time, on an individual basis, the Jewish immigrants tend to be quite attractive to the Ottoman regime. They bring a bit of capital, they improve the land, they pay taxes, they’re educated. And so, when the Young Turks first took over in 1908, they continued to permit the Jewish immigration. 
+:::
+
+:::
+
+## Zionist congress
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/zion_cong.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/zion_cong.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But the politics of this situation were still more complicated; in 1897, this de facto movement of Jewish migrants to settle in Palestine turned into an international political movement with the first Zionist Congress in Basle, Switzerland, which met again afterward in various places, and in London in 1900, to declare the intention of establishing an international movement to create in Palestine a national homeland for the Jewish people. 
+
+So, this was a reaction to the sense that the Jewish people were imperiled in the countries where they lived, perhaps particularly though not exclusively in Europe. Why was this? With the various captivities and sackings of Jerusalem and the temple, culminating in the conquest by Hadrian in the second century, the Jews became a people in exile, or diaspora, or scattering. They lived in other countries. Deprived of the ability to worship at the temple and pursue the rites and customs appropriate there, they modified their observances to adapt to this condition. But they often found themselves, as in Russia in the late c19, subject to strictures and bigotry, deprived of various rights of person and property. For some, therefore, the solution was to return to their ancient homeland, and the land there, to farm it, and to derive their sustenance from it. (Initially, Zionists weren’t even committed to the idea of a homeland in Palestine, simply seeking a homeland somewhere, but quickly the idea of an ancestral return came to appeal more than anything else.)
+
+At the same time, in many countries, perhaps especially in Britain, diaspora Jews viewed Zionism with suspicion or worse. Among British Jews at the turn of the century, there was a widespread sense that they had already found a country sufficiently welcoming of them and their ways that they should be pleased to live there. Many of them had come from Eastern or Central Europe, many from Germany, where they had experienced anti-Semitism first-hand, and they believed their best protection against anti-Semitism was a liberal, tolerant government in the West—Britain, or America. Such Jews found Zionism disturbing—it was intrinsically illiberal, they believed, in its argument that Jews could never be at home or safe outside of Palestine, and that if they returned there, they should have special rights not available to other residents of the land. 
+
+In the years leading up to the war, the British government took no particular notice of this phenomenon because again, at this stage they were quite happy to keep out of Ottoman affairs. 
+:::
+
+:::
+
+## Arab national congress
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/arab_cong.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/arab_cong.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Similarly, at around the same time there was a movement of Arab nationalism, also with international Congresses, seeking to unite the Arab peoples, achieve autonomy for them together with linguistic preeminence in Arab lands. The Arab National Congress met at Paris in 1913, with some encouragement from the French government, which made the British nervous. The French looked like they might be trying to establish a foothold in Syria, and indeed encouraged Syrian nationalists there. One of the French diplomats who was documenting these links is Francois-Georges Picot.
+:::
+
+:::
+
+## {data-menu-title="points east" data-background-image=../media/orient.png}
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now, the Arabs had an advantage in seeking autonomy in the region because they had a strong, semi-autonomous ruler in the Hejaz, this strip of green land on the West side of the Arabian peninsula. It was ruled by Sharif Hussein. His position was a semi-religious one as well as one of civic rule, and within his jurisdiction lay Mecca and Medina. He opposed the Young Turks and hoped for full autonomy. Like the Zionists, he approached the British government—his son Abdullah met Kitchener on the eve of the War. But at that point, with the Ottoman position unclear, the British didn’t want to push things one way or another. Kitchener was, as we've seen, worried about the British position—the British had been in Egypt since 1882, wanted to retain control over the passage through Suez, and had many Muslims under their rule in the region. So he wanted to take care there.
+
+With the outbreak of war, the Sharif tried again to get British support. If he could lead an Arab Revolt against the Ottomans, surely this would benefit Britain, at war with Turkey. Now he received a slightly warmer reception, but still not what he wanted. At around this time a British official named Mark Sykes toured the region, concluded that unless the British did something to shore up Hussein’s position, the Sharif would be killed, replaced by an ally of the Young Turks, whose installation would prompt a true Arab revolt. This prospect makes the British more interested in doing a deal with Hussein; again, they want the region to be as stable and as much under their control as possible.
+
+Hussein concludes that if he wants to gain British support for his position, he needs to show he truly commands the support of the Arabs in the region. Two of his sons, Feisal and Ali, begin to travel the region discreetly seeking to determine Arab support for a real revolt. Feisal travels to Damascus in March 1915, and while openly he is diplomatic to the Turkish official there, secretly he meets a group of plotters seeking to overthrow Turkish rule and create an Arab state. 
+:::
+
+:::
+
+## Arrangements
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/mcmahon.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/mcmahon.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The plotters want the support of Sharif, as the ruler of the Hejaz. Feisal brings this protocol to his father, who presents it to the British. They are keen on the offer in principle, but unwilling quite to guarantee those boundaries. After a bit of back and forth, the British decide there’s a risk that the Turks and the Germans might grant this to the Arabs, and thus secure their loyalty, so the Brits should go ahead and try to negotiate the Sharif’s allegiance. A British official in Cairo writes Hussein to say, okay, but the regions of Messina, Alexandretta, portions of Syria to the West of the districts of Damascus, Hama, Homs, and Aleppo are not purely Arab and should be excluded from the agreement. The British agent, Sir Henry McMahon, doesn’t write his own Arabic, so it gets translated in a way that’s ambiguous. 
+
+The British have a few concerns. They’re now allied with the French, they know the French have claims in Syria, and they think they’ll have to support those claims after the war. The British are also thinking that this is a 2/3 Shia area, and placing it under Sunni rule would lead to instability. 
+
+Depending on how you interpret the Arabic translation of McMahon’s note, you can decide the British were promising one thing, or another. 
+:::
+
+:::
+
+## Ambiguity
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/vilayet.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/vilayet.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s the ambiguity. If you interpret the word “vilayet” to mean the immediate region around Aleppo, Hama, Homs, and Damascus, you can see that drawing a line West of there would refer mainly to modern Lebanon, and not to Palestine. This is how the Arabs understood it: that the McMahon letter ceded Palestine to Arabia. If, on the other hand, you interpret the word to mean an official “district,” then you can see that the *district* of Damascus extends all the way down to Aqaba, and therefore a line West of it would cover Palestine, and therefore—as the British would later argue—Palestine was not promised to Arabia. 
+
+For McMahon, ambiguity was a way of urging the Arabs over to the British side without alienating the French, and so too was the money and munitions he promised Sharif Hussein in his correspondence.  These promises were successful in securing Arab support; these letters were in October 1915, mainly.
+:::
+
+:::
+
+## Confusion
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/sykes.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/sykes.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Meantime, the British Mark Sykes and the French Francois-Georges Picot are meeting to do what they can do to establish how the British and the French will hash out their postwar alliance. There are competing views of imperialism, especially within Britain; for Britons who have bought the official explanation for why the government declared war—that is, to defend Belgium from occupation—there is a kind of liberal imperialist view: that Britain’s presence overseas is in aid of the independence of peoples who would otherwise fall prey to much worse kinds of colonizers and conquerors. Neither Sykes nor Picot takes that view; both are old-school colonialists, who view the world as one in which the strong take what they can and the weak suffer what they must, and they sit down with a map, and color the bits the French wants in blue, and the bits the Brits want in red. (On this map, being black and white, the French bits are the light gray, and the dark stripey bits are controlled by Britain.) Then there are bits ceded to a future Arab king (probably Hussein) in which the French would predominate; bits where the Brits would predominate—and then there’s Palestine, which was to fall under an international arrangement, in view of its immense cultural/religious significance. 
+
+This agreement is reached between the Brits and the French without any Arab involvement. Officers like TE Lawrence who were sympathetic to the Arabs thought the boundaries were bad, but that at least it recognized some right to Arab self-government. The British and the French take it to the Russians, who agree to it—which is significant because when the tsar’s government falls to the Bolsheviks, they will reveal secret agreements like this one as a way of exposing the perfidy of the West. The agreement is never implemented. But it indicates the way in which the British, particularly, were promising all kinds of things to all kinds of people without necessarily meaning any of them. 
+:::
+
+:::
+
+## Action
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/to_medina.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/to_medina.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In July 1916, Feisal and Ali go to Medina to proclaim an independent Arab nation; they head out to cut the railroad and the telegraph. Hussein gets the British to blockade the coast, calculating (rightly) that the Arabs will blame the Turks for the discomfort they suffer. Hussein’s son Abdullah leads a successful assault on the Turkish garrison at Mecca. 
+
+Ultimately, Feisal and Ali found they could not take Medina, just cut it off, and the Turks could repair the railroad. Lawrence begins to work with the Arabs to develop tactics of guerrilla warfare, including the famous journey through the desert to attack Aqaba from inland. 
+
+Lawrence, you’ll remember, knew that the British meant to mistreat the Arabs, one way or another. He hoped that if the Arabs were sufficiently successful, and specifically if they could get to Damascus before any other army, that they might be in a position to demand better. But he was consistently ashamed of helping the Arabs help the Allies, knowing that the Allies meant to leave all their promises unfulfilled. Beginning early in 1917, at about May, the Arabs will begin to find out about the Sykes-Picot agreement, and will trust the British less and less. British diplomats will soft-pedal what they’ve said, what it means, what they’re really committed to—pretty much everything to mollify the Arabs. Details of the agreement will emerge only later, in December 1917.
+:::
+
+:::
+
+## Action, 2
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/levant.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/levant.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Meanwhile, the British have sent General Edmund Allenby and his army in Egypt to march up the coast of Palestine; in the fall of 1917, Allenby launches an attack up the coast on Gaza, moving on to Beersheba. 
+
+If Lawrence is hoping the Arabs will get to Damascus before anyone, British Zionists are hoping to get some support from the British government before the Arabs get too far, or before there’s some public commitment to something like Sykes-Picot, which they don’t like. By now, the premier anti-Zionist, liberal Jewish organization has collapsed, declining to condemn Zionism on a narrow majority, and leaving the Zionists as the major lobby for the Jewish community, and presumably the Jewish vote in Britain, as in America. They propose to the government that they issue a statement for “reconstituting the national home of the Jewish people” – the government hems and haws but finally—as Gaza falls to Allenby’s troops—issue a note affirming their commitment:
+:::
+
+:::
+
+## A declaration
+
+:::{.callout-caution appearance=minimal .v-center-container}
+His Majesty's Government view with favour the establishment in Palestine of a national home for the Jewish people, and will use their best endeavours to facilitate the achievement of this object, it being clearly understood that nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine, or the rights and political status enjoyed by Jews in any other country.
+
+:::{.flushright}
+Arthur Balfour for HMG, 1917
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Balfour is the foreign secretary for the government now of Lloyd George, so this is known as the Balfour Declaration.
+
+This is in November 1917. You can see it says “establishment,” not “reconstitution,” and it says “a” rather than “the” national home; it also asks protection for non-Jews in Palestine, and as a sop to the Jewish liberals, to say it will not be a basis for anti-Semitism elsewhere.
+
+But it’s a big win for the Zionists.
+
+Or they think it is. The British are as inconstant with the Jews as they are with everyone else. Because some Turkish emissaries begin to talk about a separate peace. 
+:::
+
+:::
+
+## Allenby enters Jerusalem
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video muted loop>
+  <source src=../media/allenby.mov>
+  </video>
+  ```
+::::
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In the middle of December, 1917, General Allenby entered Jerusalem. You can see him here, entering at the Jaffa Gate, which we saw previously, and coming in on foot out of respect for the city. He then leads a column of Allied soldiers in, and we see him greeting various religious leaders, to whom he has pledged on behalf of the British government that they shall continue to be able to worship in the customary manner at the customary places.
+
+(Lawrence, by the way, is in this column.)
+
+This is, though, only a few weeks after the Bolsheviks have made the Sykes-Picot agreement public, alienating the Zionists and the Arabs alike. 
+
+The Arabs would not enter Damascus until 1918; Allenby would permit them ceremonially to enter first.
+:::
+
+:::
+
+## Mandates and consequences
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/mandates.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/mandates.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In the following year, at Versailles, Lloyd George would permit the French to have Syria if the British could have Iraq and Palestine—all under a “mandate,” not exactly a colony, but certainly awfully close. You can see Lawrence here with Feisal, I believe on the way to Versailles.
+
+During the first year or so of the mandate, anti-Semitic riots would lead the British High Commissioner in Palestine, to suspend Jewish immigration. Zionists in Palestine would found a secret society, the Haganah, to press and fight for an independent Jewish state; the Haganah would have offshoots called Etzel and Lechi, or Irgun and the Stern Gang, which would commit acts of terrorism. 
+
+At about that same time, the British would put Feisal on the throne of Iraq.
+
+In the 1922 Cairo Conference, Winston Churchill would draw up the kingdom of Transjordan, to the East of Palestine, and the British would give it to Hussein’s son Abdullah, Feisal’s brother. 
+
+In 1924, Ibn Saud would overthrow Hussein and take over the Hejaz for what became Saudi Arabia.
+:::
+
+:::
+
+## {data-menu-title="a dialogue"}
+
+:::{.callout-caution appearance=minimal .v-center-container}
+CURZON: In the same week that we have pledged ourselves, if successful, to secure Palestine as a national home for the Jewish people, are we to contemplate leaving the Turkish flag flying over Jerusalem?
+
+SYKES: We are pledged to Zionism, Armenian liberation, and Arabian independence.
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As with the Arab revolt, the Balfour declaration is a matter of convenience to the British waging a war. They would like to upset the Turks however they can, while keeping their arrangements with their allies as close as they can. At the same time, if the Turks want to drop out of the war altogether, Lloyd George would be happy to do that deal too, and he begins discussing with some diplomats the prospect of some arrangement whereby the Turkish flag can still fly over much of Palestine and Arabia, but that the administration of these areas would be more localized. 
+
+The top objection is from Curzon, the bottom from Sykes. In the end, the Turks can’t do the deal.
+:::
+:::
