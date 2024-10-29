@@ -3,8 +3,8 @@ title: Wartime diplomacy
 subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
-date: October 25, 2024 
-draft: TRUE
+date: October 28, 2024 
+draft: FALSE
 title-slide-attributes: 
   data-notes: "Either I am or am not going to do q&a. Anyway: video on next slide will start when slide starts"
 categories:
@@ -51,8 +51,9 @@ any defense article for the government of any country whose defense the presiden
 
 :::{.notes}
 
-:::
 Take note here, the "lend" in "lend-lease" is assigning in-kind aid to another country, and permitting the president to determine the priorities of which country that might be. 
+:::
+
 :::
 
 ## Scope of lend-lease
@@ -61,7 +62,7 @@ Take note here, the "lend" in "lend-lease" is assigning in-kind aid to another c
 
 ::::{.v-center-container}
   ```{=revealjs}
-  <img src=../media/lend_lease_map.png>
+  <img src=../media/lend_lease_map.png width="700">
   ```
 ::::
 :::
@@ -246,11 +247,7 @@ June 1945
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}
 
-::::{.v-center-container}
-  ```{=revealjs}
-  <img src=../media/sf_signing.png>
-  ```
-::::
+![](../media/sf_signing.png){width="700" fig-align="center"}
 :::
 
 :::{.content-visible when-format="pdf" .column-margin}
