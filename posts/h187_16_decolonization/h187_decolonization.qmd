@@ -1,0 +1,362 @@
+---
+title: Decolonization
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: November 4, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: "I hope you'll remember that at the start of the course, we discussed the world being a world of empires. the British empire being the biggest, in terms of population, landmass, and consequence; then the French, with other nations lagging. And I talked about how competition among empires tended to define foreign relations at the turn of the century, with newcomer empires—the US, Japan, Germany—vying to define their place in the world.
+
+As we’ve also seen, the foreign policy of the Franklin Roosevelt administration focused in no small extent on diminishing, if not eliminating, colonial empires in favor of a new world system. For many people, looking back, it was possible to see the roots of this system in the Open Door doctrine or Wilsonianism, but I think it’s also fair to say that that’s a retrospective continuity; that Roosevelt and his officials did not see themselves necessarily as continuing that tendency but as making something new in the world. 
+
+How would we define what they were making? Well, it’s a system of international law and international institutions. Which means that empires are on the way out—at least in their old-fashioned form, as I’ve indicated here in the title of this lecture."
+categories:
+  - HIS 187
+---
+
+## War aims and ending empires
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+
+![](../media/atl_conf.png){width="700" fig-align="center"}
+
+
+:::{.notes}
+Empires were on the way out rather in spite of the British and the French, and because of the policy of the United States. You'll remember, I hope, I showed you this photograph of the Atlantic conference, in August 1941, at which Churchill, in the weaker bargaining position because of his need for material aid from the United States, agreed to Roosevelt's demand that the Allies commit themselves to, among other things, free trade, self-determination of peoples, and colonial readjustment, as well as, broadly, a basic commitment to human rights. 
+
+Now, as I've pointed out, this commitment was not something Churchill very much wanted to honor. And for his part, after the war, Stalin did not honor it; the Soviet Union did exit the war having gained rather substantial quantities of territory and did not, in the end, join the international organizations to which it had committed itself.
+
+But the at-least-partial democracies of Britain and France were in very different positions, and their leaders wound up—to a degree, anyway—honoring those commitments. 
+:::
+:::
+
+## Colonial commitments
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+
+![](../media/nigerians.png){width="600" fig-align="center"}
+
+
+:::{.notes}
+As I indicated before, even if Churchill didn't very much mean to honor the principles of the Atlantic Charter, his commitment was now broadcast around the world, and incorporated into the Declaration of United Nations and innumerable Allied propaganda statements. That meant that the mass mobilization of empires became a mass mobilization for those principles, which was of course what Roosevelt intended.
+
+As I say, this was a time of mobilizing empires, not just the home countries; Britain couldn't fight this war—but the British empire could. 
+
+Burmese soldiers became members of the Gurkhas within the British imperial armies, and fought fiercely in the China–Burma–India theater. The British Eighth army that fought in North Africa against the German Afrika Korps was likewise largely an army of colonial subjects.
+
+Maybe half a million of British colonial subjects in Africa became soldiers in the British armies that fought there. And when the war was over they had reason to feel they had earned rights, with their fighting. And they understood that Britain's commitment to the Atlantic Charter would have meant that they were fighting for a world in which colonial powers would no longer rule as they had. 
+
+The same conditions held for the French colonies as well, many of which mobilized in defense of France even after France itself had fallen.
+
+So that's the first point: the mobilization of the empires for war meant the mobilization of people, who understood themselves to be fighting for the Atlantic Charter.
+:::
+:::
+
+## Ending the Raj
+
+:::{.content-hidden unless-format="revealjs"}
+
+
+![](../media/gandhi.gif){width="800" fig-align="center"}
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+
+:::{.notes}
+Of course, not all colonial subjects had quite such profound, if conflicting, feelings of loyalty. In 1939, when Britain declared war, so did the British government in India, and it did so without consulting local Indian leaders. As a result Gandhi, who you see here, led a strike against cooperation with British authorities. The British could ill afford such non-cooperation. 
+
+As I've said, the success of this anti-colonial strategy depended on the commitment of Britain and France to some semblance, however attenuated, of human rights. We might call this an example of the virtues of hypocrisy. The Japanese and the Germans and the Italians were not particularly vague about their contempt for democracy and human rights; their philosophy was frankly that might made right, and that the superior people were the stronger ones. As George Orwell, the British writer, would observe in thinking about the effect of Gandhi's protests, his strategy would not have got very far in Nazi Germany; the Germans would have rolled over Gandhi and his supporters with tanks, and that would have been that. 
+
+It was only the hypocrisy of the British that made this kind of strategy work; they claimed to respect rights, and even to a degree democracy, and it meant they couldn't simply roll out the tanks in response to a non-violent protest. And again, much the same held for the French and the United States; the Roosevelt administration, which had already been making some halting moves toward Black civil rights, became much more active in this respect with the war, not least because of its announced war aims—and again because, like Britain, it could ill-afford the non-cooperation of essential workers.
+
+For their part, the British sent Sir Stafford Cripps to India in 1942 to do a deal in an attempt to pacify Gandhi and those following him. Cripps was prepared to negotiate for independence after the war, but they couldn't reach agreement on the terms. The Congress party started a "quit India"—as in, the British should quit India—campaign, attacking British installations—cutting railroad lines and telegraph lines, and attacking British offices. It became quite clear that Britain hadn't the resources to retain, and would hold onto it during the war only by virtue of emergency mobilization. The writing was on the wall for the end of the British Raj.
+:::
+:::
+
+# Allied mobilization → decolonization
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So that's sort of the first point. The second point is, the war also occasioned tremendous dislocations which discredited the colonial powers—both the old ones, which decided they couldn't or wouldn't provide adequate support to their colonial populations, and the new ones, which were quite brutal, as we'd expect, in their disregard for the violent side effects of their advances. 
+:::
+:::
+
+## [War and the inadequacy of empires]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+
+{{< video ../media/bengal_muted.mp4 >}}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This was true particularly in Asia, where series of famines swept various colonized nations as a result of the war. 
+
+Japanese occupations of parts of China and southeast Asia disrupted traditional markets and transportation, and Japan diverted resources to their soldiers. 
+
+Vietnam suffered a rice famine owing to the Japanese expropriation of their rice crop, that killed about two million people in 1945. A similar famine, for the same reason, struck Indonesia at about the same time, killing about 2.4m people from starvation and related diseases. 
+
+The Japanese occupations of Burma and Thailand threatened the Indian province of Bengal, which under British rule depended on food arriving from Burma and Thailand. Still more millions starved there. The British under Churchill refused aid to the famine victims, on the grounds that they could not afford to spare the resources, and perhaps as many as 3m people died.
+
+The Japanese cast themselves as more suitable to rule Asia than the European powers, but they did not pretend that this would mean any special regard for Asian peoples. Wherever they went they enslaved local populations; in southeast Asia, the Japanese used forced labor to construct the infrastructure they needed for their war. For example, the building of a railway from Bangkok to Rangoon killed more than 100,000 workers. 
+:::
+:::
+
+## Ending the world that was
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+
+:::{.v-center-container}
+![](../media/empires.png){fig-align="center"}
+:::
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So the actuality of both the old empires and the new empires during the war was of institutions and structures of power that poorly served colonized peoples—whether there was a pretense of better, as with the Allies, or not, as with the Axis. 
+
+That meant that in the regions of the world historically subject to colonization—particularly, as we've seen, Africa and Asia—there were millions of people eager and ready to see an end to colonial powers.
+:::
+:::
+
+
+## Brazzaville conference, 1944
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.v-center-container}
+![](../media/brazzaville.png){width="600" fig-align="center"}
+:::
+
+:::{.notes}
+The Allies showed varying degrees of willingness or ability to acknowledge this reality. 
+
+This is Charles de Gaulle, leader of the Free French during the war, speaking at a conference in Brazzaville in Congo, in January 1944. Remember, at this point, the Free French are a dispersed force—they do not control France or the empire. So from a position of weakness, they're seeking the assistance of their colonized peoples. Even under those circumstances, while de Gaulle pledges an adjustment and semi-autonomy for the French colonies, as well as some measure of civil and political rights, he rules out altogether the idea of dissolving the empire. 
+
+And as you may know, that will become the firm policy of the postwar French government, which will try very hard to hold on to its colonies, particularly those in Southeast Asia.
+:::
+:::
+
+## Broke Britain
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+![](../media/keynes.jpeg){width="600" fig-align="center"}
+
+:::{.notes}
+The British demonstrated a somewhat greater degree of realism, understanding that they could not afford to maintain the empire given the financial costs of the war. 
+
+Lend-Lease, you'll remember, was arranged so that it didn't leave the British, or other recipients, in debt to the United States. But then with the war over, many powers—including the British—needed more aid yet. 
+
+Here you see our friend Keynes in one of the last acts of his life, negotiating in person with US officials for a loan to Britain in 1946. He got the best deal he could, but it still took up most of Britain’s resources to pay off its debts—not only to the United States, from this new loan, but to Britain's old colonies or dependencies—it owed money to India, to South Africa, to Egypt, as a result of pledges made to pay for what it took during the war. 
+
+As Keynes said, “We cannot police half the world at our own expense when we have already gone into pawn on the other half.” In a last-ditch effort, the British arranged to use some of the accumulated balances from the colonies to redevelop and reinvest in them, sometimes successfully, as in Malaya. This represented an attempt to defray the debts they had incurred by improving economic conditions in the colonies, and keeping commercial and financial connections of empire alive.
+
+The French did much the same in 1946. 
+:::
+:::
+
+## [Accelerated departure: India]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+![](../media/leaving_india.gif){width="600" fig-align="center"}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In the end, the accelerating weakness of the British empire meant they had to speed up the plans they had made for withdrawal, owing to their dire economic and financial conditions. 
+
+The British Labour government elected in 1945 had originally scheduled Indian independence for 1948, but had to move it sooner, to 1947. There were continuing clashes between Hindus and Muslims, and the British could not maintain control. They had neither the material resources nor the political will to keep up colonial control, and they fled, agreeing to allow the Hindus and Muslims to divide the territory. 
+
+The Hindus were to get the bulk of India, with the Muslims getting two small states on either side of the subcontinent, to be a noncontinuous territory of Pakistan. The British also left Burma and Ceylon/Sri Lanka. They did retain, for the time being, Singapore and Hong Kong. 
+
+The French of course began a war to keep Indochina, which would last until 1954.
+:::
+:::
+
+## [Accelerated departure: Palestine]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+![](../media/leaving_pal.gif){width="600" fig-align="center"}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The British had had several plans for Palestine over the years, most recently two different ones in 1937 and 1939. In 1937 they had drawn a map for partition; in 1939 they issued a white paper assuming a single state, with an Arab majority, and limits on Jewish immigration and purchase of lands. But of course in 1939 the British began fighting the Nazis and shifted their priorities.
+
+So there was an absence of leadership. 
+
+The Holocaust strengthened international support for an independent Jewish state, which the Zionists already supported. But now diaspora Jews and Gentiles alike could see the argument for such a state. A conference at the Biltmore Hotel in New York in 1942 allowed Zionists to agree they would call for a singular Jewish state. 
+
+Jewish militias in Palestine began attacks on British personnel, including civilians: assassinating a British minister and bombing the King David Hotel, where the British headquarters were located. By 1947 about 100,000 British soldiers were in Palestine, roughly 1/10 of the British army. 
+
+Britain prevailed on the brand-new United Nations to establish a plan for Palestine. The UN set up a special committee, UNSCOP, which agreed with the general idea that the displaced Jews of Europe needed a homeland, and Palestine might as well be it. They also proposed partition between the Jews and the Arabs. 
+
+With the departure of the British in 1947, fighting continued between Jews and Arabs within Palestine. Then in May 1948, Jewish forces declared the state of Israel, recognized by both the US and the USSR. The Arab neighbors to the new state did not recognize it: Egypt, Transjordan, Syria, Lebanon, and Iraq, as well as smaller forces from Saudi Arabia and Yemen, waged war on Israel. 
+
+By the middle of 1949, the Israeli forces had won and occupied much, though not all, of the territory originally allocated to the Arabs within Palestine. In the course of this war, by far the larger part of the Arab population within Palestine, hundreds of thousands of people, either fled or were driven out by the Israelis. With the peace deal of 1949, Jordan and Israel agreed to lines that acknowledged the advance of the Israeli forces. 
+
+In 1950, Israel established the Law of Return, permitting Jews from around the world to settle there, thus tying its fate directly to the memory of the Holocaust, and also to the substantial population of diasporic Jews in countries like the United States and Britain. 
+:::
+:::
+
+## Decolonization: Africa
+
+:::{.content-hidden unless-format="revealjs"}
+
+![](../media/decol_africa.gif){width="500" fig-align="center"}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So here’s the decolonization of Africa - Before 1945, 1945-1960, 1961-1970, 1971-1980, 1981-2000
+
+You can see that the bulk of it occurs just after World War II; that big swathe of Saharan/sub-Saharan Africa, plus Somalia, Madagascar, and Morocco.
+:::
+:::
+
+## Decolonization: Asia
+
+:::{.content-hidden unless-format="revealjs"}
+
+![](../media/decol_asia.gif){width="600" fig-align="center"}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s the same kind of thing in Asia - 1945-1955, 1956-1975, 1976-2002
+
+again, most of it occurs in the period just after WW2; India, Pakistan, Burma, Vietnam, Laos, Cambodia, Indonesia, and the Philippines—the US let them go in 1946 (the next bit’s just Malaysia and East Pakistan/Bangladesh; after that’s just East Timor, Hong Kong & Macau, and Brunei)
+:::
+:::
+
+## Decolonization: Middle East
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+![](../media/decol_me.gif){width="600" fig-align="center"}
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Then there’s the largely similar, but slightly different, process of ending the “mandates” provided by the League of Nations, which were legally (though not much functionally) different from colonies. The mandates were meant to end when the areas had achieved self-government but in the meantime, most were effectively colonies. The dark green are French, Lebanon and Syria, which got independence in 1943 & 1946; the light green are British, Iraq, Jordan, and Israel, independent in 1932, 1946, and 1948, respectively. 
+
+So, just looking at the time periods, without talking about the processes, it should be clear that we’re seeing a process of colonies attaining independence accelerating dramatically during and after WW2.
+
+VIDEO WILL AUTOPLAY ON NEXT SLIDE
+:::
+:::
+
+## [US decolonization: Philippines]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+{{< video ../media/philippines.mp4 >}}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+What about the US colonies? Well, it's a slightly different story. On the one hand, they're committed to the policy of the Atlantic Charter. On the other, they're not as materially disadvantaged as the old empires. The United States does not intend to go home from this new world.
+
+This is the end result of the process we've talked about before, beginning with the Jones Act of 1916, then the Tydings–McDuffie Act of 1934, and now actual Philippine Independence in 1946.
+
+:::
+:::
+
+## Continued presence
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.v-center-container layout-ncol=2}
+
+![](../media/phil_signing.png){height="200"}
+
+![](../media/subic.png){height="200"}
+:::
+
+:::{.notes}
+The arrangement for the United States to acknowledge the Philippines' independence included an understanding that not all US troops would be leaving. In fact, as we've seen was the case in Cuba and Panama, the United States negotiated a military bases agreement with the Philippines in 1947. That’s US ambassador Paul McNutt with Philippine President Manuel Roxas signing it. It established the permanent presence of the US at a number of places throughout the archipelago, including notably Subic Bay; this is an aerial photograph of Subic Bay showing US warships from around 1950.
+:::
+:::
+
+## Bases retained
+US--Philippines agreement, 1947
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+![](../media/phil_bases.png){width="400" fig-align="center"}
+
+:::{.notes}
+The US retained use of the 16 bases in Annex A, and the right to use the seven listed in Annex B upon military necessity. In addition, the Philippines remained tied to the US by tariff and currency arrangements. So: independence, but still tied to the colonizer power.
+:::
+:::
+
+## Still a Pacific power
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.v-center-container}
+![](../media/map_us_pac.png){width="600" fig-align="center"}
+:::
+
+:::{.notes}
+So here's a map of the postwar United States as a Pacific power. The occupation of Japan after the war allowed the United States to retain first military, then civilian control over the Ryukyu Islands, with headquarters in Okinawa. Hawai‘i remained a US territory after the war, of course, becoming a state in 1959. The US kept Midway, Samoa, and Guam as territories, as well as Wake Island. After the war it jointly administered Canton with the United Kingdom until 1979. It also possessed the Marshalls, Marianas, Palau, and Truk, among other islands in the "trust territories." These arrangements weren't fully terminated until 1994.
+:::
+:::
+
+## Air routes
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.v-center-container}
+![](../media/map_planes.png){width="600" fig-align="center"}
+:::
+
+:::{.notes}
+You can see here a map of the air routes around the world in 1946, and by looking at it, you can see that these Pacific islands were essential to air travel in this pre-jet age. You could already fly across the Atlantic, at least at its shorter widths, non-stop—but as you can see if you wanted to fly across the Pacific you needed to be able to sort at one or more of these islands. 
+
+You can see air traffic stopping of course in Honolulu, but then also in Guam and Wake; you can see these routes charted through Canton. You can also see some flights stopping in Noumea, in New Caledonia (which is still part of France) and Suva, in Fiji, which was British. Note that these routes were either Pan Am, which is no longer around, or United which is.
+:::
+:::
+
+## Annexations
+
+![](../media/hi_eq2.png){width="600" fig-align="center"}
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+:::
+
+## The new world
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+![](../media/cold_war_world_1.png){width="950" fig-align="center"}
+
+:::{.notes}
+Now, within ten years after British departure from India and Palestine, and the general dissolution of the old empires, you have a very different map of the world. It’s kind of an odd projection, I know, so I don’t think it will matter that I’ve turned it on its side, either. The purple areas are “western” aligned nations; the orange ones are “communist” states. And the year here is, you’ll see, 1957. What has happened is that much of the world has been divided into these two camps. You can see the NATO nations (1949) and the Warsaw Pact nations (1955). (Also the Baghdad Pact, for Britain, Turkey, Iraq, Iran, and Pakistan - trying to keep the Soviets out of the Middle East, also 1955.) 
+
+You’ll also note that much of it is “Arab-Muslim” or “Other” - that is, non-aligned. And for much of the time after the fall of the empires, this was the re-ordering of the world, in keeping with what became known as the Cold War. Which we’ll pick up with next time.
+:::
+:::
+

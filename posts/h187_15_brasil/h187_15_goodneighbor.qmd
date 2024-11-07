@@ -1,0 +1,297 @@
+---
+title: Aquarela do Brasil
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: November 1, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: "START 1:14 BEFORE CLASS. To date, we've talked about US-Latin America relations in the context of the amped-up MD—assertion of practical sovereignty."
+  data-background-video: ../media/lehrer_marines.mp4
+categories:
+  - HIS 187
+---
+
+## Platt amendment, 1903
+
+::: {.callout-tip appearance=minimal .v-center-container}
+
+That the government of Cuba consents that the United States may exercise the right to intervene for the preservation of Cuban independence, the maintenance of a government adequate for the protection of life, property, and individual liberty, and for discharging the obligations with respect to Cuba imposed by the treaty of Paris on the United States.
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+A provision, slipped into an army appropriations bill before the US Congress, establishing that Cuba, though nominally independent, could not pursue a foreign policy independent of US approval, could not borrow from foreign lenders except under straitened conditions, and ceded Guantanamo Bay to the United States. It also established the right of the United States to intervene domestically in Cuba as needed. 
+
+Wood and Root thought of this as an extension of MD. Wood: “amplifies the MD”. Root: “it is the Doctrine itself as international principle.” Became part of a Treaty between the US and Cuba in 1903, thus putting Cuba in the position of a US protectorate. As Wood wrote to TR, “There is, of course, little or no independence left to Cuba under the Platt Amendment.”
+
+:::
+
+:::
+
+## The footprint of freedom
+
+![](../media/footprint.png){width="50%" fig-align="center"}
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+In 2017, Sec State Rex Tillerson said "History has shown that the United States
+leaves a footprint of freedom wherever it goes." This remark occasioned much derisive comment; here's one reason. 
+
+https://www.foreign.senate.gov/imo/media/doc/061317_Tillerson_Testimony.pdf
+:::
+:::
+
+## Good neighbors
+
+:::{.callout-tip appearance=minimal .v-center-container}
+in the field of world policy I would dedicate this nation to the policy of the good neighbor---the neighbor who resolutely respects himself and, because he does so, respects the rights of others---the neighbor who respects his obligations and respects the sanctity of his agreements in and with a world of neighbors.
+
+:::{.flushright}
+Franklin Roosevelt, March 4, 1933
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, then we get the New Deal. This is what Roosevelt says about foreign relations in his first inaugural. As you can see, it’s quite vague. And although the phrase “good neighbor policy” would come to be associated with Latin America, note here that it’s just about “world policy” in general. Indeed, if you look at this sentence on its own, you can understand it as meaning, well, I think Europe should pay its debts—respect its obligations, you see. It’s quite vague. The only thing I would say about it, to relieve its vagueness, is if we note the next bit:
+:::
+:::
+
+## Interdependence
+
+:::{.callout-tip appearance=minimal .v-center-container}
+If I read the temper of our people correctly we now realize as we have never realized before our interdependence on each other: that we cannot merely take but we must give as well. . . . it makes possible a leadership which aims at a larger good. This I propose to offer. . . .
+
+:::{.flushright}
+Franklin Roosevelt, March 4, 1933
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now, this sounds as though it is probably aimed solely at the domestic question, but coming right after the “good neighbor” passage it’s quite suggestive. Does Roosevelt mean there must be some recognition of interdependence among nations, that “we” cannot merely take, but need to give as well?
+:::
+:::
+
+## [Pan American Conference, 1933]{.r-fit-text}
+
+:::{.columns .v-center-container}
+
+:::{.column}
+![](../media/pan_am33.png){width="70%" fig-align="center"}
+:::
+
+:::{.column}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+no state has the right to intervene in the internal or external affairs of another. . . . the territory of a state is inviolable and may not be the object of military occupation. . . .  even temporarily
+
+:::{.flushright}
+Convention on the Rights and Duties of States, December 1933
+:::
+:::
+
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+
+:::{.notes}
+There’s some reason to think that he did. Take, for example, the Pan American Conference of 1933. As of 1933, there had been Pan-American Conferences, or International Conferences of American States, on and off for twenty years. These sought to resolve with diplomacy the problems of the hemisphere. In practice, this tended to mean the US seeking some kind of advantage for its industry at least cost, and nations further south seeking to get the advantages of trade with the US without submitting to US interference in their affairs. 
+
+In 1933, at Montevideo, in Uruguay, twenty American nations including the USA met to affirm a new convention, the key element you can read here. And in the picture you can see applauding at the conference, as people commend the US delegate, Secretary of State Cordell Hull. Hull, with the US, agreed to this convention—but with reservations. Note that international agreements may indeed be reached with reservations; usually they’re quite specific [as for example, the Brazilian and Peruvian reservation to article 11, which they said they liked in principle but didn’t think it could have the force of law because some nations hadn’t signed the anti-war pact of Rio de Janeiro]. 
+
+The US objection was much vaguer. Hull said that “under the Roosevelt administration the United States Government is as much opposed as any other government to interference with … internal affairs or processes of the governments of other nations” - He said he thought “The policy and attitude of the United States Government … could scarcely be made more clear and definite than they have been made by both word and action especially since March 4.” Sooooo what did that mean?
+
+Privately, Hull said, “There are a number of situations that justify a state in intervening in the affairs of another state.” He acknowledged (again privately) that “the demand for unanimous affirmative vote was very vociferous,” so he didn’t intend to defy it. But he didn’t really think the convention would stop the Roosevelt administration doing what he thought it should do. 
+
+Here the US government is giving up an aggressive claim to the right of intervention while retaining a fundamental right to do what it needs to do.
+
+:::
+:::
+
+## Modification to Plattism
+
+:::{.callout-tip appearance=minimal .v-center-container}
+We have wished to commence negotiations for . . . a modification of the permanent treaty between the United States and Cuba
+
+:::{.flushright}
+Franklin Roosevelt, November 1933
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+“we have been keenly desirous during all this period of showing by deed our intention of playing the part of a neighbor to the Cuban people” “Would Free Cuba From Supervision,” NYT 12/13/33, p. 10
+
+Remember, the Platt Amendment to the Cuban Constitution permitted the US to “intervene for the preservation of Cuban independence, the maintenance of a government adequate for the protection of life, property, and individual liberty” etc. 
+:::
+:::
+
+## Cuban--American Treaty, 1934
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+
+![](../media/cuba_treaty34.png){width="70%" fig-align="center"}
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The 1903 treaty would cease, and with it the Platt Amendment; at the same time, the US would retain the naval station at Guantanamo. The US would also try to aid Cuba economically.
+
+The Smoot--Hawley tariff had many unintended consequences. In an effort to protect domestic, i.e., continental sugar producers in Louisiana and California, it raised the tariff on sugar. The reaction of Cuban producers was to lower sugar wages by nearly half, which led to considerable hardship on the island. The advantage was not, ironically, to the producers in Louisiana and California, but to those in the Philippines, Hawaii, and Puerto Rico, which were not excluded by the tariff and which still produced at lower rates than the mainland producers. 
+
+The US decided at length it would reduce the tariff on Cuba, in an effort to provide economic aid there---but it was not, however, successful, and Cuban wages remained very low. Roosevelt used the Reciprocal Trade Agreements Act, which we’ve already discussed, to lower tariffs also on Honduras, Colombia, Guatemala, Costa Rica, and El Salvador, in an effort both to relieve the depression there and to improve diplomacy with those nations.
+:::
+:::
+
+## US--Panama Treaty, 1936
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+```{=revealjs}
+<video muted loop width="600">
+<source src="../media/fdr_canal.mp4">
+</video>
+```
+:::
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+:::{.notes}
+Under the Theodore Roosevelt administration, just after helping Panama come into being, the US had asserted the right to “intervene, in any part of the Republic of Panama, in order to re-establish public tranquility and constitutional order” etc. 
+
+With the 1936 treaty the US gave that right up. But just as the US retained Guantanamo even after giving up its legal right to intervene in Cuba, the US would retain the Canal Zone, even after negotiating an end to its legal right of intervention in the Republic of Panama. 
+
+And as with the Cuban arrangement, the US government also undertook to provide some economic relief to Panama. In this case, the US government was obliged already to pay an annuity out of the canal profits; it almost doubled under the treaty, and Panamanians gained the right to sell goods to ships traveling through the canal, as well as to bid for contracts within the Canal Zone. 
+
+And as you can see here, the beginning of the negotiations of that treaty came with Franklin Roosevelt’s own visit, aboard the US Navy cruiser Houston, to Panama. Houston took Roosevelt through the canal, making him the first president to make that trip. It was part of a goodwill tour of the Americas that Roosevelt undertook in 1934.
+
+:::
+:::
+
+## Goodwill tour, 1934
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+```{=revealjs}
+<video muted loop width="600">
+<source src="../media/fdr_haiti.mp4">
+</video>
+```
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This is Roosevelt in Haiti. US troops had occupied the country for 20 years; Roosevelt arrived in 1934 and said they would be leaving sooner than expected—by August of that year. He also began negotiations there for a new trade agreement. He went to Columbia, to Peru; he said there would be more “commerce” in the Americas, “in the spirit of fair play and justice.”
+
+THE VIDEO WILL START AFTER CLICKING TO NEXT SLIDE OR MAYBE NOT
+:::
+:::
+
+## [Who are these good neighbors?]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+```{=revealjs}
+<center>
+<video controls width="700" fig-align="center">
+<source src=../media/cuba_33.mp4>
+</video>
+</center>
+```
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The thing is, let’s think about who Roosevelt’s being a good neighbor to. MAYBE CLICK TO PLAY
+
+The regime in Cuba with whom he negotiates the deal for ending the Platt amendment is a new one—they’ve just been installed by armed forces led by Fulgencio Batista. The previous regime had been a revolutionary, radical one, which the Roosevelt administration had declined to recognize. That regime, under Ramón Grau San Martín, had unilaterally abrogated the Platt Amendment. Batista put in the conservative Carlos Mendieta. Roosevelt’s administration recognized the Mendieta regime. And then said yes, the Platt Amendment is gone. In this light, the move looks a little less neighborly, maybe.
+
+:::
+:::
+
+## Aid to Latin America
+
+:::{.columns .v-center-container}
+
+:::{.column}
+- Export--Import Bank, 1934
+
+- UST monetary missions
+
+- FBI
+
+- military missions
+
+- Lend-Lease
+
+- OCIAA (1940)
+:::
+
+:::{.column}
+![](../media/good_neighbors.png)
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+
+:::{.notes}
+Sumner Welles, the head of the Lat Am desk in the State department, was fond of saying, "they are all republics," which was perhaps truer in form than in substance, as we've seen.
+
+The Export-Import Bank was created in 1934 to finance trade—initially, with the USSR. Would make loans so that USSR could buy American goods. This has of course the effect of stabilizing Stalin’s regime. 
+
+The same goes in Latin America. The Ex-Im bank makes loans to Cuba, to finance trade, stabilizing the regime there; it also makes loans to Nicaragua, stabilizing the regime there. When Anastasio Somoza takes power in Nicaragua, the US Government backs him, and makes loans for development projects in his country, which US firms will supply parts for and US engineers will advise in building. Somoza was encouraged with these loans and projects to develop industries that might succeed and complement, but not compete with, US ones.
+
+The Treasury also sends missions to Latin American nations to guide them in establishing new monetary regimes, like the one we saw established in the US, that will allow the management of national currencies without a gold standard (or other metallic standard).
+
+In the case of lending to USSR and Lat Am, Roosevelt administration is of course worried about Nazis. Which is why he authorizes J. Edgar Hoover of the FBI (shown in the picture there) to train new secret services to oppose Nazism. US federal police went to Brazil, to Guatemala, and other countries to help train and organize services to root out Axis spies. 
+
+The Germans and the Italians had sometimes got into this business, establishing military missions in LA countries; the US quietly tried to ensure that these missions ended when their contracts ended, and substituted US aid for them. By 1941, every Latin America state had some kind of US military advisors and there were more than 100 US military personnel assigned to this duty in the hemisphere.
+
+The US sold arms to Latin America, and also trained Latin American officers in the United States.  
+
+And sent propaganda. Office of the Coordinator of Inter-American Affairs. Translated, censored Hollywood films. Encouraged the making of friendly films - Simon Bolivar. Road to Rio. And, of course, *Saludos Amigos.* BEGINS AUTOMATICALLY NEXT SLIDE 
+:::
+:::
+
+## *Saludos Amigos,* 1942 {background-video="../media/saludos.mp4"}
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+(Disney studios’ fortunes at this point)
+
+The reaching out to Latin America is of course a piece of Roosevelt’s general foreign policy as we saw last time and is vitally important in getting agreement on BW - 19 of 44 BW delegations are Latin American countries (unit rule for voting). 
+
+Bolivia Brazil Chile Colombia Costa Rica Cuba Dominican Republic Ecuador El Salvador Guatemala Haiti Honduras Mexico Nicaragua Panama Paraguay Peru Uruguay Venezuela 
+
+Nineteen of 44 BW delegations are LA - unit rule 
+:::
+:::
+
+## Geography
+
+![](../media/close.png){width="40%" fig-align="center"}
+

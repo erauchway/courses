@@ -54,8 +54,6 @@ any defense article for the government of any country whose defense the presiden
 Take note here, the "lend" in "lend-lease" is assigning in-kind aid to another country, and permitting the president to determine the priorities of which country that might be. 
 :::
 
-:::
-
 ## Scope of lend-lease
 
 :::{.content-hidden when-format="html" unless-format="revealjs"}

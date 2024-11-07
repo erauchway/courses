@@ -1,0 +1,275 @@
+---
+title: "Cold War: Europe"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: November 6, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: "So we want to talk a little bit more about the international framework for the Cold War in Europe in the years just after the Second World War, and to hook it into the material we'd discussed about the Second World War, and US ambitions during that time.
+
+Last time—last lecture, before the midterm—Daniel told you that the Cold War was not a planned state of affairs, but one that resulted from the circumstances of the Second World War's conclusion. I want to talk a little about those circumstances today."
+categories:
+  - HIS 187
+---
+
+## The Cold War world
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/cold_war_world.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/cold_war_world.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+First I want to bring back this map of the world, which I showed you before, to talk a little bit about the geostrategic character of the Cold War. 
+
+That is to say, for many people, at the time and afterward, the proper way to understand the Cold War was as an ideological conflict, between communism and capitalism, or between totalitarianism and democracy. That is of course the kind of Cold War Daniel talked to you about—the Cold War of public diplomacy. 
+
+And indeed to a considerable extent the map you're looking at reflects that notion, with nations colored according to their alignment with various pacts—NATO, the Warsaw pact, the Baghdad pact, and so forth, as I mentioned before.
+
+But there is another school of thought among historians that holds the Cold War can be understood by simple geostrategic terms, that is, by the dictates of political geography. The argument here goes something like this: the United States and the Soviet Union would have come into eventual conflict whatever their governing ideologies based simply on their places in the world, and that this conflict would be heightened by weakening the colonial powers of Central and Western Europe, as happened with the world wars. 
+
+And the argument goes something like this: look at the Soviet Union. It's an enormous land mass, stretching from the heart of Europe across to the eastern shores of Asia. So it encompasses a vast territory, some of it quite rich in natural resources, whether for agriculture or extractive industry, and it includes a vast population as well.
+
+But also, as  you can see from this map, the Soviet Union is pressed right up against the North Pole. Much of its coast is either inside or just outside the Arctic Circle. Its longest border is with China. Its warm water ports are vulnerable to whoever might control the eastern Mediterranean.
+
+So from the point of view of political and commercial geography, the USSR has as its interest some kind of access to warm-water ports, whether in Asia or Europe, and also friendly relations with China.
+
+All of that, the argument goes, you can deduce by looking at the map, and it follows no matter what the governing system of the USSR might be.
+
+Conversely, look at the United States—and indeed other nations within the American bloc on this map, like Canada and Australia and in fact Britain. Set aside their ideology for a moment, and note that one thing they have in common is the many, many miles of warm-water coastline and ports with access to the world's oceans they possess. They are unhindered by the conditions that box in the Soviet Union. Their obvious interest, you might well understand, whatever their governing institutions and ideologies, lies in unfettered access to the world's oceans, and to the trade and markets of the world.
+
+It's because of this understanding, the argument goes, that there's a certain congruity between nineteenth-century policies and twentieth-century policies: the United States, the argument would go, was always going to press for some version of the Open Door policy that would permit it access to the world's markets, and on this view, you would understand the free-trade provision as the singular key element of the Atlantic Charter. The United States sought a world of open markets because that was to its advantage, as indeed it had—to a certain extent anyway and it depends on who you ask—been in the interest of the British empire previously, which one school of interpretation refers to as an "empire of free trade" in the nineteenth century and the early twentieth century.  
+
+And indeed it's worth pointing out that even before the Bolshevik revolution, some observers had predicted a conflict between the United States and Russia (as it then was). Their very different world-views, the argument goes, result from their very different places in the world. 
+
+So even before you get to the question of capitalism vs. communism, you have these facts to contend with. The Soviets face something similar to the same geostrategic concerns that plagued the Germans in the first half of the twentieth century: they believe themselves hemmed in on all sides by rivals, so that their considerable population and resources have no place to go, and they risk therefore internal dissent and collapse if they can't secure some kind of external outlets.
+
+Now, that comparison should tell us something: it's quite illuminating, in terms of understanding what the Germans or the Soviets might do. But just as we could not properly understand Germany in the 1930s and 1940s without understanding Nazism, we could not understand the USSR in the twentieth century without communism.
+
+Still, the limits of geography do help us understand where the USSR and its leaders are situated, especially when you add that of course in the first half of the twentieth century, Russia or the USSR was attacked twice by Germany through Poland. So you can kind of figure out a way to understand Stalin: neutralize Germany, control Poland; neutralize Japan—also a historic rival—and establish friendly relations with China. 
+
+None of that results from socialist ideology. And it's worth pointing out that whether *we* quite buy that interpretation of Soviet behavior or not, many US diplomats and foreign policy thinkers in the middle twentieth century did. On the other hand, they were at odds with US politicians and diplomats who did emphasize ideology over all, and who saw the Soviet Union as a nation driven by the desire to spread socialism everywhere, and thus as an equal threat everywhere.
+
+It's quite possible that in different parts of the world, different interpretations of the Cold War have more force as well—one could argue, for example, that in the recently decolonized territories of the world, the neutral or non-aligned countries on this map—what Americans then referred to as the "Third World"—you might indeed have something like this purely ideological conflict, where the US and the USSR are vying for influence based on what their different political and economic systems can offer. While, on the other hand, in Europe—the subject of this lecture—and in mainland Asia, you might expect something like the geostrategic considerations I outlined to rule. 
+
+Perhaps you could even go a step further: perhaps you could say that the key conflicts of the Cold War come when one side is pursuing a course of policy dictated by these geostrategic concerns, while the other side *perceives* that course of policy as dictated by ideological concerns. But that would be getting a lot more theoretical than I think we want to get here, and perhaps especially than we want to get today, where we want to talk about the Cold War specifically in Europe—but I want you to have these ideas in the back of your head as we consider the events of the Cold War era.
+:::
+
+:::
+
+## Potsdam, 1945
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/potsdam.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/potsdam.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, as a reminder, Roosevelt died in April 1945, leaving Truman as president. And Truman had not been informed much about the state of play at the end of the war—not about Yalta (he knew what the public knew) nor about atomic development and diplomacy. So he had to spend considerable time catching up.
+
+At Potsdam, the US and UK recognized the Polish, puppet government set up by the USSR—which Stalin believed was only what he had already been guaranteed at Yalta. Truman and Churchill wriggled out of any discussion of Bulgaria and Romania, deferring these to a later conference.
+
+They still had to agree what to do with Germany. Remember, the Soviets are quite concerned that they have some barrier (in Poland) and institution (in Germany) keeping themselves secure against any future German aggression. While the US, and UK, are increasingly concerned about the possibility of Soviet advances.
+:::
+
+:::
+
+## Nuremberg, 1945--1946
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/nuremberg.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/nuremberg.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+For the moment, all were participating in the trials of war criminals, held at Nuremberg in Germany. The principle of the Kellogg-Briand Pact became the basis for the trials at Nuremberg that followed the war, and the similar trials held in Japan in the following year. An aggressive war was an unlawful war, and therefore actions taken in pursuit of an unlawful war were unlawful—which meant that individual people taking those actions could be held responsible, as anyone violating a domestic law would be. That was the basis for the major war criminals trial, which you see here. Hermann Göring, Joachim von Ribbentrop, Julius Streicher, Albert Speer, and 20 other defendants who held high-ranking posts in Nazi Germany were tried and, with three exceptions, convicted. The tribunal included British, French, US, and Soviet judges; the prosecutors also came from Allied nations. The premise, again, was that Germany had committed an international crime as a nation and must be tried by her peers; likewise, that anyone knowingly furthering that international crime could be held individually responsible. 
+
+These trials continued through the latter part of 1945 and into 1946, bringing lesser officials to book for their role in perpetuating the Third Reich, including lawyers and doctors; part of the brief against them was that they had oaths and professional obligations to behave better than they did. But over time, the US in particular lost interest in prosecuting the lesser criminals, partly out of concern that they would debilitate German society and partly because they became more interested in setting up a post-Nazi Germany as a barrier against the Soviet Union.
+:::
+
+:::
+
+## Potsdam part 2
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/potsdam2.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/potsdam2.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In addition, before the Potsdam conference had ended, Churchill lost a general election in Britain. British voters were tired of Churchill’s ruthlessness and devotion to the empire, and wanted a government that would tend more to their own needs. So they elected instead the Labour leader Clement Attlee, who had served as deputy prime minister in Churchill’s wartime coalition government. In that capacity, in addition to assisting in wartime planning and subbing for Churchill when the prime minister was otherwise occupied, Attlee had borne principal responsibility for domestic affairs, and it was to Attlee that the British voters turned when they wanted the peacetime government organized and, as we have seen, the empire wound down. 
+
+Attlee would implement the modern welfare state in Britain, which remains quite popular. And though he was himself an ardent anti-Soviet Cold Warrior, whose government pressed the US to take a harder line against the Soviet Union, his rise to the premiership represented the British citizens’ greater interest in domestic than foreign affairs.
+
+So you have Britain turning to rebuilding, France doing the same. And in addition, you have a situation now where the Anglo-American leadership of the wartime alliance has been replaced, with Roosevelt and Churchill gone and Truman and Attlee in their stead. Stalin was the only one whose memory went back through all the war years, and who had been for any significant time been looking forward to what to do after the war.
+
+In addition to settling the war-related issues we’ve already discussed, Potsdam also settled the question of how to deal with Germany—or rather, it conspicuously failed to settle this question. 
+:::
+
+:::
+
+## Partition of Germany, 1945
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/german_partition.png){width="350" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/german_partition.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Stalin wanted reparations from Germany, which as we know would have been normal under the traditions of war and international law. Germany was guilty of waging an aggressive war. This time there didn’t have to be a finding of fault, as in the Treaty of Versailles; it was clearly the case under Kellogg-Briand. 
+
+Stalin had asked for $10bn at Yalta and thought FDR and Churchill had agreed. But now they weren’t around. The Americans and the British were increasingly thinking they wanted a strong Germany, economically—they didn’t want to repeat the collapse of Weimar and the subsequent disaster of central Europe and the world. They also wanted a barrier to the USSR. 
+
+James Byrnes, whom Truman appointed Secretary of State at around the time of Yalta, proposed a non-solution: the Soviets could remain in the zone they occupied. The British, the French, and the Americans would remain in theirs. The Soviets could take reparations out of that zone, however they pleased, removing industrial equipment and other reparations in kind. 
+
+The failure to reach a proper solution for Germany signified the fragmenting of the wartime alliance for good and all. Perhaps the final nail in that coffin came at the end of 1945. The deadline for ratification of the Bretton Woods agreements was at the end of the year. The Soviets took their time considering it, while they tried to get the United States to lend them money, and in the end, decided to defer their decision until later. But the US took this deferral as a denial, and began to reorient foreign policy toward the assumption that the Soviets could not be regarded as a normal nation. 
+:::
+
+:::
+
+## "whatever their intentions"
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/kennan.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/kennan.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kennan was deputy head of mission in Moscow. Wrote this telegram January 2, 1946, in response to Soviet deferral of Bretton Woods. Interpreted it as you see. That phrase, “whatever their intentions” is key; it signifies that the Soviets can’t be dealt with as people because whatever their humanity—which Kennan did not deny—it was irrelevant. They represented a system of belief that was impervious to rational calculation and harmonious interests. Truman had come back from Potsdam saying, “I like Stalin. He is straightforward. Knows what he wants and will compromise when he can’t get it.” Kennan was trying to undermine that attitude, having learned—he believed—that the Soviets couldn’t be negotiated or reasoned with, only checked by superior power. A month later, he wrote what became known as “the long telegram,” which articulated that view further.
+:::
+
+:::
+
+## ["The Long Telegram," February 1946]{.r-fit-text}
+
+- USSR holds "no permanent peaceful coexistence" with capitalism
+- capitalism generates conflict, which it prefers to project outward
+- USSR would therefore promote conflict within the capitalist world
+- for them, "everything must be done to advance relative strength of USSR . . . no opportunity must be missed to reduce strength and influence . . . of capitalist powers"
+- "relentless battle much be waged against socialist and social-democratic leaders abroad" 
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So notice, here, how this is an ideological interpretation—not a geostrategic one. 
+
+Remember, this is not the Soviets speaking for themselves, but a US diplomat interpreting Soviet policy—trying to push Washington to what he thinks is the necessarily strong anti-Soviet position.
+
+promoting conflict within capitalist world means both between capitalist nations and within them, by backing leftist parties 
+
+moderate leftists the great enemies of communism—they forestall revolution
+
+https://www.trumanlibrary.org/whistlestop/study_collections/coldwar/documents/pdf/6-6.pdf
+:::
+
+:::
+
+## Reviewing the Cold War world
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/cold_war_world.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/cold_war_world.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+With all that in our minds, let’s look at this map again. Notice that one of the few relatively warm coastlines in the Soviet Union is on the Black Sea, which means that any shipping traffic from there must travel through the Dardanelles into the Mediterranean, and thus between the coastlines of Greece and Turkey. You can see, therefore, why Greece and Turkey would be of some interest to the USSR. 
+
+At the same time, given their location on the Mediterranean, in the south of Europe, and neighboring the oil-rich Arab lands of the Middle East, you can see why they’re of interest to (first) Britain and then the United States.
+
+And in the years just after the war, they’re sites of conflict. Communists in both were gaining in strength. Britain had been funding the governments there, to try to keep them in power. In February of 1947, British representatives informed the US that they could no longer afford to prop up the governments in Greece and Turkey. Remember, 1947 is the year that the British empire is really truly falling apart, with hastened independence in India and Palestine because the British simply can’t afford to sustain any of their historical commitments. The British explained to the Americans that without some new foreign aid from the United States, they would surely fall to the Communists.
+
+Now, the situation was a little more complex than just that. The Communists in Greece were funded by the regime of Josip Broz Tito, in Yugoslavia, and Tito did not see eye-to-eye with Stalin; he believed Yugoslavia had its own interests. So even if the Communists did succeed there, it wouldn’t necessarily mean the fulfillment of George Kennan’s fears and suspicions, as expressed a year before in the Long Telegram, and which also had become the thinking of American officials.
+
+But that was not as clear in 1947 as it would be a year later, when Tito and Stalin formally split. And even if it was clear, the president and other members of his party were not sure it was worth explaining the nuances of the situation to the American public.
+
+Truman believed that the US should pick up where Britain was leaving off. He knew, or believed, that would mean a considerable expense; perhaps $400m of US taxpayer money to be sent to Greece and Turkey. And that wouldn’t necessarily be an immediately popular proposition. He spoke to leaders in the Congress about it, and one of whom, Arthur Vandenberg of Michigan, told him he must “scare hell” our of the American people if he wanted Congress to vote that money. Truman needed to explain that this was a matter as serious as the war against Nazism, a new war against the forces of unfreedom—and if it wasn’t a shooting war, it might as well be, for as much as was at stake. 
+
+Next slide, video will autoplay.
+:::
+
+:::
+
+## Truman doctrine, March 1947
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+{{< video ../media/truman_doctrinew.mp4 width="600">}}
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+▸must “help free peoples to maintain their free institutions and their national integrity against aggressive movements that seek to impose upon them totalitarian regimes…totalitarian regimes imposed on free peoples, by direct or indirect aggression, undermine the foundations of international peace and hence the security of the United States”
+▸“If we falter in our leadership, we may endanger the peace of the world—and we shall surely endanger the welfare of our own nation.”
+
+Mentions Poland, Rumania, Bulgaria
+
+says help will be “primarily through economic and financial aid”
+
+That “primarily” is deliberate, there.
+:::
+
+:::
+
+

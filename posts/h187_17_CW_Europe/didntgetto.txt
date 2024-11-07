@@ -1,0 +1,173 @@
+## [Economic Assistance Act / Marshall Plan, 1948]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/marshall_plan.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/marshall_plan.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+▸George Marshall, Secretary of State, 1947 speech
+▸“Europe's requirements are so much greater than her present ability to pay that she must have substantial additional help or face economic, social, and political deterioration of a very grave character.”
+
+Marshall wants to return Western Europe to economic health and to create good markets for American goods. This is the essence of selfless selfishness, capitalism at its altruistic best. The Soviets warn it “would split Europe into two groups of states”
+
+Western European governments immediately say hells yes. 
+
+Pretty much every Western European country, plus Turkey and Greece, got Marshall Plan aid, except Spain, which was under Franco and thus a fascist nation and not invited.
+
+After two years of the plan, most of these countries had nearly or actually reached and in a few cases exceeded prewar economic output.
+
+Map is from “The Marshall Plan at the Mid-Mark, 1950”
+
+https://www.loc.gov/exhibits/marshall/marsh-exhibition.html
+
+:::
+
+:::
+
+## Blockade, 1948--1949
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/german_partition.png){width="350" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/german_partition.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Stalin, in response to this, declares in June 1948 that he’s going to blockade Berlin. Remember, per map here, Berlin is located within the Soviet sector. It’s 125 miles from the border to Berlin. There are 2m people in West Berlin who are surrounded by the Soviet military, suddenly unable to get the necessaries of life. 
+
+:::
+
+:::
+
+## Airlift, 1948--1949
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/airlift.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/airlift.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Truman responds by establishing an airlift and around the clock, you have US airplanes arriving in West Berlin. Here you can see one observed by crowds; this is a very different circumstance, I think you’ll appreciate, from the last time you saw dozens of US aircraft flying over Berlin. The kids began referring to these planes as “candy bombers,” a name that recalled the very recent past and the new reality, with the US aircraft bringing chocolate to Berlin. 
+
+Not quite a year later, in May 1949, Stalin gave up and declared the blockade over. Later that year, in September, the Western allies created a single nation, the Federal Republic of Germany; in October, the Soviets declared their sector to be the new German Democratic Republic. These nations were better known as West Germany and East Germany for fifty years.
+:::
+
+:::
+
+## US presence
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/cold_war_world.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/cold_war_world.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The blockade was also the occasion for an effort led by British foreign minister Ernest Bevin to secure a permanent US presence in Europe. This became, in April 1949, NATO - the North Atlantic Treaty Organization - established, as a popular saying in Britain had it, to keep the Americans in, the Russians out, and the Germans down. It involved BeNeLux, France, Britain (who were already in a defense arrangement, the Brussels Pact) plus Italy, Denmark, Norway, Portugal, Canada, and the US in an alliance where an attack on one was an attack on all.
+
+This led to a long-term US military presence in Western Europe, particularly in West Germany.
+:::
+
+:::
+
+## "Empire by invitation"
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/soviet_invasion.png){width="350" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/soviet_invasion.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The US army was stationed throughout much of Europe, as was the Air Force, with the idea of repelling invasion along planned lines. That’s why one historian at least has referred to the American presence in Europe as an “Empire by Invitation,” with Britain and West Germany, particularly, hoping to keep the US there, to curb what they saw as the Soviet threat.
+
+As you may appreciate, US military presence elsewhere was not nearly so invited. But we'll talk something about that next time.
+
+https://history.army.mil/html/books/045/45-3-1/cmhPub_45-3-1.pdf
+:::
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+# Quiz{data-visibility="uncounted"}
+
+## [1. The Montevideo agreement of 1933 included a notable pledge of]{.r-fit-text}{data-visibility="uncounted"}
+
+a) non-intervention
+b) free trade
+c) public investment
+d) neutrality
+e) culturally sensitive Disney movies
+
+## [2. "Plattism" referred to ]{.r-fit-text}{data-visibility="uncounted"}
+
+a) US interventionism
+b) free trade
+c) public investment
+d) neutrality
+e) culturally sensitive Disney movies
+
+## [3. Throughout World War II, Brazil's government was]{.r-fit-text}{data-visibility="uncounted"}
+
+a) Democratic
+b) Republican
+c) Federalist
+d) unelected
+e) pro-Nazi
+
+## [4. Under the Good Neighbor policy, the US formally improved relations with from]{.r-fit-text}{data-visibility="uncounted"}
+
+a) Cuba
+b) Panama
+c) Haiti
+d) all of these
+e) Congo
+
+## [5. Much of the Good Neighbor policy was justified by]{.r-fit-text}{data-visibility="uncounted"}
+
+a) cotton interests
+b) tobacco interests
+c) anti-Nazism
+d) anti-Communism
+e) improved South African relations
+
+:::
