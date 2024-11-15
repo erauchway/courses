@@ -1,0 +1,92 @@
+## Outright commies
+
+:::{.callout-tip appearance=minimal .v-center-container}
+[Ho is an] outright commie [so long as he] fails to unequivocally repudiate Moscow connection and Commie doctrine and . . . remains personally singled out for praise by [the] international commie press
+
+:::{.flushright}
+Dean Acheson, US Secretary of State, 1949
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Ultimately, the State Department began to decide that unless he said for sure he wasn’t a “Commie,” then he clearly was. (Acheson, who had been Under Secretary, took over as Secretary in January of 1949)
+
+That's in May. Just a few months later, in September, [VIDEO WILL START]
+:::
+:::
+
+
+## A Soviet bomb; a Communist China
+
+:::{.content-hidden unless-format="revealjs"}
+
+{{< video ../media/ussr_bomb.mp4 >}}
+
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The US detected the first Soviet atomic bomb, in 1949.
+
+A few weeks later, Mao proclaimed the People’s Republic of China. The United Nations refused to recognize it, and would withhold recognition until 1971.
+
+The global landscape of the Cold War has now greatly changed; the stakes are understood to be much higher.
+:::
+
+:::
+
+## Korean civil war, 1946--1950
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/korean_war.png){width="550" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/korean_war.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+1946-1950 Korean Civil War, 100,000 casualties - US on Syngman Rhee side, USSR on Kim Il-sung side. Both were pretty awful, to the extent the US decided to stop backing Rhee in 1948; both US and USSR pulled out their troops and there was a truce in 1949.
+Then Stalin backs Kim’s play for a 1950 invasion of the South; worried about Asian version of NATO, wants to draw a line short of the mainland
+
+Truman orders MacArthur to supply SK, and moves the Fleet in.  UN Sec Council supports it unanimously, with Russia absent — protesting refusal to recognize Maoist China.
+
+End of Summer Mac has US troops back to 38 parallel.  Then in September, Inchon landing and drive to the Chinese border.
+
+Suddenly, Mac’s forces are driven back.  Late in October, the US captures, for the first time, a Chinese soldier.  “That’s when you knew something was going on,” Acheson said. The Chinese had entered the war on the other side.  
+
+Chinese fight back in October.  Attack with hundreds of thousands in end of November.  kill 20k us and un troops at the Chosin reservoir.  Desperation in December 1950, HST threatens A bomb.
+
+Early in 1951, fighting stabilises on 38 parallel. 
+
+Significant increase of funding to anti-Communist forces in Vietnam.
+:::
+
+:::
+
+## Dominoes
+
+:::{.callout-tip appearance=minimal .v-center-container}
+You had a row of dominoes set up, and you knocked over the first one, and what would happen to the last one was the certainty that it would go over very quickly. . . . the loss of Indo-China, of Burma, of Thailand, of the peninsula, and Indonesia following. . . . the possible consequences of the loss were just incalculable to the free world
+
+:::{.flushright}
+Eisenhower press conference, 1954
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+“It turned the so-called island defensive chain of Japan, Formosa, of the Philippines and to the southward, it moved in to threaten Australia and New Zealand. It took away in its economic aspects that region that Japan must have as a trading area or Japan, in turn, would have only one place in the world to go, and that was toward China and Manchuria or toward the Communist areas in order to live. So the possible consequences of the loss were just incalculable to the free world.” 
+:::
+:::

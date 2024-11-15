@@ -1,0 +1,581 @@
+---
+title: "[How the US entered the Great War]{.r-fit-text}"
+draft: TRUE
+subtitle: History of World War I
+author: 
+  - Ian Campbell and Eric Rauchway
+date: 2024-11-08
+footer: "HIS 119"
+categories:
+  - "HIS 119"
+format:
+  revealjs:
+    theme: dark
+  pdf:
+    default
+title-slide-attributes: 
+  data-notes: "On one way of looking at things, there was no necessary need for the United States to get into the Great War. And I will suggest to you over the course of this lecture that that was the view of U.S. leaders. The United States entered the war more or less because it had no choice any longer."
+---
+
+```{r, include=FALSE}
+library(rnaturalearth)
+library(cshapes)
+library(tidyverse)
+library(haven)
+library(sf)
+(sf_use_s2(FALSE))
+library(ggtext)
+library(ggspatial)
+library(scales)
+library(grafify)
+library(showtext)
+font_add_google(family = "Fondamento", name = "Fondamento")
+font_add_google(family = "Holtwood One SC", name = "Holtwood One SC")
+font_add(family = "Lydian", regular = "lydian__.ttf")
+font_add_google(name = "Old Standard TT", family = "Old Standard TT")
+font_add(family = "PostAmt", regular = "postamt.ttf")
+showtext_auto()
+target_crs = ("+proj=eqearth +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs")
+ne_download(scale = 110, category = "physical", type = "land") |>
+  st_transform(crs = target_crs) -> rland
+ne_download(scale = 110, category = "physical", type = "lakes") |>
+  filter(scalerank == 0) |>
+  st_transform(crs = target_crs) -> rlakes
+cshp(date = as_date("1914-09-01"), useGW = TRUE, dependencies = TRUE) |>
+  add_row(country_name = "Andorra", gwcode = 232, owner = "232", geometry = st_geometry((read_sf("https://raw.githubusercontent.com/erauchway/mapbits/refs/heads/main/andorra.geojson"))))  |>
+  mutate(owner = as.numeric(owner)) |>
+  mutate(empire = case_when(
+    owner == 2 ~ "USA",
+    owner == 200 ~ "UK",
+    owner == 220 ~ "France",
+    owner == 210 ~ "Netherlands",
+    owner == 255 ~ "Germany",
+    owner == 325 ~ "Italy",
+    owner == 211 ~ "Belgium",
+    owner == 230 ~ "Spain",
+    owner == 640 ~ "Ottoman", 
+    owner == 365 ~ "Russia",
+    owner == 235 ~ "Portugal",
+    owner == 390 ~ "Denmark",
+    owner == 740 ~ "Japan",
+    TRUE ~ NA
+      )
+    ) |>
+  mutate(empire = case_when(
+    country_name == "Canada" |
+      country_name == "Australia" |
+      country_name == "New Zealand" |
+      country_name == "South Africa" ~ "UK",
+    TRUE ~ empire
+  )) |>
+  mutate(empire_ord = factor(empire, levels = c(
+    "Belgium", "Denmark", "France", "Germany", "Italy", "Japan", "Netherlands", "Ottoman", "Portugal", "Russia", "Spain", "UK", "USA", ordered = TRUE
+  ))) |>
+  st_transform(crs = target_crs) -> borders_14
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Old Standard TT", color = "midnightblue"),
+      plot.title = element_markdown(family = "Holtwood One SC", color = "khaki4", margin = margin(5,5,5,5)),
+      plot.caption = element_markdown(size = rel(0.5)),
+      panel.background = element_rect(fill = "aliceblue", color = "aliceblue"),
+      plot.background = element_rect(fill = "floralwhite", color = "floralwhite"),
+      plot.margin = margin(t = 10, r = 10, b = 10, l = 10),
+      legend.text = element_text(family = "Fondamento", color = "chocolate4")
+    )
+)
+my_cap = "Map made using R, ggplot, and sf by Eric Rauchway with data from Natural Earth and CShapes; color palette slightly modified from grafify."
+my_kel = c("#F3C300", "#875692", "#F38400", "#A1CAF1", "#BE0032", "#8DB600", "#C2B280", "#848482", "#008856", "#e68fac", "#0067a5", "#f99379", "#882d17")
+
+```
+
+```{r, echo=FALSE}
+ggplot() +
+  geom_sf(data = rland, fill = "antiquewhite", color = "burlywood3") +
+  geom_sf(data = st_buffer(borders_14, -6000), linewidth = 0.6, fill = NA, color = alpha("burlywood3", 0.4)) +
+  geom_sf(data = st_buffer(st_union(st_make_valid(rland)), 6000), linewidth = 0.4, fill = NA, color = alpha(c("lightblue"), 0.7)) +
+  geom_sf(data = borders_14, aes(fill = empire_ord), alpha = 0.7, color = NA) +
+  scale_fill_manual(values = my_kel, na.value = "antiquewhite") +
+  geom_sf(data = rlakes, fill = "aliceblue", color = NA) +
+  geom_sf(data = st_buffer(rlakes, -6000), linewidth = 0.1, fill = NA, color = alpha(c("lightblue"), 0.7)) +
+  labs(
+    fill = "", 
+    color = "",
+    title = "The world at 1914, showing colonial powers and possessions",
+    caption = my_cap
+  ) +
+  theme(
+    legend.justification.inside = c(0.05, 0.1)
+  ) +
+  guides(fill = guide_legend(ncol = 3, position = "inside")) -> p
+
+```
+
+
+##
+
+```{r, fig.height=7, fig.width=13}
+p
+```
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As a reminder, here's where the United States stands in the world of colonizer powers at the time of the Great War. it is one, but it isn't nearly as ambitious in scope as the others. U.S. population is in the range of 92m, while that of the British Empire is something like 400m; the French empire is 96m, and the Germans just about 70m. So the U.S. population is something like the size of the French empire. The U.S. imperial ambition is to protect shipping routes, mainly those that permit it to seek markets in the Pacific. It is not in quite the same business as the European colonizer powers, who are looking to establish control over extractive industry and natural resources. 
+:::
+:::
+
+## {data-menu-title="Industrial development"}
+
+```{r, echo=FALSE, fig.height = 6, fig.width=12}
+read_dta(file="https://dataverse.nl/api/access/datafile/421303") |>
+  filter(countrycode == "USA" |
+           countrycode == "GBR" |
+           countrycode == "DEU" |
+           countrycode == "FRA" |
+           countrycode == "RUS" |
+           countrycode == "JPN") |>
+    filter(year > 1870 & year < 1914) |>
+  select(c(countrycode, country, year, gdppc)) |>
+  drop_na() -> mad_gpc
+
+mad_gpc |>
+  ggplot() +
+  theme(
+    axis.text = element_text(margin = margin(2,2,2,2)),
+    axis.title.y = element_text(angle = 90, margin = margin(2,2,2,2)),
+    axis.line = element_line(color = "chocolate4"),
+    axis.ticks = element_line(color = "chocolate3"),
+    axis.ticks.length = unit(1, "mm"),
+    legend.position = "inside",
+    legend.justification.inside = c(0.05, 0.98),
+    panel.background = element_rect(fill = "antiquewhite1", color = "NA")
+  ) +
+  geom_line(aes(x = year, y = gdppc, color = countrycode),
+            linewidth = 1) +
+  scale_y_continuous(labels = comma) +
+  scale_color_grafify(palette = "r4") +
+  labs(
+    color = "",
+    title = "GDP per capita, 1871--1914, selected countries",
+    caption = "Chart made with R and ggplot by Eric Rauchway with data from Maddison Project Database, version 2023 by Jutta Bolt and Jan Luiten van Zanden.",
+    y = "GDP per capita (2011 USD)"
+  )
+```
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Because the United States has been able to industrialize and realize the advantages of industrial productivity without those kinds of colonies. Sometime in the early c20 the United States surpasses the United Kingdom as the richest country in the world. And yet it's done this without having the same kind of colonial power. 
+:::
+
+:::
+
+## {data-menu-title="A small military establishment"}
+
+:::{.v-center-container}
+
+```{r, echo=FALSE}
+read_csv("https://correlatesofwar.org/wp-content/uploads/NMC_v4_0.csv") |>
+  filter(ccode==2 & year>1863 & year <1914) -> usmilper
+
+usmilper |>
+  ggplot() +
+  theme(
+    axis.text = element_text(margin = margin(2,2,2,2)),
+    axis.title.y = element_text(angle = 90, margin = margin(2,2,2,2)),
+    axis.line = element_line(color = "chocolate4"),
+    axis.ticks = element_line(color = "chocolate3"),
+    axis.ticks.length = unit(1, "mm"),
+    legend.position = "inside",
+    legend.justification.inside = c(0.05, 0.98),
+    panel.background = element_rect(fill = "antiquewhite1", color = "NA")
+  ) +
+  geom_line(aes(x = year, y = milper), color = "khaki4",
+            linewidth = 1) +
+  scale_y_continuous(labels = comma, breaks=breaks_pretty(n = 8)) +
+  labs(
+    color = "",
+    title = "US military personnel, 1864--1913",
+    caption = "Chart made with R and ggplot by Eric Rauchway with data from Correlates of War.",
+    y = "Military personnel (000s)"
+  )
+```
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Indeed, it's done so while maintaining a relatively small army—although it had one of the largest armies in the world at 1865, it swiftly did away with that, was able to conquer the plains without a major military, only began to increase with the Spanish American War in 1898, after which armed forces' size remained higher than before, and rose slowly into the Great War. 
+:::
+
+:::
+
+## {data-menu-title="League table"}
+
+| Nation | 1910 army |
+| :--- | ---: |
+| Russia	| 1,400,000 |
+| China	| 1,000,000 |
+| Germany	| 670,000 |
+| France	| 650,000 |
+| Britain | 370,000 |
+| Austria	| 320,000 |
+| Turkey	| 320,000 |
+| Japan	| 280,000 |
+| Italy	| 250,000 |
+| Ethiopia	| 150,000 |
+| USA	| 140,000 |
+| Spain	| 140,000 |
+
+:::{.content-visible when-format="revealjs"}
+
+::::{.notes}
+So while the U.S. army had been the largest and best-trained in the world—and indeed, had helped train the Prussians—it had by the eve of the Great War shrunk to be one of the smaller armed forces, certainly when you considered it in proportion to the size of the country and the economy. Now, for a colonizer empire part of the point of having an army is to police the empire—empires become self-justifying in this way. 
+::::
+:::
+
+## {data-menu-title="Returning to the world map"}
+
+```{r, fig.height=7, fig.width=13}
+p
+```
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So if we come back to this, we can see that the United States does have some imperial policing to do, notably in the Philippines, but that much of its colonial work has been done within the United States proper, on the Great Plains, and in the cities. Still, with the turn of the century this starts to change. So here are some landmarks; in 1901 you had the creation of the Army War College, to study and teach strategy. The 1903 Dick Act or Militia Act allows the federalizing of the National Guards. The ensuing years see the beginning of preparatory war-planning and war-gaming. In 1906, the United States military develops a plan for going to war with Japan, what’s known as War Plan Orange, and it’s the first of a series of color-coded plans. It anticipates a Japanese attack on the American colony in the Philippines and notably, it envisions the Philippine garrison being unable to hold out against such an attack. The plan, American leaders decide, would have to be that if the Japanese attacked the Philippines, the Americans would have to fall back to Hawaii, and regroup and reinforce, then campaign West again across the Pacific—which, it’s worth noting, is what the United States did in 1941 and afterward. But what’s equally important is noting that this was a plan based on an expectation of military weakness.
+:::
+
+:::
+
+## Presumption of Neutrality
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![W.J. Bryan](../media/bryan.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/../media/bryan.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+You may remember WJ Bryan, the pacifist Secretary of State who would resign over the response to the Lusitania - in 1914 he was still in office, and trying to preserve U.S. neutrality. It's at this point that the official position of the Wilson administration is that the United States is above combat—"too proud to fight," the president will say.
+
+In August of 1914, the Morgan Bank tried to make a loan to the Allies, and Bryan’s State Department issued a statement saying, 
+“loans by American bankers to any foreign nation which is at war is [sic] inconsistent with the true spirit of neutrality”
+
+Not long after that, he wrote in his own monthly paper, The Commoner, “money is the worst of contrabands—it commands all other things.”
+
+But as time went on, more and more Americans traded with the Allies, in particular. Exports far outstripped imports. By March of 1915, Morgan wanted to extend $50m in commercial credits to France, and was allowed to do so; once the Lusitania is sunk, in May, sentiment begins to shift toward the Allies.
+:::
+
+:::
+
+## Neutrality as balancing act
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/tightrope.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/tightrope.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s a political cartoon of the time, illustrating the balancing act the U.S. was trying to pull off. Over the next 18 months, the British will borrow $1bn, the French $340m, and the Canadians $400m from various U.S. sources
+:::
+
+:::
+
+## Toward preparedness
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/fall_of_nation.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/fall_of_nation.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Meanwhile, the United States moves into what’s known as “preparedness,” i.e., shifting somewhat away from neutrality toward preparation for war. One of the, if not the, first-ever cinematic sequels, The Fall of a Nation (1916), depicted the USA falling prey to an invading German army. It’s one of a couple of movies, including one called The Battle Cry of Peace, that lay the groundwork for what Americans will come to call “preparedness”—readiness for warfare. In it the United States is saved by a Congressman who raises an army, with the support of a suffragist. 
+
+Note here the relation between the white supremacist ideology of pacifism and the case for preparedness.
+
+Now, preparedness didn’t necessarily mean war, or if war, it didn’t necessarily mean war on a particular side. Or any side; there was a considerable sentiment in favor of using American military power simply to bring the fighting to a halt. Though it wasn’t clear how that would happen.
+:::
+
+:::
+
+## Preparedness policies
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/wilson_railcar.png){width="550" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/wilson_railcar.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Navy bill aimed to create a navy the equal or better than British—five years to get up to that level
+
+Army bill to double the size of regular army, create a national reserve of 400,000 men. 
+
+US should have “incomparably the greatest navy in the world”
+Shipping bill for merchant marine
+Army bill to double regular army, create national reserve
+:::
+
+:::
+
+## Policy shifts
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/too_proud.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/too_proud.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As you can see, Wilson is shown here as taking aim at his own former position of too proud to fight, having adopted instead the doctrine of preparedness. He doesn’t get his massive reserve army, but he does get his double regular army, and in August he gets an even bigger Navy bill than he’d asked for—thrilled; “let us build a bigger navy than [Britain’s] and do what we please”—also gets a shipping bill to buy and build merchant vessels. 
+
+:::
+
+:::
+
+## Money mobilized
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/tax_returns.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/tax_returns.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The surtax for the top rate of income tax goes from 6 percent to 10 percent, and the base rate from 1 to 2—so you’re still looking only at a top rate of 12 percent, but it’s a big difference to a former top rate of 7 percent. It affects a lot more Americans. The more Americans who are paying taxes to support a military effort, the more work you have to do to justify it.
+
+:::
+
+:::
+
+## The nature of 'intervention'
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/wilson_house.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/wilson_house.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The fellow on the left is Wilson, the one on the right is Colonel Edward M. House, his unofficial advisor and aide. House is busy using this period of buildup to try to engage the British and French in some project for diplomacy. He’s doing it mainly without involving the regular diplomatic officials, but as a personal representative of the president.
+
+In February 1916, speaking privately to Allied diplomats, he says, “In the event the Allies are successful during the next few months, I promised that the president would not intervene. In the event they were losing ground, I promised that the president would intervene.”
+
+But he was deliberately vague on the sort of intervention—the British and French were thinking of it as meaning military, while House and Wilson will almost certainly thinking of it as diplomatic. 
+
+House represents to the Allies, and particularly the British, that the US would like to hold a conference and if the Germans would not agree to terms, that it would enter the war on the side of the Allies. The president says all right, but adds the word “probably”—making it a statement of likelihood, rather than intent. The British are reading all the private cables, and they know what’s what, so it’s not really going anywhere.
+
+Now, all this is happening against the backdrop of the Germans resisting a solution to the Lusitania crisis, remember. But in May, they finally capitulate—despite Bethmann-Hollweg’s earlier saying they could not afford to give up the U-Boat weapon—and agree to abide once more by the international laws of blockade, cost them what it might.
+:::
+
+:::
+
+## Toward a postwar world
+May 1916
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/no_principles.png){width="300" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/no_principles.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This is in May, 1916, shortly after the end of the Lusitania demarches. Wilson wants a place at the table—he thinks it’s going to be the thing that the US would be the best use of US power. He talks about the invasion of Belgium and U-Boat warfare as the kinds of things a League of Nations could prevent.
+
+Favors a people’s right to sovereignty for states small and large, an end to wars of aggression, and says, “The United States is willing to become a partner in any feasible association of nations formed in order to realize these objects”
+
+:::
+
+:::
+
+## Election-year diplomacy
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/hughes_kaiser.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/hughes_kaiser.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now, as we’ve seen, the Army, Navy, and shipping bills were all enacted in 1916. Not least because this is the middle of a presidential election campaign. These are popular laws, or at least laws that it’s difficult to oppose and remain popular. The Wilson administration also tries to get more votes from the states that tend to oppose war by putting forward more domestic progressive legislation, like a law banning child labor in factories that engage in interstate commerce, or an 8-hour law for interstate workers; a law to grant the Philippines greater autonomy.
+
+And it’s unclear, also, exactly how this will work for Wilson’s leadership. On the one hand, he’s publicly committed himself to a policy of preparedness, but also to a peace policy, in the form of the League of Nations. But secretly, he’s making pro-Allied noises, and it’s clear enough to many people that he’s generally pro-Ally that it’s going to lose him some German-American voters. 
+
+But also, his former Secretary of State, Bryan, comes out and endorses Wilson as the peace candidate. “it was a Democratic President,” Bryan says, “supported by a Democratic Senate and House, who has … saved the country the horrors of that war.” So this is probably going to win Wilson some peace votes, from the nation’s midsection.
+
+:::
+
+:::
+
+## Election-year diplomacy
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/elec_cartoon.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/elec_cartoon.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+On the night of the election, with Hughes taking a sweep of the populous, Northeastern states, many Democrats—the president included—went to bed thinking that Hughes would be president next. On the morning after, at least one newspaper map had New Mexico, and more critically, California in the still-doubtful column. 
+
+:::
+
+:::
+
+## A decision
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/swing.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/swing.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But as this Democratic cartoon shows, the swing states carried it for Wilson. One post-election analysis believed that the Progressives of 1912 had broken 20 percent for Wilson, which represented enough of a net shift away from Republicanism that it could swing the election to the Democrats. And it also suggested that the peace policy had been critical in winning the election for him.
+
+After the election, Wilson proposes a peace conference at which the United States will arbitrate. He professes to believe that the belligerents are all basically fighting for the same things—not to destroy the other or for territorial conquest, but in self-defense. Therefore, he doesn’t see why they shouldn’t agree to a conference. His Secretary of State, Robert Lansing, and his aide, Colonel House, try publicly and privately to assure their contacts among the Allies that the president isn’t really above the fray, that he’s actually on the Allies’ side. But it appears privately that he really does think of himself, and the United States, as apart from the conflict. As he says—and you should remember that Wilson was really quite an awful racist—“We are the only one of the great White nations that is free from war today, and it would be a crime against civilization for us to go in.”
+
+There's every reason to believe that at this point, this is what the United States would try to do—probably unsuccessfully. 
+:::
+
+:::
+
+## Recognizing the inevitable
+
+:::{.v-center-container}
+
+```{r, echo=FALSE, fig.height = 7, fig.width = 7}
+disp_win_wgs84 <- st_sfc(st_point(c(-8,34)), st_point(c(35, 64)), crs = 4326)
+disp_win_trans <- st_transform(disp_win_wgs84, crs = target_crs)
+disp_win_coord <- st_coordinates(disp_win_trans)
+
+
+p +
+  coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[, 'Y'], expand = TRUE) +
+  theme(legend.position = "none") +
+  labs(
+    title = "Europe at 1914"
+  ) -> q
+
+q
+```
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+You may remember that I said the only smart strategy for the Allies is to sit tight and wait for the blockade to do its worst. Or rather, I said that if you decided to forgo the most intelligent strategy—not to enter the war—and if you imagined that domestic politics were of no importance—which they were. So that was not a strategy that was realistically available to the Allies.
+
+But as you heard from Ian's lecture last time, we have reached a point when the blockade is beginning at last to bite, in serious ways, for the Central Powers. It is no longer possible for Germany, particularly, to pretend that it can continue to forgo U-boat warfare, and indulge U.S. neutrality. It must recognize the situation: that it needs to bring the war to an end as swiftly as possible. And the only way to do that is to attempt a strangulation of the British and French—even though it will mean the U.S. coming into the war. The only hope for the Germans at this point is that the United States is so unprepared that the Germans can bring the war to a conclusion before the Americans effectively mobilize.  
+
+But in January of 1917, the Germans resume their unrestricted submarine warfare.
+:::
+
+:::
+
+## German strategy, early 1917
+
+
+::::{.v-center-container}
+- January: resumption of unrestricted submarine warfare
+- February: Zimmermann telegram
+- March: U-boats sink three US ships without warning; *Vigilancia,* *City of Memphis,* and *Illinois.* Then three more.
+- April: US declaration of war
+::::
+
+
+:::{.content-visible when-format="revealjs"}
+
+:::{.notes}
+
+Wilson's cabinet doesn't meet to decide on war until the overt acts of *Vigilancia, City of Memphis,* and *Illinois.* Then three more get sunk before Congress votes—another actually was sunk, but not reported until after the vote.
+
+And then, of course, there is a long wait while the United States ramps ups its armaments to enter the war. During that time, the German strategy is nearly successful. 
+
+In April, Wilson finally works out with Congress that the United States will go to war. He addresses a joint session, as you see here, on April 2, and says “the world must be made safe for democracy.”
+:::
+
+:::

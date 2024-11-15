@@ -1,0 +1,554 @@
+---
+title: "Cold War: Europe & Asia"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: November 8, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: "VIDEO WILL/SHOULD START NEXT SLIDE---HAS SOUND"
+categories:
+  - HIS 187
+---
+
+## [Taking up where Britain leaves off]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+{{< video ../media/truman_doctrinew.mp4 width="600" >}}
+
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+OK, when we left off we were talking about the situation in 1947, where Britain could no longer afford to keep up its empire, and had also to reduce its commitments in terms of supporting anti-Communist factions in Greece and Turkey. Truman, remember, cast this "new foreign policy" in terms of 
+
+▸must “help free peoples to maintain their free institutions and their national integrity against aggressive movements that seek to impose upon them totalitarian regimes…totalitarian regimes imposed on free peoples, by direct or indirect aggression, undermine the foundations of international peace and hence the security of the United States”
+▸“If we falter in our leadership, we may endanger the peace of the world—and we shall surely endanger the welfare of our own nation.”
+
+He mentioned Poland, Rumania, Bulgaria; he says help will be "primarily" through economic and financial aid---that "primarily" is important.
+
+And note the "true frontiers" in Europe.
+:::
+
+:::
+
+## [Geography and motives; containment]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/coldwar.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/coldwar.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Remember, we're being agnostic in our discussions as to motives, based in part on our inability to know from adequate archival evidence just how the Soviet leadership thinks about things, but we know there are traditional geostrategic reasons for the Soviets/Russians to be thinking about the straits out of the Black Sea and into the Mediterranean. We're also quite clear that there are people in the government in Washington, DC, who believe the Soviets will be making advances wherever they can and that the only way to stop them is to contain them---that is, to stop those advances---so that the Soviets will eventually collapse under their own contradictions.
+:::
+
+:::
+
+## [Economic Assistance Act / Marshall Plan, 1948]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/marshall_plan.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/marshall_plan.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+▸George Marshall, Secretary of State, 1947 speech
+▸“Europe's requirements are so much greater than her present ability to pay that she must have substantial additional help or face economic, social, and political deterioration of a very grave character.”
+
+Marshall wants to return Western Europe to economic health and to create good markets for American goods. This is the essence of selfless selfishness, capitalism at its altruistic best. The Soviets warn it “would split Europe into two groups of states”
+
+Western European governments immediately say hells yes. 
+
+Pretty much every Western European country, plus Turkey and Greece, got Marshall Plan aid, except Spain, which was under Franco and thus a fascist nation and not invited.
+
+After two years of the plan, most of these countries had nearly or actually reached and in a few cases exceeded prewar economic output.
+
+Map is from “The Marshall Plan at the Mid-Mark, 1950”
+
+https://www.loc.gov/exhibits/marshall/marsh-exhibition.html
+
+:::
+
+:::
+
+## Blockade, 1948--1949
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/german_partition.png){width="350" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/german_partition.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Stalin, in response to this, declares in June 1948 that he’s going to blockade Berlin. Remember, per map here, Berlin is located within the Soviet sector. It’s 125 miles from the border to Berlin. There are 2m people in West Berlin who are surrounded by the Soviet military, suddenly unable to get the necessaries of life. 
+
+:::
+
+:::
+
+## Airlift, 1948--1949
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/airlift.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/airlift.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Truman responds by establishing an airlift and around the clock, you have US airplanes arriving in West Berlin. Here you can see one observed by crowds; this is a very different circumstance, I think you’ll appreciate, from the last time you saw dozens of US aircraft flying over Berlin. The kids began referring to these planes as “candy bombers,” a name that recalled the very recent past and the new reality, with the US aircraft bringing chocolate to Berlin. 
+
+Not quite a year later, in May 1949, Stalin gave up and declared the blockade over. Later that year, in September, the Western allies created a single nation, the Federal Republic of Germany; in October, the Soviets declared their sector to be the new German Democratic Republic. These nations were better known as West Germany and East Germany for fifty years.
+:::
+
+:::
+
+## US presence
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/cold_war_world.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/cold_war_world.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The blockade was also the occasion for an effort led by British foreign minister Ernest Bevin to secure a permanent US presence in Europe. This became, in April 1949, NATO - the North Atlantic Treaty Organization - established, as a popular saying in Britain had it, to keep the Americans in, the Russians out, and the Germans down. It involved BeNeLux, France, Britain (who were already in a defense arrangement, the Brussels Pact) plus Italy, Denmark, Norway, Portugal, Canada, and the US in an alliance where an attack on one was an attack on all.
+
+This led to a long-term US military presence in Western Europe, particularly in West Germany.
+:::
+
+:::
+
+## "Empire by invitation"
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/soviet_invasion.png){width="350" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/soviet_invasion.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The US army was stationed throughout much of Europe, as was the Air Force, with the idea of repelling invasion along planned lines. That’s why one historian at least has referred to the American presence in Europe as an “Empire by Invitation,” with Britain and West Germany, particularly, hoping to keep the US there, to curb what they saw as the Soviet threat.
+
+As you may appreciate, US military presence elsewhere was not nearly so invited.
+
+https://history.army.mil/html/books/045/45-3-1/cmhPub_45-3-1.pdf
+:::
+
+:::
+
+## Vietnam wars
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/indochina_1.jpg){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/indochina_1.jpg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In July 1944 (shortly after D-Day) the Vichy regime in France—that’s the regime of unoccupied France, the collaborationists who remained in charge of much of the French empire—collapsed. The Japanese, who occupied Vietnam, decided some months later there was no point in having the French running Vietnam anymore and in March, 1945, they deposed and imprisoned the remaining French leaders in Vietnam and replaced them with a Japanese government. (Remember, Japan essentially marched south across the east Asian coast, on their way to the oil reserves in the Dutch East Indies, and sought to supply, from Vietnam, their front against the British in Burma)
+
+Throughout the war, as we know, the Japanese maintained a tenuous hold on Vietnam; although their message of “Asia for Asians” was attractive in the abstract and more so in some areas than others, the fact that the Japanese were content to run Vietnam in concert with the French undermined any anti-imperialist elements to their message
+:::
+
+:::
+
+## Call from the Viet Minh
+
+:::{.callout-tip appearance=minimal .v-center-container}
+
+rich people, soldiers, workers, peasants, intellectuals, employees, traders, youth, and women who warmly love your country! Let us unite together
+
+:::{.flushright .fragment .fade-up}
+Ho Chi Minh, 1941
+:::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As you can see here, the Viet Minh tried to combine elements from all parts of Vietnamese society, using an appeal to patriotism to get their fellow-countrymen to resist the French and the Japanese and establish control of their country for themselves. The leader of the Viet Minh was CLICK Ho Chi Minh, and he was the author of this call to patriotic action. The name “Ho Chi Minh” meant “he who enlightens” in Vietnamese; it was a name he had had for only a year or so at this time
+
+:::
+
+:::
+
+## Flashback Friday
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/ho_in_paris_1.jpg){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/ho_in_paris_1.jpg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+“Ho Chi Minh” was his nom de guerre, and before that he had gone by Nguyen Ai Quoc, or “Nguyen the patriot.” When he was young he had been a cook and he had studied in France, in the capital of the empire that had colonized his country. And when the Great War ended, in 1919, he was in France, in Paris, seeking to get the United States to recognize his people’s claims for independence
+:::
+
+:::
+
+## Appeal to the Americans
+
+:::{.callout-tip appearance=minimal .v-center-container}
+
+While waiting for the principle of national self-determination to pass from ideal to reality through the effective recognition of the sacred right of all peoples to decide their own destiny . . .
+
+:::{.flushright}
+Ho Chi Minh, 1919
+:::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Ho addressed this document to then-Secretary of State Robert Lansing, who served Woodrow Wilson, and as you can see, he phrased it in terms of the ideal with which Wilson was identified, that of self-determination of peoples. But as you might expect, it went unheard. 
+
+At Versailles, Wilson refused to hear the Japanese government’s appeal for a clause against racism to be adopted, as well; he was largely uninterested in the claims of nonwhite peoples to independence. If he would not hear Japan, he would not hear Ho Chi Minh.
+
+:::
+
+:::
+
+## [War for Vietnamese liberation, 1941--]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/hump.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/hump.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, returning to the 1940s again, Ho was leading the Viet Minh and had established effective control over these provinces, which were conveniently located in the last months of the war. During the war the US was carrying out air campaigns over Burma; these were the famous Flying Tigers, who flew over the mountains bringing supplies to the Chinese fighting against the Japanese in China. Occasionally, US aircraft were shot up and unable to make it back to their airbases, so they ditched, as it may happen in the vicinity of northern Vietnam. Ho and the Viet Minh have a pretty good sense of what’s going on in the region, and they tend to hear about any US airmen in the neighborhood who are looking to get back home. And they’re only too happy to pass that information on to the Americans, who are after all fighting against the Japanese. 
+
+:::
+
+:::
+
+## [Office of Strategic Services agent]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/ho_and_oss.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/ho_and_oss.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Ho asks to meet General Claire Chennault, the head of the US 14th air force in the region, and eventually does; he collects a signed 8x10 glossy of the general. Ho eventually rescued 17 downed US airmen. He also supplied valuable intelligence on the Japanese in the area. And here he is, together with a team of parachutists from the American Office of Strategic Services—the OSS, the predecessor to the operations arm of the CIA—whom he helped to organize into a guerrilla and sabotage unit. In the latter months of the war, the OSS were tasked with blowing up American airfields on the mainland so the Japanese couldn’t use them. The OSS gave Ho some weapons (accounts differ; perhaps it was only a few revolvers; perhaps there were some thousands of modern rifles airlifted in to the Viet Minh.) And they designated him “Agent 19.”
+
+So in 1945, Ho Chi Minh was well known to American intelligence services, and valued.
+:::
+
+:::
+
+## Another American appeal
+
+
+:::{.callout-tip appearance=minimal .v-center-container}
+
+All men are created equal. The creator has given us certain inviolable rights: the right to life, the right to be free, and the right to achieve happiness. . . . these immortal words are taken from the Declaration of Independence of the United States of America
+
+:::{.flushright}
+Vietnamese Decelaration of Independence, 1945
+:::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Ho referred to the Allies’ wartime commitments, particularly at San Francisco, and said “the Allied Nations … will not refuse to acknowledge the independence of Vietnam”
+(again, remember what I said about those words having consequences)
+
+But he was going to be disappointed in that confidence.
+:::
+
+:::
+
+## US agreements
+
+:::{.callout-tip appearance=minimal .v-center-container}
+the US has no thought of opposing the reestablishment of French control in Indochina and no official statement . . .  has questioned even by implication French sovereignty over Indochina
+
+:::{.flushright}
+Dean Acheson, US Under Secretary of State, 1945
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In fact the US had agreed at the Potsdam conference, in July 1945, to permit the French to resume control of Indochina, or Vietnam. Which was to the contrary of the Atlantic Charter, and the UN declaration.
+:::
+:::
+
+## Yet another American appeal
+
+:::{.callout-tip appearance=minimal .v-center-container}
+France is not entitled because she . . . ignominiously sold Indochina to Japan and betrayed the allies . . .  Vietnam is qualified by Atlantic Charter and subsequent peace agreement and by her goodwill and her unflinching stand for democracy . . . 
+
+:::{.flushright}
+Ho Chi Minh, telegram to Harry Truman, 1945
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Ho tried again to appeal to US ideals—he had tried with the 14 points; he had tried with the Declaration of Independence; now he tried with the Atlantic Charter, which included the Four Freedoms. Perhaps you will not be surprised to know that Truman, like Wilson, disregarded Ho’s claim to an American legacy of democracy and representation. 
+
+:::
+:::
+
+## A British war in Vietnam
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/japanese_british.png){width="550" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/japanese_british.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In August, 1945, shortly after the Potsdam conference, an entire division of the British army in India, 26,000 men together with 2,500 vehicles, had been airlifted into Vietnam. The RAF sent a group of fighters and fighter-bombers, and the Royal Navy also sent a ship, which you see here arriving at the dock—to be greeted by Japanese soldiers, POW’s lately imprisoned by the Allies, here armed and placed under British command, to fight against the Viet Minh on behalf of the French.
+
+https://www.iwm.org.uk/collections/item/object/205208386
+:::
+
+:::
+
+## Full force
+
+:::{.callout-tip appearance=minimal .v-center-container}
+There is no front in these operations. We may find it difficult to distinguish friend from foe. Always use the maximum force available to ensure wiping out any hostilities we may meet. If one uses too much force, no harm is done.
+
+:::{.flushright}
+British Army orders, Vietnam, 1945
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The British took a hard attitude, as you can see here, toward guerrilla fighting in Vietnam.
+:::
+:::
+
+
+## French takeover, April 1946
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/french_brens.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/french_brens.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The British departed Vietnam by April 1946, having handed the war over to French soldiers—who you can see here, armed with British Bren guns. 
+
+The British remained for a few years in the Dutch East Indies, doing the same work; then as you know they began to run out of money and political will for such efforts. 
+:::
+
+:::
+
+## American arms
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/french_catalinas.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/french_catalinas.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But, as we also know, the US picked up where the British left off; Chere you see French navy planes in Vietnam—they’re US aircraft, Catalinas, supplied for fighting the Viet Minh.
+
+:::
+
+:::
+
+## Thoughts on empires
+
+:::{.callout-tip appearance=minimal .v-center-container}
+Colonial empires in the 19th century sense are rapidly becoming a thing of the past [but the US has] no interest in seeing colonial empire administrations supplanted by [the] philosophy and political organization emanating from and controlled by [the] Kremlin
+
+:::{.flushright}
+US State Department cable, January 1947
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Better colonialist than Red, is the thinking.
+
+:::
+:::
+
+## Capitalism and imperialism
+
+:::{.callout-tip appearance=minimal .v-center-container}
+the whole world is now divided into a large number of oppressed nations and an insignificant number of oppressor nations. . . . we, as Communists, should and will support bourgeois liberation movements in colonies
+
+:::{.flushright}
+Lenin, 1920
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Lenin held that liberation movements would be of necessity bourgeois-democratic in nature. But Communists, he held, should support such movements so long as they had a free hand to spread their ideas
+
+Ho read this and said “this is what we need, this is what we need, this is the path to our liberation” - “if you do not condemn colonialism, if you do not side with colonial people, what kind of revolution are you waging?
+:::
+:::
+
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+# Quiz{data-visibility="uncounted"}
+
+## [1. The US president during World War II was]{.r-fit-text}{data-visibility="uncounted"}
+
+a) Franklin D. Roosevelt
+b) Franklin D. Roosevelt
+c) Franklin D. Roosevelt
+d) Franklin D. Roosevelt
+e) Franklin D. Roosevelt
+
+## [2. "Plattism" referred to ]{.r-fit-text}{data-visibility="uncounted"}
+
+a) US interventionism
+b) US interventionism
+c) US interventionism
+d) US interventionism
+e) US interventionism
+
+## [3. Throughout World War II, Brazil's government was]{.r-fit-text}{data-visibility="uncounted"}
+
+a) unelected
+b) unelected
+c) unelected
+d) unelected
+e) unelected
+
+## [4. Under the Good Neighbor policy, the US formally improved relations with from]{.r-fit-text}{data-visibility="uncounted"}
+
+a) Cuba
+b) Cuba
+c) Cuba
+d) Cuba
+e) Cuba
+
+## [5. Much of the Good Neighbor policy was justified by]{.r-fit-text}{data-visibility="uncounted"}
+
+a) anti-Nazism
+b) anti-Nazism
+c) anti-Nazism
+d) anti-Nazism
+e) anti-Nazism
+
+:::

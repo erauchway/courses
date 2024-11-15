@@ -1,0 +1,205 @@
+## Dulleses
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/dulleses.png){width="650" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/dulleses.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The Eisenhower administration decided that it would be only too happy to deploy the CIA, now headed by Allen Dulles, who was the brother of John Foster Dulles, Eisenhower’s Secretary of State. Remember, the whole point of the NSC had been to toughen up US foreign relations, because State was seen as too nice to people. Now this was no longer a problem, with CIA and State all in the same family—literally. So a covert operation by CIA would be fine with State. 
+
+The Dulles brothers, convinced that in Iran “a Communist takeover” was “more and more a possibility,” persuaded Eisenhower that the United States should not make a deal with Mossadegh; he was too weak, and he would probably not be able to resist Soviet advances which “might have very grave effects on United States oil concessions in other parts of the world.” In other words, the logic was that if Mossadegh remained in power, he would succumb eventually to the Soviets, and that might imperil Aramco. It was another version of the domino theory; we don’t have pressing interests there, but if it goes Soviet, it might present a risk to places where we do have pressing interests.
+:::
+
+:::
+
+## Operation Ajax, 1953
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/kermit.png){width="350" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/kermit.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Eisenhower approved the use of the CIA to overthrow Mossadegh, and the CIA drew up Operation Ajax, carried out largely by the CIA station chief in Tehran, Kermit Roosevelt, the son of Theodore Roosevelt. Ajax involved bribing military officers, legislators, and paying demonstrators to oppose the government. The goal was to overthrow Mossadegh, and to restore the former king of Iran, known as the Shah, to power.
+:::
+
+:::
+
+## Coup, 1953
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/coup.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/coup.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+When the CIA gave the signal to go in 1953, Mossadegh did not react weakly. In fact, he imprisoned dozens of the conspirators and cracked down on the protests. The Shah fled Iran. General Zahedi, the leading military figure in the conspiracy, went into hiding. The CIA in Washington ordered Roosevelt to stop. “Operation has been tried and failed and we should not participate in any operation against Mossadegh which could be traced back to the United States. Operations against Mossadegh should be discontinued.” But Roosevelt said, “no, we’re not done here.” He pushed forward with more hired crowds, paid by the CIA, and was able to get Mossadegh overthrown. Soldiers captured him at home.
+
+Again, autoplay comes next
+
+https://foreignpolicy.com/2017/06/20/64-years-later-cia-finally-releases-details-of-iranian-coup-iran-tehran-oil/
+:::
+
+:::
+
+## Mossadegh deposed
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+{{< video ../media/who_us.mp4 width="600">}}
+
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+So here you see the Shah on his way back from exile, and Zahedi returned from hiding, and no mention of the United States, let alone Kermit Roosevelt, in the coup that restored the Shah to power and deposed the democratically elected Mossadegh. Despite the CIA’s fears, apparently, Kermit Roosevelt was able to preserve the genteel fiction of the Americans’ lack of involvement. 
+
+
+:::
+
+:::
+
+## Egypt, 1953
+
+:::{.callout-tip appearance=minimal .v-center-container}
+When I consider the 80m Muslims in Indonesia, and the 50m in China, and the millions in Malaya, Siam, and Burma, and the nearly 100m in Pakistan, and the more than 100m in the Middle East, and the 40m in the Soviet Union. . . . I emerge with a sense of the tremendous possibilities
+
+:::{.flushright}
+Gamel Abdel Nasser, 1953
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Nasser was, as you can see, a Pan-Islamist; he was also, though, a modernist and someone who wanted to do business in the world as he found it. 
+:::
+:::
+
+
+## Not to play
+
+:::{.callout-tip appearance=minimal .v-center-container}
+
+the match is between two teams, Communism and nationalism. And if you insist on playing, you are going to spoil the game for the others.
+
+
+:::{.flushright}
+Nasser to Allen Dulles, 1953
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Nasser met Allen Dulles in 1953, at the start of the Eisenhower administration, and tried to persuade him that the US should just back off. The nationalists, like him, were not Communists, but they were anti-colonialists, and if the US stuck its nose in, he would have to oppose that.
+
+He also realized, after Iran, that the US was quite likely to mess things up for him unless he had other allies as leverage. So he went to Tito, in Yugoslavia. He met the Soviets, too, so he could do a deal to buy weapons - he told Tito that it was a way of increasing his options.
+
+Nasser believed that the way for a 3d world leader to operate was to ensure that he became a puppet neither to the East nor the West
+
+In 1956 he established a constitution, and held not incredibly free, one-party elections, which he won, and then—
+:::
+:::
+
+## Nationalizing Suez
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/suez.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/suez.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+declared the Suez Canal to be the property of the Egyptian state, instead of the British empire. 
+
+The British asked for American aid in regaining Suez, and Eisenhower said no: “the peoples of the Near East and of North Africa and, to some extent, all of Asia and all of Africa, would be consolidated against the West”—and thus vulnerable to the Russians. Also, remember, as of 1951, the US depended less on the Suez canal, because of Aramco's trans-Arabian pipeline.
+
+The British decided to ignore this warning, and work out an alliance with France and Israel to go to war on Egypt
+:::
+
+:::
+
+
+## Suez War, 1956
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/suez_war.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/suez_war.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The agreement was that Israel would attack across the Sinai, thus necessitating the landing of British and French troops to protect the canal. This they did. Here you see the British landing.  The Eisenhower administration demanded a ceasefire. Eisenhower was angry, and negotiated a halt to hostilities. Egypt retained the canal, and Nasser remained a hero. Eisenhower demanded the Israelis leave or lose US aid, so they did.
+
+:::
+
+:::
+
+## Nasser, 1956
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/dde_nasser.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/dde_nasser.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+One of the reasons Eisenhower had to side with Nasser, he believed, was that the outbreak of war afforded the Soviets a chance in the Middle East - Khrushchev offered to send troops “to enforce the peace”—jointly with the US if they would agree, and alone if not. Egypt would indeed remain socialist, though not communist. But also, as we've seen, here was an example of a time when the US didn't have a compelling economic interest in stopping nationalization. So it didn’t. Eisenhower was capable of permitting a non-Communist socialist to thrive when it suited him to do so.
+
+:::
+
+:::
+

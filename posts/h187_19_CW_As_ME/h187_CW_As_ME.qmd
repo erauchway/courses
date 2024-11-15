@@ -1,0 +1,343 @@
+---
+title: "[Covert Cold War: To Oil Country]{.r-fit-text}"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: November 13, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: "OK, so we've looked at the Cold War in Europe, where we're on the Soviets' western frontier; then we looked at the Cold War in Asia, where we're on the Soviets' eastern frontier; today, we're going to look at the Soviets' southern frontier, and the Cold War in the Middle East—which is also, as the slide explains, oil country. That tells you that the US interest there is maybe less ideological and more material. We'll pick up where we left off in Asia—"
+categories:
+  - HIS 187
+---
+
+## National security state, 1947
+
+:::{.v-center-container}
+
+- National Security Act, 1947
+- Department of Defense
+- Joint Chiefs of Staff
+- National Security Council
+- Central Intelligence Agency
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+loyalty order, Executive order 9835
+examined applicants to federal office for loyalty
+examined federal employees for loyalty
+using FBI
+:::
+:::
+
+
+## Outright commies
+
+:::{.callout-tip appearance=minimal .v-center-container}
+[Ho is an] outright commie [so long as he] fails to unequivocally repudiate Moscow connection and Commie doctrine and . . . remains personally singled out for praise by [the] international commie press
+
+:::{.flushright}
+Dean Acheson, US Secretary of State, 1949
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Ultimately, the State Department began to decide that unless he said for sure he wasn’t a “Commie,” then he clearly was. (Acheson, who had been Under Secretary, took over as Secretary in January of 1949)
+
+That's in May. Just a few months later, in September, [VIDEO WILL START]
+:::
+:::
+
+
+## [A Soviet bomb; a Communist China]{.r-fit-text}
+
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+{{< video ../media/ussr_bomb.mp4 width="600" >}}
+
+::::
+:::
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The US detected the first Soviet atomic bomb, in 1949.
+
+A few weeks later, Mao proclaimed the People’s Republic of China. The United Nations refused to recognize it, and would withhold recognition until 1971.
+
+The global landscape of the Cold War has now greatly changed; the stakes are understood to be much higher.
+:::
+
+:::
+
+## Korean civil war, 1946--1950
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/korean_war.png){width="550" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/korean_war.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+1946-1950 Korean Civil War, 100,000 casualties - US on Syngman Rhee side, USSR on Kim Il-sung side. Both were pretty awful, to the extent the US decided to stop backing Rhee in 1948; both US and USSR pulled out their troops and there was a truce in 1949.
+Then Stalin backs Kim’s play for a 1950 invasion of the South; worried about Asian version of NATO, wants to draw a line short of the mainland
+
+Truman orders MacArthur to supply SK, and moves the Fleet in.  UN Sec Council supports it unanimously, with Russia absent — protesting refusal to recognize Maoist China.
+
+End of Summer Mac has US troops back to 38 parallel.  Then in September, Inchon landing and drive to the Chinese border.
+
+Suddenly, Mac’s forces are driven back.  Late in October, the US captures, for the first time, a Chinese soldier.  “That’s when you knew something was going on,” Acheson said. The Chinese had entered the war on the other side.  
+
+Chinese fight back in October.  Attack with hundreds of thousands in end of November.  kill 20k us and un troops at the Chosin reservoir.  Desperation in December 1950, HST threatens A bomb.
+
+Early in 1951, fighting stabilises on 38 parallel. 
+
+Significant increase of funding to anti-Communist forces in Vietnam.
+:::
+
+:::
+
+## Dominoes
+
+:::{.callout-tip appearance=minimal .v-center-container}
+You had a row of dominoes set up, and you knocked over the first one, and what would happen to the last one was the certainty that it would go over very quickly. . . . the loss of Indo-China, of Burma, of Thailand, of the peninsula, and Indonesia following. . . . the possible consequences of the loss were just incalculable to the free world
+
+:::{.flushright}
+Eisenhower press conference, 1954
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+“It turned the so-called island defensive chain of Japan, Formosa, of the Philippines and to the southward, it moved in to threaten Australia and New Zealand. It took away in its economic aspects that region that Japan must have as a trading area or Japan, in turn, would have only one place in the world to go, and that was toward China and Manchuria or toward the Communist areas in order to live. So the possible consequences of the loss were just incalculable to the free world.” 
+:::
+:::
+
+## Covert action
+
+:::{.callout-tip appearance=minimal .v-center-container}
+Activities . . . so planned and executed that any US government responsibility for them is not evident . . . and that if uncovered the US government can plausibly disclaim any responsibility
+
+:::{.flushright}
+NSC charge to the CIA, 1948
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+went on, “Specifically, such operations shall include any covert activities related to: propaganda, economic warfare; preventive direct action, including sabotage, antisabotage, demolition and evacuation measures; subversion against hostile states…”
+
+Movie will start automagically on next slide
+:::
+:::
+
+## Italy, 1948
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+{{< video ../media/italy_votes.mp4 width="600">}}
+
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In Italy, the Communists held 19% of the seats prior to the 1948 elections, and the Christian Democrats held 37%. Truman authorized the CIA to send $10m to the Christian Democrats, who subsequently soared to a 55% majority in the Parliament, keeping the Communists in a minority. Now, was the CIA involvement the thing that made the difference? As you can tell from the British newsreel, here, it was widely understood that the choice in the election was between, as the presenter says, “The Volga Boatmen’s Song” and “The Star Spangled Banner.” The US made it clear that if the Communists won a majority, then there would be no Marshall aid for the Italians. 
+
+So this is the kind of Cold War intervention you have immediately after the establishment of the CIA, in the Mediterranean region.
+:::
+
+:::
+
+## Iran
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/iran_cold_war.jpg){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/iran_cold_war.jpg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+You can see here Southwest Asia as it was in the early 1950s. Notice Iran, located just South of the USSR and on the oceans; a nation that was and is full of oil. 
+
+In 1941, the Soviets occupied northern Iran and remained there during the war, at the behest of the other Allies, with the idea of making it difficult for the Germans to take it if they should try. The British pulled out the old emperor and replaced him with his more cooperative son, Mohammad Reza Pahlavi. His status as an obvious British puppet, and the foreign occupation of the country, spurred various voices of protest and revolution. Some were Communist. Some were religious, as in the clergy of Qum, among them Ruhollah Khomeini, angered by the foreign domination of their country. In a series of elections, the Iranian government became more and more liberal, albeit anticolonial. Stalin, eager for oil, considered keeping his armies in the north, which upset the Iranian communists, making them much less popular. Moreover, in the interest of stabilizing their control, the Soviets continually told the Iranian Communists not to be too revolutionary. 
+
+The Iranians turned to the Americans for support in trying to get the Soviets out. The Americans put pressure, bringing UN resolutions; the Soviets finally departed Iran in 1946, having discredited the Iranian Left.
+:::
+
+:::
+
+## Saudi Arabia
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/fdr_saudi.png){width="650" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/fdr_saudi.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The US had begun to establish an official postwar presence in the Middle East with FDR’s diplomacy. In 1945, on the way back from Yalta, Roosevelt met the Saudi King, Abdul Aziz ibn Saud, as you see here; he also met King Farouk of Egypt.
+
+ibn Saud had unified Arabia under his rule in the wake of the Arab revolt of WWI. He had done a deal with Standard Oil of California, which would later become Chevron.
+:::
+
+:::
+
+## CASOC
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/CASOC.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/CASOC.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here you see a representative of ibn Saud signing a deal with Lloyd Hamilton, of California Standard Oil Company, signing a deal on May 29, 1933. 
+
+Prior to this, most of the oil drilling in the region had been conducted by European and particularly British companies. And at this moment, it was not entirely certain that there was oil in the country. But within the year it turned out there was indeed, lots of oil, which by the end of the 1930s, Casoc was pulling out of the Arabian peninsula in quantity
+:::
+
+:::
+
+## Saudi oil
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/saudi_oil.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/saudi_oil.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This is one of CASOC's early plants established in the Saudi peninsula, so you can see that it's a major operation.
+:::
+
+:::
+
+## Geography of petro-states
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/iran_cold_war.jpg){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/iran_cold_war.jpg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+To go back to our geography for a minute; it may help to understand that the first major oil discovery in Arabia was found in the northeast of the Arabian peninsula, by Bahrain. That necessitated shipping it around the Arabian peninsula and through the Suez Canal, a neutral zone under British protection as established in the c19. 
+
+The first Arabian tanker took its load to sea in 1939.
+:::
+
+:::
+
+## Aramco, 1944
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/aramco.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/aramco.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In 1944, Casoc adopted the name of the Arab-American Oil Company, or Aramco for short. 
+
+By 1949, production had reached half a million barrels per day; these days it’s more like 10m, but this .5m was still an important landmark. In 1951, Aramco opened the Trans-Arabian pipeline (shown here) which moved oil across the peninsula to the Mediterranean, making production more efficient, and reducing dependence on the Suez canal.
+
+So, in 1951, the US has a considerable interest in the stability of the region, if not a direct interest in Iran, which is more of a British area, and is also not particularly bothered about the Suez canal—also a British area.
+
+Movie will autoplay next slide
+
+https://www.businessinsider.com/the-history-of-saudi-aramco-timeline-2017-11#aramco-gradually-increased-its-production-throughout-the-course-of-the-1940s-reaching-the-milestone-of-500000-barrels-per-day-in-1949-11
+
+http://archive.aramcoworld.com/index/Subjects.aspx#ARAMCOHISTORY
+:::
+
+:::
+
+## Iran, 1951
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+{{< video ../media/iran.mp4 width="600">}}
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In March 15, 1951, Iran’s parliament voted to nationalize the Anglo-Iranian oil company, a private, British firm. This action represents a continuation of the process of decolonization, where a resource-rich country is voting to reclaim its natural riches from a colonizer, although in this instance it’s a purely economic proceeding—they’re simply declaring that the property of a private concern is now the property of the state of Iran. 
+
+Mossadegh was the elected prime minister of Iran, and immensely popular there. Truman would not act against him, opposing “the use of force or the threat of the use of force” there; remember, the US doesn’t have especially pressing business in the country. And although Truman has used CIA to fund anti-Communists in an election, he hasn't actually overthrown any governments; he says he disapproves of that.
+
+But Eisenhower’s administration felt differently. 
+
+:::
+
+:::
+
