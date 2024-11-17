@@ -1,0 +1,522 @@
+---
+title: "Congo"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: November 18, 2024 
+draft: TRUE
+title-slide-attributes: 
+  data-notes: ""
+categories:
+  - HIS 187
+---
+
+## Cuba
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+{{< video ../media/cuba2.mp4 >}}
+
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In the early hours of 1959, Castro’s forces, whom Guevara had joined, reached Havana and overthrew Batista’s regime.
+
+The US had supplied Batista. It was he of whom a State Department official said, “he may be a son of a bitch, but at least he is our son of a bitch.” And US support was widely known in Cuba. Which meant that Castro had pitched his revolt as a revolt against US domination, against Plattism, and against the general force of the US in the Caribbean and in Spanish-speaking America.
+
+It did not take long before the US government had decided it needed to intervene against Castro. That brings us up through 1959, here; Iran was 1953, Guatemala was 1954, and then you have Castro in 1959. (Maybe, depending, a reflection here on Eisenhower's general approach.)
+
+VIDEO WILL START AUTOMATICALLY ON NEXT SLIDE
+:::
+
+:::
+
+## Congo independence, 1960
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+{{< video ../media/congo_independence.mp4 >}}
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, let’s begin with a news report—runs 2:22.
+
+June 30, 1960 - Bauduin of Belgium proclaimed independence of Congo. 
+
+"ill-starred Patrice Lumumba, the most violent agitator" - 
+
+"ancient tribal enmities"
+
+UN "at the request of the new republic"
+
+19,000 soldiers from neutral countries
+
+Lumumba "became the villain of the situation"
+
+"a mysterious death"
+
+"his countrymen's regard for him had turned to bitterness"
+
+"Mobutu kept order"
+
+:::
+
+:::
+
+## [Continued decolonization, 1960]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/africa_1960.jpg){width="500" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/africa_1960.jpg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s a map of Africa in 1960. Note the location of Congo, right there in the middle of the bottom. As you’ve seen, it was a Belgian colony. So this is part of our story of decolonization, which you’ll remember has been a major feature of the world since the end of World War II. 
+
+Decolonization does a few things. It offers, as we’ve already seen, a battleground for the US and the USSR, either literally or figuratively—in Vietnam, Korea, Iran, and Egypt, as elsewhere, the end of old colonial regimes yields to new governments which might align themselves with either of the major powers in the Cold War, or which might remain neutral. As we’ve also seen in the case of Guatemala, decolonization threatens the not-quite colonization of the Monroe Doctrine, with local leaders threatening American control over, if not quite government of, Latin American nations. 
+
+Another thing that decolonization does is, it changes the membership of the United Nations. From the time of the UN’s conception, it had been a US-dominated institution. 
+:::
+
+:::
+
+## Original UN membership
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/original_un.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/original_un.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The original 51 member states, shown in light blue, were the Allies or the nations of the Western hemisphere under US influence. (the dark blue nations were their dependencies, not represented except by virtue of the colonizer nation being represented)
+:::
+
+:::
+
+## Additions{.smaller}
+
+
+| Year   | Members entering                                                                          |
+| ---- | ---- |
+| 1946 | Afghanistan, Iceland, Siam, Sweden                                                        |
+| 1947 | Pakistan, Yemen                                                                           |
+| 1948 | Burma                                                                                     |
+| 1949 | Israel                                                                                    |
+| 1950 | Indonesia                                                                                 |
+| 1955 | Albania, Austria, Bulgaria, Cambodia, Ceylon, Finland, Hungary, Ireland, Jordan, Laos, Libya, Nepal, Portugal, Romania, Spain |
+| 1956 | Japan, Morocco, Sudan, Tunisia |
+| 1957 | Ghana, Malaya |
+| 1958 | Guinea |
+| 1960 | Cameroun, Central African Republic, Chad, Congo (Brazzaville), Congo (Leopoldville), Cyprus, Dahomey, Gabon, Ivory Coast, Malagasy Republic, Mali, Niger, Senegal, Somalia, Togo, Upper Volta |
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As you can see, the UN becomes a more genuinely global organization over this period, especially with African decolonization in 1960. The votes in the body are now no longer centered in the old imperial capitals, but have moved to what we call the global South—the former colonies became nations of their own, and attained UN membership. That meant that the General Assembly and the Security Council alike, as well as subcommittees and other special bodies, reflected the opinions of formerly colonized peoples, now independent. They were nations that sought economic development, and freedom from colonial control of various kinds.
+
+:::
+
+:::
+
+## Congo, 1960
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/congo_zoom.png){width="600" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/congo_zoom.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The Belgians had not been particularly careful colonial administrators of the Congo; if you’ve read *Heart of Darkness*, you have an idea of the exploitive nature of Belgian colonization. 
+
+Only in the period just after WW2 did Belgium begin to undertake some development plans in Congo, the way Britain and France had begun to do in the interwar period. So Congo by the 1950s hadn’t much experience of modernization or educated classes versed in the necessities of running a large country. By the time you got to 1959, most of the organizations lobbying for independence were quite local or regional, and without national ambitions. The Belgians were happy to nurture the rise of local strongmen in the belief that it would ensure their future economic domination of the region, even once they got out politically.
+:::
+
+:::
+
+## Patrice Lumumba
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/lumumba.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/lumumba.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The major exception to this regionalism was the Congolese National Movement, or in French, the Mouvement National Congolais, headed by Patrice Lumumba. He had been a postal clerk under the Belgians, which was a good civil service job to hold and one of the few such jobs open to Congolese under the Belgian administration. He became a student of economic development, and a pamphleteer, writing about the possibility of Congolese modernization under the Belgian regime. In 1955 he became head of the first Congolese trade union, a position in which he was obliged to represent workers with claims against the Belgian administration. They had him arrested and imprisoned in 1956 for embezzlement, which it seems unlikely he had actually done. In 1958 he attended the all-African People’s Conference in Accra, the first such meeting of its kind. He was especially attentive to Kwame Nkrumah, the leader of independent Ghana (which attained independence from Britain), a UN member nation since the previous year.
+:::
+
+:::
+
+## Congolese nationalism
+
+:::{.callout-tip appearance=minimal .v-center-container}
+We are going to institute social justice together and ensure everyone just remuneration for his labor. We are going to show the world what the black man can do when he works in freedom, and we are going to make the Congo the focal point for all of Africa.
+
+
+:::{.flushright}
+Patrice Lumumba, 1960
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This was on Congolese Independence Day, June 30, 1960. “We are going to see to it that the soil of our country really benefits its children. We are going to review all the old laws and make new ones that will be just and noble. We are going to put an end to the suppression of free thought and see to it that all citizens enjoy to the fullest all the fundamental freedoms laid down in the Declaration of the Rights of Man.” 
+
+:::
+:::
+
+
+## Uranium
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/shinkolobwe.jpeg){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/shinkolobwe.jpeg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now you may ask, what interest would the United States possibly have in the newly independent Congo? One answer is here, in this mine at Shinkolobwe, where (as you see here) uranium is being pulled out of the earth. Congolese uranium fueled the atomic weapons the US exploded over Japan in 1945. During the war, the OSS had set up offices in Congo to ensure the safety of US access to uranium mines there. And in 1949, with the Soviet atomic program’s success, the USSR became interested in access to uranium. Now, by 1960 the US was no longer so dependent on Congolese uranium for its nuclear program, but the CIA certainly wanted to keep the Soviets, and anyone else, from gaining access to this vital mineral. 
+
+So you might think about this episode in some sense similar to that of Iran—it's not necessarily that the Eisenhower administration needed the uranium for the US, but more that they were concerned about the Soviets gaining access to it.
+:::
+
+:::
+
+## Sizing up Lumumba
+
+:::{.callout-tip appearance=minimal .v-center-container}
+irresponsible, had been charged with embezzlement, was now being offered bribes from various sources and was supported by the Belgian Communists
+
+
+:::{.flushright}
+Allen Dulles, CIA assessment of Lumumba, 1960
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The CIA proposed pouring money into the Congolese elections to produce anti-Lumumba literature. Eisenhower said he didn’t know so many Congolese could read. But he authorized the payments anyway.
+
+And, as we know, Lumumba won, anyway. He became prime minister of Congo (something the newsreel we saw omitted to mention).
+:::
+:::
+
+
+## Katanga
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/katanga.png){width="600" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/katanga.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Secession movement, 1960
+
+In the wake of independence, Congo began to come apart—remember the largely regional loyalties that had prevailed there? A Belgian mining company, the Union Minière, helped a secessionist movement in Katanga—one of the most uranium-rich provinces in the country. Belgian troops assisted. Lumumba asked the UN to intervene and put down the secession movement, and they declined. He said that then perhaps he would seek Soviet assistance. Washington was alarmed.
+:::
+
+:::
+
+## Ultimatum
+
+:::{.callout-tip appearance=minimal .v-center-container}
+If the United Nations seemed to find themselves in the impossibility of . . . ensuring the evacuation of the Belgian troops . . . we will be obliged to request assistance from the Soviet Union. We hope this possibility will be averted.
+
+
+:::{.flushright}
+Lumumba ultimatum, July 1960
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Lumumba and Kasavubu (the president to Lumumba's PM) said they were going to the UN, but since they didn’t seem to want to help, they would have to go to the USSR, though they hoped they wouldn’t have to. As you can see, they thought of the UN as the tool of the West, and the USSR as a lever against it. They thought they were going to be able to play the same set of moves as Nasser. 
+:::
+:::
+
+
+## Worse than Castro
+
+:::{.callout-tip appearance=minimal .v-center-container}
+a Castro or worse . . . safe to go on the assumption that Lumumba has been bought by the Communists
+
+
+:::{.flushright}
+Allen Dulles, CIA assessment of Congo, 1960
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The CIA couldn’t believe it. Despite Lumumba’s profession that he was a neutral in the Cold War like Nasser, the CIA suspected that he was a puppet to the Soviets, and anyway that like Arbenz he harbored Communist beliefs, and thus was a threat to US security. 
+:::
+:::
+
+
+## Enlisting the UN
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/lumumba_hammarskjold.jpeg){width="550" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/lumumba_hammarskjold.jpeg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Lumumba went to the UN, where his ultimatum was read out. Here you can see him with the UN general Secretary, Dag Hammarskjold; the UN agreed to intervene.
+:::
+
+:::
+
+## Enlisting DC
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/lumumba_herter.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/lumumba_herter.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+He went to Washington, and met with the Secretary of State, Christian Herter (shown), and Undersecretary C. Douglas Dillon. According to the State Department’s own record of the discussion Lumumba said that Congo first of all needed “peace and order.” He also pointed out that the Belgians were clearly untrustworthy, since they were in Congo and had not been invited, despite the arrangement they had that Belgium could come in only by invitation.
+
+Lumumba appealed to the United States which stands for liberty and independence, in the hope of getting the Belgians out. Herter said the US would support the UN’s resolution, although he also said the US wouldn’t send troops—just logistical support. 
+
+Lumumba departed. 
+
+https://history.state.gov/historicaldocuments/frus1958-60v14/d152
+:::
+
+:::
+
+## Legitimizing the split
+
+:::{.callout-tip appearance=minimal .v-center-container}
+
+if the assets of Katanga could be retained, the economy of the Congo could be throttled. . . .[Lumumba's] removal must be an urgent and prime objective
+
+
+:::{.flushright}
+Allen Dulles, CIA reassessment of Congo
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Eisenhower himself suggested that “the UN might recognize Katanga,” thus legitimating its split from Congo. The CIA director had decided that general Joseph Mobutu, who we saw in the news clip, was a “completely honest and dedicated man,” whom they could trust to navigate the post-Lumumba future. 
+
+:::
+:::
+
+
+## Joe from Paris
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/gottlieb.jpeg){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/gottlieb.jpeg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The CIA station chief in Leopoldville received orders to meet “Joe from Paris” on a flight soon arriving. “Joe from Paris” was Dr. Sidney Gottlieb, the CIA’s chief technical officer, who had with him a tube of poisoned toothpaste that the local CIA man was supposed to get into Lumumba’s bathroom. 
+
+As it turned out, in 1975, the Church committee turned up evidence that Eisenhower himself had given the order to “eliminate” Lumumba. 
+
+Lumumba never used the toothpaste.
+:::
+
+:::
+
+## Death of Lumumba, 1961
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/lumuba_death.jpg){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/lumuba_death.jpg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Mobutu’s troops got him. He asked for rescue from the UN, who refused, direct from New York. He was taken to Leopoldville and shown to journalists, beaten and bleeding, in the back of a truck. Then they took him to Mobutu’s own villa, where soldiers beat him in front of television cameras. They crumpled up a copy of one of his speeches and tried to make him eat it. 
+
+Then Mobutu delivered Lumumba to the separatist government in Katanga. They beat him, too. Eventually another group of soldiers drove him off into the bush, put him up against a tree, and shot him. The separatists in Katanga ordered the body destroyed. “How you do it doesn’t interest me.” They got the body, hacked it into pieces, and dissolved it in some acid they found at the Belgian-run mines nearby. It took them two days. They burned what little was left afterward. 
+
+http://news.bbc.co.uk/2/hi/programmes/correspondent/974745.stm
+:::
+
+:::
+
+## Mobutu
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/jfk_mobutu.jpg){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/jfk_mobutu.jpg)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+	"If it hadn't been for you, the whole thing would have collapsed and the Communists would have taken over" 1963
+	
+Kennedy’s administration continued Eisenhower’s support for Mobutu, although now relieved of the question of how to deal with Lumumba. Kennedy made Mobutu install a civilian government.
+
+Privately, the Kennedy administration believed they couldn’t continue their Congo policy. HIs successor, Lyndon Johnson, initially wanted to stay out, feeling it could be “another Korea, another Vietnam” but then was persuaded to send CIA airplanes to assist Mobutu reconquer Katanga. 
+:::
+
+:::
+
+## Che, again
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/che_congo.gif){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/che_congo.gif)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+One of the people who went to Africa to try to help the anti-Mobutu rebels was Che Guevara, Castro’s lieutenant, who we encountered before and who we’ll have more to say about in our next discussion.
+:::
+
+:::
+
+# Quiz{visibility="uncounted"}
+
+## [1. The Eisenhower administration was _____ in using the CIA than the Truman administration]{.r-fit-text}{visibility="uncounted"}
+
+  a) more aggressive
+  b) less aggressive
+  c) more pacifist
+  d) less interested
+  e) more communist
+  
+## [2. Of these nationalist leaders, which retained the freest hand?]{.r-fit-text}{visibility="uncounted"}
+
+  a) Mossadegh
+  b) Arbenz
+  c) Lumumba
+  d) Nasser
+  e) Ho
+  
+## [3. This company pressed for intervention in Guatemala:]{.r-fit-text}{visibility="uncounted"}
+
+  a) Consolidated Banana
+  b) Finest Papaya
+  c) Universal Plantain
+  d) United Fruit
+  e) Oops, All Mangos
+  
+## [4. Gamel Abdel Nasser nationalized the]{.r-fit-text}{visibility="uncounted"}
+
+  a) Anglo-Iranian Oil Company
+  b) Suez Canal
+  c) California Standard Oil Company
+  d) Aramco pipeline
+  e) United Fruit plantations
+  
+## [5. US interests in Suez were partly lessened by the ]{.r-fit-text}{visibility="uncounted"}
+
+  a) Anglo-Iranian Oil Company
+  b) California Standard Oil Company
+  c) Aramco Pipeline
+  d) United Fruit plantations
+  e) Nasser government
