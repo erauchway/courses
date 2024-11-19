@@ -475,6 +475,8 @@ One of the people who went to Africa to try to help the anti-Mobutu rebels was C
 
 :::
 
+:::{.content-hidden unless-format="revealjs"}
+
 # Quiz{visibility="uncounted"}
 
 ## [1. The Eisenhower administration was _____ in using the CIA than the Truman administration]{.r-fit-text}{visibility="uncounted"}
@@ -516,3 +518,5 @@ One of the people who went to Africa to try to help the anti-Mobutu rebels was C
   c) Aramco Pipeline
   d) United Fruit plantations
   e) Nasser government
+  
+:::
