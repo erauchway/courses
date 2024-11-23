@@ -1,0 +1,458 @@
+---
+title: "Politics & Policy"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: November 22, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: ""
+categories:
+  - HIS 187
+---
+
+
+## The consequences of the story
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/jfk_rfk.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/jfk_rfk.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, remember, with Cuba there is a deal; the Kennedy administration just doesn’t admit it. And neither do the Soviets—probably they don’t know how badly they’re going to be portrayed, and they want to wait to see that those missiles do go. Again, many years later, Kennedy advisors—McGeorge Bundy, for example—will say that this was a big mistake, because it robbed dealmaking of the dignity it should have had, and instead made it more important to appear inflexible. 
+
+About ten years ago, the magazine *Foreign Policy* published an article with the title, "The Myth that Screwed up Fifty Years of US Foreign Policy," and that's about right.
+
+https://foreignpolicy.com/2012/10/08/the-myth-that-screwed-up-50-years-of-u-s-foreign-policy/
+
+:::
+
+:::
+
+## "Our common interests"
+
+:::{.callout-tip appearance=minimal .v-center-container}
+Let us reexamine our attitude toward the cold war. . . .  We must conduct our affairs in such a way that it becomes in the Communists’ interest to agree on a genuine peace
+
+:::{.flushright}
+John Kennedy, June 1963
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kennedy himself seemed to know this lesson, though, and began to talk much more in a way that seemed to indicate he wanted to institutionalize dealmaking as part of the Cold War. Notably, in the address he gave at American University, he spoke on the theme of commonality: “So, let us not be blind to our differences—but let us also direct attention to our common interests and to the means by which those differences can be resolved. And if we cannot end now our differences, at least we can help make the world safe for diversity. For, in the final analysis, our most basic common link is that we all inhabit this small planet. We all breathe the same air. We all cherish our children's future. And we are all mortal.”
+:::
+:::
+
+
+## Continuing cold warrior
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/jfk_berlin.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/jfk_berlin.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Of course, he continued to talk tough, too, as when he went to Berlin where, in 1961, the Soviets had begun putting up a wall to stop their citizens leaving for the West. Kennedy gave this speech on June 26, 1963, just over two weeks after the American University speech. Here he described the wall as
+
+“an offense not only against history but an offense against humanity, separating families, dividing husbands and wives and brothers and sisters, and dividing a people who wish to be joined together. 
+
+“What is true of this city is true of Germany--real, lasting peace in Europe can never be assured as long as one German out of four is denied the elementary right of free men, and that is to make a free choice.”
+
+
+http://www.spiegel.de/international/germany/berliners-remember-kennedy-visit-to-the-divided-city-a-906241.html
+:::
+
+:::
+
+## Test ban treaty
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![August 1963](../media/test_ban.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/test_ban.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kennedy’s diplomacy did arrive at one important result: the 1963 Test Ban Treaty, which banned nuclear testing or explosions under water, in atmosphere, or in outer space; and allowed underground tests so long as they produced no fallout outside national boundaries; pledge to work toward disarmament, arms race, end to contamination of environment. . .  again, “we all breathe the same air” and have a common interest.
+
+And then of course he was murdered in November of that year. We don’t know what would have happened had he lived. But he didn’t, and Johnson—on the far right of the photograph there—became president.
+:::
+
+:::
+
+## "What the hell is Vietnam worth to me?"
+
+:::{.callout-tip appearance=minimal .v-center-container}
+If I don’t go in now, they won’t be talking about my civil rights bill, or education. . . .  No sir, they’ll push Vietnam right up my ass every time. Vietnam. Vietnam. Vietnam. Right up my ass.
+
+:::{.flushright}
+Lyndon Johnson, 1964
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Operation Plan 34A, a limited program of attacks and support for the war on NVN. 
+
+Johnson thought of Munich, and appeasement; he knew that what secured Roosevelt’s reputation forever was not only that he had provided the New Deal, but that he had led the nation and the Allies in the victory over fascism. 
+
+Johnson also thought of Truman, and China. 
+
+“What the hell is Vietnam worth to me? What is it worth to this country?”
+:::
+:::
+
+## {data-menu-title="Not a damn bit"}
+
+
+
+:::{.callout-tip appearance=minimal .v-center-container}
+It isn’t important a damn bit, with all these new missile systems.
+
+:::{.flushright}
+Senator Richard Russell, 1964
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+I mean to say, you might have made a case at one point that Vietnam mattered, really, because maybe one side or the other could put missile bases in it. But as with Cuba, there was really no material concern there any more; submarine systems rendered the shorter-range missiles obsolete. And Russell was a conservative Democrat, a proponent of Jim Crow, and a Cold War hawk. So if he said it in public, that would mean something. But he didn’t want to take the political flak.
+:::
+:::
+
+
+## {data-menu-title="Mansfield"}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+I do not conclude that our national interests are best served by deep military involvement in Southeast Asia.
+
+:::{.flushright}
+Senator Mike Mansfield, 1964
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+He’s the Senate majority leader; he has no interest. 
+
+Walter Lippmann, the NYT, the papers of St. Louis, Milwaukee, Minneapolis, Des Moines, Indianapolis, SF, Denver, Chicago, all called on the president to draw down.
+
+:::
+:::
+
+
+## {data-menu-title="They'd impeach"}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+. . .  they’d impeach a president that would run out, wouldn’t they? Run and let the dominoes start falling over—and God Almighty what they said about us leaving China would just be warming up. . . . I see Nixon is raising hell about it today. Goldwater too.
+
+:::{.flushright}
+Lyndon Johnson, 1964
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But you see, it’s a presidential election year. 
+:::
+:::
+
+
+## "low-yield"
+
+:::{.callout-tip appearance=minimal .v-center-container}
+defoliation of the forests by low-yield atomic weapons could well be done. When you remove the foliage, you remove the cover.
+
+:::{.flushright}
+Senator Barry Goldwater, May 24, 1964
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Johnson “lacks decision. . . .  I think the first decision is that we are going to win. . . .  defoliation of the forests by low-yield atomic weapons could well be done. When you remove the foliage, you remove the cover.” This is May 24, 1964. The very next day:
+:::
+:::
+
+
+## {data-menu-title="Timing"}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+no such resolution should be sought until Civil Rights is off the Senate calendar, and we believe that the preceding stages can be conducted in such a way as to leave a free choice on the timing of such a resolution. Some of us recommend that we aim at presenting and passing the resolution between the passage of Civil Rights and the convening of the Republican Convention. Others believe that delay may be to our advantage and that we could as well handle the matter later in the summer, in spite of domestic politics.
+
+:::{.flushright}
+National Security Advisor McGeorge Bundy to the president, May 25, 1964
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Bundy was National Security Advisor. So this is a couple weeks before the Senate vote for cloture on the CR Bill. The NSC had then decided that the US “cannot tolerate the loss of Southeast Asia to Communism” and that “without a decision to resort to military action if necessary the present prospect is not hopeful” therefore, deployment and conveying of intention to use “every possible means” - should make limited deployment, get a Congressional resolution, a further deployment, and then a strike. NOTE: “domestic politics”
+:::
+:::
+
+
+## {data-menu-title="Gulf"}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/tonkin.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/tonkin.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+August 2, 1964, the CIA director, John McCone, says the NVN are “reacting defensively to our attacks”
+
+Now, the US has been is carrying out covert operations in NVN since February. McNamara told the president, “these covert operations. There's no question but what that had bearing on it. On Friday night, as you probably know, we had four TP [sic] boats from [South] Vietnam, manned by [South] Vietnamese or other nationals, attack two islands, and we expended, oh, 1,000 rounds of ammunition of one kind or another against them. We probably shot up a radar station and a few other miscellaneous buildings.” Three NVN PT boats had run after the destroyer Maddox, which fired on them before they could get into range, sinking one and sending the other two limping back. Signals intelligence told them the attack had been ordered by a local commander and higher NVN command had tried to recall them.
+
+On 8/3, the US guided SVN forces in further attacks on the coastline of NVN. To protect the Maddox the Navy HQ at Honolulu sent a second destroyer, Turner Joy. On the night of 8/4, no moon, Maddox began reporting to Honolulu HQ that it was under “continuous torpedo attack”. Alerted Turner Joy which started firing guns and did so for four hours. There were no targets detected. Turner Joy could detect no torpedoes. No pilots flying over saw any enemy ships. One gunner on Maddox thought he saw an enemy and nearly pulled the trigger when he realized he was looking at Turner Joy. When asked whether there were definitely NVN present, one naval officer says “No doubt about that. I think.”
+
+LBJ pressed to get confirmation. McNamara couldn’t get it. LBJ wanted to go on the 7pm news. Couldn’t get it. Wanted to go on the 11pm news. Couldn’t get it. Wanted to make the morning papers. Sharp phoned at 11:20 to say planes had launched at 10:43 and would not be on target for a couple hours. McNamara decided “To hell with it,” LBJ could go on the air. LBJ said, “I’d sure as hell hate to have some mother say, ‘You announced it and my boy got killed,’” and McNamara said, “I don’t think there’s much danger of that.” 
+
+VIDEO WILL START NEXT SLIDE
+:::
+
+:::
+
+## *casus belli*
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+
+```{=revealjs}
+<video width="600">
+<source src=../media/media1.mov>
+</video>
+```
+
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+
+In fact, there were no planes targeting ships, despite what Johnson said, yet. Which meant that it wasn’t till 1:15 that some planes were over targets, and 2:30 till the rest were. NVN therefore heard Johnson’s announcement, and scrambled air defense. Two of the attacking aircraft were shot down, and one American airman, Richard Sather, was killed; another was captured with a broken back and was held captive for 8.5 years. 
+:::
+
+:::
+
+## Tonkin Gulf Resolution
+
+:::{.callout-tip appearance=minimal .v-center-container}
+the Congress approves and supports the determination of the President, as Commander in Chief, to take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression 
+
+:::{.flushright}
+August 7, 1964
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+McNamara told Congress, “Our Navy played absolutely no part in, was no associated with, was not aware of, any South Vietnam actions, if there were any.”
+
+The papers praised the US for its restraint in the face of this unprovoked attack, this “mad adventure by the North Vietnamese Communists.” As we’ve seen the NVN called off the one PT boat strike and didn’t do anything on 8/4. 
+:::
+:::
+
+
+## No plan
+
+:::{.callout-tip appearance=minimal .v-center-container}
+I don’t believe they’re ever going to quit.  And I don’t see . . .  that we have any . . .  plan for a victory—military or diplomatically. . .
+
+:::{.flushright}
+Lyndon Johnson, 1964
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+"It’s going to be difficult for us to very long prosecute effectively a war that far away from home with the divisions we have here—and particularly the potential divisions.  That’s really had me concerned for a month.  I’m very depressed about it.  Because I see no program from either Defense or State that gives me much hope of doing anything, except just praying and gasping to hold on during monsoon and hope they’ll quit.  I don’t believe they’re ever going to quit.  And I don’t see. . .that we have any . . . plan for a victory—military or diplomatically. . ."
+:::
+:::
+
+## Getting worse
+
+:::{.callout-tip appearance=minimal .v-center-container}
+The situation in South Vietnam is worse than a year ago (when it was worse than a year before that). . . .
+We must choose among three courses of action. . . .
+a) Cut our losses and withdraw. . . .
+b) Continue at about the present level. . . .
+c) Expand promptly and substantially the US military pressure against the Viet Cong in the South and maintain the military pressure against the North Vietnamese in the North while launching a vigorous effort on the political side. . . .
+
+:::{.flushright}
+Secretary of Defense Robert McNamara to the president, July 20, 1965
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+:::
+
+
+## Escalation
+
+:::{.v-center-container}
+
+```{r}
+library(tidyverse)
+library(ggtext)
+library(grafify)
+library(showtext)
+library(scales)
+showtext_auto()
+font_add_google("Holtwood One SC", "holt")
+font_add_google("Noto Serif", "noto")
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "noto", 
+                          color = "midnightblue"),
+      plot.title = element_markdown(family = "holt", 
+                                    color = "khaki4"),
+      plot.title.position = "plot",
+      plot.caption = element_markdown(size = rel(0.5)),
+      plot.background = element_rect(fill = "floralwhite",
+                                     color = "floralwhite"),
+      plot.margin = margin(l=10,r=10),
+      axis.text = element_text(margin = margin(2,2,2,4)),
+      axis.title.y = element_markdown(angle = 90, margin =
+                                    margin(2,2,4,2)),
+      axis.line = element_line(color = "chocolate4"),
+      axis.ticks = element_line(color = "chocolate3"),
+      axis.ticks.length = unit(1, "mm"),
+      legend.position = "inside",
+      legend.justification.inside = c(0.98, 0.05),
+      panel.background = element_rect(fill = "antiquewhite1",
+                                      color = "NA")
+    )
+)
+
+read_csv("./us_milper_vn.csv") |>
+  mutate(year = as_date(paste0(year,"-12-31"))) |>
+  ggplot() +
+    geom_col(aes(x = year, y = `US military personnel in Vietnam`), fill = "#79ABE1") +
+    scale_x_date(limits = c(as_date("1961-06-01") , as_date("1974-01-01")), breaks = "1 year", date_labels = "%Y") +
+    scale_y_continuous(breaks = c(100000, 200000, 300000, 400000, 500000), labels = label_number(scale_cut = cut_short_scale()), expand = expansion(mult = c(0, 0.01))) +
+  labs(
+    title = "US Military Personnel in Vietnam, 1962--1973",
+    x = "", y = ""
+  )
+  
+```
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+not surprisingly, casualties also increased in those years, from 2,500 in 1965 to more than 125,000 by the end of 1968—and American planes unleashed more bombs on Vietnam, many of them filled with napalm, between 1965 and 1967 than they had in all theaters of World War II—toxic defoliants such as Agent Orange, dropped to eradicate enemy cover, hit millions of acres of land in Vietnam and destroyed one half of the timberlands in the South—finally, it is estimated that approximately as many as 450,000 civilians were killed during Johnson years of American involvement in Vietnam and 1/3 of the Vietnamese people fled their homes as refugees in those years
+:::
+:::
+
+
+## {data-menu-title="Fulbright"}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+Vietnam is their country. We do not even have the right the French did. We have no historical right. We are obviously intruders from their point of view. We represent the old Western imperialism in their eyes. 
+
+:::{.flushright}
+Senator William Fulbright, 1966
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+:::
+
+## {data-menu-title="Church"}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+I think too much intervention on our part may well spread communism through the ex-colonial world rather than thwart it
+
+:::{.flushright}
+Senator Frank Church, 1966
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+“The question that I think faces this country is how we can best cope with the likelihood of revolt in the underdeveloped world in the years ahead, and I have very serious doubts that American military intervention will often be the proper decision.  I think too much intervention on our part may well spread communism through the ex-colonial world rather than thwart it.”
+
+Even so, calls for withdrawal don’t yet rise to any serious level. In fact, support for the war was high in the early 1960s, but it dwindled over time. In 1964, 72% said LBJ's Vietnam policy was Excellent or Pretty good; in 1965, 56% Excellent/Pretty good; in 1966, 47%; in 1967, 46%; for Nixon, in 1969 got 51% favorable; in 1970 44%.
+:::
+:::
+
+
+## Shifts in 1968
+
+:::{.v-center-container}
+
+- Tet offensive
+- Johnson declares he will not run
+- Robert Kennedy enters race as antiwar candidate
+- Kennedy assassinated
+- Hubert Humphrey nominated
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+:::
+:::
+

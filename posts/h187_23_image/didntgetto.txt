@@ -1,0 +1,32 @@
+## Chennault affair
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/chennault.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/chennault.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kissinger, an academic, was foreign policy advisor to Nixon, and warned him of the possibility that peace might arrive in October. Hanoi, the North Vietnamese government, agreed to peace talks with the US and the South Vietnamese government of Nguyen Van Thieu. Johnson began to believe he might well bring the war to a conclusion just as the election came. Kissinger, through his foreign policy contacts, got wind of these developments and warned Nixon. Nixon, in turn, enlisted Anna Chennault—the widow of Claire Chennault and a Republican activist—as a conduit to Thieu. As Nixon said to his aide HR Haldeman (something we only know about from very recent documents) he wanted to “monkey wrench” the negotiations any way he could. Nixon told Haldeman to get the message to Thieu to “hold firm.” 
+
+Chennault went to Thieu and told him to hold out, not to negotiate: we are gonna win. And with Nixon in the White House, Thieu would do much better than with Johnson—or Humphrey. “Just hang on through the election,” she said.
+
+And we know that, because the FBI had the phone tapped. The FBI knew all about Chennault’s activities, and told Johnson. Johnson told Republican Senator Everett Dirksen, saying “this is treason.” Dirksen replied, “I know.” Johnson suspected Nixon was behind it. But he couldn’t prove it. His aide W. W. Rostow urged him to go public. He told Humphrey about it, but Humphrey’s polling showed he was going to win, and he didn’t want to risk disrupting the election at the last minute. Johnson also felt he couldn’t quite prove it. So they said nothing.
+
+On November 2, Thieu made public his refusal to attend the peace talks. 
+
+The election was November 5. Nixon won with less than 1% of the popular vote. 
+
+https://www.politico.com/magazine/story/2017/08/06/nixon-vietnam-candidate-conspired-with-foreign-power-win-election-215461 
+
+https://www.bbc.com/news/magazine-21768668
+:::
+
+:::

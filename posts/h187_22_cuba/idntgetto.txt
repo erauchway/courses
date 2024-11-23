@@ -1,0 +1,40 @@
+
+## The image
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+{{< video ../media/blinked.mp4 width="700">}}
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The image of what occurred
+:::
+
+:::
+
+## A villain of the piece
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/jfk_adlai.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/jfk_adlai.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In fact, the Kennedys systematically smeared Stevenson for advocating precisely the deal they made. Anonymous official, quite possibly Kennedy himself, leaked “Adlai wanted a Munich” - to make a deal.
+
+:::
+
+:::

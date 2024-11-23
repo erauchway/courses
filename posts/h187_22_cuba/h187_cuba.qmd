@@ -1,0 +1,553 @@
+---
+title: "Cuba"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: November 20, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: "When last we looked in on Cuba, we saw Castro overthrowing the government of Fulgencio Batista, inaugurating a new regime on New Year's Day in 1959. So today we're going to look a bit at the place of Cuba in the foreign policy of the United States in this period."
+categories:
+  - HIS 187
+---
+## Part of the US economy
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/cuba_ferry.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/cuba_ferry.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Remember that between the Platt Amendment in 1901 and the revolution, Cuba had been within the Americans’ economic orbit---mainly by force, sometimes by simple proximity. The special permanent treaty that concluded the US occupation created a special place for Cuba to have favorable trade relations with the United States. But those relations depended on shipping raw sugar to the US---the US sugar companies didn't have refineries in the islands, just fields. They'd ship the processed but unrefined sugar to the US for the real value-added phase (note the C&H refinery, Carquinez Bridge).
+
+And remember, too, that with the Good Neighbor Policy and the new treaty of 1934, the US renounced Plattism—that is, the right to intervene in Cuba’s internal affairs—while seeking to render some economic aid to Cuba that would also help the US recover from Depression. But remember, too, that policy was offered by the United States under circumstances which made it clear that the Americans remained quite interested in supporting conservative forces within the island---they might have backed the previous government, of Ramon Grau San Martin, who had also withdrawn from the Platt Amendment, but they did not; instead, they did a deal with Fulgencio Batista, who installed a conservative administration, and the US continued to prop up Batista up to the point of the revolution.
+:::
+
+:::
+
+## Briefly indeterminate
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/castro_nixon.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/castro_nixon.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+At first, Castro declared he was not a communist. We should be familiar with this move: a nationalist leader takes power, and decides he’s going to position himself as independent, not as a client to either side. You might think of Arbenz, Lumumba, Mossadegh, Nasser—and you might think also of how differently those leaders fared.
+
+In the early  days of his regime Castro traveled to the United States. Here, you can see him meeting Vice President Richard Nixon, Eisenhower’s vice president, and shaking hands.
+:::
+
+:::
+
+## [Nationalization of oil & sugar, 1960]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/castro_cane.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/castro_cane.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now, during the revolution, the US had announced an arms embargo of Cuba. Like the ill-fated neutrality policies of the 1930s, this arms embargo had the practical effect of aiding the better armed forces of Batista. 
+
+Faced with an inability to get weapons from the United States, Castro began to buy weapons from the USSR. 
+
+The United States retaliated by reducing the amount of sugar it bought from Cuba. Remember, since 1934, the United States had a policy of buying sugar, to support Cuban farmers.
+
+In turn, Castro nationalized Cuba’s oil refineries. President Eisenhower then announced an embargo of Cuban products entering the United States and barred all exports from the United States to Cuba, except food and medicine. 
+
+So you had a back and forth with escalation on each side. 
+
+Then Castro nationalized the sugar plantations and most US properties on the island. Which alienated the Mafia, among other US property holders. 
+:::
+
+:::
+
+## CIA attempts on Castro
+
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![(at least 8)](../media/castro_plot.png){width="700" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/castro_plot.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Under Eisenhower, the CIA began attempts to kill Castro, just as it attempted to kill Lumumba.
+
+These efforts continued under Kennedy and into Johnson. We know, I think now, of at least eight documented attempts. The CIA tried various methods, including putting a deadly fungus/bacteria in his swimsuit or LSD in his cigars, to get him with an exploding seashell.
+
+The American press didn’t take it very seriously, though these were all later documented during the 1970s. 
+
+There was mafia involvement, too—the CIA was using hit men who were on the FBI’s 10 most wanted list.
+
+As with Lumumba, the CIA’s assassination attempts didn’t work; unlike Lumumba, nobody else volunteered to do the job instead. Castro persisted in office, and was able to use the constant rumors and reports as a way of shoring up his power. So here’s another example of how to navigate the shoals of being a nonaligned leader: pitch yourself against the United States, and survive while the United States tries to push you out of power.
+
+As a note, when these efforts became public, the reaction in the press was twofold: holy moses, the US tried to kill foreign leaders, and holy moses, the US was totally inept at doing it.
+:::
+
+:::
+
+## [US-backed invasion, Bay of Pigs]{.r-fit-text}
+
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![April 1961](../media/pigs_train.png){width="350" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/pigs_train.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The Bay of Pigs invasion entailed another plan to overthrow Castro, also established under Eisenhower, and scheduled for early 1961. 
+
+The administration didn’t want to use US marines, because they didn’t want Washington’s fingerprints on the effort (again, think of plausible deniability), so they trained and funded Cuban exiles. But the US was supposed to provide air cover with CIA planes. 
+
+Once the invasion began, the US did indeed launch one airstrike, but when it became clear the invaders were losing, Kennedy cancelled the second one.
+:::
+
+:::
+
+## Failure at Bay of Pigs
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/pigs_capture.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/pigs_capture.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The exiles were captured which is what you see here. The intent was to get the Cuban people to rise up and join them, but so far from doing that, the failure helped to increase Castro’s popularity, because it proved that the US were out to get him in a way that mere reports of assassination attempts did not. Now you had a failed coup attempt, which was much harder to cover up. 
+:::
+
+:::
+
+## Embargo
+
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![February 1962](../media/jfk_cigar.png){width="700" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/jfk_cigar.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In February 1962, Kennedy extended the embargo of Cuba to be essentially total, for exports and imports. (you can see him smoking one of his own favorites, a Cuban cigar; it’s unclear if he gave them up).
+
+Now, so far we’ve been looking at Cuba within the traditional context of US-American relations. So far, it basically echoes the old Monroe Doctrine/Platt Amendment stories. But we need also to think about it in the context of the Cold War. 
+:::
+
+:::
+
+## [Revisiting Cold War geography]{.r-fit-text}
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/coldwar.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/coldwar.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Let’s go back to our Cold War map of the world. NATO, you’ll remember, was signed in 1949; the Warsaw Pact in 1955. There are the two camps in this frozen conflict: us and them (whichever side you’re on) and then of course there’s everyone else, the Third World. 
+
+But notice one nice feature of the geography here: most maps show the world flattened out, so that the US is an ocean away from the USSR in the West (well, except of course for Alaska) and an ocean plus a continent away from it in the East.
+
+But with this projection, as you can see, North America is only just across the North Pole from the USSR, and vice versa. 
+
+VIDEO WILL START ON NEXT SLIDE
+:::
+
+:::
+
+## Testing freezes
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+
+```{=revealjs}
+<video muted>
+<source src=../media/tests.mp4 width="800">
+</video>
+```
+
+:::
+
+
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+One minute twenty. We tend of course to talk of the atomic bomb as “the” atomic bomb, but really, there are many elaborations of that initial technology. The US had stopped above-ground atomic testing in 1958, in an effort to stop pushing so much nuclear material into the atmosphere. 
+
+Kennedy tried to get this testing freeze made permanent. Then in the latter part of 1961, the Soviets exploded the Tsar bomba, one of the new kinds of hydrogen bombs. The US had exploded its first in 1952, the USSR in 1953. These used fusion, where the earlier atomic bombs had used fission. Fusion is of course the process that powers the sun, the smashing of hydrogen atoms together at high temperature to create heavier elements, releasing energy in the process. And the hydrogen bombs, the fusion bombs, were much more powerful than the original fission bombs. The Tsar bomba was the largest bomb ever exploded. It would have given you 3d degree burns if you were sixty miles away. 
+
+In response the US resumed nuclear testing in the spring of 1962, including as you see here the development of the nuclear warhead deployed on a submarine - not yet the key part of the arsenal; that was the ICBM. So there are three main ways of getting a nuclear bomb to the target—the airplane, as used in Hiroshima/Nagasaki; the submarine, and the ICBM; this is the so-called nuclear triad.
+:::
+
+:::
+
+## ICBMs
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/icbm.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/icbm.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The US ICBM, an Atlas rocket - the same kind of rocket being used to send Mercury astronauts into space, but in this case outfitted with a nuclear warhead. The US had 203 such missiles deployed in 1962, while the Russians had 36. But in either case that was more than enough largely to destroy either country. In addition the US had about 3000 nuclear weapons and 1450 sufficiently long-range bombers, including chiefly B-52’s like the one you saw in the newsreels; the Soviets had maybe 200 bombers and around 250 nuclear weapons. So the US was well armed and both sides were sufficiently well equipped to commit Mutually Assured Destruction.
+
+http://www.nrdc.org/nuclear/nudb/datab4.asp
+:::
+
+:::
+
+## First strike potential
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/NATO_map_1.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/NATO_map_1.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But if you consider the maps, here, we can see how this balance might be tipped. The US had missiles on the Soviet doorstep in Turkey, and Italy, which could reach Russian cities very quickly. In 1962 Khrushchev wanted the same capacity to keep parity in the balance of power described under MAD, which was supposed to ensure stability.
+
+:::
+
+:::
+
+## U-2
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/u2.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/u2.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now, while we’ve talked about spies and assassination plots, by far the most and most reliable intelligence came in by surveillance, or reconnaissance, via aircraft—in the early 1960s, the U-2. It could fly at 70,000 feet in the air—that’s about thirteen miles up, so if you imagine a camera in Sacramento capable of taking useful pictures of us here in Davis, you have the basic idea.
+:::
+
+:::
+
+## U-2 photos of Cuba
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/surveil.png){width="750" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/surveil.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now, here’s what the U-2 shows in its flights over Cuba. To us, to non-experts, this doesn’t look like much. 
+:::
+
+:::
+
+## Missiles
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/missiles_parade.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/missiles_parade.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But to US surveillance experts, who have seen, for example, the Soviets parading their missiles in Moscow, these pictures clearly show missile bases.
+
+:::
+
+:::
+
+## Ranges
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/ranges.png){width="650" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/ranges.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This is a defense department map showing the range of various missiles they understood to be in Cuba. You can see, depending on the range, either you were looking at missiles that could definitely reach Washington, DC, and much of the southeastern United States, or else, if they were longer-range, ones that could reach nearly all of the United States and much of Canada.
+
+:::
+
+:::
+
+## Mordant ranges
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/ranges_oxford_1.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/ranges_oxford_1.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This second one was the map the Kennedys preferred; a few weeks before, Robert Kennedy had deployed federal marshals to Mississippi State University, or Ole Miss, in Oxford, MS, where James Meredith was trying to enroll, and white segregationists were trying, violently, to prevent him, including fighting against federal marshals. Robert had asked, as a joke, if maybe there was a bright side to this whole missile crisis and the Cuban missiles could hit Oxford, MS, which is why it appears on the map, even though it’s not traditionally included as a major American city.
+
+This also again gives you a sense of how the civil rights movement was not only simultaneous with the height of the Cold War, but something that policy makers thought about in the context of the Cold War (even if in this case it's in the context of a joke).
+:::
+
+:::
+
+## On the table
+
+:::{.callout-tip appearance=minimal .v-center-container}
+I feel you should have made clear that the existence of nuclear bases anywhere is negotiable before we start anything
+
+
+:::{.flushright}
+Adlai Stevenson to John Kennedy, October 17, 1962
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Stevenson, remember, DDE opponent 1952, 1956, wanted nomination 1960, Kennedy had to get him out of the way, liberal favorite, made him UN ambassador. With the revelation of Soviet missiles in Cuba, Stevenson advocated making some kind of deal. 
+
+http://iipdigital.usembassy.gov/st/english/inbrief/2012/08/20120802134085.html#axzz3nttdMoBg
+:::
+:::
+
+## ExComm
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/excomm.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/excomm.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+We have some recordings. But we need to be careful. They’re president-operated recordings. We don’t know what kinds of discussions he didn’t record, and what was going on outside this room.
+
+Inside it you hear discussion of options. Air strikes. Would this be a Pearl Harbor, an ignoble act, if the United States were to strike first?
+
+How about a blockade, or as they begin to call it a “quarantine,” because “blockade” is a legal term implying a state of war—as we’ve seen before. But they’ll stop vessels for inspection, and if they don’t cooperate, fire across the bow, and if they don’t respond then, fire into the rudder to cripple the vessel. 
+
+On 10/22, Kennedy tells the country what’s going on.
+
+VIDEO BEGINS NEXT SLIDE
+
+S State Dean Rusk
+US State George Ball
+D US State Alexis Johnson
+AS S Edwin Martin
+S Treas Douglas Dillon
+S Defense Robert McNamara
+AS Defense Paul Nitze
+State policy planner Walt Rostow
+Special Counsel Theodore Sorenson
+Chmn JCS Maxwell Taylor
+Ambassador at Large for Soviet Affairs Llewellyn “Tommy” Thompson
+AG Robert Kennedy
+VP Lyndon Johnson
+
+Also heard from Air Force Chief of Staff Curtis LeMay, fmr S State Dean Acheson, S Defense Robert Lovett, others
+:::
+
+:::
+
+## UN showdown, October 25
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+{{< video ../media/adlai_un.mp4 >}}
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Here’s Stevenson having a showdown at the UN, with Valerian Zorin, the Soviet ambassador to the UN.
+:::
+
+:::
+
+## ExComm debate 10/26
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/excomm2.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/excomm2.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kennedy tells the ExComm on 10/26 they should make a deal, that the quarantine isn’t going to be enough. Then, secretly, Robert met with Anatoly Dobrynin, the Soviet ambassador to the United States. And Robert offers a deal that isn’t a deal. 
+:::
+
+:::
+
+## No deal, just resolution 10/27
+
+:::{.callout-tip appearance=minimal .v-center-container}
+there could be no quid pro quo—no deal of this kind could be made. . . . It was completely impossible for NATO to take such a step under the present threatening position of the Soviet Union. . . . If some time elapsed . . . four or five months . . . I was sure these matters could be resolved satisfactorily.
+
+:::{.flushright}
+Robert Kennedy to Anatoly Dobrynin, October 27, 1962
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kennedy told Dobrynin they couldn’t formalize the agreement on paper—he could run for president someday. Jack and he couldn’t be seen to deal with Communists. 
+
+On 10/29, the Soviets told the UN they would take their missiles out, and the US Defense Department convenes a meeting to begin talking about getting the Jupiters out of Turkey. “those missiles are going to be out of there by April 1 if we have to shoot them out”—DOD General Counsel John McNaughton
+
+VIDEO STARTS NEXT SLIDE
+:::
+:::
+
+
+## The consequences of the story
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/jfk_rfk.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/jfk_rfk.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+They don’t publicly admit the deal. Sorenson would cut this out of RFK’s diary, and it would certainly not be admitted until after both Kennedys’ deaths, and begin to be discussed at the 20th anniversary in 1982. The public story would remain, as Rusk said, “we were eyeball to eyeball and the other guy blinked.” Not, we did a deal that seemed more than reasonable. 
+
+When the tapes were finally released in the 1990s, they showed that John Kennedy persistently remained in favor of peaceable action, and even, as we’ve seen, discussed a deal. But not publicly. 
+
+The thing is, this becomes a lesson for policymakers then, and afterward. And is pernicious. Same with Stevenson's UN visit.
+
+:::
+
+:::
