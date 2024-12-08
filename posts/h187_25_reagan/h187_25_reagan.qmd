@@ -1,0 +1,475 @@
+---
+title: "Reaganism"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: December 4, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: "Morning in America will start on next slide. Need to give context. We're fast-forwarding to 1984."
+categories:
+  - HIS 187
+---
+
+## Morning in America (1984)
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+```{=revealjs}
+<video>
+<source src=../media/morning.mp4>
+</video>
+```
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+first, let’s recall that Reagan won in 1980 based largely on an appeal to restore economic prosperity. And when he ran for reelection, this is how he pitched his success in that way. 
+
+BEAR WILL START AUTOMATICALLY NEXT SLIDE
+:::
+:::
+
+## The Bear (1984)
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+```{=revealjs}
+<video>
+<source src=../media/bear.mp4>
+</video>
+```
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Second, though, in that same year, running for reelection, he pitched his appeal in this way. Same voiceover, very different tone. 
+:::
+:::
+
+## Against détente
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.columns .v-center-container}
+
+:::{.column}
+```{=revealjs}
+<video>
+<source src=../media/mao_dick.mp4>
+</video>
+```
+:::
+
+
+:::{.column}
+![](../media/brezhnev.png)
+:::
+
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, the thing I had to leave out last time: to pave the way for making peace in Vietnam, the Nixon administration undertook what it called a policy of détente---seeking to cool relationships with the USSR and China. 
+
+Nixon went first to China, to meet Mao, as you see here, together with Kissinger. The US had refused to recognize the legitimacy of Mao’s government in China since it was established in 1949, insisting that the exiled Chiang kai-shek (Jiang Jieshi) was the proper ruler of China. But in attempting to bring to a close the war in Vietnam, and to end the fearsome costs to the United States Treasury that the war entailed, Nixon and Kissinger decided to open up relations to China. Kissinger traveled to China secretly in 1971; the UN voted to allow China to take a seat in the general assembly; and in 1972, Nixon visited, as you see here, together with Kissinger. It was the beginning of an opening in Sino-Soviet relations, of the US deciding to consider that Taiwan was a Chinese problem for China to solve, and of trade agreements. 
+
+It also risked making the Russians nervous. 
+
+Brezhnev succeeded Khrushchev as Soviet premier in 1964 and was worried about Soviet economic weakness by 1971. The USSR still had a strong military, and it continued its military buildup and its peacetime draft, with an army of 5m men standing ready. But Brezhnev was worried about Eastern Europe, which had growing numbers of dissidents, eager for the prosperity and freedoms of the West. He wanted to relax restrictions on travel through the Berlin Wall, and he wanted Nixon to agree to it. He was also worried about the Sino-US opening, and wanted to make it possible for the US to deal directly with him rather than solely with Mao. And his economy was so weak, he hoped to do a deal to buy wheat from the Americans. He managed to achieve all of these things, as well as an arms deal. 
+
+This policy continued through the Carter administration, as well as some other legacies of Vietnam---including inflation, which is what Reagan ran against in 1980, as you heard.
+
+:::
+:::
+
+## The Bear and the Budget
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.columns .v-center-container}
+
+:::{.column}
+![](../media/def_budg.png)
+:::
+
+:::{.column}
+![](../media/bear_still.png)
+:::
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+So, it’s a strong national defense, or at least it's an expensive one. Reagan ran as a conservative, pledging to cut down the federal government. But he really didn’t: he cut anti-poverty programs, while increasing defense spending. 
+:::
+:::
+
+## Not much change
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggtext)
+library(showtext)
+library(scales)
+library(grafify)
+font_add_google(name = "Public Sans", family = "Public Sans")
+font_add_google(name = "Holtwood One SC", family = "Holtwood One SC")
+showtext_auto()
+theme_set(
+  theme_void() +
+    theme(
+      text = element_text(family = "Public Sans", 
+                          color = "midnightblue"),
+      plot.title = element_markdown(family = "Holtwood One SC", 
+                                    color = "khaki4"),
+      plot.title.position = "plot",
+      plot.caption = element_markdown(size = rel(0.5)),
+      plot.background = element_rect(fill = "floralwhite",
+                                     color = "floralwhite"),
+      plot.margin = margin(l=10,r=10),
+      axis.text = element_text(margin = margin(2,2,2,4)),
+      axis.title.y = element_markdown(angle = 90, margin =
+                                    margin(2,2,4,2)),
+      axis.line = element_line(color = "chocolate4"),
+      axis.ticks = element_line(color = "chocolate3"),
+      axis.ticks.length = unit(1, "mm"),
+      legend.position = "inside",
+      legend.justification.inside = c(0.98, 0.05),
+      panel.background = element_rect(fill = "antiquewhite1",
+                                      color = "NA")
+    )
+)
+
+read_csv("../data/fed_spend_pc.csv") |>
+  ggplot() +
+  geom_line(aes(x = year, y = fedspend)) +
+  scale_x_continuous(breaks = c(1977, 1981, 1985, 1989)) +
+  labs(title = "Federal spending per person",
+       y = "Thousands of dollars",
+       x = "")
+```
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In fact, if you look at federal spending per person, there’s hardly a blip—maybe there’s not even a blip—with the Reagan administration; it’s pretty smoothly upwards. 
+
+Inasmuch as Reagan also cut taxes, that meant that the federal government had to borrow more money—so there’s a definite spike in that, just not in the spending.
+
+In sum, in the 1980s, the U.S. government paid for lower taxes and increased defense spending with borrowed money.
+:::
+:::
+
+## [National Association of Evangelicals]{.r-fit-text}
+March 1983
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+```{=revealjs}
+<video>
+<source src=../media/better_dead.mp4>
+</video>
+```
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+And Reagan began his time in office by moving away from détente—by re-emphasizing the centrality of the Cold War to his belief system.
+
+(literally, better dead than red)
+:::
+:::
+
+## [National Association of Evangelicals]{.r-fit-text}
+March 1983
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+```{=revealjs}
+<video>
+<source src=../media/evil_empire.mp4>
+</video>
+```
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+“evil empire”
+:::
+:::
+
+
+## Strategic Defense Initiative
+
+:::{.callout-tip appearance=minimal .v-center-container}
+I call upon the Scientific Community in this country, who gave us nuclear weapons, to turn their great talents to the cause of mankind and world peace, to give us the means of rendering these weapons obsolete
+
+:::{.flushright}
+Ronald Reagan, 1983
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+With the reaction to that speech in mind, Reagan and his aides tried to come up with something less aggressive-sounding.  Strategic Defense Initiative—SDI.  “political payoff”  Reagan came up with this sentence himself, apparently—Fitgerald, 207.
+
+Shultz:  “We don’t have the technology to say this” / “It’s more than a news item.  It’s a sweeping proposal”  Reagan:  wanted speech to say nuclear weapons would be “obsolete”  
+
+Many in his administration disliked the idea; understood SDI as a potential threat to MAD, and possibly a first-strike capability.
+:::
+:::
+
+## Mikhail Gorbachev
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/gorby_thatch.png){width="550" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/gorby_thatch.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Brezhnev died 1982; he was succeeded by Andropov, who died in 1984, and Chernenko, who died in 1985. It was the end of the old Bolsheviks, as a generation and as a set of tactics. 
+
+Gorbachev, who came to power 1985, first SU leader born after revolution. On taking office he realized the Stalinist tactics had weakened the economy, not only because of traditionalist Marxist economic disadvantages, but because the effort to control information had severely hampered the USSR. The old Stalinists had limited the number of copiers and personal computers, because they posed a threat in terms of personal control of data. By the middle 1980s, the US had 30m personal computers and the USSR had 50k. 
+
+perestroika was an economic restructuring; glasnost political openness
+
+Early on, MG tells M. Thatcher he can’t solve SU’s economic problems without ending arms race. So to fit this with your reading, you should know that Reagan had begun dialing back his belligerence before this, and now Gorbachev was saying that for his part, he had to seek an end to the arms race—he was feeling many of the same pressures Brezhnev had, only greater now.
+:::
+
+:::
+
+## Geneva, 1985
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/gorby_ron.png){width="350" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/gorby_ron.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+
+As you know again from reading, this is more symbolic than consequential, but as Nixon said about SALT, it’s a step toward a different kind of relationship. In fact, it’s a step back toward that same form of détente. Reagan proposed sharing SDI. Gorbachev asked to chuck SDI. Things didn't get very far. But Reagan regarded Gorbachev with "warmth."
+
+http://www.reagan.utexas.edu/archives/photographs/large/c32025-25.jpg
+:::
+
+:::
+
+## Reykjavik, 1986
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/ron_gorby.png){width="450" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/ron_gorby.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In 1986, they meet in Reykjavik.  Gorbachev says they’ll eliminate Intermediate range Nuclear Force (INF) missiles in Europe, draw down Asian forces to 100 missiles.
+
+http://www.reagan.utexas.edu/archives/photographs/large/c37435-18.jpg
+:::
+
+:::
+
+## INF Treaty, 1987
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/inf_treaty.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/inf_treaty.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Washington signing, December 1987
+
+This leads to the signing of the INF treaty in 1987, though, to take those out of Europe. In 2007, Putin declared the treaty no longer served Russia’s interests, though took no official action; in 2018, Trump declared the US would withdraw from the treaty
+
+Now, at least part of the reason for Reagan’s enthusiasm for peacemaking was the effort to get out from under the cloud of Central American policy.
+:::
+
+:::
+
+## Nicaragua
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/nicaragua.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/nicaragua.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In 1979, a Nicaraguan guerrilla army known as the Sandinistas, after Augusto Sandino, the revolutionary leader of the 1920s and 1930s, finally succeeded in overthrowing the government of Antonio Somoza, a West Point-educated, US-backed dictator. 
+:::
+
+:::
+
+## Iran
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/iran.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/iran.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+At about the same time, an anti-US, largely Muslim-clerical revolution was successful at overthrowing the Shah in Iran, whom you will remember had been placed in power by the CIA in the 1950s—again, this should be familiar to you from your reading.
+
+Most notably you may remember that during this revolution the Iranians occupied the US embassy in Tehran and took many of the workers there hostage, holding them through the remainder of Jimmy Carter’s presidency, releasing them upon the inauguration of Ronald Reagan in 1981.
+:::
+
+:::
+
+## Aid to Contras
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+![](../media/contra_aid.png){width="850" fig-align="center"}
+::::
+:::
+
+:::{.content-hidden unless-format="pdf" .column-margin}
+![](../media/contra_aid.png)
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The Sandinista regime faced a counterrevolutionary threat from an a guerrilla army known as the Contras. Under Reagan, the CIA began supporting the Contras. Special helicopter squadrons were formed in the US, particularly in Tampa, Florida, to support operations in Central America. (This one has the planks and the Fast Rope Insertion/Extraction System (FRIES) system.)
+
+When Congress found out about the secret war the US was waging in Nicaragua, it outlawed that war, writing specifically into Defense appropriations law, passed unanimously by the House and signed into law by President Reagan, that US money and resources could not be used to overthrow the Sandinista regime. It’s quite likely that no such law could have been passed were it not for the revelations of the 1975 Church Committee. In the wake of Watergate, Congress began asserting its prerogatives to demand information on the secret operations of the executive branch. Many of the episodes of the postwar era, some of which we’ve discussed in here, that remained secret until then were revealed to the public, including coups, coup attempts, assassinations, and assassination attempts. 
+
+Despite that law, Reagan’s administration continued to bomb and otherwise fight on behalf of the Contras, including mining the harbors of Nicaragua - a violation of international law.
+
+Congress continued each year to pass a version of the Boland Amendment outlawing US aid to the Contras.
+:::
+
+:::
+
+## Iran-Contra
+
+
+::::{.v-center-container}
+- US aircraft parts and missiles through Israel to Iran, for cash
+- cash, through Panama and Honduras, to the Contras
+- US replenishment of weapons to Israel
+::::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+For many people, Iran-Contra is referred to as a scandal, and indeed, once it becomes public an investigation begins in 1983, continuing through the entirety of Bush’s presidency. Quickly, the defense of those implicated, including President Bush himself, would become not that they had not broken the law, but that the law they had broken was not a proper law, because with it Congress infringed on the Executive’s prerogative to formulate and carry out foreign policy.
+
+For our purposes, though, it’s in many ways useful to think about it as the crowning policy of US foreign relations in the Cold War: in the name of an ideologically informed struggle against a leftist administration in Central America, in the course of attempting to get leverage with the Arab and Muslim countries of the Middle East, the US is using weapons, foreign aid, and puppet or allied regimes to subvert international law and, in this case, domestic law.
+
+:::
+
+:::
+
+:::{.content-hidden unless-format="revealjs"}
+
+# Quiz{visibility="uncounted"}
+
+
+## [1. Henry Kissinger is associated with this episode during the Nixon campaign of 1968]{.r-fit-text}{visibility="uncounted"}
+
+  a) Chanel affair
+  b) Chennault affair
+  c) Chantal affair
+  d) Channel affair
+  e) Chardonnay affair
+  
+## [2. On behalf of the Kennedy administration, this official conveyed vital messages to the Soviet ambassador during the Cuban missile crisis]{.r-fit-text}{visibility="uncounted"}
+
+  a) national security advisor
+  b) defense secretary
+  c) UN ambassador
+  d) attorney general
+  e) vice president
+  
+## [3. The US government attempted which of these methods to influence policy in Cuba?]{.r-fit-text}{visibility="uncounted"}
+
+  a) assassination
+  b) invasion
+  c) embargo
+  d) all of the above
+  e) none of the above
+  
+## [4. After campaigning on an honorable end to the war in Vietnam, the Nixon administration began its strategy there by]{.r-fit-text}{visibility="uncounted"}
+
+  a) resuming three-way peace talks
+  b) attempting the assassination of Ho Chi Minh
+  c) bombing Cambodia
+  d) mining Haiphong harbor
+  e) attacking PT boats in Tonkin Gulf
+  
+## [5. The Johnson administration attempted to time the war powers resolution to accommodate]{.r-fit-text}{visibility="uncounted"}
+
+  a) the war needs of South Vietnam
+  b) diplomacy with the USSR
+  c) diplomacy with China
+  d) the passage of the Civil Rights Act
+  e) the president's birthday
+:::
+

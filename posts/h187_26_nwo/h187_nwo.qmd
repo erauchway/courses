@@ -1,0 +1,596 @@
+---
+title: "New World Order"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: December 6, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: ""
+categories:
+  - HIS 187
+---
+
+## History and headlines
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/icc_israel.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/icc_israel.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This story appeared in the *New York Times* a couple weeks ago. It's interesting to us, I think, not because of the headline, but because of this line:
+
+>Powerful countries, including Russia, the United States and China, do not recognize the authority of the court. 
+
+
+https://www.nytimes.com/2024/11/22/world/middleeast/israel-icc-jurisdiction-explained.html
+:::
+
+:::
+
+## ICC history
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/icc.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/icc.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now, if you want to know about the ICC from its own webpage, you can find this. Roots in WW2—in actions taken by the US. Then developed in post-Cold War era.  (Negotiated 1998.) Sense that a new rule of law was coming about.
+
+Clinton signed, never submitted to Senate; GWB gave notice would not ratify and was hostile to its jurisdiction. Asserts jurisdiction over anyone committing war crimes, but it would pose a practical question.
+
+But what was that moment like, just after the Cold War, when it looked as though this kind of institution might be something the US would back?
+
+https://www.icc-cpi.int/sites/default/files/Publications/ICCAtAGlanceENG.pdf
+:::
+
+:::
+
+## Gorbachev at the UN
+December 1988
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/gorby_un.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/gorby_un.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+"The compelling necessity of the principle of freedom of choice is also clear to us. The failure to recognize this, to recognize it, is fraught with very dire consequences, consequences for world peace.... Freedom of choice is a universal principle to which there should be no exceptions."
+
+This is very near the end of Reagan’s presidency. Bush has been elected, but hasn’t taken office yet. Gorbachev visits the United Nations, in New York—you can see the Empire State Building in the background there—to, effectively, explain to the international community the nature and consequences of his new policies. He has already you’ll remember, signed an arms limitation treaty with the US and declared glasnost and perestroika. But it’s still not clear how this will turn out.
+
+Gorbachev is not after all calling for an end to Communism. He’s a reformer, not a revolutionary. He expects the Communist Party in the Soviet Union to continue; he expects the Soviet Union to continue. He’s just trying to adapt it to the new world, a world in which the USSR can no longer afford to intervene in every revolution and on behalf of every revolutionary it would like to support. He’s trying to recognize limits, and the validity of an alternative point of view, without abandoning communism altogether. So as you can see, he uses the phrase “freedom of choice,” rather than democracy or free markets. 
+
+Bush himself is still unsure how to deal with Gorbachev. He’s always believed in personal relationships and he doesn’t have one with Gorbachev. MG says, by way of trying to reassure GHWB, “I’m not doing this for show and I’m not doing this to undermine you or to surprise you or to take advantage of you.… I’m doing this because I need to.”
+:::
+
+:::
+
+## Politicians
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/baker.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/baker.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Bush named James Baker III, a Texan, to be his Secretary of State. Bush and Baker were both politicians before they were diplomats, and both thought in terms of what was politically achievable. Baker had in fact been a Democrat before Bush met and befriended him, and brought him into the Republican Party. Baker worked with Bush’s campaigns, then went with him into the Reagan camp, becoming White House Chief of Staff and Secretary of the Treasury in the new administration. 
+
+:::
+
+:::
+
+## Berlin Wall falls
+November 1989
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/wall.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/wall.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Gorbachev held elections in the Soviet Union in March, 1989, the first free elections since 1917. The Communists lost, overwhelmingly. Perestroika and glasnost had opened the way for the expression of decades of bottled-up discontent, not only at the poverty and repression of Communism, but also ethnic and cultural resentments at the domination of the Russian people over the 120 or so other ethnic groups in the USSR. With a lifting of the policy of official atheism, religious minorities had a voice as well. 
+
+In April, the Solidarity movement in Poland became a legal party, defying long-held Soviet policy. In July, Gorbachev declared it was “inadmissible” for one nation to “restrain the sovereignty” of another. The Eastern bloc, dominated since 1945 by the Soviet Union, were now on their own. Solidarity won elections in Poland. Hungary set elections for 1990, and began immediately to loosen restrictions on travel. East Germans began moving through Hungary into West Germany. In Czechoslovakia, hundreds of thousands of dissenters took to the streets, forcing a non-Communist government into power. In Bulgaria the Communists went, too, as also in Romania - though there, it was violent, as the Ceaucescus refused to go, and were executed. And in November, East Germany decided that if the Soviets weren’t going to back them up anymore, they would open up the Berlin Wall. The Baltic states began to separate and fighting broke out in Central Asian areas dominated by the USSR. As a CIA officer said, “It is going much faster than anyone might have anticipated”
+
+:::
+
+:::
+
+## The Cold War is over (isn't it?)
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/ghwb_gorby.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/ghwb_gorby.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+At a summit meeting in Malta in December 1989, Gorbachev declared the Cold War over. Bush, asked if he agreed, couldn’t: “If I signal to you there’s no Cold War, then you’ll say, ‘Well, what are you doing with troops in Europe?’ I mean, come on!”
+
+The US affirmed its commitment to NATO that year, to ensure the “political and security architecture of Europe,” whatever that really meant. 
+:::
+
+:::
+
+## German reunification
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/reunification.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/reunification.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+East and West Germany decided in fairly short order to reunify the country, and return the capital of the reunified nation to the reunified city of Berlin. This was accomplished slightly under a year later, in October 1990
+
+Neither the United States nor the Soviet Union was really in control of this process. Bush ensured the new Germany would be a member of NATO, as well as of the European Economic Community, and Gorbachev was able to get a commitment that Germany would keep their army down to 370k and forswear nuclear weapons, as well as give up pre-WW2 claims to lands settled with Poland in 1945. 
+:::
+
+:::
+
+## Russian presidential elections
+1991
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/gorby_yeltsin.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/gorby_yeltsin.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+On June 12, 1991, Boris Yeltsin (on the left, there) won election as Russia’s president. He had been kicked out of the Communist Party in 1988 for being too enthusiastically in favor of Gorbachev-style reforms. In the a federation of former republics, the way was open for him to campaign for election. The Communists tried to stop him, but no dice. He won with 57 percent of the vote. The same day, in a referendum, voters in Leningrad approved a measure to change its name back to St. Petersburg. 
+
+Bush was not keen on Yeltsin, who was apparently often drunk and was rude during a visit to Washington. Gorbachev won the Nobel Peace Prize for 1990, and remained something of an international celebrity. 
+:::
+
+:::
+
+## Attempted coup
+1991
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/near_coup.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/near_coup.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+But then, during an attempted coup in August, when Communists locked Gorbachev up, Yeltsin went down and stood on a tank that was supposed to aid the plotters. "He scrambled up on to my tank and asked me this question. 'Are you going to shoot at us? Or maybe you'd rather come over to our side and start defending the parliament?'"
+
+Yeltsin addressed the people and assured them he would not allow the coup to succeed. And it didn’t. But it spelled the beginning of the end. Gorbachev resigned. The Communist Party Central Committee was dissolved. Ukraine and Belarus declared their independence from the USSR. 
+
+Bush and Baker announced they would support the emerging, independent nations in keeping with some principles: democratic self-determination, recognition of existing borders, support for democracy and rule of law, preservation of human rights and respect for minorities, and respect for international law.
+
+
+https://www.bbc.com/news/world-europe-14589691
+:::
+
+:::
+
+## End of USSR
+Christmas 1991
+
+:::{.content-hidden unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <video>
+  <source src=../media/ussr_end.mp4>
+  </video>
+  ```
+::::
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+On Christmas, 1991, the Soviet flag was lowered over the Kremlin for the last time. Russia became an independent state with Yeltsin as its president. 
+
+The Bush administration recognized the legitimacy of the independent republics of the former Soviet Union (12 of them) and began to establish normal diplomatic relations with them. 
+
+For the Bush administration, the overriding concern in the former USSR was that the nuclear arsenal of the Soviet Union be kept careful track of and remain in stable hands. The US passed a law, the Nunn-Lugar act, in 1991, to pay for the dismantling of Soviet weapons. And the US also worked with the IMF and World Bank to ensure Russia would remain as stable as possible.
+:::
+
+:::
+
+## Nicaraguan elections
+1990
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/ortega.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/ortega.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Meanwhile, the administration also began bringing an end to the Cold War elsewhere. One of Baker and Bush’s first decisions in the Americas was to bring an end to the Contra counterrevolution, and to do a deal with the Sandinista government of Daniel Ortega. Essentially, Baker agreed to make the contras go away if Ortega would agree to hold elections in 1990. Baker also ensured that the Soviets would encourage the Sandinistas to abide by the election results. Ortega agreed, and Baker won his bet: 
+
+Violeta Chamorro, the conservative candidate, won the 1990 election, defeating Ortega (there on the right) and apparently vindicating Baker and Bush’s faith that left-wing governments will be defeated at the polls. Of course, time changes these notions; Ortega is again President of Nicaragua, having won election in 2007 and reelection twice since.
+:::
+
+:::
+
+
+## Just Cause
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/blue_spoon.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/blue_spoon.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+On December 20, 1989, GHWB launched Just Cause, in Panama, sending some 27k US troops to Panama to execute a warrant on its leader, General Manuel Noriega, on charges of drug trafficking. (Some of Noriega’s criminal activities had been in support of US policy, particularly Iran-Contra.) US forces very quickly occupied Panama City (which you see here) as well as major ports and military bases. Noriega sought refuge on Christmas Eve in the Vatican’s embassy in Panama. US troops surrounded the building, and started playing pop and rock music over loudspeakers to encourage Noriega to leave (the psyops unit originally was using pop, like KC and the Sunshine Band, but eventually took requests from the soldiers, who quickly shifted to GnR, “Welcome to the Jungle,” Van Halen, “Panama,” Tom Petty, “Refugee,” and The Clash’s version of “I Fought the Law (and the Law Won)”
+
+The White House didn’t approve, though, and ordered the music stopped. Eventually, on January 3, Noriega surrendered. He was flown to Miami, tried and convicted, and spent almost twenty years in US prisons.
+
+As is always the case in major deployments, people got killed. Maybe 20 US soldiers; 300-500 Panamanian soldiers; not clear how many civilians, although some cities were bombed (because they were thought to house Noriega loyalists) and some thousands probably died. 
+
+There was no international approval, neither by the UN nor by the Organization of the American States. But the U.S. did make a public case …
+:::
+
+:::
+
+## Post-Cold War intervention
+Christmas 1989
+
+:::{.callout-tip appearance=minimal .v-center-container}
+
+
+a great principle is spreading across the world like wildfire. That principle, as we all know, is the revolutionary idea that people, not governments, are sovereign
+
+:::{.flushright}
+Luigi Einaudi, US ambassador to OAS
+
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Interventionism had previously been justified by the Cold War. Now it was justified by the end of the Cold War. The administration had carefully worked up the public case for invading Panama, first talking about a need to defend the Canal and then about executing the warrant on Noriega, but finally settling on the establishment of a new, democratic regime there. The Pentagon had originally picked the operation name at random, and it was going to be called “Blue Spoon,” as was its practice. But the administration insisted on changing it to “Just Cause” so that even when people complained about it they would have to say “just cause.” (although, also, “just ’cause” was a bit of a joke)
+
+
+:::
+:::
+
+
+## Persian Gulf War
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/persian_gulf.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/persian_gulf.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Saddam Hussein’s iraqi army invaded Kuwait on 8/2/90. US troops landed in Saudi Arabia on 8/7/90. 
+
+The US sought, and obtained, a UN resolution in support of the use of force, receiving a warrant for an ultimatum that Iraq withdraw by 1/15/91. China abstained, trying to get relief from Tiananmen Square sanctions. Cuba and Yemen against; Yemeni workers kicked out of Saudi, lost IMF/WB aid.
+
+Iraq didn’t leave. The war lasted a very short time, 
+
+:::
+
+:::
+
+## New World Order
+
+:::{.callout-tip appearance=minimal .v-center-container}
+we can see a new world coming into view. A world in which there is the very real prospect of a new world order…where the United Nations, freed from cold war stalemate, is poised to fulfill the historic vision of its founders.
+
+:::{.flushright}
+George H.W. Bush, 1991
+
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Until now, the world we've known has been a world divided, a world of barbed wire and concrete block, conflict and cold war.
+
+And now, we can see a new world coming into view. A world in which there is the very real prospect of a new world order. In the words of Winston Churchill, a "world order" in which "the principles of justice and fair play . . . protect the weak against the strong." A world where the United Nations, freed from cold war stalemate, is poised to fulfill the historic vision of its founders. A world in which freedom and respect for human rights find a home among all nations.
+
+The gulf war put this new world to its, its first test. And my fellow Americans, we passed that test.
+
+https://www.nytimes.com/1991/03/07/us/after-war-president-transcript-president-bush-s-address-end-gulf-war.html
+
+:::
+:::
+
+## [International Covenant on Civil and Political Rights Ratification]{.r-fit-text}
+1992
+
+- ratification with reservations
+
+- including those preventing the treaty being applied to the United States
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The trouble was, ofc, Bush et al weren't able to accept they might be subject to such courts. 
+:::
+:::
+
+## Why not take Baghdad?
+
+:::{.callout-tip appearance=minimal .v-center-container}
+I would guess if we had gone in there, we would still have forces in Baghdad today. We'd be running the country. We would not have been able to get everybody out and bring everybody home.
+
+:::{.flushright}
+Secretary of Defense Dick Cheney, 1992
+
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+
+
+:::
+:::
+
+## Occupational hazards
+
+:::{.callout-tip appearance=minimal .v-center-container}
+occupying Iraq, thus unilaterally exceeding the United Nations' mandate, would have destroyed the precedent of international response to aggression that we hoped to establish. Had we gone the invasion route, the United States could conceivably still be an occupying power in a bitterly hostile land
+
+:::{.flushright}
+George H.W. Bush and Brent Scowcroft, 1998
+
+:::
+:::
+
+## Toward the 21st century{.smaller}
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.columns .v-center-container}
+
+:::{.column}
+  ```{=revealjs}
+  <img src=../media/taliban.png>
+  ```
+:::
+
+:::{.column}
+BRZEZINSKI: Regret what? The secret operation was an excellent idea.  It drew the Russians into the Afghan trap and you want me to regret it?  
+
+INTERVIEWER:  And neither do you regret having supported Islamic fundamentalism, which has given arms and advice to future terrorists? 
+
+BRZEZINSKI: What is more important in world history? The Taliban or the collapse of the Soviet empire? Some agitated Muslims or the liberation of Central Europe and the end of the Cold War? 
+
+INTERVIEWER: “Some agitated Muslims”? But it has been said and repeated: Islamic fundamentalism represents a world menace today…
+
+BRZEZINSKI: Nonsense! 
+:::
+:::
+
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+This was also in 1998. CIA aid in 1979, prior to the Soviet invasion of Afghanistan - Zbig had said, “In my opinion this aid was going to induce a Soviet military intervention”
+:::
+
+:::
+
+:::{.content-hidden unless-format="revealjs"}
+
+# Quiz{visibility="uncounted"}
+
+
+## [1. Henry Kissinger is associated with this episode during the Nixon campaign of 1968]{.r-fit-text}{visibility="uncounted"}
+
+  a) Chanel affair
+  b) Chennault affair
+  c) Chantal affair
+  d) Channel affair
+  e) Chardonnay affair
+  
+## [2. On behalf of the Kennedy administration, this official conveyed vital messages to the Soviet ambassador during the Cuban missile crisis]{.r-fit-text}{visibility="uncounted"}
+
+  a) national security advisor
+  b) defense secretary
+  c) UN ambassador
+  d) attorney general
+  e) vice president
+  
+## [3. The US government attempted which of these methods to influence policy in Cuba?]{.r-fit-text}{visibility="uncounted"}
+
+  a) assassination
+  b) invasion
+  c) embargo
+  d) all of the above
+  e) none of the above
+  
+## [4. After campaigning on an honorable end to the war in Vietnam, the Nixon administration began its strategy there by]{.r-fit-text}{visibility="uncounted"}
+
+  a) resuming three-way peace talks
+  b) attempting the assassination of Ho Chi Minh
+  c) bombing Cambodia
+  d) mining Haiphong harbor
+  e) attacking PT boats in Tonkin Gulf
+  
+## [5. The Johnson administration attempted to time the war powers resolution to accommodate]{.r-fit-text}{visibility="uncounted"}
+
+  a) the war needs of South Vietnam
+  b) diplomacy with the USSR
+  c) diplomacy with China
+  d) the passage of the Civil Rights Act
+  e) the president's birthday
+  
+  
+## [6. The final exam will include material since]{.r-fit-text}{visibility="uncounted"}
+
+  a) the Cretaceous period
+  b) the Franklin Roosevelt administration
+  c) the Ford administration
+  d) the Lyndon Johnson administration
+  e) the Andrew Johnson administration
+
+## [7. For the final you will need]{.r-fit-text}{visibility="uncounted"}
+
+  a) your notes
+  b) a pen
+  c) two pens
+  d) your iClicker device
+  e) a permission slip signed by your parent or guardian
+  
+## [8. The final will be held]{.r-fit-text}{visibility="uncounted"}
+
+  a) December 12 at 10:30 am
+  b) December 25 at 12:30 am
+  c) December 32 at 26:30 am
+  d) January 4 at 5:00 pm
+  e) February 30 at noon
+  
+## [9. The final exam will be held at this time because]{.r-fit-text}{visibility="uncounted"}
+
+  a) Professor Rauchway has a grudge against us
+  b) Professor Rauchway needs to go on vacation
+  c) Professor Rauchway needs to do Hanukkah shopping
+  d) Professor Rauchway threw a dart at a calendar
+  e) The registrar works in mysterious ways
+
+## [10. Questions on the final exam may be]{.r-fit-text}{visibility="uncounted"}
+
+  a) mysterious and arcane
+  b) multiple choice or short-answer
+  c) essays
+  d) unrelated to the course material
+  e) numerous beyond reckoning
+:::
+

@@ -1,0 +1,492 @@
+---
+title: "Regarding Henry"
+subtitle: HIS 187
+footer: http://ericrauchway.com/courses
+author: Eric Rauchway
+date: December 2, 2024 
+draft: FALSE
+title-slide-attributes: 
+  data-notes: "The 'Henry' here is Henry Kissinger, who remained a fixture of American public life at the highest level, until his death at the age of 100 in 2023."
+categories:
+  - HIS 187
+---
+
+## Chennault
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/chennault.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/chennault.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Henry Kissinger, a Harvard academic, was foreign policy advisor to Nixon, and was instrumental in a key event—we now know—that was important in foreign policy and also important to the Nixon administration.
+
+During 1968, Hanoi, the seat of the North Vietnamese government, agreed to peace talks with the US and the South Vietnamese government of Nguyen Van Thieu. Lyndon Johnson began to believe he might well bring the war to a conclusion. 
+
+Kissinger, through his foreign policy contacts, got wind of these developments and warned Nixon. Hubert Humphrey, the sitting VP, was gaining in the polls; if there were peace in Vietnam, he might defeat Nixon.
+
+Nixon enlisted Anna Chennault—the widow of U.S. Army General Claire Chennault and a Republican activist—as a conduit to Thieu. As Nixon said to his aide HR Haldeman (something we only know about from very recent documents) he wanted to “monkey wrench” the negotiations any way he could. Nixon told Haldeman to get the message to Thieu to “hold firm” and not do a peace deal with Johnson.
+
+Chennault did as Nixon said. She told Thieu to hold out, not to negotiate yet: we are gonna win, she said. And with Nixon in the White House, Thieu would do much better than with Johnson—or Humphrey. “Just hang on through the election,” she said.
+
+One of the reasons we know what she said is that the FBI had the phone tapped. The FBI knew all about Chennault’s activities, and told Johnson. 
+
+Johnson talked to Republican Senator Everett Dirksen, saying “this is treason.” Dirksen replied, “I know.” Johnson suspected Nixon was behind it. But he couldn’t prove it. His aide W. W. Rostow urged him to go public. He told Humphrey about it, but Humphrey’s polling showed he was going to win, and he didn’t want to risk disrupting the election at the last minute. Johnson also felt he couldn’t quite prove it. So they said nothing.
+
+On November 2, Thieu made public his refusal to attend the peace talks. 
+
+The election came November 5. And Nixon won with less than 1% of the popular vote. Shortly afterward, FBI chief J. Edgar Hoover told Nixon that he knew, and that Johnson knew. So from the very start of Nixon’s presidency, he was worried about who else might know that he had interfered in foreign affairs and delayed the end of the Vietnam War for his own electoral advantage. This explains, I think, a lot about Nixon’s presidency: he was especially worried that the Democratic party might have this information and use it in an election. And much of Nixon’s devotion in office to criminal break-ins and spying probably has something to do with this concern he had. 
+
+It also affected how he waged the Vietnam War himself. He did come in and act as if he was going to try to get Thieu a better deal.
+
+https://www.politico.com/magazine/story/2017/08/06/nixon-vietnam-candidate-conspired-with-foreign-power-win-election-215461 
+
+https://www.bbc.com/news/magazine-21768668
+:::
+
+:::
+
+## Ho Chi Minh Trail
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/trail.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/trail.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+As early as the late 1950s, the communist forces in the North had been supplying guerrilla forces in the South by what the Americans called the Ho Chi Minh trail, really a network of trails, through Laos and Cambodia. Of course, it might have been easier to carry them by sea, but as we’ve seen, the Americans do have warships off the coast. 
+
+So the NVN forces clear and in some cases pave these routes through the jungles and mountains of inland Laos and Cambodia, so that goods can be moved through to supply the guerrilla forces, whom the Americans refer to as the Viet Cong, in the South. The NVN built substantial way-stations to supply travelers and ensure their easy movement. Sometimes the monsoon, the rainy season, prevented movement even along this hardened pathway, but as the war dragged on, more and more of the road was paved and smoothed, making much of it usable even when the rains came. This trail allowed the guerrilla forces in the South to remain well supplied even though the US army held Vietnam itself. 
+
+:::
+
+:::
+
+## B-52 bombings
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+
+:::{.columns}
+
+:::{.column}
+  ```{=revealjs}
+  <img src=../media/henry_dick.png>
+  ```
+:::
+
+:::{.column}
+
+:::{.fragment .fade-in}
+![](../media/duxford.png)
+:::
+
+:::
+:::
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/henry_dick.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kissinger advised Nixon to plan this bombing, but also that they couldn’t admit they were doing it, because the US was not at war with Cambodia, it was a neutral country, and so they couldn’t attack it. 
+
+So they worked out a plan with an air force general named Ray Sitton. Sitton would go secretly to a basement room in the White House, bringing Kissinger a list of targets in Cambodia. Kissinger would go over them in the White House, saying this one yes, that one no. The B-52’s in SVN would be given a “cover” target, a legitimate one in Vietnam they were supposedly flying to hit. Then they would be diverted in the air to the new target. Once the bombing was done with, the officer in charge would destroy all maps, printouts, radar reports, messages, &c of the mission, and write up a fake post-strike report, so they could bill the Defense Department for the mission and have Congress pay for it without letting anyone know that Cambodia was being bombed.
+
+Sitton brought this to his superiors as a strange way to do business, and they told him to keep doing it, because the order came from the White House.
+
+CLICK to move in B-52 image, of hangar at Duxford, giving comparative size of the B-52; discuss the size of it. 
+:::
+
+:::
+
+## Madman
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/hr_dick.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/hr_dick.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Nixon told Haldeman he wanted NVN “to believe I’ve reached the point where I might do anything to stop the war. We’ll just slip the word to them that, ‘for God’s sake, you know Nixon is obsessed about communists. We can’t restrain him when he’s angry—and he has his hand on the nuclear button’—and Ho Chi Minh himself will be in Paris in two days begging for peace.” This view was consistent with Kissinger’s view that power wasn’t power unless you were willing to use it—that you had to do just about anything in order to prove that you were capable of doing something.
+
+This was the beginning of almost four years of bombing Cambodia.
+:::
+
+:::
+
+## Kissinger & institutions
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/henry_dick2.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/henry_dick2.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kissinger reorganized the national security bureaucracy of the executive branch, so that information generated anywhere all went through one place—Henry Kissinger’s office—and then from Kissinger to the president. He turned the National Security Council into the foreign-policy advisory body. This suited Nixon fine; the National Security Adviser need not be confirmed by the Senate, and the NSC is strictly a White House agency—unlike the Department of Defense or the Department of State, which are headed by Senate-confirmed posts and therefore must be controlled by people with profiles and qualifications more considerable than an academic who is loyal to the president—which is what Kissinger was.
+
+Kissinger was in charge of foreign policy; Nixon was in charge of foreign policy; it was the same thing. Both of them believed in the same rules of human nature—that you needed to be tough, and even violent, to get what you wanted. And that you needed to do it whether or not the law permitted you to do it. 
+
+Carrying on vital policies in secrecy also helped foment the atmosphere of fear and mistrust. If things were going on openly, there was less opportunity for bureaucratic infighters to undercut each other. But this secret policy was Kissinger’s, and Nixon’s, and it bound the two of them together. 
+
+The bombing campaign destabilized the Cambodian government, and a pro-American coup deposed the ruler, Sihanouk, replacing him with Lon Nol, who worked with US agents to try to fight off anti-American guerrillas. Kissinger made the case to the NSC for a proper, public, US invasion of Cambodia. 
+:::
+
+:::
+
+## {background-image="../media/cambodia.png"}
+
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+And Nixon, in turn, made that case to the nation. He went on TV and said he’s previously said he was withdrawing troops. Now he’s saying, I want to go into Cambodia. 
+
+VIDEO WILL START AUTOMATICALLY
+:::
+
+:::
+
+## Kent State, Ohio
+
+:::{.content-hidden unless-format="revealjs"}
+
+{{< video src=../media/kent.mp4 >}}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+2m
+
+The invasion of Cambodia led directly to the protests at Kent State, among other universities. 
+
+These capture the imagination of the nation for a couple reasons; first, because of the violent results, and second, because now you're no longer looking at the pampered intellectual elite, but at pretty much all students everywhere.
+
+The president and the vice president reacted at first by blaming the protesters, as did J. Edgar Hoover, the head of the FBI. The increasing protest led to an increasing administration reaction, where the administration wiretapped, infiltrated, and otherwise sought to disable dissident groups. 
+
+The president nominated an official commission to investigate the shootings, and the president’s commission found that the shootings had been unjustified. 
+
+As one journalist (IF Stone) noted at the time, “the destructive potential of the report[] comes from the fact that they have honestly and thoroughly shown that the killings were unjustified and unnecessary.… And yet there is not the slightest change that anything will be done about it.”
+
+
+:::
+:::
+
+## Cluster bombing
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/cluster.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/cluster.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The bombing of Cambodia, and soon Laos, continued. US aircraft dropped some 790,000 cluster bombs on those countries - this is a failed cluster bomb, which gives you a sense of how they’re supposed to work. The big bombshell contains many, many smaller bomblets. Each of them contains either ball bearings, or slivers of sharpened metal. They scatter all over the countryside. People step on and explode them, or farmers plow them up and explode them—and continue to do so down to the present day. 
+
+:::
+
+:::
+
+## {data-menu-title="Refusal"}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+I refuse to believe that a little fourth-rate power like North Vietnam does not have a breaking point
+
+:::{.flushright}
+Henry Kissinger
+
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kissinger was sure that if they just kept it up, eventually, the NVN would sue for peace
+
+:::
+:::
+
+## Domestic concerns
+
+:::{.callout-tip appearance=minimal .v-center-container}
+We cannot permit our domestic structure to be constantly tormented by this country ten thousand miles away
+
+:::{.flushright}
+Henry Kissinger
+
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+On the other hand, there was this conviction that the domestic unrest, and increasing opposition to the war, would undermine the administration’s ability to carry out its policies. As Nixon said, “you’ve gotta remember that everything is domestic politics”—he was always worried that he could not win the liberals, who were drifting away from the Republican party; so he had to win the conservatives, who might support a breakaway candidacy like Wallace, or Reagan, if he were not tough enough.
+
+:::
+:::
+
+## Paris peace talks
+
+:::{.content-hidden unless-format="revealjs"}
+
+{{< video src=../media/paris_talks.mp4 >}}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+(VIDEO SHOULD PLAY, no sound) Kissinger traveled ultimately in 1972 to Paris, as he had helped Nixon prevent happening in the fall of 1968, to meet the North Vietnamese negotiator, Le Duc Tho. The NVN representative was, as Kissinger said, “brutal,” because “Our views had become irrelevant; he was laying down terms.” Le Duc Tho repeatedly brought up the rise of domestic dissent within the US and opposition to the war, and Kissinger kept saying they weren’t there to discuss domestic politics. But Le Duc Tho said it over and over again, noting that Kissinger’s position was undercut by the release of the Pentagon papers and the increasing demonstrations. Le Duc Tho said he believed “the division of mind in America caused [Kissinger] great pains.”
+
+:::
+:::
+
+## Détente in China
+
+:::{.content-hidden unless-format="revealjs"}
+
+:::{.v-center-container}
+
+```{=revealjs}
+<video>
+<source src="../media/mao_dick.mp4"
+</video>
+```
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+MOVIE STARTS AUTOMATICALLY, no sound
+
+It was from this position of weakness that Nixon and Kissinger developed the policy of détente, which meant easing the relations with China and the Soviet Union. Nixon went first to China, to meet Mao, as you see here, together with Kissinger. The US had refused to recognize the legitimacy of Mao’s government in China since it was established in 1949, insisting that the exiled Chiang kai-shek (Jiang Jieshi) was the proper ruler of China. But in attempting to bring to a close the war in Vietnam, and to end the fearsome costs to the United States Treasury that the war entailed, Nixon and Kissinger decided to open up relations to China. Kissinger traveled to China secretly in 1971; the UN voted to allow China to take a seat in the general assembly; and in 1972, Nixon visited, as you see here, together with Kissinger. It was the beginning of an opening in Sino-Soviet relations, of the US deciding to consider that Taiwan was a Chinese problem for China to solve, and of trade agreements. 
+
+It also risked making the Russians nervous. 
+
+:::
+:::
+
+## Peace policy in the USSR
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/brezhnev.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/brezhnev.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+LB succeeded Khrushchev as Soviet premier and was worried about Soviet economic weakness by 1971. The USSR still had a strong military, and it continued its military buildup and its peacetime draft, with an army of 5m men standing ready. But Brezhnev was worried about Eastern Europe, which had growing numbers of dissidents, eager for the prosperity and freedoms of the West. He wanted to relax restrictions on travel through the Berlin Wall, and he wanted Nixon to agree to it. He was also worried about the Sino-US opening, and wanted to make it possible for the US to deal directly with him rather than solely with Mao. And his economy was so weak, he hoped to do a deal to buy wheat from the Americans. He managed to achieve all of these things, as well as an arms deal. 
+
+VIDEO STARTS AUTOMATICALLY
+:::
+
+:::
+
+
+## SALT
+
+:::{.content-hidden unless-format="revealjs"}
+
+{{< video src=../media/salt.mp4 >}}
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Now, as the man says, the agreement did some things, and left others undone. For example, it froze the number of nuclear missiles so the USSR would have only 1600 and the US only 1054. But the US had a new technology—as we’ve seen, this was often the case when the US agreed to arms limitations; it had a new technology that made the old one obsolete, as in 1921, and in 1962, so in 1974. The MIRV—multiple independently targeted reentry vehicle—meant that one missile could hit many targets, even if they were far apart. So SALT I was more ceremonial than real. But it was helpful to both the Soviets and the US, for domestic political purposes.
+
+:::
+:::
+
+## {data-menu-title="Bombed"}
+
+:::{.callout-tip appearance=minimal .v-center-container}
+We bombed them into letting us accept their terms
+
+:::{.flushright}
+Henry Kissinger
+
+:::
+:::
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kissinger eventually realized that the bombing campaigns, long and brutal though they were, had backfired, and had done more good for NVN than for the USA. Kissinger’s Harvard colleague Arthur Schlesinger noted that “The press, following Henry, has written about it all as if we had made no concession at all.… what is saddest of all is that if Nixonger (as Isaiah Berlin would say) had been willing to make these concessions in 1969, we could have had the settlement then; and 20,000 Americans and God knows how many Vietnamese, now dead, would be alive.” Nixon won in the fall. Shortly after the inauguration in 1973, Kissinger’s aide William Sullivan was asked what constitutional justification supported the bombing of Cambodia and Laos. Sullivan replied, “the reelection of President Nixon.” 
+
+The only hope that Kissinger and Nixon had was that if they dragged their feet, then the NVN would violate the agreement. They hoped this would happen, thus justifying a reprisal from the US—a resumption of bombing and military action. When Nixon’s Secretary of Defense said it would have no military effect, Kissinger said, “That is not the point. It is a psychological reprisal point we must make.”
+
+But Watergate prevented them from taking any action. 
+
+:::
+:::
+
+## Shuttle diplomacy
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/sinai.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/sinai.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kissinger helped to broker this peace by flying around the region, creating the concept of “shuttle diplomacy”, and eventually getting the Israelis and Arab delegations to sit down in Geneva and do a deal. But in doing so, Kissinger managed secretly to tell the Arabs that Washington would push Israel to give back occupied territory while telling the Israelis that the US would not negotiate with, or recognize, the Palestinian Liberation Organization until the PLO recognized Israel’s right to exist (without asking Israel to do the same for the Palestinians). These promises remained secret at the time but helped to continue the Middle East’s conflict.
+:::
+
+:::
+
+## Nobel Peace Prize, 1973
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/nobel.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/nobel.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+Kissinger, together with Le Duc Tho, won the Nobel Peace Prize in 1973. Tom Lehrer remarked that this made satire obsolete.
+:::
+
+:::
+
+## Chile, 9/11/73
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/chile.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/chile.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+In 1970 Chile elected the Marxist Salvador Allende. “That son of a bitch,” Nixon shouted, I’m going to “smash” him. He ordered the CIA to spend money to destabilize Chile, and “make the economy scream.” It also armed opponents of Allende and fomented a coup, to bring General Augusto Pinochet, who you see there with Kissinger, to power.
+
+Kissinger assembled the bureaucratic structure that approved the sabotaging of Allende because, as he said, it wasn’t that Allende might become a Castro: it was that he might not. He thought that if Allende served a term, lost reelection, and yielded power back to his opposition, it would normalize leftist politics in Latin America, and that, Kissinger thought, must not happen. So he helped to underwrite the coup. 
+:::
+
+:::
+
+## Killing fields
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+::::{.v-center-container}
+  ```{=revealjs}
+  <img src=../media/killing.png>
+  ```
+::::
+:::
+
+:::{.content-visible when-format="pdf" .column-margin}
+  ![](../media/killing.png)
+:::
+
+
+:::{.content-hidden when-format="html" unless-format="revealjs"}
+
+:::{.notes}
+The bombing of Cambodia destabilized the regime of Sihanouk, which fell and gave rise to the pro-US regime of Lon Nol, but also to the anti-US guerrilla forces of the Khmer Rouge. Even if US bombing helped keep Lon Nol in power for some time, its ending without any provision opened the way for the Khmer Rouge to take power. They ultimately carried out the political murders of around a million of their fellow citizens, whose remains are preserved now without knowing who they were, as here in the Choeung Ek Genocidal Centre memorial.
+:::
+
+:::
