@@ -4,7 +4,7 @@ subtitle: HIS 187
 footer: http://ericrauchway.com/courses
 author: Eric Rauchway
 date: October 14, 2024 
-draft: false
+draft: TRUE
 title-slide-attributes: 
   data-notes: "All right, we've looked at Latin America and Europe; today we want to look at US--Russia relations, which by 1922 have become US--USSR relations."
 categories:

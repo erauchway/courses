@@ -69,8 +69,6 @@ US policies of the 1920s reflected the new prominence of the posture, “America
 library(tidyverse)
 library(ggtext)
 library(showtext)
-showtext_opts(dpi = 300)
-showtext_auto()
 library(scales)
 library(grafify)
 font_add_google(name = "Public Sans", family = "Public Sans")
@@ -102,16 +100,16 @@ theme_set(
 )
 
 read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=1140&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=INDPRO&scale=left&cosd=1919-01-01&coed=2024-08-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&transformation=lin&vintage_date=2024-10-16&revision_date=2024-10-16&nd=1919-01-01") |>
-  filter(observation_date < as_date("1941-01-01")) -> indpro
+  filter(DATE < as_date("1941-01-01")) -> indpro
 
 read_csv("https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=off&txtcolor=%23444444&ts=12&tts=12&width=1140&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=USREC&scale=left&cosd=1854-12-01&coed=2024-09-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&transformation=lin&vintage_date=2024-10-16&revision_date=2024-10-16&nd=1854-12-01") |>
-  filter(observation_date > as_date("1919-12-31") & observation_date < as_date("1945-01-01")) |>
+  filter(DATE > as_date("1919-12-31") & DATE < as_date("1945-01-01")) |>
   mutate(turn = case_when(USREC < lead(USREC) ~ 1,
                           USREC > lead(USREC) ~ 0)) |>
   drop_na() |>
   mutate(turns = case_when(turn == 1 ~ "peak_d",
                            turn == 0 ~ "trough_d")) |>
-  select(date = observation_date, turns) -> bc_dates
+  select(date = DATE, turns) -> bc_dates
 
 tibble(trough = case_when(bc_dates$turns == "trough_d" ~ bc_dates$date)) |> drop_na() -> troughs
 
@@ -124,7 +122,7 @@ ggplot() +
             aes(xmin = peak, xmax = trough,
                 ymin = -Inf, ymax = Inf), fill = "burlywood1", alpha = 0.5) +
     geom_line(data = indpro,
-            aes(x = observation_date, y = INDPRO),
+            aes(x = DATE, y = INDPRO),
             color = "#44aa99", linewidth =1) +
   labs(
     title = "US industrial production and business cycles, 1919--1940",
@@ -133,8 +131,6 @@ ggplot() +
   ) +
   coord_cartesian(expand = TRUE) -> p
 p
-
-ggsave(p, filename = "~/Desktop/indpro.png", dpi = 300, bg = "floralwhite")
 ```
 :::
 
